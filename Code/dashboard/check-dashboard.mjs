@@ -65,7 +65,7 @@ run("S.bank='OCB';S.level='0';render();");assert.equal(run('matrixRows().length'
 run("S.bank='all';S.level='all';S.search='1.1.2001';render();");assert.equal(run('matrixRows().length'),1);
 run("S.search='';S.pillar='0';document.querySelector('#export').onclick();");assert.equal(csvRecords(capturedCSV).length,26);assert.equal(parseCSVLine(csvRecords(capturedCSV)[0]).length,8);
 run('downloadYears();');const templateLines=csvRecords(capturedCSV);assert.equal(templateLines.length,2101);let exportedScored=0;for(const line of templateLines.slice(1)){const cells=parseCSVLine(line);if(cells[5]!=='')exportedScored++;assert.ok([2023,2024,2025].includes(Number(cells[1])));}assert.equal(exportedScored,run('R.stats.scored'));
-run('downloadReview();');assert.equal(csvRecords(capturedCSV).length,701);assert.ok(capturedCSV.includes('Chưa xác nhận mức gộp'));
+run('downloadReview();');assert.equal(csvRecords(capturedCSV).length,701);assert.ok(capturedCSV.includes('Đã được nhóm duyệt'));
 run('downloadCodes();');assert.equal(csvRecords(capturedCSV).length,141);
 run("S.page='method';render();");assert.ok(el('#content').innerHTML.includes('Quy tắc chấm điểm'));assert.ok(el('#content').innerHTML.includes('Thư viện báo cáo nguồn'));
 run("S.page='dna';S.bank='OCB';S.metric='percent';render();");assert.ok(el('#content').innerHTML.includes('Điểm theo nhóm tiêu chí'));assert.equal(run("groupSummary(bank('OCB')).length"),25);assert.equal(run("groupSummary(bank('OCB')).reduce((n,g)=>n+g.count,0)"),140);

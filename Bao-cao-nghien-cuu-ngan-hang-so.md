@@ -8,7 +8,7 @@ Nghiên cứu xây dựng bộ dữ liệu so sánh năm ngân hàng theo 140 ti
 
 Trong bộ điểm gộp hiện tại, OCB đứng đầu với 48,98%, tiếp theo là LPBank 34,39%. Các kết quả phản ánh bộ tiêu chí và nguồn công bố được sử dụng, không phải kết luận về toàn bộ năng lực thực tế hay hiệu quả kinh doanh của ngân hàng. Dữ liệu gộp 2023 đến 2025 không được diễn giải thành xu hướng theo năm.
 
-Bộ đối chiếu theo năm được quản lý riêng. Những dòng chưa đủ bằng chứng giữ trạng thái chưa chấm; nguồn PDF có nội dung liên quan không tự động xác nhận mức đạt. Báo cáo trình bày kết quả hiện có và tách các nội dung cần bổ sung trong kỳ nộp tiếp theo.
+Bộ 700 mức gộp là dữ liệu do nhóm nghiên cứu thực hiện và duyệt, theo xác nhận của chủ dự án ngày 19/10/2026. Lớp đối chiếu theo năm và các đoạn PDF bổ sung được quản lý riêng; không dùng trạng thái của lớp bổ sung để suy ra bộ điểm nhóm chưa được duyệt. Những ô năm chưa có dữ liệu vẫn giữ trống.
 
 Sản phẩm công khai: <link href="https://digital-banking-nhom3.vercel.app" color="#225599">https://digital-banking-nhom3.vercel.app</link>
 
@@ -85,7 +85,7 @@ Danh mục đầy đủ 140 tiêu chí nằm ở Phụ lục A. Nội dung mô t
 
 Mỗi mức cần phù hợp với phạm vi triển khai thể hiện trong bằng chứng. Khi một đoạn chỉ hỗ trợ triển khai tại một số bộ phận, không mở rộng thành triển khai toàn ngân hàng. Chọn mức cao nhất được nội dung hỗ trợ đầy đủ; thiếu một điều kiện quan trọng thì chưa nâng mức. Ví dụ thang cá nhân hóa trải nghiệm được trình bày tại Phụ lục B.
 
-Quy tắc gộp chốt ngày 19/10/2026: chọn mức cao nhất được bằng chứng chứng minh đầy đủ trong giai đoạn 2023 đến 2025, sau rà soát tài liệu liên quan. Điểm phản ánh mức đã thể hiện trong giai đoạn, không phải hiện trạng cuối năm 2025 hoặc trung bình ba năm. Không ghép các triển khai khác thời điểm để suy ra mức chưa từng được chứng minh. Bộ 700 mức cũ chưa được tự động chấm lại theo quy tắc này.
+Quy tắc gộp chốt ngày 19/10/2026: chọn mức cao nhất được bằng chứng chứng minh đầy đủ trong giai đoạn 2023 đến 2025, sau rà soát tài liệu liên quan. Điểm phản ánh mức đã thể hiện trong giai đoạn, không phải hiện trạng cuối năm 2025 hoặc trung bình ba năm. Không ghép các triển khai khác thời điểm để suy ra mức chưa từng được chứng minh. Bộ 700 mức Excel đã được nhóm duyệt và giữ nguyên trong dự án.
 
 Bộ điểm gộp hiện có sử dụng mức 0 khi chưa đủ bằng chứng trong dataset. Mức 0 và mức 1 cùng quy đổi về 0% nhưng có ý nghĩa khác nhau: mức 1 tương ứng một mô tả trưởng thành; mức 0 phản ánh giới hạn bằng chứng. Mức 0 không chứng minh ngân hàng không triển khai hoạt động.
 
@@ -170,7 +170,7 @@ Saigonbank đạt 12,88% tổng thể. Trong hồ sơ riêng, trụ cột cao nh
 
 ### 4 4 Bằng chứng và dữ liệu theo năm
 
-Bộ điểm gộp có 302 mức 0 và 644 bản ghi chưa có URL gốc. Lớp tìm nguồn PDF xác định 391 trên 700 tổ hợp có đoạn liên quan, nhưng các đoạn này vẫn mang trạng thái Chưa đủ bằng chứng để xác nhận mức gộp. Việc thêm nguồn không làm thay đổi điểm Excel.
+Bộ điểm gộp đã được nhóm duyệt có 302 mức 0; các mức này được giữ theo bộ dữ liệu của nhóm. Trong bản chuyển giao, 644 bản ghi chưa có URL tại trường nguồn được đọc. Đây là thiếu thông tin truy vết trong file, không phải bằng chứng nhóm chưa duyệt mức. Lớp bổ sung tìm được đoạn PDF liên quan cho 391 trên 700 tổ hợp; trạng thái của lớp này chỉ áp dụng cho các đoạn được bổ sung.
 
 Lớp năm có 2100 bản ghi, trong đó 209 bản ghi có mức kèm dẫn chứng. Chưa có điểm tổng thể theo năm đủ điều kiện công bố cho toàn bộ bộ chỉ số. Vì vậy báo cáo không tính YoY, không vẽ xu hướng điểm và không diễn giải mức gộp thành tiến bộ của các năm 2023, 2024, 2025.
 
@@ -186,7 +186,7 @@ Các bộ lọc thay đổi cùng phạm vi của bảng, KPI và CSV xuất ra.
 
 Frontend được xây dựng bằng HTML, CSS và JavaScript. Vercel phục vụ website và API chỉ đọc. Supabase lưu các snapshot dữ liệu nghiên cứu; frontend kiểm tra cùng phiên bản trước khi sử dụng. Khi API không khả dụng, dữ liệu đã lưu được dùng cùng thông báo trạng thái. Tài liệu tải về được cung cấp bằng các đường dẫn công khai, trong khi quyền ghi dữ liệu không cấp cho người xem.
 
-Mã nguồn tách phần pipeline xử lý dữ liệu, dashboard và cấu hình triển khai Vercel. Gói code không bao gồm phiên đăng nhập, khóa quản trị hoặc file môi trường cá nhân. Việc triển khai sản phẩm và việc chốt bằng chứng nghiên cứu là hai bước riêng; website chạy được không xác nhận mọi mức chấm đã được duyệt.
+Mã nguồn tách phần pipeline xử lý dữ liệu, dashboard và cấu hình triển khai Vercel. Gói code không bao gồm phiên đăng nhập, khóa quản trị hoặc file môi trường cá nhân.
 
 ### 5 3 Đối chiếu kết quả
 
@@ -198,21 +198,21 @@ Mã nguồn tách phần pipeline xử lý dữ liệu, dashboard và cấu hìn
 | Bộ lọc và xuất file | Kiểm tra theo ngân hàng, trụ cột, mức đạt, tìm kiếm và số dòng CSV. |
 | Trình duyệt | Đã kiểm tra Chrome headless và mô phỏng mobile; chưa thay thế kiểm thử trên điện thoại thật hoặc mọi engine. |
 
-Các biên bản kiểm tra máy đọc được gồm python-pipeline-results.json, source-and-maturity-results.json và báo cáo QA trình duyệt. File kiểm tra được giữ trong thư mục validation của gói code. Không dùng biên bản kỹ thuật để thay thế việc duyệt nội dung dẫn chứng.
+Các biên bản kiểm tra máy đọc được gồm python-pipeline-results.json, source-and-maturity-results.json và báo cáo QA trình duyệt. File kiểm tra được giữ trong thư mục validation của gói code.
 
 ## 6 Giới hạn và nội dung bổ sung
 
-Nguồn công bố có thể thiếu chi tiết về phạm vi triển khai, đơn vị áp dụng hoặc thời điểm hoạt động. Cách công bố của từng ngân hàng cũng khác nhau. Điểm thấp có thể chịu ảnh hưởng của thiếu bằng chứng truy xuất được, nên không suy luận ngân hàng không có hoạt động chỉ từ mức 0. Báo cáo chưa xác minh độc lập toàn bộ công bố.
+Điểm và xếp hạng được trình bày trong phạm vi bộ tiêu chí và dữ liệu gộp 2023 đến 2025 của nhóm. Không diễn giải điểm gộp thành điểm riêng từng năm. Một số trường URL, trang và trích đoạn chưa hiện diện trong bản chuyển giao; nhóm có thể bổ sung để người đọc truy vết thuận tiện hơn.
 
-Các mức gộp tiếp tục là kết quả nghiên cứu sơ bộ trong bộ dữ liệu hiện hành. Đối chiếu theo năm chưa đầy đủ và có thể dẫn tới sửa mức khi bổ sung bằng chứng. Những thay đổi sau này phải lưu lý do, nguồn, trang, đoạn trích, ngày và người duyệt, đồng thời tạo lại các bảng tổng hợp theo cùng phiên dữ liệu.
+Bộ mức gộp đã được nhóm thực hiện và duyệt; không yêu cầu chấm lại chỉ do trường thông tin nguồn còn thiếu trong file. Các cờ của pipeline là kết quả kiểm tra tự động, không phải trạng thái duyệt của nhóm. Chỉ điều chỉnh mức khi nhóm yêu cầu, đồng thời lưu lý do và cập nhật các bảng tổng hợp cùng phiên dữ liệu.
 
-| Nội dung cần bổ sung | Điều kiện hoàn tất |
+| Nội dung bổ sung | Phạm vi |
 | --- | --- |
-| Nguồn cho mức gộp | Bổ sung URL truy xuất được, trang, đoạn trích và quyết định duyệt cho các dòng còn thiếu. |
-| Áp dụng quy tắc gộp đã chốt | Rà 700 mức theo phương pháp ngày 19/10/2026; lưu mức cũ/mới, lý do và người/ngày duyệt. |
-| Mức theo năm | Hoàn thiện các tổ hợp còn thiếu; chỉ công bố điểm năm khi đáp ứng đủ điều kiện. |
-| Rà soát dữ liệu | Xử lý 90 cờ kiểm tra của pipeline, gồm 89 trường hợp mức 0 cần duyệt và một cảnh báo cấu trúc năm. |
-| Thông tin hồ sơ | Xác nhận thành viên và thông tin lớp trước khi nộp chính thức. |
+| Thông tin trích dẫn | Bổ sung URL, trang và trích đoạn vào hồ sơ khi cần truy vết; giữ nguyên mức đã được nhóm duyệt. |
+| Nguồn PDF bổ sung | Các đoạn tìm bổ sung là tài liệu tham khảo, quản lý riêng với bộ mức chấm của nhóm. |
+| Mức theo năm | Lớp mở rộng; chỉ tính điểm năm/YoY khi có đủ dữ liệu. Không bắt buộc để trình bày hồ sơ gộp. |
+| Cờ tự động | 90 cờ kiểm tra cấu trúc/thông tin không đồng nghĩa 90 mức chưa được nhóm duyệt. |
+| Thông tin hồ sơ | Bổ sung thành viên, lớp và kiểm tra thiết bị trình bày trước khi nộp. |
 
 Đợt nộp hiện tại cung cấp báo cáo, dữ liệu, kết quả, code và link sản phẩm. Các nội dung trên là danh sách bổ sung cho đợt tiếp theo theo yêu cầu môn học. Mã nguồn, dữ liệu và báo cáo được bàn giao tại kho GitHub công khai https://github.com/soitang733/digital-banking-nhom3; bản ZIP được cung cấp kèm trên website.
 
@@ -448,7 +448,7 @@ Nguồn Báo cáo thường niên 2023, trang PDF 5. <link href="https://static2
 
 Trích đoạn ngắn: Hoàn thành chức năng định danh khách hàng điện tử (eKYC); chính thức triển khai chức năng rút tiền mặt...
 
-Các ví dụ trên chỉ minh họa những bản ghi đã có mức theo năm. Không sử dụng chúng để xác nhận toàn bộ 700 mức gộp hoặc tính điểm năm của cả ngân hàng.
+Các ví dụ trên chỉ minh họa những bản ghi đã có mức theo năm. Đây là lớp đối chiếu bổ sung, không thay thế bộ 700 mức gộp đã được nhóm duyệt và không đủ để tính điểm năm của cả ngân hàng.
 
 ## Phụ lục C Danh mục 23 báo cáo nguồn
 

@@ -2,7 +2,7 @@
   "policy": {
     "id": "DBI-METHOD-2026-10-19",
     "date": "2026-10-19",
-    "authority": "Chủ dự án ủy quyền chốt phương pháp ngày 19/10/2026; quyết định phương pháp không thay cho duyệt bằng chứng và mức chấm.",
+    "authority": "Chủ dự án ủy quyền chốt phương pháp và xác nhận ngày 19/10/2026 rằng bộ điểm Excel do nhóm thực hiện, đã được nhóm duyệt.",
     "scale": "Thang trưởng thành 1–5 theo Danh_muc trong ScoringReview.xlsx; mức 0 là trạng thái không đủ bằng chứng sau rà soát, không phải bằng chứng không triển khai",
     "conversion": {
       "0": 0,
@@ -27,7 +27,7 @@
     "scoreReadiness": "Bộ chấm đã duyệt chỉ công bố tổng điểm và xếp hạng khi tất cả tiêu chí áp dụng của cả 6 trụ cột có quyết định được duyệt. NA có lý do loại khỏi mẫu số; một trụ cột không còn tiêu chí áp dụng làm tổng điểm không xác định, không tự phân bổ lại trọng số.",
     "reviewer": "Codex – đối chiếu báo cáo công bố; không phải xác nhận của ngân hàng hoặc kiểm toán độc lập",
     "levelChoice": "Chọn mức cao nhất được đoạn dẫn chứng hỗ trợ đủ yêu cầu; khi bằng chứng chỉ chứng minh triển khai ở một số bộ phận thì dừng ở mức tương ứng. Một từ khóa hoặc tên công nghệ không tự quyết định điểm",
-    "legacy": "700 mức gộp Excel hiện có được giữ nguyên làm phiên bản lịch sử sơ bộ; chưa tự coi đã đáp ứng phương pháp chốt ngày 19/10/2026. Chỉ sửa mức sau duyệt nguồn, lưu mức cũ/mới, lý do và người/ngày duyệt rồi tạo lại Excel, snapshot và báo cáo cùng phiên bản.",
+    "legacy": "700 mức gộp trong Excel là bộ điểm đã được nhóm nghiên cứu duyệt, theo xác nhận của chủ dự án ngày 19/10/2026. Giữ nguyên mức chấm, điểm và xếp hạng; không yêu cầu chấm lại vì trường URL/trang/trích đoạn trong bản chuyển giao còn thiếu. Lớp PDF/năm bổ sung được quản lý riêng.",
     "pdfPage": "Chỉ số trang vật lý PDF, bắt đầu từ 1; trang in trên báo cáo có thể khác hoặc một trang PDF gồm hai trang in",
     "ocr": "Windows OCR en-US dùng để tìm nội dung; trích đoạn OCR có thể sai dấu/ký tự. Mức chấm chỉ được quyết định sau khi đọc nội dung và kiểm tra hình trang đối với nguồn OCR",
     "status": "finalized",
@@ -73,7 +73,16 @@
       ],
       "rounding": "Xác định mức và xếp hạng trên điểm chưa làm tròn; đồng điểm cùng hạng."
     },
-    "annualPublication": "Chỉ công bố tổng điểm từng năm khi đủ mọi tiêu chí áp dụng của đủ 6 trụ cột trong năm đó. YoY là chênh lệch điểm phần trăm giữa hai năm đủ dữ liệu và cùng danh mục, phương pháp, mẫu tiêu chí áp dụng; mẫu khác phải chuẩn hóa lại trước khi so sánh."
+    "annualPublication": "Chỉ công bố tổng điểm từng năm khi đủ mọi tiêu chí áp dụng của đủ 6 trụ cột trong năm đó. YoY là chênh lệch điểm phần trăm giữa hai năm đủ dữ liệu và cùng danh mục, phương pháp, mẫu tiêu chí áp dụng; mẫu khác phải chuẩn hóa lại trước khi so sánh.",
+    "sourceApproval": {
+      "status": "team_approved",
+      "scope": "700 mức gộp từ Excel, 5 ngân hàng × 140 tiêu chí",
+      "approvedBy": "Nhóm nghiên cứu",
+      "confirmationDate": "2026-10-19",
+      "approvalDate": null,
+      "basis": "Chủ dự án xác nhận bộ dữ liệu cung cấp đã được nhóm làm và duyệt. Ngày xác nhận không phải ngày duyệt gốc; chưa có thông tin ngày duyệt gốc.",
+      "citationMetadata": "Thiếu trường URL/trang/trích đoạn trong file chuyển giao là vấn đề thông tin truy vết; không phải trạng thái chưa duyệt mức."
+    }
   },
   "rubrics": [
     {

@@ -40,6 +40,6 @@ Mức 1 là mức trưởng thành thấp nhất có bằng chứng, khác bản
 
 ## Áp dụng cho dữ liệu hiện có
 
-Giữ nguyên 700 mức Excel và các tổng điểm hiện tại dưới dạng phiên bản lịch sử sơ bộ. Chốt phương pháp không có nghĩa đã duyệt các mức này. Lớp theo năm giữ nguyên mức đã đối chiếu và ô trống; không tự chọn max từ 209 dòng đã chấm để thay 700 mức gộp.
+700 mức gộp Excel đã được nhóm nghiên cứu thực hiện và duyệt, theo xác nhận của chủ dự án ngày 19/10/2026. Giữ nguyên mức, điểm tổng hợp và xếp hạng. Thiếu thông tin URL/trang/trích đoạn trong bản chuyển giao không có nghĩa nhóm chưa duyệt mức. Lớp năm/PDF bổ sung là dữ liệu riêng; không tự chọn max từ lớp năm để ghi đè bộ điểm của nhóm.
 
-Khi đủ hồ sơ, lưu mức cũ/mới, lý do, nguồn và người/ngày duyệt; chạy lại pipeline Excel, build/import snapshot và cập nhật báo cáo cùng phiên bản. Mọi sửa mức phải truy vết được.
+Khi nhóm yêu cầu điều chỉnh mức, lưu mức cũ/mới, lý do, nguồn và người/ngày duyệt; chạy lại pipeline Excel, build/import snapshot và cập nhật báo cáo cùng phiên bản. Mọi sửa mức phải truy vết được.

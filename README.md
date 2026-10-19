@@ -13,7 +13,7 @@ Ngày đóng gói: 19/10/2026. Sản phẩm: https://digital-banking-nhom3.verce
 
 ## Phương pháp đã chốt
 
-Xem Phuong-phap-cham-diem.md. Mức gộp là mức cao nhất được chứng minh đầy đủ trong giai đoạn 2023–2025; không phải điểm cuối năm 2025. Quy đổi, trọng số, 0/NA/chưa chấm đã thống nhất; hồ sơ bằng chứng và mức cũ vẫn cần rà soát.
+Xem Phuong-phap-cham-diem.md. Mức gộp là mức cao nhất được chứng minh đầy đủ trong giai đoạn 2023–2025; không phải điểm cuối năm 2025. Quy đổi, trọng số, 0/NA/chưa chấm đã thống nhất. Bộ 700 mức Excel do nhóm làm và duyệt; thông tin trích dẫn trong file chuyển giao được bổ sung riêng, không phải yêu cầu chấm lại.
 
 ## Bốn Excel bản cuối
 
@@ -24,8 +24,8 @@ Xem Phuong-phap-cham-diem.md. Mức gộp là mức cao nhất được chứng 
 
 ## Nội dung bổ sung ở đợt sau
 
-- Duyệt nguồn, trang, trích đoạn và mức chấm còn thiếu cho dữ liệu gộp. Các đoạn PDF liên quan không tự xác nhận mức.
-- Áp dụng phương pháp đã chốt ngày 19/10/2026 tại Phuong-phap-cham-diem.md để duyệt mức gộp và xử lý cờ rà soát.
+- Bổ sung thông tin URL, trang, trích đoạn vào hồ sơ nếu cần để truy vết; việc thiếu trường thông tin không đồng nghĩa mức chấm chưa được nhóm duyệt.
+- Giữ nguyên bộ điểm đã được nhóm duyệt. Cờ tự động của pipeline phục vụ kiểm tra cấu trúc/thông tin, không phải quyết định phủ nhận mức chấm.
 - Hoàn thiện lớp theo năm trước khi tính điểm năm hoặc YoY; không suy ra điểm năm từ điểm gộp.
 - Nhóm bổ sung thông tin lớp và thành viên. Kho GitHub công khai: https://github.com/soitang733/digital-banking-nhom3.
 
@@ -33,4 +33,4 @@ Xem Phuong-phap-cham-diem.md. Mức gộp là mức cao nhất được chứng 
 
 Giữ nguyên cấu trúc: Bao-cao..., Excel/, Code/, Nguon-PDF.csv và README.md. README này ghi rõ vị trí từng nhóm tài liệu để người chấm truy cập. Không đưa node_modules, .git, .env, phiên đăng nhập hoặc khóa dịch vụ.
 
-Bộ Excel là bản output của pipeline đã đối chiếu; không trộn với các workbook gốc ở phiên khác. Kết quả hiện tại vẫn có giới hạn bằng chứng được trình bày trong Chương 6 của báo cáo.
+Bộ Excel là bản output của pipeline đã đối chiếu; không trộn với các workbook gốc ở phiên khác. Phạm vi dữ liệu và thông tin trích dẫn được trình bày trong Chương 6; bộ điểm gộp đã được nhóm nghiên cứu duyệt.
