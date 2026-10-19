@@ -1,0 +1,8 @@
+# Keep snapshot bytes identical when cloning on Windows with core.autocrlf enabled.
+Code/dashboard/dist/*.js text eol=lf
+*.pdf binary
+*.xlsx binary
+*.png binary
+*.jpg binary
+*.webm binary
+*.ttf binary

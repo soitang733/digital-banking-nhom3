@@ -6,3 +6,6 @@ node_modules/
 .sites-local/
 .git/
 __pycache__/
+bank-dashboard-cloud/public/
+bank-dashboard-cloud/supabase/data/
+bank-dashboard-cloud/supabase/seed.sql
