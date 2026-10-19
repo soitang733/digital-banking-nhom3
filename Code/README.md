@@ -44,7 +44,7 @@ Từ Code/bank-dashboard-cloud chạy `npm ci`, `npm run build`, `npm run check`
 
 ## Phương pháp
 
-Quy đổi mức 0/1/2/3/4/5 = 0/0/25/50/75/100 phần trăm; điểm trụ cột là trung bình tiêu chí, Digital Score là trung bình 6 trụ cột. Điểm gộp 2023–2025 không phải chuỗi điểm từng năm. Các nguồn PDF liên quan giữ trạng thái Chưa đủ bằng chứng; các ô năm chưa chấm vẫn trống.
+Quy đổi mức 0/1/2/3/4/5 = 0/0/25/50/75/100 phần trăm; điểm trụ cột là trung bình tiêu chí, Digital Score là trung bình 6 trụ cột. Điểm gộp 2023–2025 chọn mức cao nhất được bằng chứng chứng minh đầy đủ trong giai đoạn sau duyệt hồ sơ, không đại diện cuối năm 2025. Phương pháp đã chốt ngày 19/10/2026 tại pipeline/METHODOLOGY.md và pipeline/research-policy.json; 700 mức cũ vẫn là bản lịch sử chưa chấm lại. Các nguồn PDF liên quan giữ trạng thái Chưa đủ bằng chứng; các ô năm chưa chấm vẫn trống.
 
 ## Kho GitHub
 

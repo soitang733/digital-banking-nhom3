@@ -1,18 +1,76 @@
 {
-  "id": "DBI-REVIEW-2026-10-13",
-  "date": "2026-10-13",
-  "authority": "Người dùng giao quyền quyết định và xử lý trong cuộc trao đổi ngày 13/10/2026",
+  "id": "DBI-METHOD-2026-10-19",
+  "date": "2026-10-19",
+  "authority": "Chủ dự án ủy quyền chốt phương pháp ngày 19/10/2026; quyết định phương pháp không thay cho duyệt bằng chứng và mức chấm.",
   "scale": "Thang trưởng thành 1–5 theo Danh_muc trong ScoringReview.xlsx; mức 0 là trạng thái không đủ bằng chứng sau rà soát, không phải bằng chứng không triển khai",
-  "conversion": {"0":0,"1":0,"2":25,"3":50,"4":75,"5":100},
-  "pillarWeights": [1,1,1,1,1,1],
-  "missing": "level=null, status=Chưa đủ căn cứ. Không thay bằng 0; không loại khỏi mẫu số như NA",
-  "zero": "Chỉ xác nhận 0 khi có nhật ký rà soát đủ tài liệu có liên quan, toàn bộ phần ảnh đã OCR/kiểm tra, và không tìm đủ bằng chứng. Không gán 0 chỉ vì tìm từ khóa không có kết quả",
-  "na": "Chỉ dùng khi có lý do không áp dụng cụ thể theo tiêu chí và ngân hàng, được ghi trong decision.reason. Loại khỏi mẫu số tiêu chí áp dụng; không dùng NA cho thiếu công bố",
+  "conversion": {
+    "0": 0,
+    "1": 0,
+    "2": 25,
+    "3": 50,
+    "4": 75,
+    "5": 100
+  },
+  "pillarWeights": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "missing": "level=null khi chưa rà soát xong hoặc chưa đủ căn cứ quyết định. Không đổi thành 0, không loại khỏi mẫu số như NA; tổng điểm đầy đủ còn thiếu phải để trống.",
+  "zero": "Chỉ chốt 0 sau khi có nhật ký rà soát đủ tài liệu liên quan của phạm vi chấm, kiểm tra phần ảnh/OCR và không tìm đủ bằng chứng đáp ứng mức 1. Không gán 0 vì tìm từ khóa không có kết quả; mức 0 không khẳng định ngân hàng không triển khai.",
+  "na": "Chỉ dùng khi có lý do cụ thể tiêu chí không áp dụng trong đúng phạm vi chấm, ghi lý do và người/ngày duyệt. Loại khỏi mẫu số tiêu chí áp dụng; thiếu công bố không phải NA.",
   "annual": "Năm hoạt động trong báo cáo, không phải năm tải hoặc năm xuất bản. Chỉ dùng triển khai đã diễn ra trong năm đó; kế hoạch tương lai không chứng minh triển khai. Không tự sao chép mức từ năm khác",
-  "scoreReadiness": "Chỉ công bố điểm đầy đủ khi mọi tiêu chí áp dụng của cả 6 trụ cột có mức đối chiếu và chứng cứ. Trụ cột không có tiêu chí áp dụng không được tính là 0. Điểm trên tập nhỏ chưa đủ dữ liệu không dùng xếp hạng/YoY",
+  "scoreReadiness": "Bộ chấm đã duyệt chỉ công bố tổng điểm và xếp hạng khi tất cả tiêu chí áp dụng của cả 6 trụ cột có quyết định được duyệt. NA có lý do loại khỏi mẫu số; một trụ cột không còn tiêu chí áp dụng làm tổng điểm không xác định, không tự phân bổ lại trọng số.",
   "reviewer": "Codex – đối chiếu báo cáo công bố; không phải xác nhận của ngân hàng hoặc kiểm toán độc lập",
   "levelChoice": "Chọn mức cao nhất được đoạn dẫn chứng hỗ trợ đủ yêu cầu; khi bằng chứng chỉ chứng minh triển khai ở một số bộ phận thì dừng ở mức tương ứng. Một từ khóa hoặc tên công nghệ không tự quyết định điểm",
-  "legacy": "Giữ bộ 700 mức gộp từ Excel làm dữ liệu lịch sử, gắn nhãn sơ bộ chưa chấm lại theo quy tắc mới. Điểm năm đối chiếu là lớp riêng, không ghi đè Excel nguồn",
+  "legacy": "700 mức gộp Excel hiện có được giữ nguyên làm phiên bản lịch sử sơ bộ; chưa tự coi đã đáp ứng phương pháp chốt ngày 19/10/2026. Chỉ sửa mức sau duyệt nguồn, lưu mức cũ/mới, lý do và người/ngày duyệt rồi tạo lại Excel, snapshot và báo cáo cùng phiên bản.",
   "pdfPage": "Chỉ số trang vật lý PDF, bắt đầu từ 1; trang in trên báo cáo có thể khác hoặc một trang PDF gồm hai trang in",
-  "ocr": "Windows OCR en-US dùng để tìm nội dung; trích đoạn OCR có thể sai dấu/ký tự. Mức chấm chỉ được quyết định sau khi đọc nội dung và kiểm tra hình trang đối với nguồn OCR"
+  "ocr": "Windows OCR en-US dùng để tìm nội dung; trích đoạn OCR có thể sai dấu/ký tự. Mức chấm chỉ được quyết định sau khi đọc nội dung và kiểm tra hình trang đối với nguồn OCR",
+  "status": "finalized",
+  "period": {
+    "start": 2023,
+    "end": 2025
+  },
+  "pooledAggregation": {
+    "rule": "maximum_verified_level",
+    "unit": "ngân hàng × tiêu chí",
+    "meaning": "Mức cao nhất được bằng chứng chứng minh đầy đủ trong giai đoạn 2023–2025; phản ánh mức đã thể hiện trong giai đoạn, không phải hiện trạng cuối năm 2025.",
+    "selection": "Sau khi rà soát bộ tài liệu liên quan của cả giai đoạn, chọn mức cao nhất đáp ứng đầy đủ mô tả tiêu chí. Có thể phối hợp nhiều nguồn nếu cùng chứng minh một phạm vi triển khai thực tế; không ghép các triển khai khác thời điểm để suy ra một mức chưa từng được chứng minh.",
+    "exclusions": "Không lấy trung bình ba năm, không lấy max tổng điểm năm, không điền năm thiếu bằng 0 và không suy ra mức của năm chưa có bằng chứng. Kế hoạch tương lai không phải triển khai.",
+    "example": "2023 có mức 2, 2024 có mức 4, 2025 chưa chấm: mức gộp có thể là 4 sau duyệt hồ sơ giai đoạn; mức 2025 vẫn trống.",
+    "na": "Chỉ NA gộp khi có lý do không áp dụng cho toàn bộ giai đoạn; không suy rộng NA của một năm thành NA của cả giai đoạn."
+  },
+  "evidenceRequired": [
+    "ngân hàng",
+    "mã tiêu chí",
+    "năm hoặc phạm vi giai đoạn",
+    "URL nguồn",
+    "trang vật lý PDF",
+    "trích đoạn",
+    "mức hoặc trạng thái 0/NA/chưa chấm",
+    "lý do đối chiếu rubric",
+    "người duyệt",
+    "ngày duyệt"
+  ],
+  "maturity": {
+    "thresholds": [
+      0,
+      25,
+      50,
+      75,
+      100
+    ],
+    "labels": [
+      "Khởi động",
+      "Bắt đầu",
+      "Hình thành",
+      "Nâng cao",
+      "Dẫn dắt"
+    ],
+    "rounding": "Xác định mức và xếp hạng trên điểm chưa làm tròn; đồng điểm cùng hạng."
+  },
+  "annualPublication": "Chỉ công bố tổng điểm từng năm khi đủ mọi tiêu chí áp dụng của đủ 6 trụ cột trong năm đó. YoY là chênh lệch điểm phần trăm giữa hai năm đủ dữ liệu và cùng danh mục, phương pháp, mẫu tiêu chí áp dụng; mẫu khác phải chuẩn hóa lại trước khi so sánh."
 }

@@ -11,6 +11,10 @@ Ngày đóng gói: 19/10/2026. Sản phẩm: https://digital-banking-nhom3.verce
 5. Link sản phẩm: https://digital-banking-nhom3.vercel.app
 6. Nguồn PDF: Nguon-PDF.csv liệt kê 23 báo cáo có dẫn chứng hoặc đoạn liên quan, tải từ trang Tải dữ liệu. PDF không gộp vào ZIP để tránh gói quá lớn.
 
+## Phương pháp đã chốt
+
+Xem Phuong-phap-cham-diem.md. Mức gộp là mức cao nhất được chứng minh đầy đủ trong giai đoạn 2023–2025; không phải điểm cuối năm 2025. Quy đổi, trọng số, 0/NA/chưa chấm đã thống nhất; hồ sơ bằng chứng và mức cũ vẫn cần rà soát.
+
 ## Bốn Excel bản cuối
 
 - Excel/CleanData.xlsx: Dữ liệu chấm điểm. Dữ liệu chuẩn hóa, bảng tổng hợp và các trường cần rà soát.
@@ -21,7 +25,7 @@ Ngày đóng gói: 19/10/2026. Sản phẩm: https://digital-banking-nhom3.verce
 ## Nội dung bổ sung ở đợt sau
 
 - Duyệt nguồn, trang, trích đoạn và mức chấm còn thiếu cho dữ liệu gộp. Các đoạn PDF liên quan không tự xác nhận mức.
-- Chốt cách tổng hợp bằng chứng giai đoạn 2023–2025 và xử lý cờ rà soát.
+- Áp dụng phương pháp đã chốt ngày 19/10/2026 tại Phuong-phap-cham-diem.md để duyệt mức gộp và xử lý cờ rà soát.
 - Hoàn thiện lớp theo năm trước khi tính điểm năm hoặc YoY; không suy ra điểm năm từ điểm gộp.
 - Nhóm bổ sung thông tin lớp và thành viên. Kho GitHub công khai: https://github.com/soitang733/digital-banking-nhom3.
 

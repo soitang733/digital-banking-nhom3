@@ -85,9 +85,11 @@ Danh mục đầy đủ 140 tiêu chí nằm ở Phụ lục A. Nội dung mô t
 
 Mỗi mức cần phù hợp với phạm vi triển khai thể hiện trong bằng chứng. Khi một đoạn chỉ hỗ trợ triển khai tại một số bộ phận, không mở rộng thành triển khai toàn ngân hàng. Chọn mức cao nhất được nội dung hỗ trợ đầy đủ; thiếu một điều kiện quan trọng thì chưa nâng mức. Ví dụ thang cá nhân hóa trải nghiệm được trình bày tại Phụ lục B.
 
+Quy tắc gộp chốt ngày 19/10/2026: chọn mức cao nhất được bằng chứng chứng minh đầy đủ trong giai đoạn 2023 đến 2025, sau rà soát tài liệu liên quan. Điểm phản ánh mức đã thể hiện trong giai đoạn, không phải hiện trạng cuối năm 2025 hoặc trung bình ba năm. Không ghép các triển khai khác thời điểm để suy ra mức chưa từng được chứng minh. Bộ 700 mức cũ chưa được tự động chấm lại theo quy tắc này.
+
 Bộ điểm gộp hiện có sử dụng mức 0 khi chưa đủ bằng chứng trong dataset. Mức 0 và mức 1 cùng quy đổi về 0% nhưng có ý nghĩa khác nhau: mức 1 tương ứng một mô tả trưởng thành; mức 0 phản ánh giới hạn bằng chứng. Mức 0 không chứng minh ngân hàng không triển khai hoạt động.
 
-Đối với lớp chấm theo năm, ô chưa chấm giữ trống và không được tự chuyển thành mức 0. NA chỉ dùng khi có lý do cụ thể cho việc tiêu chí không áp dụng; không dùng NA thay cho thiếu công bố. Xác nhận mức 0 cần rà soát đủ tài liệu liên quan, không dựa riêng vào việc tìm từ khóa không có kết quả.
+Trong hồ sơ chấm đã duyệt, ô chưa chấm giữ trống, không tự chuyển thành 0. Chỉ chốt 0 khi có nhật ký rà đủ tài liệu liên quan và chưa tìm đủ bằng chứng đáp ứng mức 1. NA cần lý do không áp dụng và người/ngày duyệt; NA gộp phải đúng cho cả giai đoạn. Không dùng NA cho thiếu công bố hoặc chốt 0 chỉ vì tìm từ khóa không thấy.
 
 ### 3 3 Quy đổi và tổng hợp điểm
 
@@ -99,7 +101,7 @@ Quy đổi dùng cận dưới theo quy ước của file chấm điểm. Điể
 
 Điểm trụ cột p = Tổng điểm quy đổi của các tiêu chí thuộc p / Số tiêu chí thuộc p<br/>Digital Score = Tổng điểm sáu trụ cột / 6
 
-Đối với điểm gộp hiện tại, mẫu số cố định bao gồm các tiêu chí có mức 0. Đối với lớp năm, tiêu chí NA có lý do được loại khỏi mẫu số; nếu còn tiêu chí áp dụng chưa chấm hoặc thiếu một trụ cột có dữ liệu hợp lệ thì không công bố điểm tổng thể. Không tính điểm toàn ngân hàng bằng cách lấy trung bình một tập nhỏ tiêu chí đã chấm.
+Bộ gộp lịch sử hiện tại giữ mẫu số cố định, gồm các mức 0. Bộ chấm lại và lớp năm loại NA có lý do khỏi mẫu số. Tổng điểm đã duyệt chỉ công bố khi đủ mọi tiêu chí áp dụng và cả 6 trụ cột; trụ cột không còn tiêu chí áp dụng làm tổng điểm không xác định. YoY chỉ so hai năm đủ dữ liệu, cùng danh mục, phương pháp và mẫu áp dụng; chênh lệch dùng đơn vị điểm phần trăm.
 
 Mức đạt trung bình trên thang 5 là trung bình mức đạt của 140 tiêu chí và được giữ làm thước đo riêng. Do Digital Score tính trung bình theo trụ cột và dùng quy đổi phi tuyến, thứ hạng giữa hai thước đo có thể khác nhau. Bảng phân tích phải ghi rõ thước đo đang sử dụng.
 
@@ -207,7 +209,7 @@ Các mức gộp tiếp tục là kết quả nghiên cứu sơ bộ trong bộ 
 | Nội dung cần bổ sung | Điều kiện hoàn tất |
 | --- | --- |
 | Nguồn cho mức gộp | Bổ sung URL truy xuất được, trang, đoạn trích và quyết định duyệt cho các dòng còn thiếu. |
-| Quy tắc tổng hợp giai đoạn | Nhóm xác nhận cách dùng bằng chứng nhiều năm và phạm vi của điểm gộp. |
+| Áp dụng quy tắc gộp đã chốt | Rà 700 mức theo phương pháp ngày 19/10/2026; lưu mức cũ/mới, lý do và người/ngày duyệt. |
 | Mức theo năm | Hoàn thiện các tổ hợp còn thiếu; chỉ công bố điểm năm khi đáp ứng đủ điều kiện. |
 | Rà soát dữ liệu | Xử lý 90 cờ kiểm tra của pipeline, gồm 89 trường hợp mức 0 cần duyệt và một cảnh báo cấu trúc năm. |
 | Thông tin hồ sơ | Xác nhận thành viên và thông tin lớp trước khi nộp chính thức. |
