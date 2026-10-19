@@ -1,0 +1,17 @@
+NGUYỄN
+
+   THỦY
+
+    TIÊN
+
+Digitally signed by NGUYỄN THỦY TIÊN
+DN: C=VN, S=THÀNH PHỐ HỒ CHÍ
+MINH, CN=NGUYỄN THỦY TIÊN,
+OID.0.9.2342.19200300.100.1.1=CCCD:
+025675385
+Reason: I am the author of this
+document
+Location:
+Date: 2024-04-11 13:51:57
+Foxit Reader Version: 9.1.0
+

@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "source_rows_matched": 700,
+  "scores_and_ranks_matched": 5,
+  "analysis_ranks_match_digital_score": true,
+  "evidence_text_matches_after_whitespace_normalization": true,
+  "cleaning_flags": 90,
+  "zero_level_flags": 89,
+  "missing_year_structure_flags": 1,
+  "original_workbooks_overwritten": false
+}

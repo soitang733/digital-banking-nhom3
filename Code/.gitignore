@@ -1,0 +1,8 @@
+node_modules/
+.env*
+!.env.example
+.vercel/
+.deployment/
+.sites-local/
+.git/
+__pycache__/

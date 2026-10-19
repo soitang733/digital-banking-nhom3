@@ -1,0 +1,18 @@
+import fs from 'node:fs';
+let html=fs.readFileSync('dist/index.html','utf8');
+const start=html.indexOf('<div class="scope meme-picker">'),end=html.indexOf('<div class="profile">',start);if(start<0||end<0)throw Error('Picker not found');
+html=html.slice(0,start)+'<div class="scope"><div class="scope-title">CÁCH DÙNG NHANH</div><p>1. Chọn ngân hàng<br>2. So sánh điểm số<br>3. Đối chiếu bằng chứng</p><small>2023 — 2025 · 140 tiêu chí</small></div>'+html.slice(end);
+html=html.replace('cat-party.css?v=15','cat-party.css?v=16').replace('<link rel="stylesheet" href="cat-party.css?v=16">','<link rel="stylesheet" href="cat-party.css?v=16">\n<link rel="stylesheet" href="cat-reactions.css">');
+html=html.replace('motion.js?v=14','motion.js?v=16').replace('<script src="cat-cursor-v2.js?v=15"></script>','<script src="cat-cursor-v3.js"></script><script src="cat-reactions.js"></script>');
+fs.writeFileSync('dist/index.html',html);
+let cursor=fs.readFileSync('dist/cat-cursor-v2.js','utf8');
+cursor=cursor.replace("const videos=[...cursor.querySelectorAll('video')],buttons=[...document.querySelectorAll('[data-cat-choice]')],autoButton=document.getElementById('cat-auto'),caption=document.getElementById('cat-picker-caption');","const videos=[...cursor.querySelectorAll('video')];");
+cursor=cursor.replace(/ try\{const saved=localStorage\.getItem\('bank-dashboard-cat'\);[^\n]+\n/,'');
+const pickerStart=cursor.indexOf(' function updatePicker(){'),pickerEnd=cursor.indexOf(' function show(){',pickerStart);cursor=cursor.slice(0,pickerStart)+cursor.slice(pickerEnd);
+const buttonsStart=cursor.indexOf(' buttons.forEach(button=>{'),buttonsEnd=cursor.indexOf(' for(const video of videos)',buttonsStart);cursor=cursor.slice(0,buttonsStart)+cursor.slice(buttonsEnd);
+cursor=cursor.replace('else show();updatePicker();','else show();');
+fs.writeFileSync('dist/cat-cursor-v3.js',cursor);
+let motion=fs.readFileSync('dist/motion.js','utf8').replace('window.DBI_CAT_CURSOR?.refresh();\n }','window.DBI_CAT_CURSOR?.refresh();window.DBI_CAT_REACTIONS?.refresh();\n }').replace('window.DBI_CAT_CURSOR?.stop();}else','window.DBI_CAT_CURSOR?.stop();window.DBI_CAT_REACTIONS?.stop();}else');fs.writeFileSync('dist/motion.js',motion);
+let party=fs.readFileSync('dist/cat-party.css','utf8');party=party.split('\n').filter(line=>!line.startsWith('.meme-picker{')).join('\n');fs.writeFileSync('dist/cat-party.css',party);
+let pack=fs.readFileSync('package-local.mjs','utf8').replace("'expressive.css','cat-party.css'","'expressive.css','cat-party.css','cat-reactions.css'").replace("'experience.js','cat-cursor-v2.js'","'experience.js','cat-cursor-v3.js','cat-reactions.js'").replace("'?v=15'","'?v=16'").replace("${file==='motion.js'?'?v=14':file==='cat-cursor-v2.js'?'?v=16':''}","${file==='motion.js'?'?v=16':''}");fs.writeFileSync('package-local.mjs',pack);
+fs.appendFileSync('README.md','\nĐã bỏ Góc mèo meme và ghim/chọn con trỏ theo yêu cầu. cat-cursor-v3.js luôn tự luân phiên; không đọc lựa chọn ghim cũ. cat-reactions.js dùng đủ 8 sticker làm phản ứng click, đổi select và hover: mèo bật ra + hạt màu, hỗ trợ cả chuột, bàn phím và click cảm ứng. Phản ứng tự biến mất, tối đa 2 sticker cùng lúc; dừng khi tắt ✦ hoặc tab ẩn. Video phản ứng nằm trong dialog khi cần, không chặn thao tác và không sửa số liệu.\n');

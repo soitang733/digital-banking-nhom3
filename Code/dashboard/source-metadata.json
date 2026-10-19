@@ -1,0 +1,1194 @@
+{
+  "criteria": [
+    {
+      "sourceCode": "1.1.2001",
+      "code": "1.1.1",
+      "name": "Cá nhân hóa trải nghiệm",
+      "verified": true,
+      "documentCode": "1.1.1"
+    },
+    {
+      "sourceCode": "1.1.2002",
+      "code": "1.1.2",
+      "name": "Tiếp thị mục tiêu",
+      "verified": true,
+      "documentCode": "1.1.2"
+    },
+    {
+      "sourceCode": "1.1.2003",
+      "code": "1.1.3",
+      "name": "Tự tùy chỉnh",
+      "verified": true,
+      "documentCode": "1.1.3"
+    },
+    {
+      "sourceCode": "1.1.2004",
+      "code": "1.1.4",
+      "name": "Dễ sử dụng",
+      "verified": true,
+      "documentCode": "1.1.4"
+    },
+    {
+      "sourceCode": "1.1.2005",
+      "code": "1.1.5",
+      "name": "- Mức độ hứng thú của khách hàng",
+      "verified": true,
+      "documentCode": "1.1.5"
+    },
+    {
+      "sourceCode": "1.1.2006",
+      "code": "1.1.6",
+      "name": "Tương tác số",
+      "verified": true,
+      "documentCode": "1.1.6"
+    },
+    {
+      "sourceCode": "1.1.2007",
+      "code": "1.1.7",
+      "name": "Chủ động chăm sóc",
+      "verified": true,
+      "documentCode": "1.1.7"
+    },
+    {
+      "sourceCode": "1.1.2008",
+      "code": "1.1.8",
+      "name": "Gắn kết xã hội",
+      "verified": true,
+      "documentCode": "1.1.8"
+    },
+    {
+      "sourceCode": "1.1.2009",
+      "code": "1.1.9",
+      "name": "Thúc đẩy - Mức độ trung thành",
+      "verified": true,
+      "documentCode": "1.1.9"
+    },
+    {
+      "sourceCode": "1.2.2001",
+      "code": "1.2.1",
+      "name": "Tầm nhìn về trải nghiệm khách hàng",
+      "verified": true,
+      "documentCode": "1.2.1"
+    },
+    {
+      "sourceCode": "1.2.2002",
+      "code": "1.2.2",
+      "name": "Thiết kế theo định hướng của trải nghiệm khách hàng",
+      "verified": true,
+      "documentCode": "1.2.2"
+    },
+    {
+      "sourceCode": "1.2.2003",
+      "code": "1.2.3",
+      "name": "Có ngân sách đầu tư để đạt các mục tiêu trải nghiệm khách hàng",
+      "verified": true,
+      "documentCode": "1.2.3"
+    },
+    {
+      "sourceCode": "1.2.2004",
+      "code": "1.2.4",
+      "name": "Phạm vi danh mục sản phẩm và dịch vụ",
+      "verified": true,
+      "documentCode": "1.2.4"
+    },
+    {
+      "sourceCode": "1.2.2005",
+      "code": "1.2.5",
+      "name": "Quá trình đăng ký sử dụng sản phẩm và dịch vụ",
+      "verified": true,
+      "documentCode": "1.2.5"
+    },
+    {
+      "sourceCode": "1.2.2006",
+      "code": "1.2.6",
+      "name": "Đa kênh hợp nhất",
+      "verified": true,
+      "documentCode": "1.2.6"
+    },
+    {
+      "sourceCode": "1.2.2007",
+      "code": "1.2.7",
+      "name": "Đo lường trải nghiệm khách hàng",
+      "verified": true,
+      "documentCode": "1.2.7"
+    },
+    {
+      "sourceCode": "1.2.2008",
+      "code": "1.2.8",
+      "name": "Quản lý hành trình khách hàng",
+      "verified": true,
+      "documentCode": "1.2.8"
+    },
+    {
+      "sourceCode": "1.3.2001",
+      "code": "1.3.1",
+      "name": "Góc nhìn 360 độ về khách hàng",
+      "verified": true,
+      "documentCode": "1.3.1"
+    },
+    {
+      "sourceCode": "1.3.2002",
+      "code": "1.3.2",
+      "name": "Nguồn khai thác dữ liệu tin cậy duy nhất",
+      "verified": true,
+      "documentCode": "1.3.2"
+    },
+    {
+      "sourceCode": "1.3.2003",
+      "code": "1.3.3",
+      "name": "Nhu cầu của khách hàng",
+      "verified": true,
+      "documentCode": "1.3.3"
+    },
+    {
+      "sourceCode": "1.4.2001",
+      "code": "1.4.1",
+      "name": "Cam kết thương hiệu",
+      "verified": true,
+      "documentCode": "1.4.1"
+    },
+    {
+      "sourceCode": "1.4.2002",
+      "code": "1.4.2",
+      "name": "Xử lý phản ánh khách hàng",
+      "verified": true,
+      "documentCode": "1.4.2"
+    },
+    {
+      "sourceCode": "1.4.2003",
+      "code": "1.4.3",
+      "name": "Quyền riêng tư",
+      "verified": true,
+      "documentCode": "1.4.3"
+    },
+    {
+      "sourceCode": "1.4.2004",
+      "code": "1.4.4",
+      "name": "Kiểm soát thông tin cá nhân, dữ liệu cá nhân",
+      "verified": true,
+      "documentCode": "1.4.4"
+    },
+    {
+      "sourceCode": "1.4.2005",
+      "code": "1.4.5",
+      "name": "Thúc đẩy niềm tin khách hàng",
+      "verified": true,
+      "documentCode": "1.4.5"
+    },
+    {
+      "sourceCode": "2.1.2001",
+      "code": "2.1.1",
+      "name": "Chiến lược thương hiệu",
+      "verified": true,
+      "documentCode": "2.1.1"
+    },
+    {
+      "sourceCode": "2.1.2002",
+      "code": "2.1.2",
+      "name": "Quản trị thương hiệu",
+      "verified": true,
+      "documentCode": "2.1.2"
+    },
+    {
+      "sourceCode": "2.1.2003",
+      "code": "2.1.3",
+      "name": "Chỉ số đo lường thương hiệu",
+      "verified": true,
+      "documentCode": "2.1.3"
+    },
+    {
+      "sourceCode": "2.1.2004",
+      "code": "2.1.4",
+      "name": "Chiến lược tiếp thị",
+      "verified": true,
+      "documentCode": "2.1.4"
+    },
+    {
+      "sourceCode": "2.2.2001",
+      "code": "2.2.1",
+      "name": "Hệ sinh thái kinh doanh",
+      "verified": true,
+      "documentCode": "2.2.1"
+    },
+    {
+      "sourceCode": "2.2.2002",
+      "code": "2.2.2",
+      "name": "Thiết kế hệ sinh thái",
+      "verified": true,
+      "documentCode": "2.2.2"
+    },
+    {
+      "sourceCode": "2.2.2003",
+      "code": "2.2.3",
+      "name": "Lựa chọn đối tác",
+      "verified": true,
+      "documentCode": "2.2.3"
+    },
+    {
+      "sourceCode": "2.3.2001",
+      "code": "2.3.1",
+      "name": "Ngân sách cho chuyển đổi số",
+      "verified": true,
+      "documentCode": "2.3.1"
+    },
+    {
+      "sourceCode": "2.3.2002",
+      "code": "2.3.2",
+      "name": "Đo lường hiệu quả đầu tư",
+      "verified": true,
+      "documentCode": "2.3.2"
+    },
+    {
+      "sourceCode": "2.3.2003",
+      "code": "2.3.3",
+      "name": "Đầu tư cải tiến liên tục",
+      "verified": true,
+      "documentCode": "2.3.3"
+    },
+    {
+      "sourceCode": "2.4.2001",
+      "code": "2.4.1",
+      "name": "Đánh giá xu hướng ngành",
+      "verified": true,
+      "documentCode": "2.4.1"
+    },
+    {
+      "sourceCode": "2.4.2002",
+      "code": "2.4.2",
+      "name": "Đánh giá nhu cầu của khách hàng",
+      "verified": true,
+      "documentCode": "2.4.2"
+    },
+    {
+      "sourceCode": "2.4.2003",
+      "code": "2.4.3",
+      "name": "Đánh giá mạng lưới giá trị",
+      "verified": true,
+      "documentCode": "2.4.3"
+    },
+    {
+      "sourceCode": "2.5.2001",
+      "code": "2.5.1",
+      "name": "Cân đối danh mục sản phẩm và dịch vụ",
+      "verified": true,
+      "documentCode": "2.5.1"
+    },
+    {
+      "sourceCode": "2.5.2002",
+      "code": "2.5.2",
+      "name": "Lộ trình danh mục sản phẩm và dịch vụ",
+      "verified": true,
+      "documentCode": "2.5.2"
+    },
+    {
+      "sourceCode": "2.5.2003",
+      "code": "2.5.3",
+      "name": "Đổi mới danh mục sản phẩm và dịch vụ",
+      "verified": true,
+      "documentCode": "2.5.3"
+    },
+    {
+      "sourceCode": "2.6.2001",
+      "code": "2.6.1",
+      "name": "Chiến lược phù hợp với tầm nhìn",
+      "verified": true,
+      "documentCode": "2.6.1"
+    },
+    {
+      "sourceCode": "2.6.2002",
+      "code": "2.6.2",
+      "name": "Đồng bộ giữa các nhóm kinh doanh/nghiệp vụ và kỹ thuật",
+      "verified": true,
+      "documentCode": "2.6.2"
+    },
+    {
+      "sourceCode": "2.6.2003",
+      "code": "2.6.3",
+      "name": "Đo lường các chỉ số",
+      "verified": true,
+      "documentCode": "2.6.3"
+    },
+    {
+      "sourceCode": "2.6.2004",
+      "code": "2.6.4",
+      "name": "Quản lý rủi ro",
+      "verified": true,
+      "documentCode": "2.6.4"
+    },
+    {
+      "sourceCode": "2.6.2005",
+      "code": "2.6.5",
+      "name": "Lộ trình chuyển đổi",
+      "verified": true,
+      "documentCode": "2.6.5"
+    },
+    {
+      "sourceCode": "2.6.2006",
+      "code": "2.6.6",
+      "name": "Áp dụng chiến lược chuyển đổi số",
+      "verified": true,
+      "documentCode": "2.6.6"
+    },
+    {
+      "sourceCode": "2.6.2007",
+      "code": "2.6.7",
+      "name": "Quản trị chuyển đổi",
+      "verified": true,
+      "documentCode": "2.6.7"
+    },
+    {
+      "sourceCode": "2.6.2008",
+      "code": "2.6.8",
+      "name": "Nhận diện và áp dụng các bài học thành công",
+      "verified": true,
+      "documentCode": "2.6.8"
+    },
+    {
+      "sourceCode": "3.1.2001",
+      "code": "3.1.1",
+      "name": "Khung quản trị công nghệ",
+      "verified": true,
+      "documentCode": "3.1.1"
+    },
+    {
+      "sourceCode": "3.1.2002",
+      "code": "3.1.2",
+      "name": "Tiêu chuẩn ngành",
+      "verified": true,
+      "documentCode": "3.1.2"
+    },
+    {
+      "sourceCode": "3.1.2003",
+      "code": "3.1.3",
+      "name": "Quản lý môi trường",
+      "verified": true,
+      "documentCode": "3.1.3"
+    },
+    {
+      "sourceCode": "3.1.2004",
+      "code": "3.1.4",
+      "name": "Quản lý năng lượng",
+      "verified": true,
+      "documentCode": "3.1.4"
+    },
+    {
+      "sourceCode": "3.1.2005",
+      "code": "3.1.5",
+      "name": "Công nghệ mới",
+      "verified": true,
+      "documentCode": "3.1.5"
+    },
+    {
+      "sourceCode": "3.2.2001",
+      "code": "3.2.1",
+      "name": "Chiến lược/lộ trình công nghệ",
+      "verified": true,
+      "documentCode": "3.2.1"
+    },
+    {
+      "sourceCode": "3.2.2002",
+      "code": "3.2.2",
+      "name": "Kiến trúc Microservices & kiến trúc theo hướng dịch vụ (SOA - Service-Oriented Architecture)",
+      "verified": true,
+      "documentCode": "3.2.2"
+    },
+    {
+      "sourceCode": "3.2.2003",
+      "code": "3.2.3",
+      "name": "Mã nguồn mở",
+      "verified": true,
+      "documentCode": "3.2.3"
+    },
+    {
+      "sourceCode": "3.2.2004",
+      "code": "3.2.4",
+      "name": "Khả năng cấu hình ứng dụng",
+      "verified": true,
+      "documentCode": "3.2.4"
+    },
+    {
+      "sourceCode": "3.2.2005",
+      "code": "3.2.5",
+      "name": "Nâng cao năng lực sử dụng điện toán đám mây (Cloud)",
+      "verified": true,
+      "documentCode": "3.2.5"
+    },
+    {
+      "sourceCode": "3.2.2006",
+      "code": "3.2.6",
+      "name": "Áp dụng API",
+      "verified": true,
+      "documentCode": "3.2.6"
+    },
+    {
+      "sourceCode": "3.2.2007",
+      "code": "3.2.7",
+      "name": "Kiến trúc công nghệ",
+      "verified": true,
+      "documentCode": "3.2.7"
+    },
+    {
+      "sourceCode": "3.3.2001",
+      "code": "3.3.1",
+      "name": "Bảo đảm an toàn hệ thống thông tin theo cấp độ",
+      "verified": true,
+      "documentCode": "3.3.1"
+    },
+    {
+      "sourceCode": "3.3.2002",
+      "code": "3.3.2",
+      "name": "Phát hiện và giảm thiểu xâm nhập",
+      "verified": true,
+      "documentCode": "3.3.2"
+    },
+    {
+      "sourceCode": "3.3.2003",
+      "code": "3.3.3",
+      "name": "Bảo đảm an toàn, an ninh mạng",
+      "verified": true,
+      "documentCode": "3.3.3"
+    },
+    {
+      "sourceCode": "3.3.2004",
+      "code": "3.3.4",
+      "name": "Bảo mật vật lý",
+      "verified": true,
+      "documentCode": "3.3.4"
+    },
+    {
+      "sourceCode": "3.4.2001",
+      "code": "3.4.1",
+      "name": "Trí tuệ nhân tạo",
+      "verified": true,
+      "documentCode": "3.4.1"
+    },
+    {
+      "sourceCode": "3.4.2002",
+      "code": "3.4.2",
+      "name": "Nền tảng dữ liệu lớn",
+      "verified": true,
+      "documentCode": "3.4.2"
+    },
+    {
+      "sourceCode": "3.4.2003",
+      "code": "3.4.3",
+      "name": "Công cụ phát triển ứng dụng",
+      "verified": true,
+      "documentCode": "3.4.3"
+    },
+    {
+      "sourceCode": "3.4.2004",
+      "code": "3.4.4",
+      "name": "Danh mục công cụ",
+      "verified": true,
+      "documentCode": "3.4.4"
+    },
+    {
+      "sourceCode": "3.5.2001",
+      "code": "3.5.1",
+      "name": "Ảo hóa (ví dụ: SDN/NFV)",
+      "verified": true,
+      "documentCode": "3.5.1"
+    },
+    {
+      "sourceCode": "3.5.2002",
+      "code": "3.5.2",
+      "name": "Kết nối không dây",
+      "verified": true,
+      "documentCode": "3.5.2"
+    },
+    {
+      "sourceCode": "3.5.2003",
+      "code": "3.5.3",
+      "name": "Giao thức Internet",
+      "verified": true,
+      "documentCode": "3.5.3"
+    },
+    {
+      "sourceCode": "3.5.2004",
+      "code": "3.5.4",
+      "name": "Internet vạn vật",
+      "verified": true,
+      "documentCode": "3.5.4"
+    },
+    {
+      "sourceCode": "3.5.2005",
+      "code": "3.5.5",
+      "name": "Quản lý hạ tầng",
+      "verified": true,
+      "documentCode": "3.5.5"
+    },
+    {
+      "sourceCode": "3.5.2006",
+      "code": "3.5.6",
+      "name": "Điều phối nguồn lực",
+      "verified": true,
+      "documentCode": "3.5.6"
+    },
+    {
+      "sourceCode": "3.5.2007",
+      "code": "3.5.7",
+      "name": "Điện toán đám mây",
+      "verified": true,
+      "documentCode": "3.5.7"
+    },
+    {
+      "sourceCode": "3.5.2008",
+      "code": "3.5.8",
+      "name": "Điện toán biên",
+      "verified": true,
+      "documentCode": "3.5.8"
+    },
+    {
+      "sourceCode": "3.5.2009",
+      "code": "3.5.9",
+      "name": "Tự động hóa",
+      "verified": true,
+      "documentCode": "3.5.9"
+    },
+    {
+      "sourceCode": "4.1.2001",
+      "code": "4.1.1",
+      "name": "Mô hình doanh nghiệp",
+      "verified": true,
+      "documentCode": "4.1.1"
+    },
+    {
+      "sourceCode": "4.1.2002",
+      "code": "4.1.2",
+      "name": "Quản lý rủi ro hoạt động",
+      "verified": true,
+      "documentCode": "4.1.2"
+    },
+    {
+      "sourceCode": "4.1.2003",
+      "code": "4.1.3",
+      "name": "Sự tuân thủ",
+      "verified": true,
+      "documentCode": "4.1.3"
+    },
+    {
+      "sourceCode": "4.1.2004",
+      "code": "4.1.4",
+      "name": "Hoạt động bảo đảm vận hành an toàn trong quản lý tài sản doanh nghiệp",
+      "verified": true,
+      "documentCode": "4.1.4"
+    },
+    {
+      "sourceCode": "4.2.2001",
+      "code": "4.2.1",
+      "name": "Đáp ứng yêu cầu kinh doanh/nghiệp vụ",
+      "verified": true,
+      "documentCode": "4.2.1"
+    },
+    {
+      "sourceCode": "4.2.2002",
+      "code": "4.2.2",
+      "name": "Tư duy Thiết kế (Design Thinking)",
+      "verified": true,
+      "documentCode": "4.2.2"
+    },
+    {
+      "sourceCode": "4.2.2003",
+      "code": "4.2.3",
+      "name": "Phát triển linh hoạt",
+      "verified": true,
+      "documentCode": "4.2.3"
+    },
+    {
+      "sourceCode": "4.2.2004",
+      "code": "4.2.4",
+      "name": "Tối ưu hóa quy trình",
+      "verified": true,
+      "documentCode": "4.2.4"
+    },
+    {
+      "sourceCode": "4.2.2005",
+      "code": "4.2.5",
+      "name": "Đổi mới liên tục sản phẩm và dịch vụ",
+      "verified": true,
+      "documentCode": "4.2.5"
+    },
+    {
+      "sourceCode": "4.2.2006",
+      "code": "4.2.6",
+      "name": "Hợp tác với đối tác",
+      "verified": true,
+      "documentCode": "4.2.6"
+    },
+    {
+      "sourceCode": "4.3.2001",
+      "code": "4.3.1",
+      "name": "Quản lý thay đổi hoạt động",
+      "verified": true,
+      "documentCode": "4.3.1"
+    },
+    {
+      "sourceCode": "4.3.2002",
+      "code": "4.3.2",
+      "name": "Quản lý phát hành",
+      "verified": true,
+      "documentCode": "4.3.2"
+    },
+    {
+      "sourceCode": "4.3.2003",
+      "code": "4.3.3",
+      "name": "DevSecOps",
+      "verified": true,
+      "documentCode": "4.3.3"
+    },
+    {
+      "sourceCode": "4.3.2004",
+      "code": "4.3.4",
+      "name": "CI/CD",
+      "verified": true,
+      "documentCode": "4.3.4"
+    },
+    {
+      "sourceCode": "4.4.2001",
+      "code": "4.4.1",
+      "name": "Đảm bảo dịch vụ",
+      "verified": true,
+      "documentCode": "4.4.1"
+    },
+    {
+      "sourceCode": "4.4.2002",
+      "code": "4.4.2",
+      "name": "SRE",
+      "verified": true,
+      "documentCode": "4.4.2"
+    },
+    {
+      "sourceCode": "4.4.2003",
+      "code": "4.4.3",
+      "name": "Hoạt động chuỗi cung ứng",
+      "verified": true,
+      "documentCode": "4.4.3"
+    },
+    {
+      "sourceCode": "4.4.2004",
+      "code": "4.4.4",
+      "name": "Đáp ứng yêu cầu sản phẩm và dịch vụ của khách hàng",
+      "verified": true,
+      "documentCode": "4.4.4"
+    },
+    {
+      "sourceCode": "4.4.2005",
+      "code": "4.4.5",
+      "name": "Giám sát hoạt động",
+      "verified": true,
+      "documentCode": "4.4.5"
+    },
+    {
+      "sourceCode": "4.4.2006",
+      "code": "4.4.6",
+      "name": "Hoạt động quản lý doanh thu",
+      "verified": true,
+      "documentCode": "4.4.6"
+    },
+    {
+      "sourceCode": "4.4.2007",
+      "code": "4.4.7",
+      "name": "Hoạt động quản lý gian lận",
+      "verified": true,
+      "documentCode": "4.4.7"
+    },
+    {
+      "sourceCode": "4.4.2008",
+      "code": "4.4.8",
+      "name": "Vận hành hệ thống",
+      "verified": true,
+      "documentCode": "4.4.8"
+    },
+    {
+      "sourceCode": "5.1.2001",
+      "code": "5.1.1",
+      "name": "Hành vi lãnh đạo",
+      "verified": true,
+      "documentCode": "5.1.1"
+    },
+    {
+      "sourceCode": "5.1.2002",
+      "code": "5.1.2",
+      "name": "Tác động của nhân viên",
+      "verified": true,
+      "documentCode": "5.1.2"
+    },
+    {
+      "sourceCode": "5.1.2003",
+      "code": "5.1.3",
+      "name": "Giá trị được chia sẻ",
+      "verified": true,
+      "documentCode": "5.1.3"
+    },
+    {
+      "sourceCode": "5.1.2004",
+      "code": "5.1.4",
+      "name": "Thất bại có kiểm soát",
+      "verified": true,
+      "documentCode": "5.1.4"
+    },
+    {
+      "sourceCode": "5.1.2005",
+      "code": "5.1.5",
+      "name": "Cộng tác ảo",
+      "verified": true,
+      "documentCode": "5.1.5"
+    },
+    {
+      "sourceCode": "5.1.2006",
+      "code": "5.1.6",
+      "name": "Sự hoà nhập",
+      "verified": true,
+      "documentCode": "5.1.6"
+    },
+    {
+      "sourceCode": "5.2.2001",
+      "code": "5.2.1",
+      "name": "Chính sách đãi ngộ",
+      "verified": true,
+      "documentCode": "5.2.1"
+    },
+    {
+      "sourceCode": "5.2.2002",
+      "code": "5.2.2",
+      "name": "Năng lực cơ bản",
+      "verified": true,
+      "documentCode": "5.2.2"
+    },
+    {
+      "sourceCode": "5.2.2003",
+      "code": "5.2.3",
+      "name": "Lập kế hoạch phát triển lực lượng lao động",
+      "verified": true,
+      "documentCode": "5.2.3"
+    },
+    {
+      "sourceCode": "5.2.2004",
+      "code": "5.2.4",
+      "name": "Thu hút nhân tài",
+      "verified": true,
+      "documentCode": "5.2.4"
+    },
+    {
+      "sourceCode": "5.2.2005",
+      "code": "5.2.5",
+      "name": "Nhóm tài năng bên ngoài",
+      "verified": true,
+      "documentCode": "5.2.5"
+    },
+    {
+      "sourceCode": "5.2.2006",
+      "code": "5.2.6",
+      "name": "Phát triển tài năng",
+      "verified": true,
+      "documentCode": "5.2.6"
+    },
+    {
+      "sourceCode": "5.2.2007",
+      "code": "5.2.7",
+      "name": "Học tập trên môi trường số",
+      "verified": true,
+      "documentCode": "5.2.7"
+    },
+    {
+      "sourceCode": "5.2.2008",
+      "code": "5.2.8",
+      "name": "Sự gắn kết của người lao động",
+      "verified": true,
+      "documentCode": "5.2.8"
+    },
+    {
+      "sourceCode": "5.3.2001",
+      "code": "5.3.1",
+      "name": "Môi trường thúc đẩy năng suất",
+      "verified": true,
+      "documentCode": "5.3.1"
+    },
+    {
+      "sourceCode": "5.3.2002",
+      "code": "5.3.2",
+      "name": "Môi trường thúc đẩy đổi mới sáng tạo",
+      "verified": true,
+      "documentCode": "5.3.2"
+    },
+    {
+      "sourceCode": "5.3.2003",
+      "code": "5.3.3",
+      "name": "Công cụ thúc đẩy tăng năng suất",
+      "verified": true,
+      "documentCode": "5.3.3"
+    },
+    {
+      "sourceCode": "5.3.2004",
+      "code": "5.3.4",
+      "name": "Công cụ thúc đẩy đổi mới sáng tạo",
+      "verified": true,
+      "documentCode": "5.3.4"
+    },
+    {
+      "sourceCode": "5.3.2005",
+      "code": "5.3.5",
+      "name": "Chính sách thúc đẩy tăng năng suất",
+      "verified": true,
+      "documentCode": "5.3.5"
+    },
+    {
+      "sourceCode": "5.3.2006",
+      "code": "5.3.6",
+      "name": "Chính sách thúc đẩy đổi mới sáng tạo",
+      "verified": true,
+      "documentCode": "5.3.6"
+    },
+    {
+      "sourceCode": "5.3.2007",
+      "code": "5.3.7",
+      "name": "Nắm bắt tri thức",
+      "verified": true,
+      "documentCode": "5.3.7"
+    },
+    {
+      "sourceCode": "5.3.2008",
+      "code": "5.3.8",
+      "name": "Chia sẻ tri thức",
+      "verified": true,
+      "documentCode": "5.3.8"
+    },
+    {
+      "sourceCode": "6.1.2001",
+      "code": "6.1.1",
+      "name": "Quản lý siêu dữ liệu",
+      "verified": true,
+      "documentCode": "6.1.1"
+    },
+    {
+      "sourceCode": "6.1.2002",
+      "code": "6.1.2",
+      "name": "Quản lý dữ liệu",
+      "verified": true,
+      "documentCode": "6.1.2"
+    },
+    {
+      "sourceCode": "6.1.2003",
+      "code": "6.1.3",
+      "name": "Quản lý dữ liệu chủ",
+      "verified": true,
+      "documentCode": "6.1.3"
+    },
+    {
+      "sourceCode": "6.1.2004",
+      "code": "6.1.4",
+      "name": "Quản lý bảo mật dữ liệu",
+      "verified": true,
+      "documentCode": "6.1.4"
+    },
+    {
+      "sourceCode": "6.1.2005",
+      "code": "6.1.5",
+      "name": "Quản lý chính sách dữ liệu",
+      "verified": true,
+      "documentCode": "6.1.5"
+    },
+    {
+      "sourceCode": "6.1.2006",
+      "code": "6.1.6",
+      "name": "Chiến lược dữ liệu",
+      "verified": true,
+      "documentCode": "6.1.6"
+    },
+    {
+      "sourceCode": "6.1.2007",
+      "code": "6.1.7",
+      "name": "Tổ chức và vai trò",
+      "verified": true,
+      "documentCode": "6.1.7"
+    },
+    {
+      "sourceCode": "6.1.2008",
+      "code": "6.1.8",
+      "name": "Quản lý quyền riêng tư dữ liệu",
+      "verified": true,
+      "documentCode": "6.1.8"
+    },
+    {
+      "sourceCode": "6.2.2001",
+      "code": "6.2.1",
+      "name": "Mô hình hoá dữ liệu",
+      "verified": true,
+      "documentCode": "6.2.1"
+    },
+    {
+      "sourceCode": "6.2.2002",
+      "code": "6.2.2",
+      "name": "Lưu trữ dữ liệu",
+      "verified": true,
+      "documentCode": "6.2.2"
+    },
+    {
+      "sourceCode": "6.2.2003",
+      "code": "6.2.3",
+      "name": "Khả năng truy cập dữ liệu",
+      "verified": true,
+      "documentCode": "6.2.3"
+    },
+    {
+      "sourceCode": "6.2.2004",
+      "code": "6.2.4",
+      "name": "Quản lý vòng đời dữ liệu",
+      "verified": true,
+      "documentCode": "6.2.4"
+    },
+    {
+      "sourceCode": "6.2.2005",
+      "code": "6.2.5",
+      "name": "Thu thập dữ liệu",
+      "verified": true,
+      "documentCode": "6.2.5"
+    },
+    {
+      "sourceCode": "6.2.2006",
+      "code": "6.2.6",
+      "name": "Đảm bảo tính toàn vẹn dữ liệu",
+      "verified": true,
+      "documentCode": "6.2.6"
+    },
+    {
+      "sourceCode": "6.2.2007",
+      "code": "6.2.7",
+      "name": "Trực quan hóa dữ liệu",
+      "verified": true,
+      "documentCode": "6.2.7"
+    },
+    {
+      "sourceCode": "6.3.2001",
+      "code": "6.3.1",
+      "name": "Ra quyết định dựa trên dữ liệu",
+      "verified": true,
+      "documentCode": "6.3.1"
+    },
+    {
+      "sourceCode": "6.3.2002",
+      "code": "6.3.2",
+      "name": "Năng lực khoa học dữ liệu",
+      "verified": true,
+      "documentCode": "6.3.2"
+    },
+    {
+      "sourceCode": "6.3.2003",
+      "code": "6.3.3",
+      "name": "Khai thác giá trị kinh tế từ dữ liệu",
+      "verified": true,
+      "documentCode": "6.3.3"
+    }
+  ],
+  "reports": [
+    {
+      "id": "report-0",
+      "bank": "TPBank",
+      "year": 2023,
+      "type": "Báo cáo thường niên",
+      "url": "https://static2.vietstock.vn/data/HOSE/2023/BCTN/VN/TPB_Baocaothuongnien_2023/maket+n%E1%BB%9Bi+x%C3%A9n+2024+-+view+15.4.2024+RESIZE.pdf",
+      "provenance": "Danh sách báo cáo trong tài liệu Word; chưa gắn với tiêu chí cụ thể",
+      "verified": false
+    },
+    {
+      "id": "report-1",
+      "bank": "TPBank",
+      "year": 2023,
+      "type": "Báo cáo phát triển bền vững",
+      "url": "https://tpb.vn/wps/wcm/connect/466b5dbf-10cb-4f89-9584-6e0963beaee4/B%C3%A1o+c%C3%A1o+Ph%C3%A1t+tri%E1%BB%83n+b%E1%BB%81n+v%E1%BB%AFng+2023.pdf?MOD=AJPERES&CONVERT_TO=url&CACHEID=ROOTWORKSPACE-466b5dbf-10cb-4f89-9584-6e0963beaee4-pgr-gMx",
+      "provenance": "Danh sách báo cáo trong tài liệu Word; chưa gắn với tiêu chí cụ thể",
+      "verified": false
+    },
+    {
+      "id": "report-2",
+      "bank": "TPBank",
+      "year": 2024,
+      "type": "Báo cáo thường niên",
+      "url": "https://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/TPB_Baocaothuongnien_2024/BCTN+2024+VIEW+17-4-2025+WEB.pdf",
+      "provenance": "Danh sách báo cáo trong tài liệu Word; chưa gắn với tiêu chí cụ thể",
+      "verified": false
+    },
+    {
+      "id": "report-3",
+      "bank": "TPBank",
+      "year": 2024,
+      "type": "Báo cáo phát triển bền vững",
+      "url": "https://tpb.vn/wps/wcm/connect/36035be7-468c-459e-a586-fc20f694f0c0/2025.11.03+TPBank+_+B%C3%A1o+c%C3%A1o+ph%C3%A1t+tri%E1%BB%83n+b%E1%BB%81n+v%E1%BB%AFng+n%C4%83m+2024+BOD+ph%C3%AA+duy%E1%BB%87t.pdf?MOD=AJPERES&CONVERT_TO=url&CACHEID=ROOTWORKSPACE-36035be7-468c-459e-a586-fc20f694f0c0-pFhGccW",
+      "provenance": "Danh sách báo cáo trong tài liệu Word; chưa gắn với tiêu chí cụ thể",
+      "verified": false
+    },
+    {
+      "id": "report-4",
+      "bank": "TPBank",
+      "year": 2025,
+      "type": "Báo cáo thường niên",
+      "url": "https://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/TPB_Baocaothuongnien_2025/BCTN+2026+TV+20.4+VIEW-2.pdf",
+      "provenance": "Danh sách báo cáo trong tài liệu Word; chưa gắn với tiêu chí cụ thể",
+      "verified": false
+    },
+    {
+      "id": "report-5",
+      "bank": "HDBank",
+      "year": 2023,
+      "type": "Báo cáo thường niên",
+      "url": "https://static2.vietstock.vn/data/HOSE/2023/BCTN/VN/HDB_Baocaothuongnien_2023.pdf",
+      "provenance": "Danh sách báo cáo trong tài liệu Word; chưa gắn với tiêu chí cụ thể",
+      "verified": false
+    },
+    {
+      "id": "report-6",
+      "bank": "HDBank",
+      "year": 2024,
+      "type": "Báo cáo thường niên",
+      "url": "https://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/HDB_Baocaothuongnien_2024/BCTN-HDBANK-2024.pdf",
+      "provenance": "Danh sách báo cáo trong tài liệu Word; chưa gắn với tiêu chí cụ thể",
+      "verified": false
+    },
+    {
+      "id": "report-7",
+      "bank": "HDBank",
+      "year": 2024,
+      "type": "Báo cáo phát triển bền vững",
+      "url": "https://cdn.hdbank.com.vn/hdbank-file/investor/editor/hBq9tyQKyon6Vy639Fay20250522150705/HDBankESGReport202420250522_1747901249549.pdf?_gl=1*1ig2u22*_gcl_au*MTY1ODk5MzEyOS4xNzkxMjEyMTgz*_ga*MjEzNjk5Njk2OC4xNzkxMjEyMTgy*_ga_L6TMDVXKWJ*czE3OTEyMTIxODMkbzEkZzEkdDE3OTEyMTIyNDYkajYwJGwwJGgw",
+      "provenance": "Danh sách báo cáo trong tài liệu Word; chưa gắn với tiêu chí cụ thể",
+      "verified": false
+    },
+    {
+      "id": "report-8",
+      "bank": "HDBank",
+      "year": 2025,
+      "type": "Báo cáo thường niên",
+      "url": "https://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/HDB_Baocaothuongnien_2025/20260420_HDBANK%20AR%202025_VN_V404_doi.pdf",
+      "provenance": "Danh sách báo cáo trong tài liệu Word; chưa gắn với tiêu chí cụ thể",
+      "verified": false
+    },
+    {
+      "id": "report-9",
+      "bank": "HDBank",
+      "year": 2025,
+      "type": "Báo cáo phát triển bền vững",
+      "url": "https://cdn.hdbank.com.vn/hdbank/bctn/2025/bcptbv/v1/HDB_ESG%20Report%202025_Full_under%2030MB.pdf",
+      "provenance": "Danh sách báo cáo trong tài liệu Word; chưa gắn với tiêu chí cụ thể",
+      "verified": false
+    },
+    {
+      "id": "report-10",
+      "bank": "OCB",
+      "year": 2023,
+      "type": "Báo cáo thường niên",
+      "url": "https://static2.vietstock.vn/data/HOSE/2023/BCTN/VN/OCB_Baocaothuongnien_2023.pdf",
+      "provenance": "Danh sách báo cáo trong tài liệu Word; chưa gắn với tiêu chí cụ thể",
+      "verified": false
+    },
+    {
+      "id": "report-11",
+      "bank": "OCB",
+      "year": 2023,
+      "type": "Báo cáo phát triển bền vững",
+      "url": "https://webocb-api.ocb.com.vn/Resources/Files/20250319141014_bao-cao-ptbv-2023.pdf",
+      "provenance": "Danh sách báo cáo trong tài liệu Word; chưa gắn với tiêu chí cụ thể",
+      "verified": false
+    },
+    {
+      "id": "report-12",
+      "bank": "OCB",
+      "year": 2024,
+      "type": "Báo cáo thường niên",
+      "url": "https://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/OCB_Baocaothuongnien_2024.pdf",
+      "provenance": "Danh sách báo cáo trong tài liệu Word; chưa gắn với tiêu chí cụ thể",
+      "verified": false
+    },
+    {
+      "id": "report-13",
+      "bank": "OCB",
+      "year": 2024,
+      "type": "Báo cáo phát triển bền vững",
+      "url": "https://webocb-api.ocb.com.vn/Resources/Files/20250923154047_bao-cao-phat-trien-ben-vung-2024.pdf",
+      "provenance": "Danh sách báo cáo trong tài liệu Word; chưa gắn với tiêu chí cụ thể",
+      "verified": false
+    },
+    {
+      "id": "report-14",
+      "bank": "OCB",
+      "year": 2025,
+      "type": "Báo cáo thường niên",
+      "url": "https://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/OCB_Baocaothuongnien_2025_1.pdf",
+      "provenance": "Danh sách báo cáo trong tài liệu Word; chưa gắn với tiêu chí cụ thể",
+      "verified": false
+    },
+    {
+      "id": "report-15",
+      "bank": "OCB",
+      "year": 2025,
+      "type": "Báo cáo phát triển bền vững",
+      "url": "https://webocb-api.ocb.com.vn/Resources/Files/20260826145747_2608-bc-ptbv-2025-vn.pdf",
+      "provenance": "Danh sách báo cáo trong tài liệu Word; chưa gắn với tiêu chí cụ thể",
+      "verified": false
+    },
+    {
+      "id": "report-16",
+      "bank": "LP Bank",
+      "year": 2023,
+      "type": "Báo cáo thường niên",
+      "url": "https://static2.vietstock.vn/data/HOSE/2023/BCTN/VN/LPB_Baocaothuongnien_2023/LPBank%20-%20Bao%20cao%20thuong%20nien%202023.pdf",
+      "provenance": "Danh sách báo cáo trong tài liệu Word; chưa gắn với tiêu chí cụ thể",
+      "verified": false
+    },
+    {
+      "id": "report-17",
+      "bank": "LP Bank",
+      "year": 2023,
+      "type": "Báo cáo phát triển bền vững",
+      "url": "https://lpbank.com.vn/api/content-file/uploads/2024/06/LPBank-ESG-Report-2023-FINAL.pdf",
+      "provenance": "Danh sách báo cáo trong tài liệu Word; chưa gắn với tiêu chí cụ thể",
+      "verified": false
+    },
+    {
+      "id": "report-18",
+      "bank": "LP Bank",
+      "year": 2024,
+      "type": "Báo cáo thường niên",
+      "url": "https://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/LPB_Baocaothuongnien_2024.pdf",
+      "provenance": "Danh sách báo cáo trong tài liệu Word; chưa gắn với tiêu chí cụ thể",
+      "verified": false
+    },
+    {
+      "id": "report-19",
+      "bank": "LP Bank",
+      "year": 2025,
+      "type": "Báo cáo thường niên",
+      "url": "https://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf",
+      "provenance": "Danh sách báo cáo trong tài liệu Word; chưa gắn với tiêu chí cụ thể",
+      "verified": false
+    },
+    {
+      "id": "report-20",
+      "bank": "SaigonBank",
+      "year": 2023,
+      "type": "Báo cáo thường niên",
+      "url": "https://static2.vietstock.vn/data/HNX/2023/BCTN/VN/SGB_Baocaothuongnien_2023.pdf",
+      "provenance": "Danh sách báo cáo trong tài liệu Word; chưa gắn với tiêu chí cụ thể",
+      "verified": false
+    },
+    {
+      "id": "report-21",
+      "bank": "SaigonBank",
+      "year": 2024,
+      "type": "Báo cáo thường niên",
+      "url": "https://static2.vietstock.vn/data/HNX/2024/BCTN/VN/SGB_Baocaothuongnien_2024/1_sgb_2025_4_17_56f822a_vi_baocaothuongnien_2024.pdf",
+      "provenance": "Danh sách báo cáo trong tài liệu Word; chưa gắn với tiêu chí cụ thể",
+      "verified": false
+    },
+    {
+      "id": "report-22",
+      "bank": "SaigonBank",
+      "year": 2025,
+      "type": "Báo cáo thường niên",
+      "url": "https://static2.vietstock.vn/data/HNX/2025/BCTN/VN/SGB_Baocaothuongnien_2025/1_sgb_2026_4_20_43bf2b9_vi_baocaothuongnien_2025_compressedda_ky.pdf",
+      "provenance": "Danh sách báo cáo trong tài liệu Word; chưa gắn với tiêu chí cụ thể",
+      "verified": false
+    }
+  ],
+  "sourceDocument": "Bản sao của NHÓM 3 - NGÂN HÀNG SỐ (2).docx"
+}

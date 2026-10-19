@@ -1,0 +1,163 @@
+[
+  {
+    "id": "report-0",
+    "bank": "TPBank",
+    "year": 2023,
+    "pages": 69,
+    "pages_with_text": 60
+  },
+  {
+    "id": "report-1",
+    "bank": "TPBank",
+    "year": 2023,
+    "pages": 159,
+    "pages_with_text": 158
+  },
+  {
+    "id": "report-2",
+    "bank": "TPBank",
+    "year": 2024,
+    "pages": 71,
+    "pages_with_text": 0
+  },
+  {
+    "id": "report-3",
+    "bank": "TPBank",
+    "year": 2024,
+    "pages": 100,
+    "pages_with_text": 100
+  },
+  {
+    "id": "report-4",
+    "bank": "TPBank",
+    "year": 2025,
+    "pages": 79,
+    "pages_with_text": 66
+  },
+  {
+    "id": "report-5",
+    "bank": "HDBank",
+    "year": 2023,
+    "pages": 154,
+    "pages_with_text": 153
+  },
+  {
+    "id": "report-6",
+    "bank": "HDBank",
+    "year": 2024,
+    "pages": 155,
+    "pages_with_text": 154
+  },
+  {
+    "id": "report-7",
+    "bank": "HDBank",
+    "year": 2024,
+    "pages": 88,
+    "pages_with_text": 86
+  },
+  {
+    "id": "report-8",
+    "bank": "HDBank",
+    "year": 2025,
+    "pages": 139,
+    "pages_with_text": 137
+  },
+  {
+    "id": "report-9",
+    "bank": "HDBank",
+    "year": 2025,
+    "pages": 83,
+    "pages_with_text": 81
+  },
+  {
+    "id": "report-10",
+    "bank": "OCB",
+    "year": 2023,
+    "pages": 202,
+    "pages_with_text": 185
+  },
+  {
+    "id": "report-11",
+    "bank": "OCB",
+    "year": 2023,
+    "pages": 58,
+    "pages_with_text": 57
+  },
+  {
+    "id": "report-12",
+    "bank": "OCB",
+    "year": 2024,
+    "pages": 200,
+    "pages_with_text": 72
+  },
+  {
+    "id": "report-13",
+    "bank": "OCB",
+    "year": 2024,
+    "pages": 71,
+    "pages_with_text": 70
+  },
+  {
+    "id": "report-14",
+    "bank": "OCB",
+    "year": 2025,
+    "pages": 230,
+    "pages_with_text": 214
+  },
+  {
+    "id": "report-15",
+    "bank": "OCB",
+    "year": 2025,
+    "pages": 145,
+    "pages_with_text": 135
+  },
+  {
+    "id": "report-16",
+    "bank": "LP Bank",
+    "year": 2023,
+    "pages": 86,
+    "pages_with_text": 84
+  },
+  {
+    "id": "report-17",
+    "bank": "LP Bank",
+    "year": 2023,
+    "pages": 46,
+    "pages_with_text": 42
+  },
+  {
+    "id": "report-18",
+    "bank": "LP Bank",
+    "year": 2024,
+    "pages": 100,
+    "pages_with_text": 100
+  },
+  {
+    "id": "report-19",
+    "bank": "LP Bank",
+    "year": 2025,
+    "pages": 119,
+    "pages_with_text": 118
+  },
+  {
+    "id": "report-20",
+    "bank": "SaigonBank",
+    "year": 2023,
+    "pages": 21,
+    "pages_with_text": 1
+  },
+  {
+    "id": "report-21",
+    "bank": "SaigonBank",
+    "year": 2024,
+    "pages": 81,
+    "pages_with_text": 1
+  },
+  {
+    "id": "report-22",
+    "bank": "SaigonBank",
+    "year": 2025,
+    "pages": 77,
+    "pages_with_text": 1
+  }
+]

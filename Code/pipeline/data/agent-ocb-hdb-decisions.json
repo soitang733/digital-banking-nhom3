@@ -1,0 +1,1076 @@
+[
+  {
+    "bank": "HDBank",
+    "year": 2023,
+    "code": "3.5.7",
+    "level": 2,
+    "reason": "Lưu trữ tài liệu đã chuyển thành công lên đám mây để giảm tải Core Banking. Đủ sử dụng tạo lợi ích ở một số hoạt động; chưa chứng minh hầu hết đơn vị.",
+    "citations": [
+      {
+        "reportId": "report-5",
+        "page": 48,
+        "printedPage": "94–95",
+        "method": "PDF raw text",
+        "excerpt": "Số hóa thành công việc lưu trữ văn bản tài liệu lên nền\r\ntảng điện toán đám mây để giảm tải việc lưu trữ phần\r\ncứng tại hệ thống ngân hàng lõi (Core Banking)."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "HDBank",
+    "year": 2023,
+    "code": "4.2.4",
+    "level": 2,
+    "reason": "Trang kết quả CNTT năm 2023 nêu số hóa lưu trữ và cải tiến Customer 360 hỗ trợ nghiệp vụ. Đủ tối ưu quy trình ở một số bộ phận; chưa có phạm vi hầu hết đơn vị.",
+    "citations": [
+      {
+        "reportId": "report-5",
+        "page": 48,
+        "printedPage": "94–95",
+        "method": "PDF raw text",
+        "excerpt": "Số hóa thành công việc lưu trữ văn bản tài liệu lên nền\r\ntảng điện toán đám mây để giảm tải việc lưu trữ phần\r\ncứng tại hệ thống ngân hàng lõi (Core Banking)."
+      },
+      {
+        "reportId": "report-5",
+        "page": 48,
+        "printedPage": "94–95",
+        "method": "PDF raw text",
+        "excerpt": "Triển khai thêm nhiều chức năng, tiện ích mới trên\r\ncông cụ Customer 360 để hỗ trợ các đơn vị kinh doanh\r\ntrong quá trình công tác, tiêu biểu có thể kể đến các\r\nchức năng như quản lý yêu cầu dịch vụ khách hàng,\r\nnhận diện khách hàng ưu tiên, đăng nhập bằng vân tay/\r\nkhuôn mặt, Di-payroll, nộp tiền, rút tiền..."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "HDBank",
+    "year": 2023,
+    "code": "1.1.6",
+    "level": 2,
+    "reason": "Kênh eBanking có trên 2 triệu người dùng và giao dịch thực tế. Đủ một số tương tác số; tỷ trọng giao dịch không chứng minh hầu hết loại tương tác/hành trình theo rubric.",
+    "citations": [
+      {
+        "reportId": "report-5",
+        "page": 48,
+        "printedPage": "94–95",
+        "method": "PDF raw text",
+        "excerpt": "ĐIỂM NHẤN HOẠT ĐỘNG CHUYỂN ĐỔI SỐ\r\n▶ Số hóa thành công việc lưu trữ văn bản tài liệu lên nền\r\ntảng điện toán đám mây để giảm tải việc lưu trữ phần\r\ncứng tại hệ thống ngân hàng lõi (Core Banking).\r\n▶ Triển khai thêm nhiều chức năng, tiện ích mới trên\r\ncông cụ Customer 360 để hỗ trợ các đơn vị kinh doanh\r\ntrong quá trình công tác, tiêu biểu có thể kể đến các\r\nchức năng như quản lý yêu cầu dịch vụ khách hàng,\r\nnhận diện khách hàng ưu tiên, đăng nhập bằng vân tay/\r\nkhuôn mặt, Di-payroll, nộp tiền, rút tiền...\r\n▶ Chính thức khởi động dự án Digital Core Thought\r\nMachine - giải pháp ngân hàng lõi thế hệ mới. Tại Việt\r\nNam, HDBank là ngân hàng đầu tiên hợp tác vớiThought\r\nMachine để triển khai giải pháp ngân hàng lõi thế hệ\r\nmới nhất này, qua đó xây dựng một tiêu chuẩn mới cho\r\ncông nghệ ngân hàng lõi hiện đại trong tương lai.\r\nVượt\r\nSố lượng khách hàng mới qua\r\nkênh số năm 2023 tăng\r\nSố lượng khách hàng giao dịch thường xuyên\r\ntrực tuyến hàng tháng (MAU)\r\nTổng số lượng giao dịch eBanking tỷ lệ giao dịch của khách hàng\r\nđược thực hiện trên kênh số chiếm\r\n2 triệu\r\n125%\r\n87%\r\n132% 93%\r\nkhách hàng sử dụng eBanking\r\nso với 2022\r\nso với 2022\r\nso với 2022\r\ntổng số giao dịch của khách hàng\r\ntại HDBank"
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "HDBank",
+    "year": 2024,
+    "code": "1.1.1",
+    "level": 2,
+    "reason": "Big Data được sử dụng để phân khúc và may đo tư vấn/giải pháp cho từng tệp khách hàng. Chứng minh cá nhân hóa một số khía cạnh; chưa xác định phạm vi cụm đơn vị hay toàn bộ trải nghiệm.",
+    "citations": [
+      {
+        "reportId": "report-6",
+        "page": 49,
+        "printedPage": "96–97",
+        "method": "PDF raw text",
+        "excerpt": "Trong đó, năng lực số hóa và dữ liệu lớn (Big Data) cũng giúp HDBank đẩy mạnh chiến lược tăng trưởng\r\nthông qua đa dạng hóa phân khúc khách hàng, cung cấp các tư vấn và giải pháp tài chính cá nhân hóa,\r\nđược “may đo” riêng cho từng tệp khách hàng, và đã mang lại những giá trị đột phá cho người dùng.\r\nChẳng hạn: HDBank có gói sản phẩm dịch vụ cho ngành lâm, thuỷ sản; ngành xuất khẩu lúa gạo; tài trợ\r\ncho vay; tài trợ bảo lãnh; dịch vụ chi trả lương qua tài khoản thẻ HDBank…"
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "HDBank",
+    "year": 2024,
+    "code": "6.3.1",
+    "level": 2,
+    "reason": "Phân tích Big Data đã hỗ trợ quyết định phân khúc và cung cấp giải pháp tài chính phù hợp. Đủ quyết định dựa dữ liệu tại một số chức năng; chưa chứng minh hầu hết quyết định.",
+    "citations": [
+      {
+        "reportId": "report-6",
+        "page": 49,
+        "printedPage": "96–97",
+        "method": "PDF raw text",
+        "excerpt": "Trong đó, năng lực số hóa và dữ liệu lớn (Big Data) cũng giúp HDBank đẩy mạnh chiến lược tăng trưởng\r\nthông qua đa dạng hóa phân khúc khách hàng, cung cấp các tư vấn và giải pháp tài chính cá nhân hóa,\r\nđược “may đo” riêng cho từng tệp khách hàng, và đã mang lại những giá trị đột phá cho người dùng.\r\nChẳng hạn: HDBank có gói sản phẩm dịch vụ cho ngành lâm, thuỷ sản; ngành xuất khẩu lúa gạo; tài trợ\r\ncho vay; tài trợ bảo lãnh; dịch vụ chi trả lương qua tài khoản thẻ HDBank…"
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "HDBank",
+    "year": 2024,
+    "code": "1.1.6",
+    "level": 2,
+    "reason": "Gần 150 dịch vụ trực tuyến và eKYC đã triển khai. Đủ một số tương tác trên kênh số; chưa thống kê toàn bộ loại tương tác để xác nhận mức 3.",
+    "citations": [
+      {
+        "reportId": "report-7",
+        "page": 36,
+        "printedPage": "70–71",
+        "method": "PDF raw text",
+        "excerpt": "Triển khai gần 150 sản phẩm dịch vụ trực tuyến trên Internet Banking và Mobile Banking, bao gồm\r\nDigital Onboarding cho thẻ tín dụng, Google Pay/Apple Pay và sản phẩm thấu chi. Các dịch vụ đã được\r\ncải tiến để tuân thủ quy định của Ngân hàng Nhà nước, giúp mở tài khoản trực tuyến qua eKYC, bổ\r\nsung sản phẩm bảo hiểm và vay linh hoạt, và tổ chức các chương trình quay số trúng thưởng trên ứng\r\ndụng di động."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "HDBank",
+    "year": 2024,
+    "code": "4.2.4",
+    "level": 2,
+    "reason": "Nhiều quy trình hiện hữu đã được RPA tối ưu chi phí; Customer 360 tối ưu thao tác quầy. Chưa đủ căn cứ hầu hết bộ phận đã tối ưu quy trình.",
+    "citations": [
+      {
+        "reportId": "report-7",
+        "page": 65,
+        "printedPage": "128–129",
+        "method": "PDF raw text",
+        "excerpt": "Hướng đến số hóa toàn diện, năm 2024 HDBank\r\nđẩy mạnh siêu tự động hóa bằng RPA (Robotic\r\nProcess Automation - Tự động hóa quy trình\r\nbằng robot) và trợ lý robot akaBot. Thay vì mở\r\nrộng quy trình mới, ngân hàng ưu tiên tự động\r\nhóa nội bộ thành công nhiều quy trình hiện hữu,\r\ntối ưu hóa chi phí. 100% quy trình phù hợp RPA\r\nđã được tự động hóa hiệu quả."
+      },
+      {
+        "reportId": "report-7",
+        "page": 65,
+        "printedPage": "128–129",
+        "method": "PDF raw text",
+        "excerpt": "Trong năm 2024, Khối Công nghệ thông tin và\r\nNgân hàng điện tử đã triển khai thêm các tính\r\nnăng mới như phê duyệt lãi suất tiết kiệm, thu\r\nthập sinh trắc học, v.v. trên công cụ Customer\r\n360, giúp tối ưu hóa thời gian thao tác cho cán\r\nbộ nhân viên tại quầy."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "HDBank",
+    "year": 2024,
+    "code": "3.3.2",
+    "level": 2,
+    "reason": "SOC/NOC hoạt động 24/7 và hỗ trợ phát hiện sớm, xử lý nhanh; chứng minh phát hiện/giảm thiểu ở hệ thống. Chưa có độ trễ gần thời gian thực hoặc phạm vi hầu hết thành phần để lên mức 3–4.",
+    "citations": [
+      {
+        "reportId": "report-7",
+        "page": 66,
+        "printedPage": "130–131",
+        "method": "PDF raw text",
+        "excerpt": "Mô hình SOC 24/7 và NOC 24/7:\r\nNgân hàng đã xây dựng và vận hành mô hình SOC (Security Operation Center) 24/7 và NOC (Network\r\nOperation Center) 24/7 dựa trên ba yếu tố cốt lõi là con người, quy trình và công nghệ, nhằm giám sát,\r\nphát hiện sớm và xử lý nhanh chóng các sự cố mất an toàn thông tin, bảo vệ Ngân hàng trước các tấn\r\ncông, xâm nhập, đảm bảo tính bảo mật, sẵn sàng và khả năng kết nối ổn định 24/7/365 của các hệ thống\r\ncông nghệ thông tin của Ngân hàng."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "HDBank",
+    "year": 2024,
+    "code": "3.3.3",
+    "level": 4,
+    "reason": "SOC/NOC vận hành liên tục toàn hệ thống, Threat Intelligence cập nhật và Threat Hunting thường xuyên loại bỏ nguy cơ; kiểm thử/Red Teaming khắc phục điểm yếu. Đủ năng lực an ninh hiệu quả và liên tục cải thiện; chưa đủ phạm vi đối tác.",
+    "citations": [
+      {
+        "reportId": "report-7",
+        "page": 66,
+        "printedPage": "130–131",
+        "method": "PDF raw text",
+        "excerpt": "Mô hình SOC 24/7 và NOC 24/7:\r\nNgân hàng đã xây dựng và vận hành mô hình SOC (Security Operation Center) 24/7 và NOC (Network\r\nOperation Center) 24/7 dựa trên ba yếu tố cốt lõi là con người, quy trình và công nghệ, nhằm giám sát,\r\nphát hiện sớm và xử lý nhanh chóng các sự cố mất an toàn thông tin, bảo vệ Ngân hàng trước các tấn\r\ncông, xâm nhập, đảm bảo tính bảo mật, sẵn sàng và khả năng kết nối ổn định 24/7/365 của các hệ thống\r\ncông nghệ thông tin của Ngân hàng."
+      },
+      {
+        "reportId": "report-7",
+        "page": 66,
+        "printedPage": "130–131",
+        "method": "PDF raw text",
+        "excerpt": "Threat Intelligence:\r\nNgân hàng triển khai hệ thống và dịch vụ Threat Intelligence, giúp cập nhật nhanh chóng và kịp thời\r\nnhững tri thức về chiến dịch tấn công và mẫu mã độc mới trên toàn cầu cho các hệ thống phát hiện và\r\nngăn chặn tấn công."
+      },
+      {
+        "reportId": "report-7",
+        "page": 66,
+        "printedPage": "130–131",
+        "method": "PDF raw text",
+        "excerpt": "Threat Hunting:\r\nCông tác Threat Hunting giúp thường xuyên phân tích hoạt động mạng và sự kiện bảo mật, nhằm phát\r\nhiện dấu hiệu bất thường. Kết hợp với thông tin từ nguồn Threat Intelligence, Ngân hàng có thể tìm kiếm\r\nvà loại bỏ các mối đe dọa tiềm ẩn trong hệ thống."
+      },
+      {
+        "reportId": "report-7",
+        "page": 66,
+        "printedPage": "130–131",
+        "method": "PDF raw text",
+        "excerpt": "Penetration Testing (Kiểm thử thâm nhập) và Red Teaming (Mô phỏng tấn công an ninh mạng):\r\nthực hiện các cuộc kiểm thử xâm nhập (Penetration Testing) nhằm phát hiện các các lỗ hổng bảo mật của\r\nhệ thống; và mô phỏng tấn công an ninh mạng (Red Teaming) cũng được thực hiện bằng cách mô phỏng\r\nlại các kỹ thuật được tin tặc sử dụng để tấn công các tổ chức\r\nQua đó, Ngân hàng có thể phát hiện các điểm yếu tiềm tàng của hệ thống mà tin tặc có thể khai thác\r\nvà gây thiệt hại, đưa ra những giải pháp khắc phục các điểm yếu trên hệ thống nhằm hạn chế tối đa các\r\nnguy cơ tấn công mạng và đảm bảo hệ thống công nghệ thông tin luôn được bảo vệ an toàn."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "HDBank",
+    "year": 2024,
+    "code": "6.1.7",
+    "level": 2,
+    "reason": "Hội đồng Quản trị dữ liệu đã thành lập với chức năng dẫn dắt, giám sát quản trị dữ liệu. Đủ xác định vai trò; chưa có mô tả kết quả thực thi vai trò để xác nhận mức 3.",
+    "citations": [
+      {
+        "reportId": "report-7",
+        "page": 66,
+        "printedPage": "130–131",
+        "method": "PDF raw text",
+        "excerpt": "Trong năm 2024, HDBank đã thành lập Hội đồng Quản trị dữ liệu theo Quyết định số 3136/2024/QĐ-TGĐ.\r\nHội đồng Quản trị dữ liệu được thành lập nhằm mục đích dẫn dắt, giám sát chặt chẽ hoạt động quản trị dữ\r\nliệu trong hệ thống Ngân hàng, giúp HDBank xây dựng một môi trường quản trị dữ liệu an toàn, hiệu quả."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "HDBank",
+    "year": 2025,
+    "code": "1.1.6",
+    "level": 2,
+    "reason": "Ứng dụng đã cung cấp hơn 200 sản phẩm và phát sinh giao dịch. Chứng minh nhiều tương tác số nhưng chưa có phạm vi hầu hết loại tương tác của khách hàng.",
+    "citations": [
+      {
+        "reportId": "report-8",
+        "page": 42,
+        "printedPage": "82–83",
+        "method": "PDF raw text",
+        "excerpt": "Ứng dụng Đi HDBank với hơn 200 sản phẩm dịch vụ, cho\r\nphép khách hàng thực hiện giao dịch tài chính, thanh toán\r\nvà quản lý tài khoản thuận tiện trên thiết bị di động. Hệ\r\nthống Digital Core Banking đã nâng năng lực xử lý giao\r\ndịch lên 157 triệu giao dịch trong năm, tăng 38% so với\r\nnăm 2024."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "HDBank",
+    "year": 2025,
+    "code": "1.1.1",
+    "level": 2,
+    "reason": "Mô hình RFM dựa Big Data phân loại tập khách hàng và hỗ trợ chuyển đổi/bán chéo; CSC cá nhân hóa theo phân khúc. Đủ cá nhân hóa một số khía cạnh, chưa đủ triển khai qua cụm đơn vị theo rubric mức 3.",
+    "citations": [
+      {
+        "reportId": "report-8",
+        "page": 59,
+        "printedPage": "116–117",
+        "method": "PDF raw text",
+        "excerpt": "HDBank triển khai nhiều dự án liên quan đến việc sử\r\ndụng Big data, xây dựng mô hình máy học RFM (Recency,\r\nFrequency, Monetary) để phân loại các tập khách hàng\r\ntiềm năng, từ đó giúp gia tăng khả năng chuyển đổi và bán\r\nchéo sản phẩm cho các đơn vị kinh doanh."
+      },
+      {
+        "reportId": "report-8",
+        "page": 42,
+        "printedPage": "82–83",
+        "method": "PDF raw text",
+        "excerpt": "HDBank xác định dịch vụ khách hàng là yếu tố cốt lõi trong\r\nhành trình trải nghiệm ngân hàng bán lẻ, hướng tới mô\r\nhình phục vụ đa kênh, liên tục nhằm đáp ứng nhu cầu của\r\nkhách hàng mọi lúc, mọi nơi. Trung tâm Dịch vụ Khách\r\nhàng (CSC) đóng vai trò đầu mối tiếp nhận và xử lý các\r\nyêu cầu trên toàn bộ các kênh như tổng đài, chat, email,\r\nmạng xã hội và ứng dụng di động Đi HDBank. Với sự kết\r\nhợp giữa nguồn lực chuyên môn và công nghệ tự động\r\nhóa, HDBank không ngừng nâng cao năng lực phản hồi\r\nnhanh, chính xác, đồng thời cá nhân hóa dịch vụ theo từng\r\nphân khúc khách hàng."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "HDBank",
+    "year": 2025,
+    "code": "1.1.2",
+    "level": 1,
+    "reason": "Mô hình RFM chọn tập khách hàng tiềm năng để bán chéo chứng minh một số nội dung tiếp thị nhắm mục tiêu. Chưa có tỷ lệ hầu hết nội dung để lên mức 2.",
+    "citations": [
+      {
+        "reportId": "report-8",
+        "page": 59,
+        "printedPage": "116–117",
+        "method": "PDF raw text",
+        "excerpt": "HDBank triển khai nhiều dự án liên quan đến việc sử\r\ndụng Big data, xây dựng mô hình máy học RFM (Recency,\r\nFrequency, Monetary) để phân loại các tập khách hàng\r\ntiềm năng, từ đó giúp gia tăng khả năng chuyển đổi và bán\r\nchéo sản phẩm cho các đơn vị kinh doanh."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "HDBank",
+    "year": 2025,
+    "code": "6.3.1",
+    "level": 2,
+    "reason": "Dự án Big Data/RFM hỗ trợ chọn tập khách hàng và bán chéo tại các đơn vị kinh doanh. Chưa chứng minh hầu hết quyết định của doanh nghiệp dựa dữ liệu.",
+    "citations": [
+      {
+        "reportId": "report-8",
+        "page": 59,
+        "printedPage": "116–117",
+        "method": "PDF raw text",
+        "excerpt": "HDBank triển khai nhiều dự án liên quan đến việc sử\r\ndụng Big data, xây dựng mô hình máy học RFM (Recency,\r\nFrequency, Monetary) để phân loại các tập khách hàng\r\ntiềm năng, từ đó giúp gia tăng khả năng chuyển đổi và bán\r\nchéo sản phẩm cho các đơn vị kinh doanh."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "HDBank",
+    "year": 2025,
+    "code": "1.1.3",
+    "level": 2,
+    "reason": "HDBiz cho doanh nghiệp tự thiết lập cơ chế phê duyệt thích ứng, quản lý dòng tiền và điều phối thanh toán. Đủ một số công cụ tùy chỉnh một số dịch vụ, chưa đủ một loạt công cụ tùy chỉnh đầy đủ.",
+    "citations": [
+      {
+        "reportId": "report-8",
+        "page": 46,
+        "printedPage": "90–91",
+        "method": "PDF raw text",
+        "excerpt": "HDBiz cho phép doanh nghiệp quản lý dòng tiền tiện\r\ndụng, điều phối giao dịch thanh toán linh hoạt, chủ động\r\ngiao dịch ngoại tệ và thiết lập cơ chế phê duyệt thích ứng\r\ncho mình."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "HDBank",
+    "year": 2025,
+    "code": "1.2.5",
+    "level": 2,
+    "reason": "Onboarding khách hàng được số hóa trên ứng dụng Di-Payroll và eKYC Mobile Banking nhằm hỗ trợ trải nghiệm tiếp cận/đăng ký. Đủ ít nhất một chức năng; chưa có phạm vi hầu hết đơn vị.",
+    "citations": [
+      {
+        "reportId": "report-8",
+        "page": 59,
+        "printedPage": "116–117",
+        "method": "PDF raw text",
+        "excerpt": "Sáng kiến Thiết kế đề xuất bán chéo SME và MMLC\r\nnhằm số hoá hành trình On-boarding khách hàng qua\r\nứng dụng Di-Payroll."
+      },
+      {
+        "reportId": "report-8",
+        "page": 59,
+        "printedPage": "116–117",
+        "method": "PDF raw text",
+        "excerpt": "Ngoài ra, các hành trình khách hàng cá nhân và doanh\r\nnghiệp tại HDBank đã tiên phong số hóa toàn diện. Điển\r\nhình: định danh khách hàng trực tuyến (eKYC) trên ứng\r\ndụng Mobile Banking, áp dụng công nghệ OCR và sinh trắc\r\nhọc nhận diện hình ảnh trên nền tảng công nghệ hiện đại\r\ngiúp số hóa quy trình mở tài khoản tại quầy,..."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "HDBank",
+    "year": 2025,
+    "code": "4.2.4",
+    "level": 2,
+    "reason": "Tự động hóa thẩm định tín dụng đã rút ngắn phê duyệt, chấm điểm tự động tăng chính xác. Chứng minh tối ưu một số quy trình, chưa đủ hầu hết đơn vị.",
+    "citations": [
+      {
+        "reportId": "report-8",
+        "page": 42,
+        "printedPage": "82–83",
+        "method": "PDF raw text",
+        "excerpt": "Ngân hàng đồng thời đẩy mạnh số hóa các quy trình cốt\r\nlõi: tự động hóa thẩm định tín dụng giúp rút ngắn thời\r\ngian phê duyệt, hệ thống chấm điểm tín dụng tự động\r\nnâng cao độ chính xác đánh giá rủi ro, và mô hình O2O\r\n(đưa khách hàng từ trực tuyến về điểm giao dịch) được\r\nứng dụng sâu rộng nhằm cá nhân hóa dịch vụ. Các công\r\nnghệ trí tuệ nhân tạo và phân tích dữ liệu lớn được tích\r\nhợp trên toàn hành trình khách hàng."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "HDBank",
+    "year": 2025,
+    "code": "3.3.2",
+    "level": 2,
+    "reason": "SOC/NOC giám sát liên tục, phát hiện sớm và xử lý kịp thời; chưa định lượng thời gian phản hồi gần thực hay phạm vi hầu hết thành phần.",
+    "citations": [
+      {
+        "reportId": "report-9",
+        "page": 42,
+        "printedPage": "82–83",
+        "method": "PDF raw text",
+        "excerpt": "Bên cạnh đó, Ngân hàng duy trì vận hành\r\n24/7 Trung tâm điều hành an ninh (SOC) và\r\nTrung tâm điều hành mạng (NOC), dựa trên\r\nba yếu tố cốt lõi là con người, quy trình và\r\ncông nghệ. Mô hình này giúp giám sát liên\r\ntục, phát hiện sớm và xử lý kịp thời các sự cố\r\nan toàn thông tin, đảm bảo tính bảo mật,\r\ntính sẵn sàng và sự ổn định 24/7/365 của các\r\nhệ thống công nghệ thông tin."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "HDBank",
+    "year": 2025,
+    "code": "3.3.3",
+    "level": 4,
+    "reason": "Tiếp tục vận hành SOC/NOC 24/7, cập nhật Threat Intelligence, Threat Hunting thường xuyên và kiểm thử/khắc phục điểm yếu. Đủ an ninh hiệu quả và liên tục cải thiện trong ngân hàng; chưa chứng minh hệ sinh thái.",
+    "citations": [
+      {
+        "reportId": "report-9",
+        "page": 42,
+        "printedPage": "82–83",
+        "method": "PDF raw text",
+        "excerpt": "Bên cạnh đó, Ngân hàng duy trì vận hành\r\n24/7 Trung tâm điều hành an ninh (SOC) và\r\nTrung tâm điều hành mạng (NOC), dựa trên\r\nba yếu tố cốt lõi là con người, quy trình và\r\ncông nghệ. Mô hình này giúp giám sát liên\r\ntục, phát hiện sớm và xử lý kịp thời các sự cố\r\nan toàn thông tin, đảm bảo tính bảo mật,\r\ntính sẵn sàng và sự ổn định 24/7/365 của các\r\nhệ thống công nghệ thông tin."
+      },
+      {
+        "reportId": "report-9",
+        "page": 42,
+        "printedPage": "82–83",
+        "method": "PDF raw text",
+        "excerpt": "Công tác Kiểm thử thâm nhập (Penetration\r\nTesting) và Mô phỏng tấn công an ninh\r\nmạng (Red Teaming) tiếp tục được triển khai\r\nnhằm đánh giá mức độ an toàn của hệ thống\r\nthông tin. Thông qua việc mô phỏng các\r\nkỹ thuật và kịch bản tấn công thường được\r\ntin tặc sử dụng, HDBank có thể nhận diện các\r\nđiểm yếu tiềm ẩn và kịp thời đề xuất biện pháp\r\nkhắc phục, nâng cao khả năng phòng vệ trước\r\ncác rủi ro tấn công mạng."
+      },
+      {
+        "reportId": "report-9",
+        "page": 42,
+        "printedPage": "82–83",
+        "method": "PDF raw text",
+        "excerpt": "HDBank duy trì triển khai Phân tích Mối đe dọa (Threat Intelligence),\r\ncho phép cập nhật nhanh và kịp thời các thông tin về chiến dịch tấn\r\ncông, mã độc và xu hướng rủi ro mới trên toàn cầu, từ đó hỗ trợ các\r\nhệ thống phát hiện và ngăn chặn tấn công hoạt động hiệu quả hơn.\r\nSong song, công tác săn tìm mối đe dọa (Threat Hunting) được thực\r\nhiện thường xuyên thông qua việc phân tích lưu lượng mạng và các\r\nsự kiện bảo mật, kết hợp dữ liệu từ Threat Intelligence nhằm phát\r\nhiện sớm và xử lý các mối đe dọa tiềm ẩn trong hệ thống."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "HDBank",
+    "year": 2025,
+    "code": "1.4.2",
+    "level": 4,
+    "reason": "Ngân hàng xác nhận 100% ý kiến/khiếu nại được xử lý kịp thời, cùng hoàn thiện cơ chế phối hợp và chuẩn hóa/đa dạng kênh tiếp nhận. Đủ toàn bộ phản ánh và cải tiến liên tục trong ngân hàng; chưa có phạm vi đối tác.",
+    "citations": [
+      {
+        "reportId": "report-9",
+        "page": 64,
+        "printedPage": "126–127",
+        "method": "PDF raw text",
+        "excerpt": "Nhằm tiếp tục nâng cao chất lượng phục vụ và hiệu quả xử lý phản hồi, HDBank duy trì và triển\r\nkhai đồng bộ khung quy định về tiếp nhận và xử lý ý kiến khách hàng đã được ban hành. Trong\r\nđó, quy trình tiếp nhận thông tin phản hồi được chuẩn hóa và phân loại rõ ràng ngay từ đầu, giúp\r\nrút ngắn thời gian xác định nhu cầu và đưa ra phương án xử lý phù hợp. Ngân hàng đồng thời mở\r\nrộng và đa dạng hóa các kênh tiếp nhận phản hồi, bao gồm cả hình thức trực tuyến và trực tiếp,\r\ncùng nhiều phương thức phản hồi linh hoạt như OTT, email, tin nhắn và các nền tảng số khác, bảo\r\nđảm mọi ý kiến của khách hàng được ghi nhận đầy đủ và kịp thời.\r\nBên cạnh đó, cơ chế phối hợp giữa các đơn vị liên quan trong xử lý khiếu nại và phản hồi tiếp tục\r\nđược hoàn thiện theo hướng phân công rõ trách nhiệm, tăng hiệu quả vận hành và nâng cao\r\nnăng suất xử lý. Các yêu cầu về xác thực thông tin khách hàng cũng được áp dụng chặt chẽ nhằm\r\nbảo đảm tính minh bạch, chính xác trong toàn bộ quá trình tiếp nhận và giải quyết.\r\nNhờ việc triển khai đồng bộ các biện pháp trên, HDBank tiếp tục đảm bảo 100% ý kiến góp ý và\r\nkhiếu nại của khách hàng được xử lý kịp thời, qua đó củng cố niềm tin của khách hàng và nâng\r\ncao chất lượng trải nghiệm dịch vụ trong năm 2025."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "HDBank",
+    "year": 2025,
+    "code": "5.1.5",
+    "level": 2,
+    "reason": "PowerHome và Viva Engage đã triển khai để tăng tương tác, kết nối toàn hệ thống. Đủ khả năng cộng tác ảo ở một số bộ phận; chưa mô tả khả năng toàn diện/hầu hết đơn vị theo rubric.",
+    "citations": [
+      {
+        "reportId": "report-8",
+        "page": 59,
+        "printedPage": "116–117",
+        "method": "PDF raw text",
+        "excerpt": "Sáng kiến Số hóa quản trị nhân sự và truyền thông\r\nnội bộ: nhằm đẩy mạnh chuyển đổi số trong quản trị\r\nnguồn nhân lực thông qua các nền tảng số hiện đại\r\nnhư PowerHome và Viva Engage, giúp tăng cường\r\ntương tác, kết nối và truyền thông nội bộ trên toàn\r\nhệ thống."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "HDBank",
+    "year": 2025,
+    "code": "4.4.7",
+    "level": 3,
+    "reason": "eKYC, AI và phân tích dữ liệu lớn đã tích hợp nhằm nhận diện rủi ro và phát hiện gian lận trong hoạt động ngân hàng. Đủ công nghệ số chống gian lận; chưa có phạm vi rộng và thời gian thực để lên mức 4.",
+    "citations": [
+      {
+        "reportId": "report-9",
+        "page": 43,
+        "printedPage": "84–85",
+        "method": "PDF raw text",
+        "excerpt": "HDBank triển khai đồng bộ nhiều chính sách và biện pháp công nghệ nhằm bảo vệ dữ liệu khách\r\nhàng và bảo đảm chất lượng dữ liệu trong toàn bộ hoạt động của Ngân hàng. HDBank tích hợp các\r\ncông nghệ eKYC, trí tuệ nhân tạo (AI) và phân tích dữ liệu lớn nhằm tăng cường khả năng nhận diện\r\nrủi ro, phát hiện gian lận, đồng thời tối ưu hóa quy trình định danh khách hàng trên môi trường số.\r\nNgân hàng chủ động đáp ứng các yêu cầu mới của Ngân hàng Nhà nước liên quan đến xác thực sinh\r\ntrắc học và bảo mật giao dịch số từ năm 2025, góp phần nâng cao mức độ an toàn cho khách hàng\r\ntrong bối cảnh rủi ro mạng ngày càng phức tạp."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "OCB",
+    "year": 2023,
+    "code": "3.5.7",
+    "level": 2,
+    "reason": "Đã hoàn thành và áp dụng nền tảng tính vốn điện toán đám mây Basel II nâng cao trong năm 2023. Chứng minh lợi ích ở chức năng quản trị vốn/rủi ro; chưa đủ hầu hết đơn vị.",
+    "citations": [
+      {
+        "reportId": "report-11",
+        "page": 52,
+        "printedPage": "102–103",
+        "method": "PDF raw text",
+        "excerpt": "Ngày 12/4/2023, OCB đã công bố hoàn thành triển khai và áp dụng nền tảng tính vốn điện toán đám mây theo Basel II Nâng cao\r\n(phương pháp tiếp cận nội bộ IRB . Với cột mốc này, chúng tôi đã trở thành ngân hàng đầu tiên tại Việt Nam hoàn thành tất cả các\r\nyêu cầu tiên tiến của Basel trong chuẩn mực quản trị rủi ro quốc tế."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "OCB",
+    "year": 2023,
+    "code": "3.3.3",
+    "level": 4,
+    "reason": "Pentest, SOC và SIEM đang hoạt động và hệ thống an ninh liên tục nâng cấp để bảo vệ tất cả hoạt động kinh doanh. Đủ năng lực hiệu quả, liên tục cải thiện; chưa chứng minh đối tác.",
+    "citations": [
+      {
+        "reportId": "report-11",
+        "page": 51,
+        "printedPage": "100–101",
+        "method": "PDF raw text",
+        "excerpt": "Các hoạt động kiểm tra an toàn an ninh mạng khác như hoạt\r\nđộng kiểm thử xâm nhập Pentest, trung tâm điều hành an\r\nninh mạng SOC và hệ thống quản lý thông tin và sự kiện bảo\r\nmật SIEM cũng cho thấy OCB luôn luôn đề cao và liên tục\r\nnâng cấp hệ thống điều hành an ninh thông tin để đảm bảo\r\nan toàn bảo mật cho tất cả hoạt động kinh doanh và bảo vệ\r\ndữ liệu khách hàng ở mức tối đa."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "OCB",
+    "year": 2023,
+    "code": "3.3.2",
+    "level": 2,
+    "reason": "Data Guardium kiểm soát truy cập, theo dõi dữ liệu và NAC ngăn truy cập trái phép chứng minh phát hiện/giảm thiểu ở một số thành phần. Chưa định lượng gần thực hay hầu hết thành phần.",
+    "citations": [
+      {
+        "reportId": "report-11",
+        "page": 52,
+        "printedPage": "102–103",
+        "method": "PDF raw text",
+        "excerpt": "Tại OCB, việc kiểm soát và bảo vệ chặt chẽ vùng dữ liệu\r\ntrọng yếu, nhạy cảm luôn được ưu tiên hàng đầu với các giải\r\npháp công nghệ hiện đại đã được triển khai điển hình như\r\nIBM Data Guardium. Giải pháp giúp đảm bảo chỉ những\r\nngười dùng được ủy quyền mới có thể truy cập vào những\r\nthông tin quan trọng. Giải pháp này còn cấp khả năng theo\r\ndõi và ghi lại mọi hoạt động truy cập dữ liệu, giúp phát hiện\r\nvà ngăn chặn các hành vi xâm nhập trái phép."
+      },
+      {
+        "reportId": "report-11",
+        "page": 52,
+        "printedPage": "102–103",
+        "method": "PDF raw text",
+        "excerpt": "Ngoài ra, chúng tôi cũng triển khai kiểm soát truy cập mạng\r\nNAC để ngăn chặn truy cập bất hợp pháp tại máy trạm\r\nngười dùng. Hệ thống NAC đảm bảo rằng chỉ những thiết bị\r\nvà người dùng đã được xác thực mới có thể truy cập vào\r\nmạng nội bộ của Ngân hàng, giúp OCB ngăn chặn các mối\r\nđe dọa từ việc truy cập trái phép và giảm thiểu nguy cơ lây\r\nlan các mã độc trong hệ thống."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "OCB",
+    "year": 2023,
+    "code": "3.1.2",
+    "level": 2,
+    "reason": "ISO 27001 và PCI DSS được duy trì để quản lý an ninh thông tin/bảo mật thanh toán thẻ. Đủ dùng tiêu chuẩn có liên quan ở một phần hoạt động; chưa chứng minh tận dụng tối đa hay đóng góp tiêu chuẩn.",
+    "citations": [
+      {
+        "reportId": "report-11",
+        "page": 51,
+        "printedPage": "100–101",
+        "method": "PDF raw text",
+        "excerpt": "OCB đã đạt và luôn duy trì chứng nhận ISO 27001 2022\r\n2018 2027 , một tiêu chuẩn quốc tế về quản lý an ninh\r\nthông tin, với tổng điểm đánh giá các danh mục kiểm soát\r\nnăm 2023 đạt 94.6%.\r\nNgân hàng sở hữu chứng nhận PCI DSS 2019 2024 và PIN\r\nPCI DSS 2021 2025 , thể hiện năng lực đảm bảo tuân thủ\r\ncác tiêu chuẩn bảo mật khắt khe trong ngành thanh toán thẻ."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "OCB",
+    "year": 2023,
+    "code": "3.5.9",
+    "level": 2,
+    "reason": "Tự động hóa giao dịch chuỗi cung ứng và quản trị dòng tiền đã áp dụng để tiết kiệm thời gian/nhân lực. Đủ ở một số bộ phận; chưa chứng minh hầu hết quy trình.",
+    "citations": [
+      {
+        "reportId": "report-10",
+        "page": 93,
+        "printedPage": "94",
+        "method": "PDF raw text",
+        "excerpt": "Trong năm vừa qua, OCB tiếp tục tự động hóa các giao dịch trong chuỗi cung ứng từ đầu vào đến đầu\r\nra thông qua các giải pháp tài chính xanh đa dạng dành cho doanh nghiệp. Với gần 200 Open API\r\ntương ứng các dịch vụ khác nhau từ cơ bản như truy vấn, tra cứu tài khoản/giao dịch, liên kết ví đến\r\ncác nghiệp vụ xử lý và quản trị dòng tiền tự động như QRcode động, Virtual Account, xử lý công nợ,\r\ntrích nợ tự động,…"
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "OCB",
+    "year": 2023,
+    "code": "4.2.4",
+    "level": 2,
+    "reason": "Quản trị vốn/rủi ro đã rút ngắn xây dựng và kiểm định mô hình từ 3 tháng xuống dưới 1 tháng. Đủ tối ưu quy trình ở một số chức năng; chưa đủ phạm vi hầu hết đơn vị.",
+    "citations": [
+      {
+        "reportId": "report-11",
+        "page": 52,
+        "printedPage": "102–103",
+        "method": "PDF raw text",
+        "excerpt": "Dự án đã giúp OCB hoàn thiện cơ sở hạ tầng dữ liệu ngân hàng\r\nmột cách toàn diện, áp dụng các mô hình dữ liệu theo tiêu\r\nchuẩn kỹ thuật tiên tiến, có tính ứng dụng cao cho hoạt động\r\nkinh doanh và QLRR. Kết quả dự án đã giúp rút ngắn thời gian\r\ntriển khai xây dựng và kiểm định các mô hình rủi ro của Ngân\r\nhàng từ 3 tháng xuống còn chưa đầy 1 tháng."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "OCB",
+    "year": 2023,
+    "code": "6.3.1",
+    "level": 2,
+    "reason": "Kết quả đo lường rủi ro/vốn hỗ trợ quyết định kinh doanh và quản lý danh mục, lãi suất theo rủi ro. Đủ quyết định dựa dữ liệu ở một số chức năng; chưa chứng minh hầu hết quyết định.",
+    "citations": [
+      {
+        "reportId": "report-11",
+        "page": 52,
+        "printedPage": "102–103",
+        "method": "PDF raw text",
+        "excerpt": "Việc hoàn thành và áp dụng nền tảng quản lý vốn theo các yêu\r\ncầu của Basel II nâng cao không những giúp OCB nâng cao\r\nnăng lực quản trị rủi ro tín dụng của Ngân hàng mà còn đảm\r\nbảo việc đo lường rủi ro và tỷ lệ an toàn vốn chính xác, từ đó\r\nhỗ trợ hiệu quả các quyết định kinh doanh."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "OCB",
+    "year": 2023,
+    "code": "1.4.2",
+    "level": 3,
+    "reason": "100% khiếu nại năm 2023 được xử lý, phản hồi kịp thời và quy trình giải quyết đã cải thiện chất lượng dịch vụ. Đủ hầu hết phản ánh và cải tiến liên quan; chưa mô tả cải tiến liên tục toàn doanh nghiệp để mức 4.",
+    "citations": [
+      {
+        "reportId": "report-11",
+        "page": 41,
+        "printedPage": "80–81",
+        "method": "PDF raw text",
+        "excerpt": "OCB đảm bảo mọi khiếu nại của khách hàng được xử lý theo các\r\nnguyên tắc công bằng, minh bạch và trong thời gian hợp lý; cũng\r\nnhư đều được điều tra, xác minh kỹ lưỡng trước khi đưa ra quyết\r\nđịnh cuối cùng. Ngân hàng cam kết phản hồi nhanh chóng, rõ ràng\r\nvà chi tiết, giúp khách hàng hiểu rõ quá trình giải quyết và kết quả.\r\nBằng việc triển khai quy trình giải quyết khiếu nại chặt chẽ và hiệu\r\nquả, OCB không chỉ cải thiện chất lượng dịch vụ mà còn củng cố\r\nniềm tin, sự hài lòng của khách đối với Ngân hàng. Trong năm\r\n2023, tỷ lệ số lượng phàn nàn của khách hàng trên tổng số lượng\r\nkhách hàng hiện hữu được ngân hàng duy trì ở mức thấp 2,6% và\r\nđồng thời 100% mọi khiếu nại của khách hàng đều được xử lý và\r\nphản hồi kịp thời."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "OCB",
+    "year": 2023,
+    "code": "1.1.6",
+    "level": 2,
+    "reason": "OMNI Corp đã cung cấp công cụ tài chính trực tuyến, mua bán ngoại tệ và quản trị dòng tiền. Đủ một số tương tác số; chưa kiểm chứng hầu hết loại tương tác khách hàng.",
+    "citations": [
+      {
+        "reportId": "report-11",
+        "page": 39,
+        "printedPage": "76–77",
+        "method": "PDF raw text",
+        "excerpt": "Bên cạnh đó, OCB đã tiếp tục phát triển ngân hàng số OMNI Corp với đa dạng tiện ích vượt trội như các công cụ tài chính trực tuyến, hỗ\r\ntrợ mua bán ngoại tệ và quản lý dòng tiền v.v.Ứng dụng này cung cấp cho khách hàng doanh nghiệp một hệ sinh thái tài chính toàn diện,\r\ncó thể quản lý chi tiết từng khoản thu, chi, đối chiếu dễ dàng giúp khách hàng tối ưu hóa hoạt động quản lý tài chính, tiết kiệm thời gian và\r\nchi phí giao dịch."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "OCB",
+    "year": 2023,
+    "code": "1.1.2",
+    "level": 1,
+    "reason": "AppsFlyer phân tích hành vi để đề xuất sản phẩm phù hợp, cùng nền tảng tiếp thị tự động hỗ trợ bán chéo. Đủ một số nội dung nhắm mục tiêu; chưa chứng minh hầu hết nội dung.",
+    "citations": [
+      {
+        "reportId": "report-11",
+        "page": 39,
+        "printedPage": "76–77",
+        "method": "PDF raw text",
+        "excerpt": "tảng ứng dụng tiếp thị AppsFlyer, Ngân hàng có thể phân tích hành\r\nvi người dùng từ đó cung cấp các sản phẩm và dịch vụ phù hợp hơn\r\nvới nhu cầu cá nhân của từng khách hàng."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "OCB",
+    "year": 2023,
+    "code": "6.1.4",
+    "level": 3,
+    "reason": "Quy định bảo mật áp dụng Nghị định 13/2023 và kiểm soát quyền truy cập/Data Guardium/DLP cho dữ liệu khách hàng. Đủ tích hợp yêu cầu pháp luật và dùng trong chức năng dữ liệu khách hàng; chưa chứng minh toàn doanh nghiệp.",
+    "citations": [
+      {
+        "reportId": "report-11",
+        "page": 41,
+        "printedPage": "80–81",
+        "method": "PDF raw text",
+        "excerpt": "OCB hiểu rõ rằng thông tin liên quan đến khách hàng là một trong\r\nnhững tài sản quý giá nhất của Ngân hàng và không được tiết lộ cho\r\nbất kỳ ai trừ khi có sự cho phép từ khách hàng hoặc theo yêu cầu\r\ncủa cơ quan có thẩm quyền quy định theo pháp luật. Chúng tôi kiên\r\nquyết tuân thủ nghiêm ngặt các quy định bảo mật thông tin, đặc biệt\r\nlà Nghị định số 13/2023/NĐ CP của Chính Phủ về bảo vệ dữ liệu cá\r\nnhân để xây dựng niềm tin vững chắc và duy trì mối quan hệ bền\r\nvững với khách hàng.\r\nĐể đảm bảo tính bảo mật, an toàn và không bị xâm phạm, Ngân\r\nhàng thiết lập và duy trì các chính sách, quy trình rõ ràng cũng như\r\nkiểm soát chặt chẽ về quyền truy cập thông tin khách hàng, chỉ\r\nnhững người có nhu cầu công việc và có quyền hạn mới được phép\r\ntruy cập. Hệ thống thông tin của Ngân hàng cũng được tăng cường\r\nbảo vệ bằng các biện pháp kỹ thuật hiện đại như giải pháp Data\r\nGuardium, email DLP nhằm ngăn chặn các mối đe dọa từ bên ngoài\r\nvà bảo vệ dữ liệu khách hàng khỏi sự truy cập trái phép. Bên cạnh\r\nđó, các nhân viên Ngân hàng được đào tạo về quy định bảo mật\r\nthông tin và bắt buộc thực hiện việc bảo vệ thông tin cá nhân của\r\nkhách hàng như được quy định trong Bộ quy tắc đạo đức và ứng xử."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "OCB",
+    "year": 2024,
+    "code": "1.1.1",
+    "level": 2,
+    "reason": "Marketing Automation phân khúc tự động, AppsFlyer phân tích hành vi và cung cấp sản phẩm phù hợp từng nhóm. Đủ cá nhân hóa một số khía cạnh; chưa đủ phạm vi cụm đơn vị.",
+    "citations": [
+      {
+        "reportId": "report-13",
+        "page": 33,
+        "printedPage": "64–65",
+        "method": "PDF raw text",
+        "excerpt": "khai chính thức hệ thống Marketing Automation với việc segment Khách hàng tự động cùng với việc ghi nhận và phân tích các sự\r\nkiện của khách hàng sẽ hỗ trợ cho Ngân hàng gửi đến cho khách hàng những thông điệp về ưu đãi, tính năng, dịch vụ đến đúng thời\r\nđiểm để khách hàng giao dịch tiện lợi hơn, AppsFlyer - phân tích hành vi người dùng trên ứng dụng di động, tiếp cận tối ưu cho từng\r\nnhóm khách hàng khác nhau, cung cấp các sản phẩm dịch vụ phù hợp, tăng hiệu quả chuyển đối số."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "OCB",
+    "year": 2024,
+    "code": "1.1.2",
+    "level": 1,
+    "reason": "Gửi ưu đãi/tính năng/dịch vụ đúng thời điểm dựa sự kiện khách hàng chứng minh một số tiếp thị nhắm mục tiêu. Chưa xác định hầu hết nội dung để lên mức 2.",
+    "citations": [
+      {
+        "reportId": "report-13",
+        "page": 33,
+        "printedPage": "64–65",
+        "method": "PDF raw text",
+        "excerpt": "khai chính thức hệ thống Marketing Automation với việc segment Khách hàng tự động cùng với việc ghi nhận và phân tích các sự\r\nkiện của khách hàng sẽ hỗ trợ cho Ngân hàng gửi đến cho khách hàng những thông điệp về ưu đãi, tính năng, dịch vụ đến đúng thời\r\nđiểm để khách hàng giao dịch tiện lợi hơn, AppsFlyer - phân tích hành vi người dùng trên ứng dụng di động, tiếp cận tối ưu cho từng\r\nnhóm khách hàng khác nhau, cung cấp các sản phẩm dịch vụ phù hợp, tăng hiệu quả chuyển đối số."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "OCB",
+    "year": 2024,
+    "code": "6.3.1",
+    "level": 2,
+    "reason": "Phân tích hành vi và sự kiện hỗ trợ quyết định tiếp cận từng nhóm khách hàng/sản phẩm phù hợp. Đủ một số chức năng dùng dữ liệu ra quyết định; chưa chứng minh hầu hết quyết định.",
+    "citations": [
+      {
+        "reportId": "report-13",
+        "page": 33,
+        "printedPage": "64–65",
+        "method": "PDF raw text",
+        "excerpt": "khai chính thức hệ thống Marketing Automation với việc segment Khách hàng tự động cùng với việc ghi nhận và phân tích các sự\r\nkiện của khách hàng sẽ hỗ trợ cho Ngân hàng gửi đến cho khách hàng những thông điệp về ưu đãi, tính năng, dịch vụ đến đúng thời\r\nđiểm để khách hàng giao dịch tiện lợi hơn, AppsFlyer - phân tích hành vi người dùng trên ứng dụng di động, tiếp cận tối ưu cho từng\r\nnhóm khách hàng khác nhau, cung cấp các sản phẩm dịch vụ phù hợp, tăng hiệu quả chuyển đối số."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "OCB",
+    "year": 2024,
+    "code": "3.4.1",
+    "level": 2,
+    "reason": "AI Chat Bot đã tích hợp trong nền tảng giao dịch để hỗ trợ khách hàng nhanh/kịp thời. Đủ sử dụng AI tạo lợi ích tại chức năng chăm sóc; chưa đủ toàn doanh nghiệp.",
+    "citations": [
+      {
+        "reportId": "report-13",
+        "page": 33,
+        "printedPage": "64–65",
+        "method": "PDF raw text",
+        "excerpt": "AI Chat Bot cũng được tích hợp nhằm nâng cao tương tác,\r\nhỗ trợ khách hàng nhanh chóng và kịp thời."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "OCB",
+    "year": 2024,
+    "code": "1.1.3",
+    "level": 2,
+    "reason": "Khách hàng tự điều chỉnh hạn mức giao dịch và chuyển đổi gói tài khoản trên ứng dụng. Đủ một số công cụ tùy chỉnh một số dịch vụ; chưa đủ tùy chỉnh tương đối đầy đủ.",
+    "citations": [
+      {
+        "reportId": "report-13",
+        "page": 33,
+        "printedPage": "64–65",
+        "method": "PDF raw text",
+        "excerpt": "Hỗ trợ giao dịch và quản lý tài chính cá nhân: Tính năng quản lý tài chính cá nhân (PFM) giúp khách hàng kiểm soát chi tiêu hiệu\r\nquả; Chuyển đổi gói tài khoản và cài đặt hạn mức giao dịch ngoại lệ, cho phép khách hàng tự điều chỉnh hạn mức giao dịch trên\r\nứng dụng; Tách lệnh giao dịch giúp khách hàng thực hiện các giao dịch từ 500 triệu đồng trở lên một cách nhanh chóng, đảm bảo\r\ntiền đến ngay lập tức qua cổng Napas."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "OCB",
+    "year": 2024,
+    "code": "1.1.6",
+    "level": 2,
+    "reason": "OMNI đã cung cấp các giao dịch tài khoản, tiền gửi, chuyển tiền/thanh toán và thẻ/vay/đầu tư/bảo hiểm. Đủ một số tương tác số; chưa có cơ sở hầu hết toàn bộ loại tương tác.",
+    "citations": [
+      {
+        "reportId": "report-13",
+        "page": 33,
+        "printedPage": "64–65",
+        "method": "PDF raw text",
+        "excerpt": "Song song các sản phẩm, dịch vụ phục vụ cho nhu cầu tài chính\r\nhàng ngày của người tiêu dùng trên Ứng Dụng Ngân Hàng Số\r\nOCB OMNI vẫn liên tục cải tiến và phát triển: Bao gồm Tài\r\nkhoản, Tiền gửi, Dịch vụ chuyển tiền và thanh toán hóa đơn dịch\r\nvụ, Thẻ, Vay, Sản phẩm đầu tư liên kết, Sản phẩm bảo hiểm liên\r\nkết,… Tích hợp, kết nối mở rộng với các ngành, lĩnh vực để thiết\r\nlập hệ sinh thái số và cung ứng đa dạng các sản phẩm an toàn,\r\ntiện lợi đến khách hàng."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "OCB",
+    "year": 2024,
+    "code": "1.2.5",
+    "level": 2,
+    "reason": "Backbase tăng tốc và eKYC căn cước gắn chip được đưa vào đăng ký mở tài khoản trực tuyến để nâng trải nghiệm. Đủ ít nhất một bộ phận/hành trình; chưa chứng minh hầu hết đơn vị.",
+    "citations": [
+      {
+        "reportId": "report-13",
+        "page": 33,
+        "printedPage": "64–65",
+        "method": "PDF raw text",
+        "excerpt": "OCB đã đầu tư nền tảng công nghệ Digital Banking mới hiện đại hàng đầu thế giới là Backbase, gia tăng hạ tầng và tốc độ giao dịch\r\ncùng phương thức xác thực mới an toàn, bảo mật theo tiêu chuẩn xác thực FIDO hiện đại nhất, ứng dụng công nghệ eKYC định danh\r\nkhách hàng qua căn cước công dân gắn chip cho quy trình đăng ký mở tài khoản trực tuyến."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "OCB",
+    "year": 2024,
+    "code": "3.3.3",
+    "level": 4,
+    "reason": "SOC 24/7, nhiều lớp phòng thủ và năm 2024 nâng cấp tường lửa/DLP/kiểm thử/tình báo an ninh chứng minh an ninh hiệu quả liên tục cải thiện. Chưa có phạm vi đối tác.",
+    "citations": [
+      {
+        "reportId": "report-13",
+        "page": 33,
+        "printedPage": "64–65",
+        "method": "PDF raw text",
+        "excerpt": "OCB đã triển khai, áp dụng và được cấp chứng nhận các tiêu chuẩn quốc tế: PCI DSS, ISO 27001:2013, PCI PIN nhằm đảm bảo an\r\nninh, an toàn, bảo mật hệ thống thống tin OCB và ngăn ngừa các rủi ro phát sinh liên quan. Bên cạnh đó, OCB đã áp dụng các giải\r\npháp, công nghệ tiên tiến và các tiêu chuẩn quốc tế về an ninh, an toàn bảo mật cho hệ thống CNTT như giải pháp phòng chống\r\ntấn công DDoS, tường lửa thế hệ mới, tường lửa ứng dụng Web, giải pháp bảo vệ đầu cuối mở rộng, các công cụ dò quét lỗ hổng\r\nbảo mật hệ thống và ứng dụng, giải pháp quản lý sự kiện bảo mật, hệ thống phản ứng sự cố bảo mật, dịch vụ SOC 24/7."
+      },
+      {
+        "reportId": "report-13",
+        "page": 33,
+        "printedPage": "64–65",
+        "method": "PDF raw text",
+        "excerpt": "Trong năm 2024, OCB nâng cấp và kiện toàn các hệ thống tường lửa; tăng cường các giải pháp công nghệ chống thất thoát dữ\r\nliệu; bên cạnh các dịch vụ mở rộng về đánh giá, kiểm thử bảo mật và an ninh mạng; bổ sung các nguồn tình báo an ninh mạng;\r\ntăng cường khả năng phòng thủ."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "OCB",
+    "year": 2024,
+    "code": "3.3.2",
+    "level": 2,
+    "reason": "IPS kiểm soát kết nối vùng mạng và NAC/Data Guardium phát hiện/ngăn truy cập trái phép. Đủ một số thành phần; SOC 24/7 không tự chứng minh độ trễ gần thực hay hầu hết thành phần.",
+    "citations": [
+      {
+        "reportId": "report-13",
+        "page": 33,
+        "printedPage": "64–65",
+        "method": "PDF raw text",
+        "excerpt": "Triển khai hệ thống tường lửa firewall, IPS kiểm soát các\r\nkết nối, truy cập vào ra các vùng mạng."
+      },
+      {
+        "reportId": "report-13",
+        "page": 32,
+        "printedPage": "62–63",
+        "method": "PDF raw text",
+        "excerpt": "Tại OCB, việc kiểm soát và bảo vệ chặt chẽ vùng dữ liệu trọng yếu, nhạy cảm luôn được ưu tiên hàng đầu với các giải pháp công nghệ\r\nhiện đại đã được triển khai điển hình như IBM Data Guardium. Giải pháp giúp đảm bảo chỉ những người dùng được ủy quyền mới có\r\nthể truy cập vào những thông tin quan trọng. Giải pháp này còn cấp khả năng theo dõi và ghi lại mọi hoạt động truy cập dữ liệu, giúp\r\nphát hiện và ngăn chặn các hành vi xâm nhập trái phép."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "OCB",
+    "year": 2024,
+    "code": "3.1.2",
+    "level": 2,
+    "reason": "Chứng nhận quốc tế PCI DSS/ISO/PCI PIN và FIDO phục vụ bảo mật hệ thống/thanh toán. Đủ áp dụng tiêu chuẩn một phần với lợi ích kinh doanh; chưa có tận dụng tối đa/đóng góp.",
+    "citations": [
+      {
+        "reportId": "report-13",
+        "page": 33,
+        "printedPage": "64–65",
+        "method": "PDF raw text",
+        "excerpt": "OCB đã triển khai, áp dụng và được cấp chứng nhận các tiêu chuẩn quốc tế: PCI DSS, ISO 27001:2013, PCI PIN nhằm đảm bảo an\r\nninh, an toàn, bảo mật hệ thống thống tin OCB và ngăn ngừa các rủi ro phát sinh liên quan."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "OCB",
+    "year": 2024,
+    "code": "3.5.9",
+    "level": 2,
+    "reason": "Marketing Automation đã phân khúc tự động và ghi nhận/phân tích sự kiện để hỗ trợ tiếp cận phù hợp. Đủ tự động hóa tạo lợi ích một số chức năng; chưa đủ hầu hết quy trình.",
+    "citations": [
+      {
+        "reportId": "report-13",
+        "page": 33,
+        "printedPage": "64–65",
+        "method": "PDF raw text",
+        "excerpt": "khai chính thức hệ thống Marketing Automation với việc segment Khách hàng tự động cùng với việc ghi nhận và phân tích các sự\r\nkiện của khách hàng sẽ hỗ trợ cho Ngân hàng gửi đến cho khách hàng những thông điệp về ưu đãi, tính năng, dịch vụ đến đúng thời\r\nđiểm để khách hàng giao dịch tiện lợi hơn, AppsFlyer - phân tích hành vi người dùng trên ứng dụng di động, tiếp cận tối ưu cho từng\r\nnhóm khách hàng khác nhau, cung cấp các sản phẩm dịch vụ phù hợp, tăng hiệu quả chuyển đối số."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "OCB",
+    "year": 2024,
+    "code": "4.2.4",
+    "level": 2,
+    "reason": "Backbase tăng tốc giao dịch và NEW FO tối ưu xử lý/tra soát, cho phép theo dõi yêu cầu. Đủ tối ưu một số quy trình; chưa đủ phạm vi hầu hết đơn vị.",
+    "citations": [
+      {
+        "reportId": "report-13",
+        "page": 33,
+        "printedPage": "64–65",
+        "method": "PDF raw text",
+        "excerpt": "OCB đã đầu tư nền tảng công nghệ Digital Banking mới hiện đại hàng đầu thế giới là Backbase, gia tăng hạ tầng và tốc độ giao dịch\r\ncùng phương thức xác thực mới an toàn, bảo mật theo tiêu chuẩn xác thực FIDO hiện đại nhất, ứng dụng công nghệ eKYC định danh\r\nkhách hàng qua căn cước công dân gắn chip cho quy trình đăng ký mở tài khoản trực tuyến."
+      },
+      {
+        "reportId": "report-13",
+        "page": 33,
+        "printedPage": "64–65",
+        "method": "PDF raw text",
+        "excerpt": "Phát triển hệ thống xử lý khiếu nại và tra soát giao dịch trên\r\nnền tảng NEW FO, bổ sung tính năng theo dõi trạng thái\r\nyêu cầu trên OMNI 4.0 App/Web, cùng các tiện ích như\r\nthông báo giấy tờ tùy thân hết hạn,...đảm bảo tuân thủ đầy\r\nđủ quy định của NHNN."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "OCB",
+    "year": 2024,
+    "code": "6.1.4",
+    "level": 3,
+    "reason": "Quy định bảo vệ dữ liệu cá nhân/Nghị định 13 đã áp dụng, kiểm soát truy cập/DLP/NAC bảo vệ dữ liệu khách hàng. Đủ tích hợp pháp luật ở chức năng khách hàng; còn khoảng cách tuân thủ chưa hoàn thành nên không khẳng định toàn doanh nghiệp.",
+    "citations": [
+      {
+        "reportId": "report-13",
+        "page": 65,
+        "printedPage": "128–129",
+        "method": "PDF raw text",
+        "excerpt": "OCB hiểu rõ rằng thông tin liên quan đến khách hàng là một trong những tài sản quý giá nhất của Ngân hàng và không được tiết lộ\r\ncho bất kỳ ai trừ khi có sự cho phép từ khách hàng hoặc theo yêu cầu của cơ quan có thẩm quyền quy định theo pháp luật. OCB\r\nkiên quyết tuân thủ nghiêm ngặt các quy định bảo mật thông tin, đặc biệt là Nghị định số 13/2023/NĐ-CP của Chính Phủ về bảo vệ\r\ndữ liệu cá nhân để xây dựng niềm tin vững chắc và duy trì mối quan hệ bền vững với khách hàng. Để triển khai định hướng trên,\r\ntrong năm 2024 OCB đã hợp tác với Công ty Cổ phần Tư vấn EY Việt Nam để được tư vấn về việc triển khai Nghị định\r\n13/2023/NĐ-CP. Từ đó Ngân hàng đã xác định được các khoảng cách (cách gọi đối với các vấn đề mà Ngân hàng cần xây dựng,\r\ntriển khai nhằm tuân thủ Nghị định 13/2023/NĐ-CP) mà OCB cần xây dựng, triển khai để tuân thủ Nghị định. Đến nay, OCB đã xây\r\ndựng và hoàn thành gần 2/3 các khoảng cách cần phải thực hiện, xúc tiến các thủ tục cần thiết để tiến tới thành thành lập Ban\r\nchuyên trách Bảo vệ dữ liệu cá nhân trực thuộc Tổng Giám đốc để xử lý nhanh nhất các vấn đề liên quan việc bảo mật thông tin,\r\nbảo vệ dữ liệu cá nhân khách hàng. Quyết định Quy định bảo vệ dữ liệu cá nhân và chỉ thị về nghiêm túc tuân thủ bảo vệ dữ liệu cá\r\nnhân của khách hàng đã được ban hành và chính thức áp dụng trong mọi hoạt động của Ngân hàng."
+      },
+      {
+        "reportId": "report-13",
+        "page": 32,
+        "printedPage": "62–63",
+        "method": "PDF raw text",
+        "excerpt": "Tại OCB, việc kiểm soát và bảo vệ chặt chẽ vùng dữ liệu trọng yếu, nhạy cảm luôn được ưu tiên hàng đầu với các giải pháp công nghệ\r\nhiện đại đã được triển khai điển hình như IBM Data Guardium. Giải pháp giúp đảm bảo chỉ những người dùng được ủy quyền mới có\r\nthể truy cập vào những thông tin quan trọng. Giải pháp này còn cấp khả năng theo dõi và ghi lại mọi hoạt động truy cập dữ liệu, giúp\r\nphát hiện và ngăn chặn các hành vi xâm nhập trái phép."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "OCB",
+    "year": 2024,
+    "code": "1.4.2",
+    "level": 2,
+    "reason": "Đã triển khai quy trình khiếu nại, tỷ lệ phàn nàn giảm 2,6% xuống 1,5% và xây dựng NEW FO theo dõi xử lý. Đủ phản hồi/cải tiến một số trường hợp; số 100% tại trang là cam kết, chưa kết quả để khẳng định hầu hết/toàn bộ.",
+    "citations": [
+      {
+        "reportId": "report-13",
+        "page": 65,
+        "printedPage": "128–129",
+        "method": "PDF raw text",
+        "excerpt": "Nhằm bảo vệ quyền lợi của khách hàng và nâng cao trải\r\nnghiệm khi sử dụng dịch vụ, OCB đã ban hành và triển khai\r\nchặt chẽ quy trình Giải quyết Khiếu nại và Tố cáo để chuẩn\r\nhóa việc tiếp nhận và xử lý các khiếu nại từ khách hàng.\r\nKhách hàng có thể dễ dàng khiếu nại đến OCB qua nhiều\r\nkênh như:\r\nKênh tiếp nhận thông tin chăm sóc khách hàng 24/7 thông\r\nqua điện thoại, email, dịch vụ gọi lại của OCB, mạng xã hội\r\nZalo, Facebook\r\nKênh tiếp nhận trực tiếp hoặc gửi văn bản đến địa điểm\r\nkinh doanh của OCB trên toàn hệ thống\r\nCác kênh tiếp nhận thông tin khác như cơ quan Nhà nước\r\ncó thẩm quyền, các tổ chức hiệp hội, đoàn thể, báo chí,\r\nphương tiện truyền thông.\r\nOCB đảm bảo mọi khiếu nại của khách hàng được xử lý theo\r\ncác nguyên tắc công bằng, minh bạch và trong thời gian hợp\r\nlý; cũng như đều được điều tra, xác minh kỹ lưỡng trước khi\r\nđưa ra quyết định cuối cùng. Ngân hàng cam kết phản hồi\r\nnhanh chóng, rõ ràng và chi tiết, giúp khách hàng hiểu rõ quá\r\ntrình giải quyết và kết quả. Bằng việc triển khai quy trình giải\r\nquyết khiếu nại chặt chẽ và hiệu quả, OCB không chỉ cải thiện\r\nchất lượng dịch vụ mà còn củng cố niềm tin, sự hài lòng của\r\nkhách đối với Ngân hàng. Trong năm 2024, tỷ lệ số lượng\r\nphàn nàn của khách hàng trên tổng số lượng khách hàng hiện\r\nhữu tiếp tục được kiểm soát chặt chẽ, giảm xuống còn 1,5%,\r\ncải thiện đáng kể so với mức 2,6% của năm 2023. Đồng thời,\r\nOCB vẫn duy trì cam kết xử lý 100% khiếu nại kịp thời, đảm\r\nbảo phản hồi nhanh chóng và hiệu quả."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "OCB",
+    "year": 2025,
+    "code": "3.5.7",
+    "level": 2,
+    "reason": "AWS đã triển khai phục vụ website và Internet Banking trong phần hành động năm 2025. Đủ hạ tầng tạo giá trị ở một số hoạt động; kế hoạch mở rộng năm 2026 không dùng làm bằng chứng.",
+    "citations": [
+      {
+        "reportId": "report-15",
+        "page": 59,
+        "printedPage": "59",
+        "method": "PDF raw text",
+        "excerpt": "Triển khai hạ tầng điện toán đám mây trên nền tảng Amazon Web Services phục\r\nvụ các hệ thống như website, Internet Banking,…"
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "OCB",
+    "year": 2025,
+    "code": "3.3.3",
+    "level": 4,
+    "reason": "SOC 24/7/multiple layers đang áp dụng và trong 2025 đã nâng cấp tường lửa/DLP/kiểm thử/tình báo an ninh. Đủ năng lực hiệu quả, liên tục cải thiện trong ngân hàng; chưa chứng minh hệ sinh thái.",
+    "citations": [
+      {
+        "reportId": "report-15",
+        "page": 60,
+        "printedPage": "60",
+        "method": "PDF raw text",
+        "excerpt": "OCB đã triển khai, áp dụng và được cấp chứng nhận các tiêu chuẩn quốc tế như PCI\r\nDSS, ISO 27001:2013, nhằm đảm bảo an ninh, an toàn, bảo mật hệ thống thông tin và\r\nngăn ngừa các rủi ro phát sinh. Bên cạnh đó, Ngân hàng áp dụng các giải pháp, công\r\nnghệ bảo mật như phòng chống tấn công DDoS, tường lửa thế hệ mới, tường lửa ứng\r\ndụng Web, bảo vệ đầu cuối mở rộng, công cụ dò quét lỗ hổng bảo mật hệ thống và\r\nứng dụng, hệ thống quản lý sự kiện bảo mật, hệ thống phản ứng sự cố bảo mật, dịch\r\nvụ SOC 24/7.\r\nTrong năm 2025, OCB nâng cấp và kiện toàn hệ thống tường lửa; tăng cường các giải\r\npháp chống thất thoát dữ liệu; mở rộng hoạt động đánh giá, kiểm thử bảo mật và an\r\nninh mạng; bổ sung các nguồn tình báo an ninh nhằm tăng cường khả năng phòng thủ."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "OCB",
+    "year": 2025,
+    "code": "3.3.2",
+    "level": 2,
+    "reason": "IPS kiểm soát kết nối và chương trình điều tra dấu hiệu xâm nhập năm 2025 chứng minh một số thành phần phát hiện/giảm thiểu. Chưa có phạm vi hầu hết thành phần hay độ trễ gần thực.",
+    "citations": [
+      {
+        "reportId": "report-15",
+        "page": 59,
+        "printedPage": "59",
+        "method": "PDF raw text",
+        "excerpt": "Triển khai các giải pháp bảo mật như hệ thống tường lửa (Firewall) và hệ thống\r\nphát hiện/ngăn chặn xâm nhập (IPS) nhằm kiểm soát kết nối và truy cập giữa các\r\nvùng mạng"
+      },
+      {
+        "reportId": "report-15",
+        "page": 131,
+        "printedPage": "131",
+        "method": "PDF raw text",
+        "excerpt": "Bắt đầu chương trình điều tra\r\nchuyên sâu về các dấu hiệu xâm\r\nnhập nhằm phát hiện sớm và xử lý\r\nkịp thời các nguy cơ tấn công,\r\nđảm bảo an toàn cho hệ thống\r\nthông tin"
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "OCB",
+    "year": 2025,
+    "code": "3.1.2",
+    "level": 2,
+    "reason": "ISO 27001/PCI DSS đã được duy trì và phục vụ an ninh/thanh toán. Đủ tiêu chuẩn liên quan được dùng một phần; chưa đủ tận dụng tối đa hoặc đóng góp tiêu chuẩn.",
+    "citations": [
+      {
+        "reportId": "report-15",
+        "page": 56,
+        "printedPage": "56",
+        "method": "PDF raw text",
+        "excerpt": "Đạt và luôn duy trì chứng nhận ISO 27001:2022 (2018 – 2027) về quản lý an ninh\r\nthông tin.\r\n• Duy trì chứng nhận PCI DSS (2019-2026), thể hiện năng lực tuân thủ các tiêu\r\nchuẩn bảo mật khắt khe về thanh toán thẻ."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "OCB",
+    "year": 2025,
+    "code": "1.1.6",
+    "level": 2,
+    "reason": "Thẻ tín dụng 100% online, thấu chi online và dịch vụ doanh nghiệp trên nền tảng số đã mở rộng. Đủ một số tương tác số; tỷ trọng giao dịch OMNI 90% không bao quát mọi loại tương tác.",
+    "citations": [
+      {
+        "reportId": "report-14",
+        "page": 53,
+        "printedPage": "53",
+        "method": "PDF raw text",
+        "excerpt": "Trong năm, OCB tiếp tục mở rộng các sản phẩm và tiện ích số\r\nnhư mở thẻ tín dụng 100% trực tuyến, cấp thấu chi online đối\r\nvới khách hàng có sổ tiết kiệm trực tuyến, cùng nhiều tính\r\nnăng cá nhân hóa theo từng phân khúc khách hàng. Đối với\r\nkhách hàng doanh nghiệp, Ngân hàng đẩy mạnh số hóa các\r\ndịch vụ ngân hàng giao dịch và tài trợ thương mại trên nền\r\ntảng số, góp phần nâng cao hiệu quả quản trị tài chính và cải\r\nthiện trải nghiệm khách hàng. Nhờ đó, tỷ lệ khách hàng tham\r\ngia qua kênh số đạt 88%, tăng 6% so với năm 2024; Tỷ lệ giao\r\ndịch trên kênh OCB OMNI đạt 90%, trong khi số lượng và\r\ndoanh số giao dịch đều tăng trên 90% so với năm trước."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "OCB",
+    "year": 2025,
+    "code": "1.1.2",
+    "level": 1,
+    "reason": "Phân tích hành vi/nhu cầu để chủ động đề xuất ưu đãi phù hợp trên OMNI chứng minh một số tiếp thị nhắm mục tiêu. Chưa có tỷ lệ hầu hết nội dung.",
+    "citations": [
+      {
+        "reportId": "report-14",
+        "page": 53,
+        "printedPage": "53",
+        "method": "PDF raw text",
+        "excerpt": "OCB tiếp tục nâng cấp ứng dụng OCB OMNI theo định hướng\r\nĐơn giản – Mượt – Tiện dụng – Cá nhân hóa, qua đó tăng khả\r\nnăng phát triển tính năng, tối ưu tốc độ giao dịch và nâng cao\r\ntrải nghiệm khách hàng trên kênh số. Đồng thời, Ngân hàng\r\nđẩy mạnh ứng dụng dữ liệu trong phân tích hành vi, nhu cầu\r\nkhách hàng để chủ động đề xuất sản phẩm, dịch vụ và ưu đãi\r\nphù hợp, cũng như hoàn tất tích hợp định danh điện tử VNeID,\r\ntạo nền tảng mở rộng các dịch vụ số an toàn, thuận tiện."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "OCB",
+    "year": 2025,
+    "code": "1.1.7",
+    "level": 2,
+    "reason": "Chủ động đề xuất sản phẩm/dịch vụ/ưu đãi dựa hành vi và nhu cầu đã triển khai trong 2025. Đủ dự đoán một số nhu cầu; chưa chứng minh hầu hết.",
+    "citations": [
+      {
+        "reportId": "report-14",
+        "page": 53,
+        "printedPage": "53",
+        "method": "PDF raw text",
+        "excerpt": "OCB tiếp tục nâng cấp ứng dụng OCB OMNI theo định hướng\r\nĐơn giản – Mượt – Tiện dụng – Cá nhân hóa, qua đó tăng khả\r\nnăng phát triển tính năng, tối ưu tốc độ giao dịch và nâng cao\r\ntrải nghiệm khách hàng trên kênh số. Đồng thời, Ngân hàng\r\nđẩy mạnh ứng dụng dữ liệu trong phân tích hành vi, nhu cầu\r\nkhách hàng để chủ động đề xuất sản phẩm, dịch vụ và ưu đãi\r\nphù hợp, cũng như hoàn tất tích hợp định danh điện tử VNeID,\r\ntạo nền tảng mở rộng các dịch vụ số an toàn, thuận tiện."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "OCB",
+    "year": 2025,
+    "code": "6.3.1",
+    "level": 2,
+    "reason": "Dữ liệu hành vi/nhu cầu được sử dụng để quyết định đề xuất sản phẩm/ưu đãi. Đủ một số chức năng ra quyết định dựa dữ liệu; chưa chứng minh hầu hết quyết định.",
+    "citations": [
+      {
+        "reportId": "report-14",
+        "page": 53,
+        "printedPage": "53",
+        "method": "PDF raw text",
+        "excerpt": "OCB tiếp tục nâng cấp ứng dụng OCB OMNI theo định hướng\r\nĐơn giản – Mượt – Tiện dụng – Cá nhân hóa, qua đó tăng khả\r\nnăng phát triển tính năng, tối ưu tốc độ giao dịch và nâng cao\r\ntrải nghiệm khách hàng trên kênh số. Đồng thời, Ngân hàng\r\nđẩy mạnh ứng dụng dữ liệu trong phân tích hành vi, nhu cầu\r\nkhách hàng để chủ động đề xuất sản phẩm, dịch vụ và ưu đãi\r\nphù hợp, cũng như hoàn tất tích hợp định danh điện tử VNeID,\r\ntạo nền tảng mở rộng các dịch vụ số an toàn, thuận tiện."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "OCB",
+    "year": 2025,
+    "code": "4.2.4",
+    "level": 2,
+    "reason": "Thanh toán, kiểm soát kế toán chi phí, tín dụng cá nhân và giải ngân doanh nghiệp đã số hóa/tự động hóa để rút ngắn xử lý. Đủ một số đơn vị; chưa chứng minh hầu hết.",
+    "citations": [
+      {
+        "reportId": "report-14",
+        "page": 53,
+        "printedPage": "53",
+        "method": "PDF raw text",
+        "excerpt": "OCB tiếp tục số hóa, tự động hóa nhiều quy trình nội bộ trọng\r\nyếu như thanh toán, kiểm soát kế toán chi phí, quy trình tín\r\ndụng cá nhân và giải ngân hạn mức cho khách hàng doanh\r\nnghiệp, qua đó rút ngắn thời gian xử lý, tăng tính minh bạch và\r\nnâng cao hiệu quả vận hành."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "OCB",
+    "year": 2025,
+    "code": "1.4.2",
+    "level": 3,
+    "reason": "Quy trình đa kênh xử lý công bằng/kịp thời, mọi khiếu nại đều điều tra và phản hồi rõ, tỷ lệ phản ánh giảm 1,5% xuống 0,8%. Đủ hầu hết phản ánh và cải tiến; chưa mô tả cải tiến liên tục toàn doanh nghiệp để mức 4.",
+    "citations": [
+      {
+        "reportId": "report-15",
+        "page": 130,
+        "printedPage": "130",
+        "method": "PDF raw text",
+        "excerpt": "OCB áp dụng quy trình tiếp nhận và giải\r\nquyết khiếu nại khách hàng minh bạch,\r\nđa kênh, bảo đảm xử lý công bằng, kịp\r\nthời và tuân thủ các quy định hiện hành.\r\nMọi khiếu nại đều được điều tra, xác\r\nminh đầy đủ trước khi đưa ra kết luận;\r\nđồng thời khách hàng được phản hồi rõ\r\nràng, chi tiết về quá trình và kết quả xử\r\nlý. Nhờ đó, tỷ lệ phản ánh, khiếu nại của\r\nkhách hàng trên tổng số khách hàng\r\nhiện hữu đã giảm từ 1,5% trong năm\r\n2024 xuống còn 0,8% trong năm 2025."
+      }
+    ],
+    "reviewer": "Codex"
+  }
+]

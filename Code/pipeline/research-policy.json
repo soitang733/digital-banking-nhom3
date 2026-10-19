@@ -1,0 +1,18 @@
+{
+  "id": "DBI-REVIEW-2026-10-13",
+  "date": "2026-10-13",
+  "authority": "Người dùng giao quyền quyết định và xử lý trong cuộc trao đổi ngày 13/10/2026",
+  "scale": "Thang trưởng thành 1–5 theo Danh_muc trong ScoringReview.xlsx; mức 0 là trạng thái không đủ bằng chứng sau rà soát, không phải bằng chứng không triển khai",
+  "conversion": {"0":0,"1":0,"2":25,"3":50,"4":75,"5":100},
+  "pillarWeights": [1,1,1,1,1,1],
+  "missing": "level=null, status=Chưa đủ căn cứ. Không thay bằng 0; không loại khỏi mẫu số như NA",
+  "zero": "Chỉ xác nhận 0 khi có nhật ký rà soát đủ tài liệu có liên quan, toàn bộ phần ảnh đã OCR/kiểm tra, và không tìm đủ bằng chứng. Không gán 0 chỉ vì tìm từ khóa không có kết quả",
+  "na": "Chỉ dùng khi có lý do không áp dụng cụ thể theo tiêu chí và ngân hàng, được ghi trong decision.reason. Loại khỏi mẫu số tiêu chí áp dụng; không dùng NA cho thiếu công bố",
+  "annual": "Năm hoạt động trong báo cáo, không phải năm tải hoặc năm xuất bản. Chỉ dùng triển khai đã diễn ra trong năm đó; kế hoạch tương lai không chứng minh triển khai. Không tự sao chép mức từ năm khác",
+  "scoreReadiness": "Chỉ công bố điểm đầy đủ khi mọi tiêu chí áp dụng của cả 6 trụ cột có mức đối chiếu và chứng cứ. Trụ cột không có tiêu chí áp dụng không được tính là 0. Điểm trên tập nhỏ chưa đủ dữ liệu không dùng xếp hạng/YoY",
+  "reviewer": "Codex – đối chiếu báo cáo công bố; không phải xác nhận của ngân hàng hoặc kiểm toán độc lập",
+  "levelChoice": "Chọn mức cao nhất được đoạn dẫn chứng hỗ trợ đủ yêu cầu; khi bằng chứng chỉ chứng minh triển khai ở một số bộ phận thì dừng ở mức tương ứng. Một từ khóa hoặc tên công nghệ không tự quyết định điểm",
+  "legacy": "Giữ bộ 700 mức gộp từ Excel làm dữ liệu lịch sử, gắn nhãn sơ bộ chưa chấm lại theo quy tắc mới. Điểm năm đối chiếu là lớp riêng, không ghi đè Excel nguồn",
+  "pdfPage": "Chỉ số trang vật lý PDF, bắt đầu từ 1; trang in trên báo cáo có thể khác hoặc một trang PDF gồm hai trang in",
+  "ocr": "Windows OCR en-US dùng để tìm nội dung; trích đoạn OCR có thể sai dấu/ký tự. Mức chấm chỉ được quyết định sau khi đọc nội dung và kiểm tra hình trang đối với nguồn OCR"
+}

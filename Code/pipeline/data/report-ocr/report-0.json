@@ -1,0 +1,65 @@
+{
+    "id":  "report-0",
+    "pages":  [
+                  {
+                      "method":  "Windows OCR",
+                      "language":  "en-US",
+                      "page":  1,
+                      "text":  "VTPBank BÅo cÅo THUdNG NIÉN"
+                  },
+                  {
+                      "method":  "Windows OCR",
+                      "language":  "en-US",
+                      "page":  2,
+                      "text":  "TPBank Vi chüng töi hidu ban"
+                  },
+                  {
+                      "method":  "Windows OCR",
+                      "language":  "en-US",
+                      "page":  16,
+                      "text":  "QUÅN TRI DOANH NGHIÉP"
+                  },
+                  {
+                      "method":  "Windows OCR",
+                      "language":  "en-US",
+                      "page":  23,
+                      "text":  "BOAT 2023"
+                  },
+                  {
+                      "method":  "Windows OCR",
+                      "language":  "en-US",
+                      "page":  24,
+                      "text":  "Ndi BAT 2023 Pcv; iiC •e. uvut .8 •m r.h.i\"i"
+                  },
+                  {
+                      "method":  "Windows OCR",
+                      "language":  "en-US",
+                      "page":  27,
+                      "text":  "BÅo cÅo TÄI CH(NH DÄ KIÉM TOÅN"
+                  },
+                  {
+                      "method":  "Windows OCR",
+                      "language":  "en-US",
+                      "page":  62,
+                      "text":  "DINH HI.rdNG KINH DOANH 2024"
+                  },
+                  {
+                      "method":  "Windows OCR",
+                      "language":  "en-US",
+                      "page":  67,
+                      "text":  "01 TPBanl\u003c Vi chüng töi hieu ban"
+                  },
+                  {
+                      "method":  "Windows OCR",
+                      "language":  "en-US",
+                      "page":  68,
+                      "text":  ""
+                  },
+                  {
+                      "method":  "Windows OCR",
+                      "language":  "en-US",
+                      "page":  69,
+                      "text":  "cÅo NGAN HANG TMCP TIÉN PHONG 024.3768 8998 | 024.3768 8979 | https://tpb.vn I OTPBanke"
+                  }
+              ]
+}

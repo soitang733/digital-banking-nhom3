@@ -1,0 +1,587 @@
+[
+  {
+    "bank": "SaigonBank",
+    "year": 2023,
+    "code": "5.2.1",
+    "level": null,
+    "reason": "Có đãi ngộ và thưởng theo kết quả nhưng rubric yêu cầu phù hợp và thúc đẩy chiến lược số; các đoạn này không nối chính sách thưởng với mục tiêu chuyển đổi số. Không suy mức 1 hoặc 2 từ đãi ngộ thông thường.",
+    "citations": [
+      {
+        "reportId": "report-20",
+        "page": 7,
+        "printedPage": 6,
+        "method": "OCR",
+        "excerpt": "Ngoåi tién luong hång thång, cän cfi våo két quå hoot döng vå xép looi thi dua, cån bö, nhån vién sé duqc xét thuöng tir quy khen thuöng våo cåc dip Lé, Tét nhäm khuyen khich nång cao näng suat, chåt luqng, hiéu quå cong tåc vå täng thém thu nhäp cho cån bö, nhån vién.",
+        "transcription": "Ngoài tiền lương hàng tháng, căn cứ vào kết quả hoạt động và xếp loại thi đua, cán bộ, nhân viên sẽ được xét thưởng từ quỹ khen thưởng vào các dịp Lễ, Tết nhằm khuyến khích nâng cao năng suất, chất lượng, hiệu quả công tác và tăng thêm thu nhập cho cán bộ, nhân viên.",
+        "imageChecked": true,
+        "imagePath": "audit/agent-sgb-20-7.png"
+      }
+    ],
+    "imageChecked": true,
+    "imagePath": "audit/agent-sgb-20-7.png",
+    "reviewer": "Codex - đối chiếu báo cáo và ảnh PDF",
+    "reviewDate": "2026-10-13"
+  },
+  {
+    "bank": "SaigonBank",
+    "year": 2023,
+    "code": "5.2.3",
+    "level": null,
+    "reason": "Đã đọc phần nhân sự và đào tạo: phát triển nhân lực CNTT có nêu, nhưng chưa mô tả quy trình xác định kỹ năng cần thiết để triển khai chiến lược số theo rubric; hạn chế quy hoạch dài hạn cũng không tự xác định mức 1.",
+    "citations": [
+      {
+        "reportId": "report-20",
+        "page": 16,
+        "printedPage": 15,
+        "method": "OCR",
+        "excerpt": "Dé xuåt cir cån bö, nhån vién tham clv cåc kh6a dåo too, höi thåo dé cap nhät vå nång cao kién thüc chuyén mon, nghiép vu; Qua cöng tåc tham muru cüa Uy ban nhån sv, Höi döng quån tri dä c6 sv quan tam, chi doo kip thöi, tir d6 ngåy cång cüng cö vå nång cao nguön nhån lyc cüa SAIGONBANK, däc biét lå trong viéc phåt trién nguön nhån lvc cöng nghé thöng tin cé trinh dé nghiép VII, tinh chuyén nghiép cao, dåp L'rng nhu cåu nhån lvc ngånh ngån hång trong böi cånh chuyén döi Sö nhu hién nay. - Vé mö hinh co cåu tö chi'rc, Uy ban nhån sv dä tham muu, kién toån mö hinh tö chL'rc theo hu6ng tinh gon, chuyén mon h6a vå phån dinh rö chüc näng nhiém vv, täng cuöng hiéu quå phöi hop giüa cåc don vi. - I-Ion ché: chua låm töt cong tåc tham muu cho Höi döng quån tri trong cöng tåc dåo too, quy hooch cån bö dåi hon cho Ngan hång. HOQt döng cüa Uy ban nhån sv dä g6p phån hiéu quå våo viéc kién toån bé måy nhån sv cüa SAIGONBANK, tham muu kip thöi cho I-löi döng quån tri trong viéc xåy dung, hooch dinh cåc chinh såch phåt trién nguön nhån lvc toi SAIGONBANK.",
+        "transcription": "Đề xuất cử cán bộ, nhân viên tham dự các khóa đào tạo, hội thảo để cập nhật và nâng cao kiến thức chuyên môn, nghiệp vụ; qua công tác tham mưu của Ủy ban nhân sự, Hội đồng quản trị đã có sự quan tâm, chỉ đạo kịp thời, từ đó ngày càng củng cố và nâng cao nguồn nhân lực của SAIGONBANK, đặc biệt là trong việc phát triển nguồn nhân lực công nghệ thông tin có trình độ nghiệp vụ, tính chuyên nghiệp cao, đáp ứng nhu cầu nhân lực ngành ngân hàng trong bối cảnh chuyển đổi số như hiện nay. Hạn chế: chưa làm tốt công tác tham mưu cho Hội đồng quản trị trong công tác đào tạo, quy hoạch cán bộ dài hạn cho Ngân hàng.",
+        "imageChecked": true,
+        "imagePath": "audit/agent-sgb-20-16.png"
+      }
+    ],
+    "imageChecked": true,
+    "imagePath": "audit/agent-sgb-20-16.png",
+    "reviewer": "Codex - đối chiếu báo cáo và ảnh PDF",
+    "reviewDate": "2026-10-13"
+  },
+  {
+    "bank": "SaigonBank",
+    "year": 2023,
+    "code": "5.2.7",
+    "level": null,
+    "reason": "Các khóa đào tạo đã được tổ chức trong năm nhưng đoạn dẫn không nêu hình thức học tập trên môi trường số hay phạm vi cơ hội học số theo rubric.",
+    "citations": [
+      {
+        "reportId": "report-20",
+        "page": 7,
+        "printedPage": 6,
+        "method": "OCR",
+        "excerpt": "Ngan hång Thuung moi cö phån Såi Gön Cöng thucng SAIGONBANK Ban Töng Giåm döc cüa SAIGONBANK khöng ngüng quan tam dén viéc phåt trién nguön nhån lvc, thöng qua cåc chuong trinh dåo too chuyén ngånh, too diéu kién cap nh@t kién thüc quån tri rüi ro cüa ngån hång hién doi cho döi ngü cån bö diéu hånh nhäm nång cao chåt luqng vé trinh dé quån ly, nghiép vv. Trong näm 2023, SAIGONBANK tö chtc cåc kh6a tap huån, dåo too vé Icy näng, nghiép vu cho cån bö nhån vién dé cap nhät kién thüc m6i cüa quy dinh phåp luat c6 lién quan dén hoot döng ngån hång.",
+        "transcription": "Trong năm 2023, SAIGONBANK tổ chức các khóa tập huấn, đào tạo về kỹ năng, nghiệp vụ cho cán bộ nhân viên để cập nhật kiến thức mới của quy định pháp luật có liên quan đến hoạt động ngân hàng.",
+        "imageChecked": true,
+        "imagePath": "audit/agent-sgb-20-7.png"
+      }
+    ],
+    "imageChecked": true,
+    "imagePath": "audit/agent-sgb-20-7.png",
+    "reviewer": "Codex - đối chiếu báo cáo và ảnh PDF",
+    "reviewDate": "2026-10-13"
+  },
+  {
+    "bank": "SaigonBank",
+    "year": 2024,
+    "code": "5.2.1",
+    "level": null,
+    "reason": "Có đãi ngộ và thưởng theo kết quả nhưng rubric yêu cầu phù hợp và thúc đẩy chiến lược số; các đoạn này không nối chính sách thưởng với mục tiêu chuyển đổi số. Không suy mức 1 hoặc 2 từ đãi ngộ thông thường.",
+    "citations": [
+      {
+        "reportId": "report-21",
+        "page": 7,
+        "printedPage": 6,
+        "method": "OCR",
+        "excerpt": "Ngoåi tién luong hång thång, cän cir våo két quå hoot döng vå xép logi thi dua, cån bö, nhån vién sé duqc xét thu&ng tir quy khen thuöng våo cåc dip Lé, Tét rüläm khuyén khich nång Cao näng suåt, chåt luqng, hi$u quå cöng tåc vå täng thém thu nhäp cho cån bö, nhån vién.",
+        "transcription": "Ngoài tiền lương hàng tháng, căn cứ vào kết quả hoạt động và xếp loại thi đua, cán bộ, nhân viên sẽ được xét thưởng từ quỹ khen thưởng vào các dịp Lễ, Tết nhằm khuyến khích nâng cao năng suất, chất lượng, hiệu quả công tác và tăng thêm thu nhập cho cán bộ, nhân viên.",
+        "imageChecked": true,
+        "imagePath": "audit/agent-sgb-21-7.png"
+      }
+    ],
+    "imageChecked": true,
+    "imagePath": "audit/agent-sgb-21-7.png",
+    "reviewer": "Codex - đối chiếu báo cáo và ảnh PDF",
+    "reviewDate": "2026-10-13"
+  },
+  {
+    "bank": "SaigonBank",
+    "year": 2024,
+    "code": "5.2.3",
+    "level": null,
+    "reason": "Đã đọc phần nhân sự và đào tạo: phát triển nhân lực CNTT có nêu, nhưng chưa mô tả quy trình xác định kỹ năng cần thiết để triển khai chiến lược số theo rubric; hạn chế quy hoạch dài hạn cũng không tự xác định mức 1.",
+    "citations": [
+      {
+        "reportId": "report-21",
+        "page": 15,
+        "printedPage": 14,
+        "method": "OCR",
+        "excerpt": "+ Dé xuåt cü cån bö, nhån vién tham dv cåc kh6a dåo too, höi thåo dé cap nh@t vå nång cao kien thirc chuyén mön, nghiép vv. + Qua cang tåc tham muu cüa UBNS, Höi döng quån tri dä cé sv quan tam, chi deo kip thöi, tir d6 ngåy cång cüng cö vå nång cao nguön nhån lyc cüa SAIGONBANK, d4c biét lä trong viéc phåt trién nguön nhån lgc cöng nghé thöng tin cé trinh dé nghiép vv, tinh chuyén nghiép cao, dåp tng nhu cåu nhån luc ngånh ngån hång trong böi cånh chuyén döi Sö nhu hién nay. + Vé mö hinh co cäu tö chüc, UBNS dä tham Inuu, ki?n toån mö hinh tö Chirc theo hu$ng tinh gon, chuyén mön h6a vå phån dinh rö Chirc näng nhi?m vu, nång cao hiéu quå, näng suat Iao déng. + Hen ché: chura låm tot cöng tåc tham muru cho Höi dong quån tri trong cöng tåc dåo teo, quy h04Ch cån bö däi hen cho Ngan hång.",
+        "transcription": "Đề xuất cử cán bộ, nhân viên tham dự các khóa đào tạo, hội thảo để cập nhật và nâng cao kiến thức chuyên môn, nghiệp vụ. Qua công tác tham mưu của UBNS, Hội đồng quản trị đã có sự quan tâm, chỉ đạo kịp thời, từ đó ngày càng củng cố và nâng cao nguồn nhân lực của SAIGONBANK, đặc biệt là trong việc phát triển nguồn nhân lực công nghệ thông tin có trình độ nghiệp vụ, tính chuyên nghiệp cao, đáp ứng nhu cầu nhân lực ngành ngân hàng trong bối cảnh chuyển đổi số như hiện nay. Hạn chế: chưa làm tốt công tác tham mưu cho Hội đồng quản trị trong công tác đào tạo, quy hoạch cán bộ dài hạn cho Ngân hàng.",
+        "imageChecked": true,
+        "imagePath": "audit/agent-sgb-21-15.png"
+      }
+    ],
+    "imageChecked": true,
+    "imagePath": "audit/agent-sgb-21-15.png",
+    "reviewer": "Codex - đối chiếu báo cáo và ảnh PDF",
+    "reviewDate": "2026-10-13"
+  },
+  {
+    "bank": "SaigonBank",
+    "year": 2024,
+    "code": "5.2.7",
+    "level": null,
+    "reason": "Các khóa đào tạo đã được tổ chức trong năm nhưng đoạn dẫn không nêu hình thức học tập trên môi trường số hay phạm vi cơ hội học số theo rubric.",
+    "citations": [
+      {
+        "reportId": "report-21",
+        "page": 7,
+        "printedPage": 6,
+        "method": "OCR",
+        "excerpt": "Chinh såch dåo teo: SAIGONBANK Chü trong cong tåc böi duöng, dåo teo cån bé, nhån vién, nång cao näng chuyén mön nghi?p u, näm vüng cåc chinh såch, quy dinh hi$n hånh trong khuön khö phåp luat. Trong näm 2024, dä tö chüc 16 kh6a dåo teo, tap huån cho cån bé nhån vién.",
+        "transcription": "SAIGONBANK chú trọng công tác bồi dưỡng, đào tạo cán bộ, nhân viên, nâng cao kỹ năng chuyên môn nghiệp vụ, nắm vững các chính sách, quy định hiện hành trong khuôn khổ pháp luật. Trong năm 2024, đã tổ chức 16 khóa đào tạo, tập huấn cho cán bộ nhân viên.",
+        "imageChecked": true,
+        "imagePath": "audit/agent-sgb-21-7.png"
+      }
+    ],
+    "imageChecked": true,
+    "imagePath": "audit/agent-sgb-21-7.png",
+    "reviewer": "Codex - đối chiếu báo cáo và ảnh PDF",
+    "reviewDate": "2026-10-13"
+  },
+  {
+    "bank": "SaigonBank",
+    "year": 2025,
+    "code": "5.2.1",
+    "level": null,
+    "reason": "Có đãi ngộ và thưởng theo kết quả nhưng rubric yêu cầu phù hợp và thúc đẩy chiến lược số; các đoạn này không nối chính sách thưởng với mục tiêu chuyển đổi số. Không suy mức 1 hoặc 2 từ đãi ngộ thông thường.",
+    "citations": [
+      {
+        "reportId": "report-22",
+        "page": 8,
+        "printedPage": 7,
+        "method": "OCR",
+        "excerpt": "Ngoåi tién lucmg hång thång, cän ctr våo két quå hogt döng vå xép 104i thi dua, cån bé, nhån vién sé duroc xét thu&ng tir quy khen thuöng väo cåc dip Lé, Tét nhåm khuyén khich nång cao näng suåt, chåt luqng, hiéu quå cöng tåc vå täng thém thu nhäp cho cån bö, nhån vién.",
+        "transcription": "Ngoài tiền lương hàng tháng, căn cứ vào kết quả hoạt động và xếp loại thi đua, cán bộ, nhân viên sẽ được xét thưởng từ quỹ khen thưởng vào các dịp Lễ, Tết nhằm khuyến khích nâng cao năng suất, chất lượng, hiệu quả công tác và tăng thêm thu nhập cho cán bộ, nhân viên.",
+        "imageChecked": true,
+        "imagePath": "audit/agent-sgb-22-8.png"
+      }
+    ],
+    "imageChecked": true,
+    "imagePath": "audit/agent-sgb-22-8.png",
+    "reviewer": "Codex - đối chiếu báo cáo và ảnh PDF",
+    "reviewDate": "2026-10-13"
+  },
+  {
+    "bank": "SaigonBank",
+    "year": 2025,
+    "code": "5.2.3",
+    "level": null,
+    "reason": "Đã đọc phần nhân sự và đào tạo: phát triển nhân lực CNTT có nêu, nhưng chưa mô tả quy trình xác định kỹ năng cần thiết để triển khai chiến lược số theo rubric; hạn chế quy hoạch dài hạn cũng không tự xác định mức 1.",
+    "citations": [
+      {
+        "reportId": "report-22",
+        "page": 16,
+        "printedPage": 15,
+        "method": "OCR",
+        "excerpt": "- De xuåt ct cån bé, nhån vién tham dv cåc kh6a dåo too, höi thåo dé cap nh#t vå näng cao kien thfrc chuyén mön, nghiép vv. Qua cöng tåc tham muu cüa Üy ban nhån sv, Héi dong quån tri dä c6 sy quan tam, chi deo kip th&i, tir d6 ngåy cang cing cé vå nång cao nguön nhån luc cüa SAIGONBANK, d4c biet lå trong viöc phåt trien nguon nhån luc cöng nghé thöng tin cd trinh dé nghiép vu, tinh chuyén nghi?p cao, dåp tng nhu cåu nhän luc ngånh ngån hång trong bbi cånh chuyen döi Sö nhll hién nay. - Ve mö hinh co cau to chüc, Üy ban nhån sv dä tham mueu, kién toån mö hinh tö Chirc theo hu&ng tinh gon, chuyén mön h6a vå phån dinh rö Chilc näng nhiém vv, nång cao hi$u quå, näng suåt Iao déng. T-l#n ché: chua låm t6t cong tåc tham muu cho Höi döng quån tri trong cöng tåc dåo too, quy hoqch cån bé dåi hqn cho Ngan hång.",
+        "transcription": "Đề xuất cử cán bộ, nhân viên tham dự các khóa đào tạo, hội thảo để cập nhật và nâng cao kiến thức chuyên môn, nghiệp vụ. Qua công tác tham mưu của Ủy ban nhân sự, Hội đồng quản trị đã có sự quan tâm, chỉ đạo kịp thời, từ đó ngày càng củng cố và nâng cao nguồn nhân lực của SAIGONBANK, đặc biệt là trong việc phát triển nguồn nhân lực công nghệ thông tin có trình độ nghiệp vụ, tính chuyên nghiệp cao, đáp ứng nhu cầu nhân lực ngành ngân hàng trong bối cảnh chuyển đổi số như hiện nay. Hạn chế: chưa làm tốt công tác tham mưu cho Hội đồng quản trị trong công tác đào tạo, quy hoạch cán bộ dài hạn cho Ngân hàng.",
+        "imageChecked": true,
+        "imagePath": "audit/agent-sgb-22-16.png"
+      }
+    ],
+    "imageChecked": true,
+    "imagePath": "audit/agent-sgb-22-16.png",
+    "reviewer": "Codex - đối chiếu báo cáo và ảnh PDF",
+    "reviewDate": "2026-10-13"
+  },
+  {
+    "bank": "SaigonBank",
+    "year": 2025,
+    "code": "5.2.7",
+    "level": null,
+    "reason": "Các khóa đào tạo đã được tổ chức trong năm nhưng đoạn dẫn không nêu hình thức học tập trên môi trường số hay phạm vi cơ hội học số theo rubric.",
+    "citations": [
+      {
+        "reportId": "report-22",
+        "page": 8,
+        "printedPage": 7,
+        "method": "OCR",
+        "excerpt": "Chinh såch dåo too: SAIGONBANK Chü trong cöng tåc bbi duöng, dåo too cån bé, nhån vién, nång cao k' näng chuyén mön nghiép vu, näm vüng cåc Chinh såch, quy dinh hién hånh trong khuön khcs phåp luat. Trong näm 2025, dä tå chüc 17 kh6a dåo too, tap huan cho cån bé nhän vién.",
+        "transcription": "SAIGONBANK chú trọng công tác bồi dưỡng, đào tạo cán bộ, nhân viên, nâng cao kỹ năng chuyên môn nghiệp vụ, nắm vững các chính sách, quy định hiện hành trong khuôn khổ pháp luật. Trong năm 2025, đã tổ chức 17 khóa đào tạo, tập huấn cho cán bộ nhân viên.",
+        "imageChecked": true,
+        "imagePath": "audit/agent-sgb-22-8.png"
+      }
+    ],
+    "imageChecked": true,
+    "imagePath": "audit/agent-sgb-22-8.png",
+    "reviewer": "Codex - đối chiếu báo cáo và ảnh PDF",
+    "reviewDate": "2026-10-13"
+  },
+  {
+    "bank": "SaigonBank",
+    "year": 2024,
+    "code": "5.3.3",
+    "level": null,
+    "reason": "E-Office là công cụ có hỗ trợ năng suất, nhưng rubric mức 2 đòi một bộ công cụ toàn diện ở một số bộ phận; một công cụ quản lý văn bản chưa chứng minh bộ công cụ toàn diện. Chưa đủ chọn mức.",
+    "citations": [
+      {
+        "reportId": "report-21",
+        "page": 10,
+        "printedPage": 9,
+        "method": "OCR",
+        "excerpt": "V6i tinh thån vå tråch nhiém xä höi trong viéc båo ve möi tnr&ng, ttrng bu6c xanh h6a möi trubng låm viéc tei Ngan hång, SAIGONBANK dä trién khai dung phån mém Quan •19 vän bån vå diéu hånh E-Office nhäm dåy manh ü•ng dung cöng ngh# thöng tin trong hoot döng ngån hång, too möi tru&ng giao tiép dien tü phyc vu cöng tåc chi doo diéu hånh, nång cao näng suåt Iao döng; dåu tur thém trang thiét bi luti trü, giåm thiéu sir dung giäy tb bäng cåch chuyén döi sang cåc chüng tir dién tü.... göp phån giåm thiéu tåc döng dén möi tru&ng; Iva chon cåc sån phåm, tu vän phöng phåm, thiét •bi c6 chi'mg nhän thån thiön möi tru&ng; thvc hién tiét kiém dién, nu6c dé giåm hiéu frng nhå kinh vå khi thåi déc h@i... cÅo THCrÖNG NIÉN NAM 2024 9",
+        "transcription": "Với tinh thần và trách nhiệm xã hội trong việc bảo vệ môi trường, từng bước xanh hóa môi trường làm việc tại Ngân hàng, SAIGONBANK đã triển khai sử dụng phần mềm Quản lý văn bản và điều hành E-Office nhằm đẩy mạnh ứng dụng công nghệ thông tin trong hoạt động ngân hàng, tạo môi trường giao tiếp điện tử phục vụ công tác chỉ đạo điều hành, nâng cao năng suất lao động; đầu tư thêm trang thiết bị lưu trữ, giảm thiểu sử dụng giấy tờ bằng cách chuyển đổi sang các chứng từ điện tử... góp phần giảm thiểu tác động đến môi trường; lựa chọn các sản phẩm, vật tư văn phòng phẩm, thiết bị có chứng nhận thân thiện môi trường; thực hiện tiết kiệm điện, nước để giảm hiệu ứng nhà kính và khí thải độc hại...",
+        "imageChecked": true,
+        "imagePath": "audit/agent-sgb-21-10.png"
+      }
+    ],
+    "imageChecked": true,
+    "imagePath": "audit/agent-sgb-21-10.png",
+    "reviewer": "Codex - đối chiếu báo cáo và ảnh PDF",
+    "reviewDate": "2026-10-13"
+  },
+  {
+    "bank": "SaigonBank",
+    "year": 2024,
+    "code": "6.2.2",
+    "level": null,
+    "reason": "Có trang thiết bị lưu trữ và chứng từ điện tử nhưng chưa nêu kiểm soát lưu trữ, bảo tồn và xóa dữ liệu theo rubric. Không dùng riêng từ lưu trữ để xác định mức.",
+    "citations": [
+      {
+        "reportId": "report-21",
+        "page": 10,
+        "printedPage": 9,
+        "method": "OCR",
+        "excerpt": "V6i tinh thån vå tråch nhiém xä höi trong viéc båo ve möi tnr&ng, ttrng bu6c xanh h6a möi trubng låm viéc tei Ngan hång, SAIGONBANK dä trién khai dung phån mém Quan •19 vän bån vå diéu hånh E-Office nhäm dåy manh ü•ng dung cöng ngh# thöng tin trong hoot döng ngån hång, too möi tru&ng giao tiép dien tü phyc vu cöng tåc chi doo diéu hånh, nång cao näng suåt Iao döng; dåu tur thém trang thiét bi luti trü, giåm thiéu sir dung giäy tb bäng cåch chuyén döi sang cåc chüng tir dién tü.... göp phån giåm thiéu tåc döng dén möi tru&ng; Iva chon cåc sån phåm, tu vän phöng phåm, thiét •bi c6 chi'mg nhän thån thiön möi tru&ng; thvc hién tiét kiém dién, nu6c dé giåm hiéu frng nhå kinh vå khi thåi déc h@i... cÅo THCrÖNG NIÉN NAM 2024 9",
+        "transcription": "Với tinh thần và trách nhiệm xã hội trong việc bảo vệ môi trường, từng bước xanh hóa môi trường làm việc tại Ngân hàng, SAIGONBANK đã triển khai sử dụng phần mềm Quản lý văn bản và điều hành E-Office nhằm đẩy mạnh ứng dụng công nghệ thông tin trong hoạt động ngân hàng, tạo môi trường giao tiếp điện tử phục vụ công tác chỉ đạo điều hành, nâng cao năng suất lao động; đầu tư thêm trang thiết bị lưu trữ, giảm thiểu sử dụng giấy tờ bằng cách chuyển đổi sang các chứng từ điện tử... góp phần giảm thiểu tác động đến môi trường; lựa chọn các sản phẩm, vật tư văn phòng phẩm, thiết bị có chứng nhận thân thiện môi trường; thực hiện tiết kiệm điện, nước để giảm hiệu ứng nhà kính và khí thải độc hại...",
+        "imageChecked": true,
+        "imagePath": "audit/agent-sgb-21-10.png"
+      }
+    ],
+    "imageChecked": true,
+    "imagePath": "audit/agent-sgb-21-10.png",
+    "reviewer": "Codex - đối chiếu báo cáo và ảnh PDF",
+    "reviewDate": "2026-10-13"
+  },
+  {
+    "bank": "SaigonBank",
+    "year": 2024,
+    "code": "3.1.4",
+    "level": null,
+    "reason": "Nội dung môi trường có hành động tiết kiệm tài nguyên nhưng chưa mô tả quản lý tác động kinh tế tiêu thụ năng lượng của chức năng công nghệ theo rubric. Không suy mức từ tài trợ tín dụng năng lượng xanh.",
+    "citations": [
+      {
+        "reportId": "report-21",
+        "page": 10,
+        "printedPage": 9,
+        "method": "OCR",
+        "excerpt": "V6i tinh thån vå tråch nhiém xä höi trong viéc båo ve möi tnr&ng, ttrng bu6c xanh h6a möi trubng låm viéc tei Ngan hång, SAIGONBANK dä trién khai dung phån mém Quan •19 vän bån vå diéu hånh E-Office nhäm dåy manh ü•ng dung cöng ngh# thöng tin trong hoot döng ngån hång, too möi tru&ng giao tiép dien tü phyc vu cöng tåc chi doo diéu hånh, nång cao näng suåt Iao döng; dåu tur thém trang thiét bi luti trü, giåm thiéu sir dung giäy tb bäng cåch chuyén döi sang cåc chüng tir dién tü.... göp phån giåm thiéu tåc döng dén möi tru&ng; Iva chon cåc sån phåm, tu vän phöng phåm, thiét •bi c6 chi'mg nhän thån thiön möi tru&ng; thvc hién tiét kiém dién, nu6c dé giåm hiéu frng nhå kinh vå khi thåi déc h@i... cÅo THCrÖNG NIÉN NAM 2024 9",
+        "transcription": "Với tinh thần và trách nhiệm xã hội trong việc bảo vệ môi trường, từng bước xanh hóa môi trường làm việc tại Ngân hàng, SAIGONBANK đã triển khai sử dụng phần mềm Quản lý văn bản và điều hành E-Office nhằm đẩy mạnh ứng dụng công nghệ thông tin trong hoạt động ngân hàng, tạo môi trường giao tiếp điện tử phục vụ công tác chỉ đạo điều hành, nâng cao năng suất lao động; đầu tư thêm trang thiết bị lưu trữ, giảm thiểu sử dụng giấy tờ bằng cách chuyển đổi sang các chứng từ điện tử... góp phần giảm thiểu tác động đến môi trường; lựa chọn các sản phẩm, vật tư văn phòng phẩm, thiết bị có chứng nhận thân thiện môi trường; thực hiện tiết kiệm điện, nước để giảm hiệu ứng nhà kính và khí thải độc hại...",
+        "imageChecked": true,
+        "imagePath": "audit/agent-sgb-21-10.png"
+      }
+    ],
+    "imageChecked": true,
+    "imagePath": "audit/agent-sgb-21-10.png",
+    "reviewer": "Codex - đối chiếu báo cáo và ảnh PDF",
+    "reviewDate": "2026-10-13"
+  },
+  {
+    "bank": "SaigonBank",
+    "year": 2025,
+    "code": "5.3.3",
+    "level": null,
+    "reason": "E-Office là công cụ có hỗ trợ năng suất, nhưng rubric mức 2 đòi một bộ công cụ toàn diện ở một số bộ phận; một công cụ quản lý văn bản chưa chứng minh bộ công cụ toàn diện. Chưa đủ chọn mức.",
+    "citations": [
+      {
+        "reportId": "report-22",
+        "page": 11,
+        "printedPage": 10,
+        "method": "OCR",
+        "excerpt": "+ Viji tinh than vå tråch nhi?m xä héi trong viéc båo v? möi tru&ng, timg btr6c xanh h6a möi truöng låm viéc tai Ngan hång, SAIGONBANK dä trién khai cåc giåi phåp nhäm g6p phån xåy dung möi trubng läm vi?c xanh•: dung phån mem Quån l' vän bån vå di&u hånh E-Office nhåm dåy menh img dung cöng ngh# thöng tin trong hogt döng ngån hång, teo möi giao tiep dién tt phyc vu c6ng tåc chi d40 di&u hånht cåi cåch hånh chinh, nång cao näng suat Iao döng, tiét ki?m myc in, giay in; dåu tu thém trang thiét bi luu trü, giåm thiéu 4vng giay tb bång cåch chuyén döi sang cåc giao dich dien tfr, h6a don dien tü, hgp döng dién tir,. gop phån giåm thiéu tåc döng dén möi trubng; Täng cur&ng bé tri cay xanh tai noi låm vi+c, teo khöng gian thån thién, cåi thien chåt lugng khöng khi",
+        "transcription": "SAIGONBANK đã triển khai các giải pháp nhằm góp phần xây dựng môi trường làm việc xanh: sử dụng phần mềm Quản lý văn bản và điều hành E-Office nhằm đẩy mạnh ứng dụng công nghệ thông tin trong hoạt động ngân hàng, tạo môi trường giao tiếp điện tử phục vụ công tác chỉ đạo điều hành, cải cách hành chính, nâng cao năng suất lao động, tiết kiệm mực in, giấy in; đầu tư thêm trang thiết bị lưu trữ, giảm thiểu sử dụng giấy tờ bằng cách chuyển đổi sang các giao dịch điện tử, hóa đơn điện tử, hợp đồng điện tử,... góp phần giảm thiểu tác động đến môi trường; tăng cường bố trí cây xanh tại nơi làm việc, tạo không gian thân thiện, cải thiện chất lượng không khí...",
+        "imageChecked": true,
+        "imagePath": "audit/agent-sgb-22-11.png"
+      }
+    ],
+    "imageChecked": true,
+    "imagePath": "audit/agent-sgb-22-11.png",
+    "reviewer": "Codex - đối chiếu báo cáo và ảnh PDF",
+    "reviewDate": "2026-10-13"
+  },
+  {
+    "bank": "SaigonBank",
+    "year": 2025,
+    "code": "6.2.2",
+    "level": null,
+    "reason": "Có trang thiết bị lưu trữ và chứng từ điện tử nhưng chưa nêu kiểm soát lưu trữ, bảo tồn và xóa dữ liệu theo rubric. Không dùng riêng từ lưu trữ để xác định mức.",
+    "citations": [
+      {
+        "reportId": "report-22",
+        "page": 11,
+        "printedPage": 10,
+        "method": "OCR",
+        "excerpt": "+ Viji tinh than vå tråch nhi?m xä héi trong viéc båo v? möi tru&ng, timg btr6c xanh h6a möi truöng låm viéc tai Ngan hång, SAIGONBANK dä trién khai cåc giåi phåp nhäm g6p phån xåy dung möi trubng läm vi?c xanh•: dung phån mem Quån l' vän bån vå di&u hånh E-Office nhåm dåy menh img dung cöng ngh# thöng tin trong hogt döng ngån hång, teo möi giao tiep dién tt phyc vu c6ng tåc chi d40 di&u hånht cåi cåch hånh chinh, nång cao näng suat Iao döng, tiét ki?m myc in, giay in; dåu tu thém trang thiét bi luu trü, giåm thiéu 4vng giay tb bång cåch chuyén döi sang cåc giao dich dien tfr, h6a don dien tü, hgp döng dién tir,. gop phån giåm thiéu tåc döng dén möi trubng; Täng cur&ng bé tri cay xanh tai noi låm vi+c, teo khöng gian thån thién, cåi thien chåt lugng khöng khi",
+        "transcription": "SAIGONBANK đã triển khai các giải pháp nhằm góp phần xây dựng môi trường làm việc xanh: sử dụng phần mềm Quản lý văn bản và điều hành E-Office nhằm đẩy mạnh ứng dụng công nghệ thông tin trong hoạt động ngân hàng, tạo môi trường giao tiếp điện tử phục vụ công tác chỉ đạo điều hành, cải cách hành chính, nâng cao năng suất lao động, tiết kiệm mực in, giấy in; đầu tư thêm trang thiết bị lưu trữ, giảm thiểu sử dụng giấy tờ bằng cách chuyển đổi sang các giao dịch điện tử, hóa đơn điện tử, hợp đồng điện tử,... góp phần giảm thiểu tác động đến môi trường; tăng cường bố trí cây xanh tại nơi làm việc, tạo không gian thân thiện, cải thiện chất lượng không khí...",
+        "imageChecked": true,
+        "imagePath": "audit/agent-sgb-22-11.png"
+      }
+    ],
+    "imageChecked": true,
+    "imagePath": "audit/agent-sgb-22-11.png",
+    "reviewer": "Codex - đối chiếu báo cáo và ảnh PDF",
+    "reviewDate": "2026-10-13"
+  },
+  {
+    "bank": "SaigonBank",
+    "year": 2025,
+    "code": "3.1.4",
+    "level": null,
+    "reason": "Nội dung môi trường có hành động tiết kiệm tài nguyên nhưng chưa mô tả quản lý tác động kinh tế tiêu thụ năng lượng của chức năng công nghệ theo rubric. Không suy mức từ tài trợ tín dụng năng lượng xanh.",
+    "citations": [
+      {
+        "reportId": "report-22",
+        "page": 11,
+        "printedPage": 10,
+        "method": "OCR",
+        "excerpt": "+ Viji tinh than vå tråch nhi?m xä héi trong viéc båo v? möi tru&ng, timg btr6c xanh h6a möi truöng låm viéc tai Ngan hång, SAIGONBANK dä trién khai cåc giåi phåp nhäm g6p phån xåy dung möi trubng läm vi?c xanh•: dung phån mem Quån l' vän bån vå di&u hånh E-Office nhåm dåy menh img dung cöng ngh# thöng tin trong hogt döng ngån hång, teo möi giao tiep dién tt phyc vu c6ng tåc chi d40 di&u hånht cåi cåch hånh chinh, nång cao näng suat Iao döng, tiét ki?m myc in, giay in; dåu tu thém trang thiét bi luu trü, giåm thiéu 4vng giay tb bång cåch chuyén döi sang cåc giao dich dien tfr, h6a don dien tü, hgp döng dién tir,. gop phån giåm thiéu tåc döng dén möi trubng; Täng cur&ng bé tri cay xanh tai noi låm vi+c, teo khöng gian thån thién, cåi thien chåt lugng khöng khi",
+        "transcription": "SAIGONBANK đã triển khai các giải pháp nhằm góp phần xây dựng môi trường làm việc xanh: sử dụng phần mềm Quản lý văn bản và điều hành E-Office nhằm đẩy mạnh ứng dụng công nghệ thông tin trong hoạt động ngân hàng, tạo môi trường giao tiếp điện tử phục vụ công tác chỉ đạo điều hành, cải cách hành chính, nâng cao năng suất lao động, tiết kiệm mực in, giấy in; đầu tư thêm trang thiết bị lưu trữ, giảm thiểu sử dụng giấy tờ bằng cách chuyển đổi sang các giao dịch điện tử, hóa đơn điện tử, hợp đồng điện tử,... góp phần giảm thiểu tác động đến môi trường; tăng cường bố trí cây xanh tại nơi làm việc, tạo không gian thân thiện, cải thiện chất lượng không khí...",
+        "imageChecked": true,
+        "imagePath": "audit/agent-sgb-22-11.png"
+      }
+    ],
+    "imageChecked": true,
+    "imagePath": "audit/agent-sgb-22-11.png",
+    "reviewer": "Codex - đối chiếu báo cáo và ảnh PDF",
+    "reviewDate": "2026-10-13"
+  },
+  {
+    "bank": "SaigonBank",
+    "year": 2023,
+    "code": "2.6.5",
+    "level": null,
+    "reason": "Đoạn nêu công nghệ và lộ trình nằm dưới Định hướng hoạt động năm 2024; không chứng minh thực thi năm 2023 và chưa có phạm vi đáp ứng rubric. Không dùng kế hoạch tương lai để chấm năm báo cáo.",
+    "citations": [
+      {
+        "reportId": "report-20",
+        "page": 12,
+        "printedPage": 11,
+        "method": "OCR",
+        "excerpt": "3.2.2 Chuyén döi Sö 1104t dQng ngån hing theo IQ trinh phil hvp, låm nén tång cung ü'ng da dqng sån phåm dich vv - Tiép tuc xåy dvng vå trién khai Ké hooch chuyén döi Sö cüa SAIGONBANK dén näm 2025, dinh hu6ng dén näm 2030 theo Quyét dinh Sö 810/QD-NHNN ngåy 1 1 thång 05 näm 2021 cüa Ngan hång Nhå nu6c Viet Nam trén co Sö phü hop v6i dinh hu6ng phåt trién vå nguön lvc, khå näng cüa SAIGONBANK, trong d6 Chü trong dén viéc phåt trién, cung L'rng cåc sån phåm, dich vu döi m6i, an toån, tién ich, phli hop theo hu6ng låy khåch hång låm trung tam, täng cuöng tråi nghiém khåch hång. Nghién cüu vå trién khai cåc giåi phåp, cöng nghé Sö (di?n toån dåm may, phån tich dü lieu 16n, trf tue nhån t40/hQc måy, xåc thuc sinh träc hQC...) trong thiét ké, cung üng sån phåm dich u, quån tri rüi ro, töi uu h6a quy trinh nghiép vu,. .. phü hop v6i dinh hu6ng cüa Ngan hång Nhå nu6c Viet Nam vé chuyén döi Sö trong linh vvc ngån hång, dåm båo tinh thöng nhåt, döng bö, két nöi h? thöng trong cåc tng dung vå sån phåm Icy thuat Sö tir d6 nång cao hiéu quå hoot döng, täng cuöng tråi nghiém vå BÅo cÅo THÜÖNG NIÉN NAM 2023 11",
+        "transcription": "3.2.2 Chuyển đổi số hoạt động ngân hàng theo lộ trình phù hợp, làm nền tảng cung ứng đa dạng sản phẩm dịch vụ. Trong mục Định hướng hoạt động năm 2024: tiếp tục xây dựng và triển khai Kế hoạch chuyển đổi số của SAIGONBANK đến năm 2025, định hướng đến năm 2030; nghiên cứu và triển khai các giải pháp, công nghệ số (điện toán đám mây, phân tích dữ liệu lớn, trí tuệ nhân tạo/học máy, xác thực sinh trắc học...) trong thiết kế, cung ứng sản phẩm dịch vụ, quản trị rủi ro, tối ưu hóa quy trình nghiệp vụ...",
+        "imageChecked": true,
+        "imagePath": "audit/agent-sgb-20-12.png"
+      }
+    ],
+    "imageChecked": true,
+    "imagePath": "audit/agent-sgb-20-12.png",
+    "reviewer": "Codex - đối chiếu báo cáo và ảnh PDF",
+    "reviewDate": "2026-10-13"
+  },
+  {
+    "bank": "SaigonBank",
+    "year": 2023,
+    "code": "2.6.6",
+    "level": null,
+    "reason": "Đoạn nêu công nghệ và lộ trình nằm dưới Định hướng hoạt động năm 2024; không chứng minh thực thi năm 2023 và chưa có phạm vi đáp ứng rubric. Không dùng kế hoạch tương lai để chấm năm báo cáo.",
+    "citations": [
+      {
+        "reportId": "report-20",
+        "page": 12,
+        "printedPage": 11,
+        "method": "OCR",
+        "excerpt": "3.2.2 Chuyén döi Sö 1104t dQng ngån hing theo IQ trinh phil hvp, låm nén tång cung ü'ng da dqng sån phåm dich vv - Tiép tuc xåy dvng vå trién khai Ké hooch chuyén döi Sö cüa SAIGONBANK dén näm 2025, dinh hu6ng dén näm 2030 theo Quyét dinh Sö 810/QD-NHNN ngåy 1 1 thång 05 näm 2021 cüa Ngan hång Nhå nu6c Viet Nam trén co Sö phü hop v6i dinh hu6ng phåt trién vå nguön lvc, khå näng cüa SAIGONBANK, trong d6 Chü trong dén viéc phåt trién, cung L'rng cåc sån phåm, dich vu döi m6i, an toån, tién ich, phli hop theo hu6ng låy khåch hång låm trung tam, täng cuöng tråi nghiém khåch hång. Nghién cüu vå trién khai cåc giåi phåp, cöng nghé Sö (di?n toån dåm may, phån tich dü lieu 16n, trf tue nhån t40/hQc måy, xåc thuc sinh träc hQC...) trong thiét ké, cung üng sån phåm dich u, quån tri rüi ro, töi uu h6a quy trinh nghiép vu,. .. phü hop v6i dinh hu6ng cüa Ngan hång Nhå nu6c Viet Nam vé chuyén döi Sö trong linh vvc ngån hång, dåm båo tinh thöng nhåt, döng bö, két nöi h? thöng trong cåc tng dung vå sån phåm Icy thuat Sö tir d6 nång cao hiéu quå hoot döng, täng cuöng tråi nghiém vå BÅo cÅo THÜÖNG NIÉN NAM 2023 11",
+        "transcription": "3.2.2 Chuyển đổi số hoạt động ngân hàng theo lộ trình phù hợp, làm nền tảng cung ứng đa dạng sản phẩm dịch vụ. Trong mục Định hướng hoạt động năm 2024: tiếp tục xây dựng và triển khai Kế hoạch chuyển đổi số của SAIGONBANK đến năm 2025, định hướng đến năm 2030; nghiên cứu và triển khai các giải pháp, công nghệ số (điện toán đám mây, phân tích dữ liệu lớn, trí tuệ nhân tạo/học máy, xác thực sinh trắc học...) trong thiết kế, cung ứng sản phẩm dịch vụ, quản trị rủi ro, tối ưu hóa quy trình nghiệp vụ...",
+        "imageChecked": true,
+        "imagePath": "audit/agent-sgb-20-12.png"
+      }
+    ],
+    "imageChecked": true,
+    "imagePath": "audit/agent-sgb-20-12.png",
+    "reviewer": "Codex - đối chiếu báo cáo và ảnh PDF",
+    "reviewDate": "2026-10-13"
+  },
+  {
+    "bank": "SaigonBank",
+    "year": 2023,
+    "code": "3.4.1",
+    "level": null,
+    "reason": "Đoạn nêu công nghệ và lộ trình nằm dưới Định hướng hoạt động năm 2024; không chứng minh thực thi năm 2023 và chưa có phạm vi đáp ứng rubric. Không dùng kế hoạch tương lai để chấm năm báo cáo.",
+    "citations": [
+      {
+        "reportId": "report-20",
+        "page": 12,
+        "printedPage": 11,
+        "method": "OCR",
+        "excerpt": "3.2.2 Chuyén döi Sö 1104t dQng ngån hing theo IQ trinh phil hvp, låm nén tång cung ü'ng da dqng sån phåm dich vv - Tiép tuc xåy dvng vå trién khai Ké hooch chuyén döi Sö cüa SAIGONBANK dén näm 2025, dinh hu6ng dén näm 2030 theo Quyét dinh Sö 810/QD-NHNN ngåy 1 1 thång 05 näm 2021 cüa Ngan hång Nhå nu6c Viet Nam trén co Sö phü hop v6i dinh hu6ng phåt trién vå nguön lvc, khå näng cüa SAIGONBANK, trong d6 Chü trong dén viéc phåt trién, cung L'rng cåc sån phåm, dich vu döi m6i, an toån, tién ich, phli hop theo hu6ng låy khåch hång låm trung tam, täng cuöng tråi nghiém khåch hång. Nghién cüu vå trién khai cåc giåi phåp, cöng nghé Sö (di?n toån dåm may, phån tich dü lieu 16n, trf tue nhån t40/hQc måy, xåc thuc sinh träc hQC...) trong thiét ké, cung üng sån phåm dich u, quån tri rüi ro, töi uu h6a quy trinh nghiép vu,. .. phü hop v6i dinh hu6ng cüa Ngan hång Nhå nu6c Viet Nam vé chuyén döi Sö trong linh vvc ngån hång, dåm båo tinh thöng nhåt, döng bö, két nöi h? thöng trong cåc tng dung vå sån phåm Icy thuat Sö tir d6 nång cao hiéu quå hoot döng, täng cuöng tråi nghiém vå BÅo cÅo THÜÖNG NIÉN NAM 2023 11",
+        "transcription": "3.2.2 Chuyển đổi số hoạt động ngân hàng theo lộ trình phù hợp, làm nền tảng cung ứng đa dạng sản phẩm dịch vụ. Trong mục Định hướng hoạt động năm 2024: tiếp tục xây dựng và triển khai Kế hoạch chuyển đổi số của SAIGONBANK đến năm 2025, định hướng đến năm 2030; nghiên cứu và triển khai các giải pháp, công nghệ số (điện toán đám mây, phân tích dữ liệu lớn, trí tuệ nhân tạo/học máy, xác thực sinh trắc học...) trong thiết kế, cung ứng sản phẩm dịch vụ, quản trị rủi ro, tối ưu hóa quy trình nghiệp vụ...",
+        "imageChecked": true,
+        "imagePath": "audit/agent-sgb-20-12.png"
+      }
+    ],
+    "imageChecked": true,
+    "imagePath": "audit/agent-sgb-20-12.png",
+    "reviewer": "Codex - đối chiếu báo cáo và ảnh PDF",
+    "reviewDate": "2026-10-13"
+  },
+  {
+    "bank": "SaigonBank",
+    "year": 2023,
+    "code": "3.4.2",
+    "level": null,
+    "reason": "Đoạn nêu công nghệ và lộ trình nằm dưới Định hướng hoạt động năm 2024; không chứng minh thực thi năm 2023 và chưa có phạm vi đáp ứng rubric. Không dùng kế hoạch tương lai để chấm năm báo cáo.",
+    "citations": [
+      {
+        "reportId": "report-20",
+        "page": 12,
+        "printedPage": 11,
+        "method": "OCR",
+        "excerpt": "3.2.2 Chuyén döi Sö 1104t dQng ngån hing theo IQ trinh phil hvp, låm nén tång cung ü'ng da dqng sån phåm dich vv - Tiép tuc xåy dvng vå trién khai Ké hooch chuyén döi Sö cüa SAIGONBANK dén näm 2025, dinh hu6ng dén näm 2030 theo Quyét dinh Sö 810/QD-NHNN ngåy 1 1 thång 05 näm 2021 cüa Ngan hång Nhå nu6c Viet Nam trén co Sö phü hop v6i dinh hu6ng phåt trién vå nguön lvc, khå näng cüa SAIGONBANK, trong d6 Chü trong dén viéc phåt trién, cung L'rng cåc sån phåm, dich vu döi m6i, an toån, tién ich, phli hop theo hu6ng låy khåch hång låm trung tam, täng cuöng tråi nghiém khåch hång. Nghién cüu vå trién khai cåc giåi phåp, cöng nghé Sö (di?n toån dåm may, phån tich dü lieu 16n, trf tue nhån t40/hQc måy, xåc thuc sinh träc hQC...) trong thiét ké, cung üng sån phåm dich u, quån tri rüi ro, töi uu h6a quy trinh nghiép vu,. .. phü hop v6i dinh hu6ng cüa Ngan hång Nhå nu6c Viet Nam vé chuyén döi Sö trong linh vvc ngån hång, dåm båo tinh thöng nhåt, döng bö, két nöi h? thöng trong cåc tng dung vå sån phåm Icy thuat Sö tir d6 nång cao hiéu quå hoot döng, täng cuöng tråi nghiém vå BÅo cÅo THÜÖNG NIÉN NAM 2023 11",
+        "transcription": "3.2.2 Chuyển đổi số hoạt động ngân hàng theo lộ trình phù hợp, làm nền tảng cung ứng đa dạng sản phẩm dịch vụ. Trong mục Định hướng hoạt động năm 2024: tiếp tục xây dựng và triển khai Kế hoạch chuyển đổi số của SAIGONBANK đến năm 2025, định hướng đến năm 2030; nghiên cứu và triển khai các giải pháp, công nghệ số (điện toán đám mây, phân tích dữ liệu lớn, trí tuệ nhân tạo/học máy, xác thực sinh trắc học...) trong thiết kế, cung ứng sản phẩm dịch vụ, quản trị rủi ro, tối ưu hóa quy trình nghiệp vụ...",
+        "imageChecked": true,
+        "imagePath": "audit/agent-sgb-20-12.png"
+      }
+    ],
+    "imageChecked": true,
+    "imagePath": "audit/agent-sgb-20-12.png",
+    "reviewer": "Codex - đối chiếu báo cáo và ảnh PDF",
+    "reviewDate": "2026-10-13"
+  },
+  {
+    "bank": "SaigonBank",
+    "year": 2023,
+    "code": "3.5.7",
+    "level": null,
+    "reason": "Đoạn nêu công nghệ và lộ trình nằm dưới Định hướng hoạt động năm 2024; không chứng minh thực thi năm 2023 và chưa có phạm vi đáp ứng rubric. Không dùng kế hoạch tương lai để chấm năm báo cáo.",
+    "citations": [
+      {
+        "reportId": "report-20",
+        "page": 12,
+        "printedPage": 11,
+        "method": "OCR",
+        "excerpt": "3.2.2 Chuyén döi Sö 1104t dQng ngån hing theo IQ trinh phil hvp, låm nén tång cung ü'ng da dqng sån phåm dich vv - Tiép tuc xåy dvng vå trién khai Ké hooch chuyén döi Sö cüa SAIGONBANK dén näm 2025, dinh hu6ng dén näm 2030 theo Quyét dinh Sö 810/QD-NHNN ngåy 1 1 thång 05 näm 2021 cüa Ngan hång Nhå nu6c Viet Nam trén co Sö phü hop v6i dinh hu6ng phåt trién vå nguön lvc, khå näng cüa SAIGONBANK, trong d6 Chü trong dén viéc phåt trién, cung L'rng cåc sån phåm, dich vu döi m6i, an toån, tién ich, phli hop theo hu6ng låy khåch hång låm trung tam, täng cuöng tråi nghiém khåch hång. Nghién cüu vå trién khai cåc giåi phåp, cöng nghé Sö (di?n toån dåm may, phån tich dü lieu 16n, trf tue nhån t40/hQc måy, xåc thuc sinh träc hQC...) trong thiét ké, cung üng sån phåm dich u, quån tri rüi ro, töi uu h6a quy trinh nghiép vu,. .. phü hop v6i dinh hu6ng cüa Ngan hång Nhå nu6c Viet Nam vé chuyén döi Sö trong linh vvc ngån hång, dåm båo tinh thöng nhåt, döng bö, két nöi h? thöng trong cåc tng dung vå sån phåm Icy thuat Sö tir d6 nång cao hiéu quå hoot döng, täng cuöng tråi nghiém vå BÅo cÅo THÜÖNG NIÉN NAM 2023 11",
+        "transcription": "3.2.2 Chuyển đổi số hoạt động ngân hàng theo lộ trình phù hợp, làm nền tảng cung ứng đa dạng sản phẩm dịch vụ. Trong mục Định hướng hoạt động năm 2024: tiếp tục xây dựng và triển khai Kế hoạch chuyển đổi số của SAIGONBANK đến năm 2025, định hướng đến năm 2030; nghiên cứu và triển khai các giải pháp, công nghệ số (điện toán đám mây, phân tích dữ liệu lớn, trí tuệ nhân tạo/học máy, xác thực sinh trắc học...) trong thiết kế, cung ứng sản phẩm dịch vụ, quản trị rủi ro, tối ưu hóa quy trình nghiệp vụ...",
+        "imageChecked": true,
+        "imagePath": "audit/agent-sgb-20-12.png"
+      }
+    ],
+    "imageChecked": true,
+    "imagePath": "audit/agent-sgb-20-12.png",
+    "reviewer": "Codex - đối chiếu báo cáo và ảnh PDF",
+    "reviewDate": "2026-10-13"
+  },
+  {
+    "bank": "SaigonBank",
+    "year": 2024,
+    "code": "2.6.1",
+    "level": null,
+    "reason": "Có xác nhận hoàn thành chiến lược phát triển nhưng không trình bày tầm nhìn, nội dung chiến lược số và sự phù hợp giữa hai nội dung theo các mức rubric; chưa đủ chọn mức.",
+    "citations": [
+      {
+        "reportId": "report-21",
+        "page": 6,
+        "printedPage": 5,
+        "method": "OCR",
+        "excerpt": "+ Hoån thårff xåy dvng Chién luqc phåt trién cüa SAIGONBANK dén näm 2025, dinh hu6ng dén näm 2030 theo Quyét dinh sb 34/QD-NHNN ngåy 07/01/2019 vå Quyét dinh sé 1309/QD-NHNN ngåy 24/07/2020 cüa Ngan hång Nhå nu6c Viét Nam.",
+        "transcription": "Hoàn thành xây dựng Chiến lược phát triển của SAIGONBANK đến năm 2025, định hướng đến năm 2030 theo Quyết định số 34/QĐ-NHNN ngày 07/01/2019 và Quyết định số 1309/QĐ-NHNN ngày 24/07/2020 của Ngân hàng Nhà nước Việt Nam.",
+        "imageChecked": true,
+        "imagePath": "audit/agent-sgb-21-6.png"
+      }
+    ],
+    "imageChecked": true,
+    "imagePath": "audit/agent-sgb-21-6.png",
+    "reviewer": "Codex - đối chiếu báo cáo và ảnh PDF",
+    "reviewDate": "2026-10-13"
+  },
+  {
+    "bank": "SaigonBank",
+    "year": 2024,
+    "code": "2.6.6",
+    "level": null,
+    "reason": "Hoàn thành xây dựng chiến lược phát triển không xác định việc áp dụng chiến lược số và phạm vi bộ phận. Các dự án công nghệ riêng không tự chứng minh chiến lược số đã áp dụng theo rubric.",
+    "citations": [
+      {
+        "reportId": "report-21",
+        "page": 6,
+        "printedPage": 5,
+        "method": "OCR",
+        "excerpt": "+ Hoån thårff xåy dvng Chién luqc phåt trién cüa SAIGONBANK dén näm 2025, dinh hu6ng dén näm 2030 theo Quyét dinh sb 34/QD-NHNN ngåy 07/01/2019 vå Quyét dinh sé 1309/QD-NHNN ngåy 24/07/2020 cüa Ngan hång Nhå nu6c Viét Nam.",
+        "transcription": "Hoàn thành xây dựng Chiến lược phát triển của SAIGONBANK đến năm 2025, định hướng đến năm 2030 theo Quyết định số 34/QĐ-NHNN ngày 07/01/2019 và Quyết định số 1309/QĐ-NHNN ngày 24/07/2020 của Ngân hàng Nhà nước Việt Nam.",
+        "imageChecked": true,
+        "imagePath": "audit/agent-sgb-21-6.png"
+      },
+      {
+        "reportId": "report-21",
+        "page": 5,
+        "printedPage": 4,
+        "method": "OCR",
+        "excerpt": "- Thvc hi?n dåu tu mua måy Chü vå hoån thånh nång cap h? thong quån tri co Sö dü lieu Oracle tir phién bån 10g lén 19c döng thöi v6i viéc chuyén döi dü lieu sang h? thöng måy Chü m6i; Thuc hién trang bj phån cüng, phån mém, näng cap hé thöng meng, båo mat phvc vv hoet döng cüa Ngan hång. - Trién khai xåc thi;rc giao dich bäng sinh träc hoc trén tng dung SAIGONBANK Smart Banking ngay tir 01/07/2024 theo quy dinh cåa Ngan hång Nhå nu6c. BÅo cÅo TI-IUÖNG NIÉN NAM 2024 4",
+        "transcription": "Thực hiện đầu tư mua máy chủ và hoàn thành nâng cấp hệ thống quản trị cơ sở dữ liệu Oracle từ phiên bản 10g lên 19c đồng thời với việc chuyển đổi dữ liệu sang hệ thống máy chủ mới; thực hiện trang bị phần cứng, phần mềm, nâng cấp hệ thống mạng, bảo mật phục vụ hoạt động của Ngân hàng. Triển khai xác thực giao dịch bằng sinh trắc học trên ứng dụng SAIGONBANK Smart Banking ngay từ 01/07/2024 theo quy định của Ngân hàng Nhà nước.",
+        "imageChecked": true,
+        "imagePath": "audit/agent-sgb-21-5.png"
+      }
+    ],
+    "imageChecked": true,
+    "imagePath": "audit/agent-sgb-21-6.png",
+    "reviewer": "Codex - đối chiếu báo cáo và ảnh PDF",
+    "reviewDate": "2026-10-13"
+  },
+  {
+    "bank": "SaigonBank",
+    "year": 2025,
+    "code": "3.3.3",
+    "level": null,
+    "reason": "Đã nâng mạng/bảo mật và kiểm tra, đánh giá an ninh thông tin SWIFT, nhưng chưa có kết quả, mô tả năng lực hoặc mức hiệu quả bảo đảm an ninh mạng theo rubric. Không quy đổi một cuộc đánh giá thành năng lực hiệu quả.",
+    "citations": [
+      {
+        "reportId": "report-22",
+        "page": 6,
+        "printedPage": 5,
+        "method": "OCR",
+        "excerpt": "Thvc hién trang bi phån cfrng, phan mem, nång cap h? thong mqng, båo mat phuc vu hoat döng Ngan hång theo tiéu chuan cüa Ngån hång Nhå nu6c Viét Nam vå theo nhu cåu phuc vy hoot déng: nång cap h? th6ng SWIFT dåp (mg tiéu chuan tin dién ISO 20022 vå thyc hien dånh giå kiém tra, dånh giå an ninh thöng tin cho hé th6ng SWIFT; nång cåp co dü lieu Oracle 19C döi v6i måy Chü quån l! giao dich tryc tuyén; két n6i hé th6ng SIMO cüa Ngan hång Nhå nuoc Viet Nam...",
+        "transcription": "Thực hiện trang bị phần cứng, phần mềm, nâng cấp hệ thống mạng, bảo mật phục vụ hoạt động Ngân hàng theo tiêu chuẩn của Ngân hàng Nhà nước Việt Nam và theo nhu cầu phục vụ hoạt động: nâng cấp hệ thống SWIFT đáp ứng tiêu chuẩn tin điện ISO 20022 và thực hiện đánh giá kiểm tra, đánh giá an ninh thông tin cho hệ thống SWIFT; nâng cấp cơ sở dữ liệu Oracle 19C đối với máy chủ quản lý giao dịch trực tuyến; kết nối hệ thống SIMO của Ngân hàng Nhà nước Việt Nam...",
+        "imageChecked": true,
+        "imagePath": "audit/agent-sgb-22-6.png"
+      }
+    ],
+    "imageChecked": true,
+    "imagePath": "audit/agent-sgb-22-6.png",
+    "reviewer": "Codex - đối chiếu báo cáo và ảnh PDF",
+    "reviewDate": "2026-10-13"
+  },
+  {
+    "bank": "SaigonBank",
+    "year": 2025,
+    "code": "4.2.6",
+    "level": null,
+    "reason": "Có nhiều kết nối và hợp tác dịch vụ công/thanh toán, nhưng rubric đòi quy trình hợp tác đối tác hiệu quả; đoạn triển khai chưa mô tả quy trình và hiệu quả của quy trình hợp tác.",
+    "citations": [
+      {
+        "reportId": "report-22",
+        "page": 6,
+        "printedPage": 5,
+        "method": "OCR",
+        "excerpt": "- Ngan hång dä trién khai két n6i tåi khoan SAIGONBANK tng dung VNeID cüa khåch hång lién két tåi khoån SAIGONBANK dé nhån chi trå An sinh xä héi qua frng dung VNeID; trien khai giåi phåp thanh toån khöng tiép xtc too thuan tién cho nguöi dån tham gia tuyén giao thöng cöng cöng; cung cap cåc phuong thüc thanh toån khöng ding tien mét cho ngÜöi ding trong mö hinh bäi xe thöng minh; dbng hånh trién khai, thuc Ili?n dv ån cong nghé thöng tin hö trq hånh Chinh cöng phyc vu nguOi dån, trao täng kiosk thöng minh cho cåc phubng, xä trén dia bån TP. I-lb Chi Minh. - Tiép tuc phåt trien cåc tinh näng m6i trén tng dung SAIGONBANK PAY vå I SAIGONBANK Smart Banking nhåm gia täng tien ich Cho nguöi ding. BÅo cÅo THUÖNG NIÉN NAM 2025 5",
+        "transcription": "Ngân hàng đã triển khai kết nối tài khoản SAIGONBANK với ứng dụng VNeID của khách hàng liên kết tài khoản SAIGONBANK để nhận chi trả An sinh xã hội qua ứng dụng VNeID; triển khai giải pháp thanh toán không tiếp xúc tạo thuận tiện cho người dân tham gia tuyến giao thông công cộng; cung cấp các phương thức thanh toán không dùng tiền mặt cho người dùng trong mô hình bãi xe thông minh; đồng hành triển khai, thực hiện dự án công nghệ thông tin hỗ trợ hành chính công phục vụ người dân, trao tặng Kiosk thông minh cho các phường, xã trên địa bàn TP. Hồ Chí Minh. Tiếp tục phát triển các tính năng mới trên ứng dụng SAIGONBANK PAY và SAIGONBANK Smart Banking nhằm gia tăng tiện ích cho người dùng.",
+        "imageChecked": true,
+        "imagePath": "audit/agent-sgb-22-6.png"
+      }
+    ],
+    "imageChecked": true,
+    "imagePath": "audit/agent-sgb-22-6.png",
+    "reviewer": "Codex - đối chiếu báo cáo và ảnh PDF",
+    "reviewDate": "2026-10-13"
+  },
+  {
+    "bank": "SaigonBank",
+    "year": 2025,
+    "code": "6.1.2",
+    "level": null,
+    "reason": "Nâng Oracle quản lý giao dịch trực tuyến chứng minh công nghệ, chưa nêu nhân sự quản lý dữ liệu, trách nhiệm và phạm vi tài sản dữ liệu theo rubric.",
+    "citations": [
+      {
+        "reportId": "report-22",
+        "page": 6,
+        "printedPage": 5,
+        "method": "OCR",
+        "excerpt": "Thvc hién trang bi phån cfrng, phan mem, nång cap h? thong mqng, båo mat phuc vu hoat döng Ngan hång theo tiéu chuan cüa Ngån hång Nhå nu6c Viét Nam vå theo nhu cåu phuc vy hoot déng: nång cap h? th6ng SWIFT dåp (mg tiéu chuan tin dién ISO 20022 vå thyc hien dånh giå kiém tra, dånh giå an ninh thöng tin cho hé th6ng SWIFT; nång cåp co dü lieu Oracle 19C döi v6i måy Chü quån l! giao dich tryc tuyén; két n6i hé th6ng SIMO cüa Ngan hång Nhå nuoc Viet Nam...",
+        "transcription": "Thực hiện trang bị phần cứng, phần mềm, nâng cấp hệ thống mạng, bảo mật phục vụ hoạt động Ngân hàng theo tiêu chuẩn của Ngân hàng Nhà nước Việt Nam và theo nhu cầu phục vụ hoạt động: nâng cấp hệ thống SWIFT đáp ứng tiêu chuẩn tin điện ISO 20022 và thực hiện đánh giá kiểm tra, đánh giá an ninh thông tin cho hệ thống SWIFT; nâng cấp cơ sở dữ liệu Oracle 19C đối với máy chủ quản lý giao dịch trực tuyến; kết nối hệ thống SIMO của Ngân hàng Nhà nước Việt Nam...",
+        "imageChecked": true,
+        "imagePath": "audit/agent-sgb-22-6.png"
+      }
+    ],
+    "imageChecked": true,
+    "imagePath": "audit/agent-sgb-22-6.png",
+    "reviewer": "Codex - đối chiếu báo cáo và ảnh PDF",
+    "reviewDate": "2026-10-13"
+  }
+]

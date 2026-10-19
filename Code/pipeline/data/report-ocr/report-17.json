@@ -1,0 +1,48 @@
+{
+    "pages":  [
+                  {
+                      "method":  "Windows OCR",
+                      "language":  "en-US",
+                      "page":  1,
+                      "text":  "LPBank BÅo CAO pHÅTT 2u3"
+                  },
+                  {
+                      "method":  "Windows OCR",
+                      "language":  "en-US",
+                      "page":  5,
+                      "text":  "Gidl NGAN HÄNG TMCP BIJU DIÉN LIEN"
+                  },
+                  {
+                      "method":  "Windows OCR",
+                      "language":  "en-US",
+                      "page":  7,
+                      "text":  "Meng Iddi hoat déng Phi kin toån bé Tinh thånh trén cå nudc 481 513 e, Huyen dåo LY Son Höi Sd Chinh 85 Chi nhånh Phöng giao d!ch Phöng giao d!ch Buru dién Sö lugng chi nhånh vå phöng giao dich chuy6n try Sd trong näm Sö lurgng chi nhånh vå phöng giao dich md mdi näm 2023 02 Chi nhånh Phöng giao dich 05 Chi nhånh 01 Phöng giao dich Quän dåo Hoång Sa Quän dåo Trudng Sa Céc cong ty con, cöng ty lién két.• Khöng Phü Qu6c"
+                  },
+                  {
+                      "method":  "Windows OCR",
+                      "language":  "en-US",
+                      "page":  13,
+                      "text":  "QUÅN TRI - HÄNH DÖNG cÖ TRÅCH NHIÉM"
+                  },
+                  {
+                      "method":  "Windows OCR",
+                      "language":  "en-US",
+                      "page":  20,
+                      "text":  "CHUYÉN Döl SANG MÖT NEN KINH BEN VÜNGVÅ TRUNG HöA CÅC-BON"
+                  },
+                  {
+                      "method":  "Windows OCR",
+                      "language":  "en-US",
+                      "page":  33,
+                      "text":  "xÄ Höl - xÄY DVNG xÄ I-löl THINH VIJdNG"
+                  },
+                  {
+                      "method":  "Windows OCR",
+                      "language":  "en-US",
+                      "page":  46,
+                      "text":  "ZZZ//////////U////M/// Ngän hång Buu dien Lién Viet Ngän hång LPBank Website: www.lpbank.com.vn Lién hé: 024 62 668 668 Theo döi chüng töi Ngän hång cüa mpi ngudi"
+                  }
+              ],
+    "id":  "report-17",
+    "pdfPageCount":  46
+}

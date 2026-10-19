@@ -1,0 +1,34 @@
+{
+  "sourceRowsMatched": 700,
+  "pillarsRecomputed": 30,
+  "equalPillarWeights": true,
+  "boundariesBeforeRounding": true,
+  "banks": [
+    {
+      "bank": "TPBank",
+      "score": 16.610886160455124,
+      "stage": "Khởi động"
+    },
+    {
+      "bank": "HDBank",
+      "score": 14.131763032625102,
+      "stage": "Khởi động"
+    },
+    {
+      "bank": "LPBank",
+      "score": 34.394171601068145,
+      "stage": "Bắt đầu"
+    },
+    {
+      "bank": "OCB",
+      "score": 48.98341895971206,
+      "stage": "Bắt đầu"
+    },
+    {
+      "bank": "Saigonbank",
+      "score": 12.87812753976547,
+      "stage": "Khởi động"
+    }
+  ],
+  "verification": "Original Excel freshly extracted by PowerShell; no Python pipeline or browser claim here."
+}

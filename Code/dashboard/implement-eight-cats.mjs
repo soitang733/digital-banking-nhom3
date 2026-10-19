@@ -1,0 +1,16 @@
+import fs from 'node:fs';
+const manifest=JSON.parse(fs.readFileSync('cat-stickers.json','utf8'));
+if(manifest.assets.length!==8)throw Error('Expected the eight chosen cats');
+const video=(asset,attributes)=>'<video '+attributes+' muted loop playsinline preload="auto" aria-hidden="true" tabindex="-1"><source src="'+asset.src+'" type="video/webm"></video>';
+let html=fs.readFileSync('dist/index.html','utf8');
+const start=html.indexOf('<div class="cat-cursor"'),end=html.indexOf('</div>',start);
+if(start<0||end<0)throw Error('Cursor container missing');
+html=html.slice(0,start)+'<div class="cat-cursor" id="cat-cursor" aria-hidden="true" hidden>'+manifest.assets.map(a=>video(a,'data-cat-id="'+a.name+'" data-cat-label="'+a.label+'" hidden')).join('')+'</div>'+html.slice(end+6);
+const scopeStart=html.indexOf('<div class="scope">'),profileStart=html.indexOf('<div class="profile">',scopeStart);
+if(scopeStart<0||profileStart<0)throw Error('Sidebar card missing');
+const picker='<div class="scope meme-picker"><div class="meme-picker-head"><span>GÓC MÈO MEME</span><button id="cat-auto" class="cat-auto" aria-pressed="true" title="Luân phiên tất cả tám mèo">↻ Tự đổi</button></div><div class="meme-picker-grid">'+manifest.assets.map(a=>'<button class="meme-choice" data-cat-choice="'+a.name+'" aria-label="Dùng '+a.label+' làm con trỏ" aria-pressed="false" title="'+a.label+'">'+video(a,'data-cat-preview')+'</button>').join('')+'</div><small id="cat-picker-caption">Tự đổi 8 mèo · Bấm để ghim một mèo</small><span class="meme-picker-hint">Bật ✦ để dùng con trỏ mèo</span></div>';
+html=html.slice(0,scopeStart)+picker+html.slice(profileStart);
+html=html.replace('<script src="cat-cursor.js"></script>','<script src="cat-cursor-v2.js?v=15"></script>');
+fs.writeFileSync('dist/index.html',html);
+let pack=fs.readFileSync('package-local.mjs','utf8').replace("'experience.js','cat-cursor.js'","'experience.js','cat-cursor-v2.js'");pack=pack.replace("${file==='motion.js'?'?v=14':''}","${file==='motion.js'?'?v=14':file==='cat-cursor-v2.js'?'?v=15':''}");fs.writeFileSync('package-local.mjs',pack);
+fs.appendFileSync('README.md','\nĐủ tám sticker được chọn trong ảnh: chỉ mục 0/1/3/6/9/14/16/18 của Cat things. Góc mèo meme ở sidebar cho chọn bất kỳ con trỏ nào; Tự đổi đi qua đủ tám mèo theo chuyển động chuột và lần bấm, không tạo timer chạy liên tục. Lựa chọn ghim được lưu trong trình duyệt. Ô xem trước chỉ chạy video khi hover/focus và bật hiệu ứng; ngoài lúc đó giữ một khung hình. Video con trỏ chỉ chạy một con ở mỗi thời điểm.\n');

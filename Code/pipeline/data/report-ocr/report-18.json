@@ -1,0 +1,54 @@
+{
+    "pages":  [
+                  {
+                      "method":  "Windows OCR",
+                      "language":  "en-US",
+                      "page":  1,
+                      "text":  "LPBanke BÅo cÅo THIJÖNG NIÉN 2024 TINH GON DAN DÄU QUÅ - VAN HÄNH XUÄTSÄC 68 68"
+                  },
+                  {
+                      "method":  "Windows OCR",
+                      "language":  "en-US",
+                      "page":  10,
+                      "text":  "CHUdNG1 V: LPBANK TRANG 20 24 26 28 32 NOI DUNG Vé chüng töi Täm nhin, Sü menh, giå tri c6t löi Chäng dudng lich Sü Cd cäu c6 döng Hoat döng quan hö nhå däu tu"
+                  },
+                  {
+                      "method":  "Windows OCR",
+                      "language":  "en-US",
+                      "page":  31,
+                      "text":  "o CHUdNG 3 CHUYÉN Sö 1 0101 01 oo TRANG 62 64 65 68 NOI DUNG Thånh Wu chuyén d6i s6 Hånh trinh chuyén d6i s6 Däu tuvå thuc hién cåc ditr ån trqng diém Däu tu våo Cöng nghö 01"
+                  },
+                  {
+                      "method":  "Windows OCR",
+                      "language":  "en-US",
+                      "page":  37,
+                      "text":  "PHÅTÄRA€ÅB€NOG T RANG Quåntri hang 74 Quåntri. ro 96 Ngan häng xanh 102"
+                  },
+                  {
+                      "method":  "Windows OCR",
+                      "language":  "en-US",
+                      "page":  38,
+                      "text":  "Quån tr/ngän hång 15.40"
+                  },
+                  {
+                      "method":  "Windows OCR",
+                      "language":  "en-US",
+                      "page":  52,
+                      "text":  "LPBANK 1 BÅoCÅO THUdNGNIÉN2024 LPBANK I BÅocÅOTHUdNGNlÉN2024 PHÄN 2 Ngan hång xanh"
+                  },
+                  {
+                      "method":  "Windows OCR",
+                      "language":  "en-US",
+                      "page":  62,
+                      "text":  "TINH HiNH CHINH TRANG 124 127 128 131 132 134 68 NOI DUNG Båo céo cüa Ban Diéu hånh Båo céo kiém toån déc läp Båo céo tinh hinh tåi Chinh Båo céo két quå hoat déng Båo céo Idu chuyén tién te Thuyét minh båo céo tåi Chinh"
+                  },
+                  {
+                      "method":  "Windows OCR",
+                      "language":  "en-US",
+                      "page":  100,
+                      "text":  "Dia chi Sö dién thoai Sö fax Hotline Website LPBank0 BÅo cÅo THUdNG NIÉN 2024 LPB Tower, s6 210 dddng Trän Quang Khåi, phddng Trång Tién, quan Hoån Kiém, thånh ph6 Hä Nöi, Viet Nam 024 62 668 668 024 62 669 669 *8668 www.lpbank.com.vn"
+                  }
+              ],
+    "id":  "report-18",
+    "pdfPageCount":  100
+}

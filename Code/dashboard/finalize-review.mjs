@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+let s=fs.readFileSync('dist/review-ui.js','utf8');
+s=s.replaceAll('Đã đọc \'+R.stats.pdfPages','Đã trích nội dung từ \'+R.stats.pdfPages');
+s=s.replaceAll('bản ghi năm chưa đủ căn cứ chấm','bản ghi năm còn chờ đối chiếu mức');
+s=s.replaceAll('— · Chưa đủ căn cứ','— · Chưa chấm');
+s=s.replaceAll("r.level===null?'Chưa đủ căn cứ'", "r.level===null?'Chưa chấm · Cần đối chiếu'");
+s=s.replaceAll("esc(c.excerpt)","esc(c.transcription??c.excerpt)");
+s=s.replace("esc(c.method)+(candidate?", "esc(c.method)+(c.transcription?' · Bản chép từ ảnh đã kiểm tra':'')+(candidate?");
+s=s.replaceAll("c=>c.excerpt).join(' | ')","c=>c.transcription??c.excerpt).join(' | ')");
+fs.writeFileSync('dist/review-ui.js',s);

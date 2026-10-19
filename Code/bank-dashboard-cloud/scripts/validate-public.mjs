@@ -1,0 +1,16 @@
+import fs from 'node:fs';
+import vm from 'node:vm';
+import assert from 'node:assert/strict';
+for(const file of ['index.html','bootstrap.js','data.js','research.js','pdf-sources.js','bank-media.js','app.js','downloads.js','downloads.css','download-catalog.js'])assert(fs.existsSync('public/'+file),'Missing deployment file '+file);
+const ctx={window:{}};
+for(const file of ['data.js','research.js','pdf-sources.js'])vm.runInNewContext(fs.readFileSync('public/'+file,'utf8'),ctx);
+assert.equal(ctx.window.DBI_DATA.evidence.length,700);
+assert.equal(ctx.window.DBI_RESEARCH.records.length,2100);
+assert.equal(ctx.window.DBI_PDF_SOURCES.stats.withRelatedPDF,391);
+assert.equal(ctx.window.DBI_PDF_SOURCES.stats.scoreChanges,0);
+assert(!fs.existsSync('public/team-handoff.md'));
+vm.runInNewContext(fs.readFileSync('public/download-catalog.js','utf8'),ctx);
+assert.equal(ctx.window.DBI_DOWNLOADS.fileCount,4);
+assert.equal(ctx.window.DBI_DOWNLOADS.pdfs.length,23);
+assert(!ctx.window.DBI_DOWNLOADS.files.some(f=>f.path.includes('Bao-cao-xu-ly')));
+console.log('Validated deployment: 700 pooled rows, 2100 annual rows, PDF links and preserved scores.');

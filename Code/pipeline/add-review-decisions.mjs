@@ -1,0 +1,54 @@
+import fs from 'node:fs';
+import {execFileSync} from 'node:child_process';
+const manifest=JSON.parse(fs.readFileSync('pipeline/data/reports/manifest.json','utf8').replace(/^\uFEFF/,''));
+const out='pipeline/data/review-decisions.json';const rows=fs.existsSync(out)?JSON.parse(fs.readFileSync(out,'utf8')):[];
+function add(reportId,page,code,level,anchor,reason,printedPage=''){
+ const r=manifest.find(r=>r.id===reportId);
+ const raw=execFileSync('C:/Program Files/Git/mingw64/bin/pdftotext.exe',['-f',String(page),'-l',String(page),'-raw','-enc','UTF-8',r.file,'-'],{encoding:'utf8',maxBuffer:2000000});
+ const docFile='pipeline/data/report-text/'+reportId+'.json',doc=JSON.parse(fs.readFileSync(docFile,'utf8')),layout=doc.pages[page-1].text;
+ const normalize=t=>t.replace(/\s+/g,' ').trim();
+ let text=normalize(raw),pos=text.toLowerCase().indexOf(anchor.toLowerCase()),method='PDF raw text';
+ if(pos<0){text=normalize(layout);pos=text.toLowerCase().indexOf(anchor.toLowerCase());method='PDF text';}
+ if(pos<0)throw Error('Anchor missing '+reportId+' '+page+' '+anchor);
+ const excerpt=text.slice(Math.max(0,pos-60),pos+650);
+ // Keep the exact text span that the validator can locate on the original PDF page.
+ const existing=rows.findIndex(d=>d.bank===r.bank&&d.year===r.year&&d.code===code);
+ doc.pages[page-1].rawText=raw;fs.writeFileSync(docFile,JSON.stringify(doc));
+ const entry={bank:r.bank,year:r.year,code,level,reason,citations:[{reportId,page,printedPage,excerpt,method}]};
+ if(existing>=0)rows[existing]=entry;else rows.push(entry);
+}
+add('report-0',26,'3.2.6',2,'Hoàn thành các API dịch vụ eKYC','API eKYC/BioCenter đã hoàn thành và có khách hàng sử dụng; đủ mức 2 hỗ trợ API ở một số đơn vị, chưa chứng minh bắt buộc API cho mọi ứng dụng.','48–49');
+add('report-0',26,'3.4.1',2,'Ứng dụng ChatGPT trong nhiều hạng mục','ChatGPT được sử dụng trong Helpdesk, DropBill và phân tích CallCenter; hỗ trợ mức 2, chưa đủ căn cứ áp dụng toàn doanh nghiệp.','48–49');
+add('report-0',26,'3.2.2',2,'Triển khai eBankX và eBankBiz hoạt động','Hai ứng dụng cụ thể đã sử dụng Microservice/Cloud platform; đúng mức 2 microservices ở một số ứng dụng.','48–49');
+add('report-0',26,'3.5.7',2,'Triển khai eBankX và eBankBiz hoạt động','Cloud platform được ứng dụng trong eBankX/eBankBiz và có tăng trưởng giao dịch; đủ triển khai ở một số đơn vị, chưa chứng minh hầu hết.','48–49');
+add('report-3',59,'3.2.6',2,'Ngân hàng đã chủ động xây dựng nền tảng API','Có kết nối đối tác và gần 2.000 đầu dịch vụ thanh toán, đủ mức 2; chưa chứng minh quy định API cho tất cả ứng dụng mới.','59');
+add('report-3',59,'3.4.1',2,'TPBank tiếp tục dẫn đầu trong việc ứng dụng','Đã dùng AI trong thanh toán, tín dụng, tiền gửi; chưa đủ chứng cứ sử dụng toàn doanh nghiệp nên dừng mức 2.','59');
+add('report-3',59,'1.1.3',2,'Mở tài khoản Nickname, Facepay','MeZone cho đổi giao diện, Nickname cho tên tài khoản; chứng minh một số công cụ tùy chỉnh một số dịch vụ.','59');
+add('report-3',59,'1.2.5',2,'TPBank hỗ trợ eKYC nhanh chóng','eKYC và đăng ký sinh trắc học một lần cải thiện đăng ký dịch vụ; đủ mức 2 ở một số hành trình, không khẳng định toàn doanh nghiệp.','59');
+add('report-3',60,'3.5.9',2,'Ứng dụng Automation test nâng mức độ tự động','Tự động hóa test tăng từ 20% lên 35%; đủ mức 2 tại bộ phận kiểm thử, không đủ hầu hết quy trình.','60');
+add('report-11',39,'3.2.6',2,'Năm 2023, OCB đẩy mạnh tự động hóa giao dịch','Gần 200 Open API cho truy vấn tài khoản, dòng tiền và ví điện tử; đủ hỗ trợ API ở một số dịch vụ.','76–77');
+add('report-11',39,'3.4.1',2,'sử dụng công nghệ AI vào một số quy trình','Có sử dụng AI trong quy trình thanh toán/bảo mật; đủ mức 2, chưa chứng minh toàn doanh nghiệp.','76–77');
+add('report-11',39,'1.1.1',2,'Ngân hàng có thể phân tích hành','AppsFlyer phân tích hành vi và cung cấp dịch vụ phù hợp nhu cầu; hỗ trợ cá nhân hóa ở một số hành trình, chưa đủ phạm vi cụm/toàn doanh nghiệp.','76–77');
+add('report-11',39,'1.2.5',2,'khách hàng có thể tính toán thông minh','Đăng ký hồ sơ vay nhà trực tuyến trong ba bước; đủ đưa trải nghiệm vào đăng ký ít nhất một sản phẩm.','76–77');
+add('report-11',38,'5.2.7',2,'Ngoài đào tạo trực tiếp, chúng tôi cũng đã triển khai hai khóa elearning','Có 1.059 nhân viên học qua mô hình e-learning về giá trị cốt lõi và người hướng dẫn, đủ lợi ích đào tạo ở một số đơn vị; chưa chứng minh giá trị kinh doanh toàn hàng.','74–75');
+add('report-13',53,'5.2.7',2,'Trong năm 2024, OCB đã tổ chức 525 khóa đào tạo','385 khóa e-Learning và số lượt đào tạo/giờ học tăng; hỗ trợ mức 2. Chưa đủ chỉ tiêu tác động kinh doanh để nâng mức 3–4.','104–105');
+add('report-7',36,'3.5.9',2,'công nghệ tự động hóa (RPA)','RPA giảm thời gian và tăng chính xác giao dịch, đủ mức 2 tại một số bộ phận, chưa chứng minh hầu hết quy trình.','70–71');
+add('report-7',36,'3.4.1',2,'thiết lập hệ thống AI để phát triển','Hệ thống AI phát triển và giám sát Machine Learning đã được thiết lập; đủ triển khai một số bộ phận, chưa đủ toàn doanh nghiệp.','70–71');
+add('report-7',36,'3.4.2',2,'Công cụ quản trị dữ liệu DG Tool','Đã triển khai DG Tool trên IBM CP4D; đủ căn cứ có kế hoạch/nền tảng hỗ trợ dữ liệu lớn, nhưng đoạn này chưa xác nhận nền tảng dữ liệu lớn đã vận hành đầy đủ nên dừng mức 2.','70–71');
+add('report-7',36,'1.2.5',2,'Digital Onboarding cho thẻ tín dụng','Có onboarding số thẻ và mở tài khoản eKYC trong các cải tiến thực hiện 2024, hỗ trợ mức 2.','70–71');
+add('report-7',22,'5.2.7',2,'Tổ chức đào tạo bắt buộc','Đào tạo e-learning định kỳ cho gần 800 nhân sự khách hàng doanh nghiệp, đủ ứng dụng có lợi ích ở một nhóm chức năng.','42–43');
+add('report-5',57,'5.2.7',2,'Đưa “E-Learning” vào công tác đào tạo','E-Learning đã đưa vào đào tạo và báo cáo 767 khóa trong năm; đủ mức 2, chưa chứng minh tác động ở hầu hết đơn vị.');
+add('report-8',46,'3.2.6',2,'Tích hợp API mở (Open API)','HDBiz tích hợp Open API cho khách hàng doanh nghiệp; đủ mức 2 hỗ trợ ở một số dịch vụ, không dùng định hướng 2026 ở cột bên cạnh để chấm 2025.','90–91');
+add('report-9',43,'3.4.1',2,'HDBank tích hợp các công nghệ eKYC','AI dùng nhận diện rủi ro, gian lận, định danh số trong hoạt động triển khai năm 2025; đủ mức 2.','84–85');
+add('report-8',42,'3.5.9',2,'tự động hóa thẩm định tín dụng','Đã tự động hóa thẩm định và chấm tín dụng, rút ngắn thời gian phê duyệt; đủ mức 2, chưa đủ hầu hết quy trình.','82–83');
+add('report-17',38,'5.2.7',2,'e-learning hay các hình thức trực tuyến','Báo cáo mô tả e-learning trong phát triển nhân viên; ghi mức 2 theo phạm vi một số bộ phận, không tự nâng theo tổng số giờ đào tạo.');
+add('report-18',34,'3.4.2',2,'rất nhiều dự án về quản trị dữ liệu','Có triển khai dự án Datalake/Datawarehouse, đủ căn cứ ít nhất kế hoạch triển khai mức 2; đoạn này chưa chốt thời điểm đi vào hoạt động nên chưa nâng mức 3. Không dùng nội dung AI đang tiếp cận đơn vị để chấm triển khai.','66–67');
+add('report-13',60,'3.2.6',2,'giao dịch qua hệ sinh thái đối tác','Có 57 triệu giao dịch Open API và hơn 200 khách hàng doanh nghiệp sử dụng, đủ mức 2; chưa đủ bắt buộc API cho tất cả ứng dụng mới.','118–119');
+add('report-13',61,'3.5.7',2,'mở rộng nền tảng hạ tầng điện toán','Hạ tầng cloud được mở rộng để cung ứng ứng dụng và sản phẩm; đủ sử dụng có giá trị ở một số bộ phận.','120–121');
+add('report-14',53,'3.2.6',2,'thông qua nền tảng Open API','Có hơn 300 đối tác, 200 API và gần 10 triệu giao dịch/tháng; đủ mức 2, chưa chứng minh áp dụng bắt buộc cho toàn bộ ứng dụng.','53');
+add('report-14',53,'3.5.9',2,'OCB tiếp tục số hóa, tự động hóa nhiều','Tự động hóa thanh toán, kế toán chi phí và tín dụng giảm thời gian xử lý; đủ một số bộ phận mức 2, chưa đủ hầu hết quy trình.','53');
+add('report-14',53,'1.1.1',2,'đẩy mạnh ứng dụng dữ liệu trong phân tích','Dùng hành vi và nhu cầu để đề xuất sản phẩm/ưu đãi; đủ cá nhân hóa ở một số khía cạnh, chưa chứng minh phạm vi cụm bộ phận hoặc mọi trải nghiệm.','53');
+add('report-14',53,'1.2.5',2,'như mở thẻ tín dụng 100% trực tuyến','Đăng ký thẻ trực tuyến và thấu chi online cải thiện ít nhất một hành trình đăng ký; đủ mức 2.','53');
+add('report-14',53,'4.3.3',3,'mô hình DevSecOps tiếp tục','DevSecOps đã được áp dụng để tích hợp bảo mật xuyên suốt phát triển/vận hành; đủ nguyên tắc đã xác định và bắt đầu giới thiệu (mức 3), chưa đủ chứng minh áp dụng triệt để toàn doanh nghiệp (mức 4).','53');
+add('report-15',77,'5.2.7',2,'Năm 2025, Ngân hàng triển khai chương trình đào tạo E-learning','Đào tạo E-learning 2025 về rủi ro môi trường/xã hội phục vụ đơn vị kinh doanh, thẩm định và kiểm soát; không dùng Green Academy bắt đầu từ 2026 để chấm 2025.','77');
+fs.writeFileSync(out,JSON.stringify(rows,null,2));console.log('Saved '+rows.length+' document review decisions.');

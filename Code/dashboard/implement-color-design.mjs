@@ -1,0 +1,15 @@
+import fs from 'node:fs';
+let html=fs.readFileSync('dist/index.html','utf8');
+html=html.replace('<link rel="stylesheet" href="premium.css">','<link rel="stylesheet" href="colorful.css">');
+html=html.replace('content="#080B18"','content="#F4EFFF"');
+fs.writeFileSync('dist/index.html',html);
+let pack=fs.readFileSync('package-local.mjs','utf8').replace("'motion.css','premium.css'","'motion.css','colorful.css'");
+fs.writeFileSync('package-local.mjs',pack);
+let app=fs.readFileSync('dist/app.js','utf8');
+app=app.replace('return bankMediaTabs(lead)+hero+guide+kpis+', 'return bankMediaTabs(lead)+\'<div class="overview-kpis">\'+kpis+\'</div>\'+hero+guide+');
+app=app.replace("(S.bank==='all'?'NGÂN HÀNG CÓ ĐIỂM CAO NHẤT':'HỒ SƠ ĐANG XEM')","(S.bank==='all'?'ĐIỂM GỘP · KẾT QUẢ SƠ BỘ':'HỒ SƠ ĐANG XEM · ĐIỂM GỘP')");
+const first=app.indexOf("<div class=\"eyebrow\">ĐỌC NHANH KẾT QUẢ</div>"),last=app.indexOf("<div class=\"insight-actions\">",first);
+if(first<0||last<0)throw Error('Overview profile markup not found');
+app=app.slice(0,first)+`<h2>Khám phá hồ sơ '+esc(lead.label)+'</h2><p>Phân tích hồ sơ năng lực số qua '+esc(pillarLabel)+' trong giai đoạn 2023–2025.</p><div class="overview-facts"><div><span>Trụ cột nổi bật</span><b>'+esc(D.pillars[strongest])+' · '+fmt(leadPillars[strongest])+unit()+'</b></div><div><span>Độ phủ theo bộ lọc</span><b>'+fmt(stats.coverage)+'% · '+(stats.count-stats.zero)+' / '+stats.count+' bản ghi có mức &gt; 0</b></div></div><p class="profile-review-note">ⓘ Kết quả sơ bộ · Cần đối chiếu nguồn và số trang.</p>`+app.slice(last);
+fs.writeFileSync('dist/app.js',app);
+fs.appendFileSync('README.md','\nBản giao diện sáng được thiết kế bằng mockup trước khi triển khai. Ảnh và đặc tả ở ../designs/dashboard-colorful-v1.png và .md. colorful.css thay lớp premium tối: sidebar sáng, nền lavender chuyển màu hồng/cyan, thẻ KPI sặc sỡ và thẻ điểm tím–hồng. Điểm, bộ lọc, nguồn ảnh và quy tắc dữ liệu giữ nguyên; radar trên web vẫn lấy số liệu thật, không lấy hình minh họa từ mockup.\n');

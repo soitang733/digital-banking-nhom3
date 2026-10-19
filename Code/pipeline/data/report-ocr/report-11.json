@@ -1,0 +1,35 @@
+{
+    "id":  "report-11",
+    "pages":  [
+                  {
+                      "method":  "Windows OCR",
+                      "language":  "en-US",
+                      "page":  1,
+                      "text":  "O OCB Ngän Häng Phudng Döng BÅo cÅo PHÅT TRIEN BEN vÜNG 2023 S.C.D Hånh trinh chuyén däi Ngan hång Xanh"
+                  },
+                  {
+                      "method":  "Windows OCR",
+                      "language":  "en-US",
+                      "page":  8,
+                      "text":  "uHÜdNö cåo Phåt trßn bén 2023"
+                  },
+                  {
+                      "method":  "Windows OCR",
+                      "language":  "en-US",
+                      "page":  23,
+                      "text":  "62 MOI TRUdNG ESGb"
+                  },
+                  {
+                      "method":  "Windows OCR",
+                      "language":  "en-US",
+                      "page":  32,
+                      "text":  "CHUdNG 03 xÄ Höl cåo trßn vüm 2023 OCB - Niöm tin vå Thinh nmg"
+                  },
+                  {
+                      "method":  "Windows OCR",
+                      "language":  "en-US",
+                      "page":  45,
+                      "text":  "c*döNG"
+                  }
+              ]
+}

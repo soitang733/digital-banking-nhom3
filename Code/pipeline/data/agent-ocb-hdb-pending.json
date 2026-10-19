@@ -1,0 +1,376 @@
+[
+  {
+    "bank": "HDBank",
+    "year": 2023,
+    "code": "3.2.5",
+    "level": null,
+    "reason": "Đã sử dụng cloud cho lưu trữ nhưng trang không mô tả cách tiếp cận chung để phát triển năng lực cloud của các đơn vị. Không suy ra mức từ việc có hạ tầng.",
+    "citations": [
+      {
+        "reportId": "report-5",
+        "page": 48,
+        "printedPage": "94–95",
+        "method": "PDF raw text",
+        "excerpt": "Số hóa thành công việc lưu trữ văn bản tài liệu lên nền\r\ntảng điện toán đám mây để giảm tải việc lưu trữ phần\r\ncứng tại hệ thống ngân hàng lõi (Core Banking)."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "HDBank",
+    "year": 2023,
+    "code": "3.2.2",
+    "level": null,
+    "reason": "Digital Core Thought Machine mới khởi động dự án trong năm 2023. Chưa có bằng chứng Microservices đã triển khai trong ứng dụng; không coi tên nhà cung cấp là bằng chứng kiến trúc.",
+    "citations": [
+      {
+        "reportId": "report-5",
+        "page": 48,
+        "printedPage": "94–95",
+        "method": "PDF raw text",
+        "excerpt": "Chính thức khởi động dự án Digital Core Thought\r\nMachine - giải pháp ngân hàng lõi thế hệ mới. Tại Việt\r\nNam, HDBank là ngân hàng đầu tiên hợp tác vớiThought\r\nMachine để triển khai giải pháp ngân hàng lõi thế hệ\r\nmới nhất này, qua đó xây dựng một tiêu chuẩn mới cho\r\ncông nghệ ngân hàng lõi hiện đại trong tương lai."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "HDBank",
+    "year": 2024,
+    "code": "1.2.6",
+    "level": null,
+    "reason": "Internet/Mobile Banking, Customer 360 và công cụ MoEngage chứng minh có nhiều kênh. Trang chưa mô tả giữ bối cảnh hành trình khi chuyển kênh/thiết bị trên hầu hết các kênh.",
+    "citations": [
+      {
+        "reportId": "report-7",
+        "page": 36,
+        "printedPage": "70–71",
+        "method": "PDF raw text",
+        "excerpt": "Nâng cấp hệ thống Customer 360 với các tính năng hỗ trợ như chuyển tiền, nộp rút tiền, và mở tài\r\nkhoản cho cả khách hàng mới và hiện tại."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "HDBank",
+    "year": 2024,
+    "code": "6.1.4",
+    "level": null,
+    "reason": "Trang nêu công cụ DG Tool phù hợp pháp luật và nhiều biện pháp an ninh; chưa chỉ ra cụ thể tích hợp yêu cầu bảo vệ dữ liệu/quyền riêng tư vào quản lý bảo mật theo rubric mức 3.",
+    "citations": [
+      {
+        "reportId": "report-7",
+        "page": 36,
+        "printedPage": "70–71",
+        "method": "PDF raw text",
+        "excerpt": "Cải tiến việc quản lý dữ liệu với gần 100 hạng mục liên quan đến Data, AI, và báo cáo. Công cụ quản trị\r\ndữ liệu DG Tool dựa trên nền tảng IBM CP4D giúp quản lý dữ liệu lớn và phù hợp với quy định pháp luật,\r\ncùng với việc thiết lập hệ thống AI để phát triển và giám sát Machine Learning theo tiêu chuẩn quốc tế."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "HDBank",
+    "year": 2025,
+    "code": "1.2.6",
+    "level": null,
+    "reason": "CSC phục vụ nhiều kênh và mô hình O2O đưa khách từ online về quầy; chưa chỉ ra bối cảnh hành trình được giữ liên thông trên hầu hết kênh/thiết bị.",
+    "citations": [
+      {
+        "reportId": "report-8",
+        "page": 42,
+        "printedPage": "82–83",
+        "method": "PDF raw text",
+        "excerpt": "HDBank xác định dịch vụ khách hàng là yếu tố cốt lõi trong\r\nhành trình trải nghiệm ngân hàng bán lẻ, hướng tới mô\r\nhình phục vụ đa kênh, liên tục nhằm đáp ứng nhu cầu của\r\nkhách hàng mọi lúc, mọi nơi. Trung tâm Dịch vụ Khách\r\nhàng (CSC) đóng vai trò đầu mối tiếp nhận và xử lý các\r\nyêu cầu trên toàn bộ các kênh như tổng đài, chat, email,\r\nmạng xã hội và ứng dụng di động Đi HDBank. Với sự kết\r\nhợp giữa nguồn lực chuyên môn và công nghệ tự động\r\nhóa, HDBank không ngừng nâng cao năng lực phản hồi\r\nnhanh, chính xác, đồng thời cá nhân hóa dịch vụ theo từng\r\nphân khúc khách hàng."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "HDBank",
+    "year": 2025,
+    "code": "3.4.2",
+    "level": null,
+    "reason": "Trang nói sử dụng Big Data/RFM và công nghệ phân tích nhưng chưa xác định một nền tảng dữ liệu lớn đã thiết lập, đi vào hoạt động theo rubric mức 3. Không kế thừa nền tảng 2024 sang năm 2025.",
+    "citations": [
+      {
+        "reportId": "report-8",
+        "page": 59,
+        "printedPage": "116–117",
+        "method": "PDF raw text",
+        "excerpt": "HDBank triển khai nhiều dự án liên quan đến việc sử\r\ndụng Big data, xây dựng mô hình máy học RFM (Recency,\r\nFrequency, Monetary) để phân loại các tập khách hàng\r\ntiềm năng, từ đó giúp gia tăng khả năng chuyển đổi và bán\r\nchéo sản phẩm cho các đơn vị kinh doanh."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "HDBank",
+    "year": 2025,
+    "code": "5.3.4",
+    "level": null,
+    "reason": "MyIdeas đã được triển khai để ghi nhận sáng kiến/góp ý; chưa chứng minh một bộ công cụ toàn diện thúc đẩy đổi mới hiệu quả ở ít nhất một đơn vị.",
+    "citations": [
+      {
+        "reportId": "report-8",
+        "page": 59,
+        "printedPage": "116–117",
+        "method": "PDF raw text",
+        "excerpt": "Sáng kiến Hệ thống ghi nhận Sáng kiến - Góp ý MyIdeas:\r\nnhằm tăng cường ứng dụng công nghệ trong quản trị\r\nnội bộ, thúc đẩy văn hóa đổi mới sáng tạo và đảm bảo\r\ntính minh bạch, công bằng trong đánh giá KPIs thông\r\nqua hệ thống MyIdeas."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "OCB",
+    "year": 2023,
+    "code": "3.4.2",
+    "level": null,
+    "reason": "Kho dữ liệu tập trung Data warehouse trong nền tảng Basel chứng minh kho dữ liệu nhưng chưa đủ khẳng định nền tảng dữ liệu lớn theo rubric mức 3; không đồng nhất mọi data warehouse với Big Data.",
+    "citations": [
+      {
+        "reportId": "report-11",
+        "page": 52,
+        "printedPage": "102–103",
+        "method": "PDF raw text",
+        "excerpt": "Kho dữ liệu số tập trung Data warehouse): Đáp ứng tiêu chuẩn quốc tế, giúp OCB quản lý\r\ndữ liệu hiệu quả và thống nhất."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "OCB",
+    "year": 2024,
+    "code": "1.2.6",
+    "level": null,
+    "reason": "Tên OMNI/đa kênh, eKYC tại app/quầy và NEW FO chưa chứng minh quản lý bối cảnh hành trình liên thông trên hầu hết kênh và thiết bị.",
+    "citations": [
+      {
+        "reportId": "report-13",
+        "page": 33,
+        "printedPage": "64–65",
+        "method": "PDF raw text",
+        "excerpt": "Từ tháng 07/2024, OCB áp dụng phương thức xác thực\r\nsinh trắc học tiên tiến, đối chiếu dữ liệu sinh trắc học với\r\nthông tin trên chip thẻ căn cước công dân do Bộ Công An\r\ncấp. Khách hàng có thể chủ động đăng ký qua các nền\r\ntảng OCB OMNI 3.0, OCB OMNI 4.0 hoặc trực tiếp tại quầy\r\ngiao dịch thông qua ứng dụng nội bộ OCB Assist."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "OCB",
+    "year": 2024,
+    "code": "3.2.5",
+    "level": null,
+    "reason": "Hạ tầng AWS và mở rộng cloud đã sử dụng nhưng chưa có phương pháp chung phát triển năng lực cloud tại các đơn vị. Không dùng điểm của hạ tầng cloud cho tiêu chí năng lực.",
+    "citations": [
+      {
+        "reportId": "report-13",
+        "page": 33,
+        "printedPage": "64–65",
+        "method": "PDF raw text",
+        "excerpt": "Triển khai hạ tầng hệ thống đám mây AWS dành cho các\r\ndịch vụ như website OCB, Internet banking, nền tảng tìm\r\nkiếm và đăng ký vay mua nhà Unlock dream home…"
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "OCB",
+    "year": 2024,
+    "code": "3.4.2",
+    "level": null,
+    "reason": "Trang nêu mở rộng nền tảng dữ liệu/AI nhưng chưa chỉ rõ một nền tảng dữ liệu lớn đi vào hoạt động theo rubric mức 3.",
+    "citations": [
+      {
+        "reportId": "report-13",
+        "page": 33,
+        "printedPage": "64–65",
+        "method": "PDF raw text",
+        "excerpt": "Năm 2024 OCB tiếp tục triển khai mở rộng nền tảng hạ\r\ntầng điện toán đám mây, nền tảng dữ liệu và trí tuệ nhân\r\ntạo, sẵn sàng tài nguyên hạ tầng cung ứng nhanh cho\r\nviệc triển khai mới và mở rộng các ứng dụng; nhanh\r\nchóng cung ứng sản phẩm đến tay khách hàng."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "OCB",
+    "year": 2025,
+    "code": "3.2.5",
+    "level": null,
+    "reason": "Hạ tầng AWS đang dùng nhưng chưa mô tả cách tiếp cận chung phát triển năng lực cloud tại các đơn vị. Mở rộng 2026 là định hướng tương lai.",
+    "citations": [
+      {
+        "reportId": "report-15",
+        "page": 59,
+        "printedPage": "59",
+        "method": "PDF raw text",
+        "excerpt": "Triển khai hạ tầng điện toán đám mây trên nền tảng Amazon Web Services phục\r\nvụ các hệ thống như website, Internet Banking,…"
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "OCB",
+    "year": 2025,
+    "code": "3.4.1",
+    "level": null,
+    "reason": "Trang 59 nêu triển khai mô hình ChatGPT tại Liobank nhưng chưa mô tả sử dụng/vai trò tạo giá trị kinh tế. Không coi tên công nghệ là đủ mức 2; trang 72 còn nêu AI cá nhân hóa là định hướng giai đoạn tiếp theo.",
+    "citations": [
+      {
+        "reportId": "report-15",
+        "page": 59,
+        "printedPage": "59",
+        "method": "PDF raw text",
+        "excerpt": "Triển khai mô hình ChatGPT"
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "OCB",
+    "year": 2025,
+    "code": "3.4.2",
+    "level": null,
+    "reason": "Trang 59 nói mở rộng nền tảng dữ liệu/AI trong năm 2026, chưa chứng minh nền tảng Big Data hoạt động năm 2025. Không kế thừa năm trước.",
+    "citations": [
+      {
+        "reportId": "report-15",
+        "page": 59,
+        "printedPage": "59",
+        "method": "PDF raw text",
+        "excerpt": "Trong năm 2026, OCB tiếp tục định hướng mở rộng hạ tầng điện toán đám mây, nền\r\ntảng dữ liệu và trí tuệ nhân tạo nhằm:\r\n2.4.6 Đối với hạng mục đầu tư cơ sở hạ tầng, hiện đại hóa\r\nhệ thống CNTT và hệ thống thanh toán nội bộ\r\nĐối với hạng mục phát triển mạnh mẽ các phương thức\r\nthanh toán điện tử như ngân hàng trực tuyến, thanh\r\ntoán qua điện thoại di động, qua internet…\r\n• Đáp ứng nhanh nhu cầu triển khai mới và mở rộng ứng dụng\r\n• Tăng tốc độ cung cấp sản phẩm, dịch vụ đến khách hàng\r\n• Nâng cao năng lực phân tích dữ liệu và hỗ trợ ra quyết định"
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "OCB",
+    "year": 2025,
+    "code": "1.2.6",
+    "level": null,
+    "reason": "NEW FO/App/Web và xác thực app/quầy chứng minh nhiều điểm phục vụ; chưa đủ mô tả giữ bối cảnh một hành trình xuyên hầu hết kênh/thiết bị.",
+    "citations": [
+      {
+        "reportId": "report-15",
+        "page": 60,
+        "printedPage": "60",
+        "method": "PDF raw text",
+        "excerpt": "Nhằm đảm bảo an toàn bảo mật cũng như tuân thủ các quy định của NHNN (Quyết định\r\n2345/QĐ-NHΗΝΝ, Thông tư số 15/2024/TT-BTTTT, Thông tư số 17/2021/TT-BTTTT,\r\nThông tư 18/2018/TT-NHNN...), OCB triển khai loạt giải pháp nâng cao tính bảo mật\r\ntrong thanh toán trực tuyến và giao dịch thẻ, bao gồm:\r\n2.4.7\r\n• Áp dụng phương thức xác thực sinh\r\ntrắc học tiên tiến, đối chiếu dữ liệu với\r\nthông tin trên chip thẻ căn cước công\r\ndân do Bộ Công An cấp.\r\n• Khách hàng có thể chủ động đăng ký\r\nqua các nền tảng OCB OMNI 4.0 hoặc\r\ntrực tiếp tại quầy giao dịch thông qua\r\nứng dụng nội bộ OCB Assist.\r\n• Phát triển hệ thống xử lý khiếu nại\r\nvà tra soát giao dịch trên nền tảng\r\nNEW FO.\r\n• Bổ sung tính năng theo dõi trạng thái\r\nyêu cầu trên OMNI 4.0 App/Web.\r\n• Cung cấp các tiện ích như thông báo\r\ngiấy tờ tùy thân hết hạn,...đảm bảo\r\ntuân thủ đầy đủ quy định của NHNN."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "OCB",
+    "year": 2023,
+    "code": "1.4.3",
+    "level": null,
+    "reason": "Đã đọc phần bảo mật khách hàng. Chính sách, công nghệ và không có sự cố không chứng minh tỷ lệ khách hàng tin tưởng thiết kế bảo đảm quyền riêng tư theo rubric. Cần khảo sát/đánh giá niềm tin phù hợp.",
+    "citations": [
+      {
+        "reportId": "report-11",
+        "page": 41,
+        "printedPage": "80–81",
+        "method": "PDF raw text",
+        "excerpt": "OCB hiểu rõ rằng thông tin liên quan đến khách hàng là một trong\r\nnhững tài sản quý giá nhất của Ngân hàng và không được tiết lộ cho\r\nbất kỳ ai trừ khi có sự cho phép từ khách hàng hoặc theo yêu cầu\r\ncủa cơ quan có thẩm quyền quy định theo pháp luật."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "OCB",
+    "year": 2024,
+    "code": "1.4.3",
+    "level": null,
+    "reason": "Đã đọc phần bảo mật khách hàng. Chính sách, công nghệ và không có sự cố không chứng minh tỷ lệ khách hàng tin tưởng thiết kế bảo đảm quyền riêng tư theo rubric. Cần khảo sát/đánh giá niềm tin phù hợp.",
+    "citations": [
+      {
+        "reportId": "report-13",
+        "page": 65,
+        "printedPage": "128–129",
+        "method": "PDF raw text",
+        "excerpt": "OCB hiểu rõ rằng thông tin liên quan đến khách hàng là một trong những tài sản quý giá nhất của Ngân hàng và không được tiết lộ\r\ncho bất kỳ ai trừ khi có sự cho phép từ khách hàng hoặc theo yêu cầu của cơ quan có thẩm quyền quy định theo pháp luật."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "OCB",
+    "year": 2025,
+    "code": "1.4.3",
+    "level": null,
+    "reason": "Đã đọc phần bảo mật khách hàng. Chính sách, công nghệ và không có sự cố không chứng minh tỷ lệ khách hàng tin tưởng thiết kế bảo đảm quyền riêng tư theo rubric. Cần khảo sát/đánh giá niềm tin phù hợp.",
+    "citations": [
+      {
+        "reportId": "report-15",
+        "page": 131,
+        "printedPage": "131",
+        "method": "PDF raw text",
+        "excerpt": "OCB hiểu rõ rằng thông tin liên quan đến\r\nkhách hàng là một trong những tài sản\r\nquý giá nhất của Ngân hàng và không\r\nđược tiết lộ cho bất kỳ ai trừ khi có sự\r\ncho phép từ khách hàng hoặc theo yêu\r\ncầu của cơ quan có thẩm quyền quy định\r\ntheo pháp luật."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "HDBank",
+    "year": 2025,
+    "code": "1.2.7",
+    "level": null,
+    "reason": "CSAT/khảo sát theo quầy, app và online đo mức hài lòng kênh; chưa chỉ ra hiệu quả ít nhất một hành trình và các giai đoạn riêng lẻ trong hành trình.",
+    "citations": [
+      {
+        "reportId": "report-9",
+        "page": 64,
+        "printedPage": "126–127",
+        "method": "PDF raw text",
+        "excerpt": "Trung bình mức độ hài lòng của khách hàng qua tất cả các kênh khảo sát\r\nqua các năm"
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "OCB",
+    "year": 2024,
+    "code": "1.2.7",
+    "level": null,
+    "reason": "Trang báo cáo CXI/CSAT chung và số phản hồi chưa xác định hiệu quả ít nhất một hành trình cùng các giai đoạn riêng lẻ. Không gán mức 2 chỉ vì có chỉ số hài lòng.",
+    "citations": [
+      {
+        "reportId": "report-13",
+        "page": 65,
+        "printedPage": "128–129",
+        "method": "PDF raw text",
+        "excerpt": "Trong năm 2024, OCB đã ghi nhận phản hồi từ 19.897 khách hàng, tăng 10,8% so với năm 2023 (17.951 khách hàng). Sự gia tăng\r\nnày phản ánh mức độ tương tác của khách hàng với Ngân hàng, đồng thời khẳng định nỗ lực của OCB trong việc lắng nghe và cải\r\nthiện chất lượng dịch vụ dựa trên ý kiến đóng góp từ khách hàng với kết quả ấn tượng như sau:"
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "HDBank",
+    "year": 2024,
+    "code": "4.2.3",
+    "level": null,
+    "reason": "Đã đọc phần chuyển đổi số và tối ưu quy trình. Việc nhanh chóng cải tiến/có công nghệ tự động không chứng minh Agile methods đã được áp dụng trong phát triển/cải tiến sản phẩm.",
+    "citations": [
+      {
+        "reportId": "report-7",
+        "page": 65,
+        "printedPage": "128–129",
+        "method": "PDF raw text",
+        "excerpt": "Hướng đến số hóa toàn diện, năm 2024 HDBank\r\nđẩy mạnh siêu tự động hóa bằng RPA (Robotic\r\nProcess Automation - Tự động hóa quy trình\r\nbằng robot) và trợ lý robot akaBot. Thay vì mở\r\nrộng quy trình mới, ngân hàng ưu tiên tự động\r\nhóa nội bộ thành công nhiều quy trình hiện hữu,\r\ntối ưu hóa chi phí. 100% quy trình phù hợp RPA\r\nđã được tự động hóa hiệu quả."
+      }
+    ],
+    "reviewer": "Codex"
+  },
+  {
+    "bank": "OCB",
+    "year": 2025,
+    "code": "4.2.3",
+    "level": null,
+    "reason": "Đã đọc phần chuyển đổi số và tối ưu quy trình. Việc nhanh chóng cải tiến/có công nghệ tự động không chứng minh Agile methods đã được áp dụng trong phát triển/cải tiến sản phẩm.",
+    "citations": [
+      {
+        "reportId": "report-14",
+        "page": 53,
+        "printedPage": "53",
+        "method": "PDF raw text",
+        "excerpt": "Trong năm 2025, hoạt động công nghệ thông tin và ngân hàng số của OCB tiếp tục ghi nhận nhiều kết quả tích cực, đóng vai trò\r\nquan trọng trong việc thúc đẩy tăng trưởng kinh doanh, nâng cao trải nghiệm khách hàng, tăng cường năng lực quản trị rủi ro và\r\ntối ưu hóa hiệu quả vận hành. Các chương trình, sáng kiến công nghệ được triển khai đồng bộ, bám sát định hướng chuyển đổi số\r\nvà phát triển bền vững của Ngân hàng, cụ thể:"
+      }
+    ],
+    "reviewer": "Codex"
+  }
+]

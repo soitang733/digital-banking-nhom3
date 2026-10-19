@@ -1,0 +1,79 @@
+{
+  "name": "Cat things",
+  "packSource": "https://t.me/addstickers/happicatthings",
+  "catalogSource": "https://fullyst.com/en/stickers/HappiCATthings",
+  "assets": [
+    {
+      "name": "cat-chill",
+      "index": 0,
+      "label": "Mèo chill",
+      "src": "assets/stickers/cat-chill.webm",
+      "assetSource": "https://stickers.fullyst.com/6e14e549-e3db-5f0e-9170-fdeef59a7292/full/AgADUgsAAmyqOFQ.webm",
+      "sizeBytes": 243688,
+      "role": "cursor rotation and sticker picker"
+    },
+    {
+      "name": "cat-dance",
+      "index": 1,
+      "role": "guide sticker",
+      "src": "assets/stickers/cat-dance.webm",
+      "assetSource": "https://stickers.fullyst.com/6e14e549-e3db-5f0e-9170-fdeef59a7292/full/AgADtwkAAtJ8OVQ.webm",
+      "sizeBytes": 248792,
+      "label": "Mèo nhảy"
+    },
+    {
+      "name": "cat-banana",
+      "index": 3,
+      "role": "interactive hover",
+      "src": "assets/stickers/cat-banana.webm",
+      "assetSource": "https://stickers.fullyst.com/6e14e549-e3db-5f0e-9170-fdeef59a7292/full/AgADcwoAAlZcOFQ.webm",
+      "sizeBytes": 233993,
+      "label": "Mèo chuối"
+    },
+    {
+      "name": "cat-smile",
+      "index": 6,
+      "role": "default cursor and heading",
+      "src": "assets/stickers/cat-smile.webm",
+      "assetSource": "https://stickers.fullyst.com/6e14e549-e3db-5f0e-9170-fdeef59a7292/full/AgADEAoAAljwQVQ.webm",
+      "sizeBytes": 257796,
+      "label": "Mèo cười"
+    },
+    {
+      "name": "cat-pop",
+      "index": 9,
+      "role": "click reaction",
+      "src": "assets/stickers/cat-pop.webm",
+      "assetSource": "https://stickers.fullyst.com/6e14e549-e3db-5f0e-9170-fdeef59a7292/full/AgADUgoAAjmHKVU.webm",
+      "sizeBytes": 158427,
+      "label": "Mèo lè lưỡi"
+    },
+    {
+      "name": "cat-judge",
+      "index": 14,
+      "label": "Mèo ngơ",
+      "src": "assets/stickers/cat-judge.webm",
+      "assetSource": "https://stickers.fullyst.com/6e14e549-e3db-5f0e-9170-fdeef59a7292/full/AgADqQsAApHrsFU.webm",
+      "sizeBytes": 205488,
+      "role": "cursor rotation and sticker picker"
+    },
+    {
+      "name": "cat-orange",
+      "index": 16,
+      "label": "Mèo cam",
+      "src": "assets/stickers/cat-orange.webm",
+      "assetSource": "https://stickers.fullyst.com/6e14e549-e3db-5f0e-9170-fdeef59a7292/full/AgADkw0AAlHkGVQ.webm",
+      "sizeBytes": 228420,
+      "role": "cursor rotation and sticker picker"
+    },
+    {
+      "name": "cat-eyes",
+      "index": 18,
+      "label": "Mèo mắt to",
+      "src": "assets/stickers/cat-eyes.webm",
+      "assetSource": "https://stickers.fullyst.com/6e14e549-e3db-5f0e-9170-fdeef59a7292/full/AgADHg4AAo9HGVQ.webm",
+      "sizeBytes": 210390,
+      "role": "cursor rotation and sticker picker"
+    }
+  ]
+}

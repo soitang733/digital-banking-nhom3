@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "reports": 23,
+  "pages": 2533,
+  "pooledRows": 700,
+  "withRelatedPDF": 391,
+  "missingOriginalWithRelatedPDF": 342,
+  "withoutRelatedPDF": 309,
+  "missingOriginalWithoutRelatedPDF": 302,
+  "sources": 867,
+  "scoreChanges": 0,
+  "manualImageExcerpts": 5,
+  "originalAndAnnualDataUnchanged": true
+}

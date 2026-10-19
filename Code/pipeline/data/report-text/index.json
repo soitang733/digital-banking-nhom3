@@ -1,0 +1,209 @@
+[
+  {
+    "id": "report-0",
+    "bank": "TPBank",
+    "catalogYear": 2023,
+    "pages": 69,
+    "chars": 512877,
+    "emptyPages": 9,
+    "sha256": "7b23a5e7e799635ce6c8cfe01bda737230463e2429020e78ba6c70152bc00778"
+  },
+  {
+    "id": "report-1",
+    "bank": "TPBank",
+    "catalogYear": 2023,
+    "pages": 159,
+    "chars": 417244,
+    "emptyPages": 1,
+    "sha256": "d549369b77ff508fd6209b40084fb8739339563cda641e0307678ca0155a1f07"
+  },
+  {
+    "id": "report-2",
+    "bank": "TPBank",
+    "catalogYear": 2024,
+    "pages": 71,
+    "chars": 71,
+    "emptyPages": 71,
+    "sha256": "374d67ba69f5bc274cc14391ec22fdadce066d77a9ab835c3b94f09329247e13"
+  },
+  {
+    "id": "report-3",
+    "bank": "TPBank",
+    "catalogYear": 2024,
+    "pages": 100,
+    "chars": 361361,
+    "emptyPages": 0,
+    "sha256": "51280d035a9d60e02fc937e3f48b865cbdf6d2c5f40343892829d64ede44e46d"
+  },
+  {
+    "id": "report-4",
+    "bank": "TPBank",
+    "catalogYear": 2025,
+    "pages": 79,
+    "chars": 584726,
+    "emptyPages": 13,
+    "sha256": "c0fbc08edf30fa35e558d07331769db5a81221697f8bd273c14248bc31224714"
+  },
+  {
+    "id": "report-5",
+    "bank": "HDBank",
+    "catalogYear": 2023,
+    "pages": 154,
+    "chars": 1072994,
+    "emptyPages": 1,
+    "sha256": "904036b49faf5e661ecb7a33e207abe7bcb9ee8a69323bb091e8098b93b2b95d"
+  },
+  {
+    "id": "report-6",
+    "bank": "HDBank",
+    "catalogYear": 2024,
+    "pages": 155,
+    "chars": 1096661,
+    "emptyPages": 1,
+    "sha256": "770603c09640f915edff2378fb77e33e67a6707dc55217b08dd286439079ea60"
+  },
+  {
+    "id": "report-7",
+    "bank": "HDBank",
+    "catalogYear": 2024,
+    "pages": 88,
+    "chars": 713728,
+    "emptyPages": 2,
+    "sha256": "6ecc63351c31e1181a77f85f533fb6559ed51d4267fb56b8088db248a402bc55"
+  },
+  {
+    "id": "report-8",
+    "bank": "HDBank",
+    "catalogYear": 2025,
+    "pages": 139,
+    "chars": 1146344,
+    "emptyPages": 0,
+    "sha256": "e745181208a649207f9e2ca64ef5dbcf27ff9f00ce34ad527cdf02ed1713e8cd"
+  },
+  {
+    "id": "report-9",
+    "bank": "HDBank",
+    "catalogYear": 2025,
+    "pages": 83,
+    "chars": 630766,
+    "emptyPages": 2,
+    "sha256": "ae953a088fc51217518673d5880efe522714ea372576b4a33cb8c83409340780"
+  },
+  {
+    "id": "report-10",
+    "bank": "OCB",
+    "catalogYear": 2023,
+    "pages": 202,
+    "chars": 227768,
+    "emptyPages": 20,
+    "sha256": "668f986a3eee3297d21dac3830a346810df6b7576cb58af9bf05cf8ed6de7166"
+  },
+  {
+    "id": "report-11",
+    "bank": "OCB",
+    "catalogYear": 2023,
+    "pages": 58,
+    "chars": 538792,
+    "emptyPages": 1,
+    "sha256": "6afd5052aff629872c0be5303b1161ad813adcd392ca12ff020e0223acc56647"
+  },
+  {
+    "id": "report-12",
+    "bank": "OCB",
+    "catalogYear": 2024,
+    "pages": 200,
+    "chars": 155187,
+    "emptyPages": 129,
+    "sha256": "f4d0d9e4c63688b94ce8f9bfe79d32f18b8a7f71990f32e39e2fa4169b1fb17b"
+  },
+  {
+    "id": "report-13",
+    "bank": "OCB",
+    "catalogYear": 2024,
+    "pages": 71,
+    "chars": 653147,
+    "emptyPages": 1,
+    "sha256": "efb41c74517e19c4f74dba934173afd5d2b1816ea7c32c0dbd445c0270705415"
+  },
+  {
+    "id": "report-14",
+    "bank": "OCB",
+    "catalogYear": 2025,
+    "pages": 230,
+    "chars": 276127,
+    "emptyPages": 17,
+    "sha256": "26040df1c693c7d147fe2e35aea8a99a39d22cd2f378d43ff5dbc6e5afd02cb9"
+  },
+  {
+    "id": "report-15",
+    "bank": "OCB",
+    "catalogYear": 2025,
+    "pages": 145,
+    "chars": 479083,
+    "emptyPages": 10,
+    "sha256": "de4e1da7f87b3f7e5cf1b0c1f37015ba627b438a19d9c793e49e41abed492f6d"
+  },
+  {
+    "id": "report-16",
+    "bank": "LP Bank",
+    "catalogYear": 2023,
+    "pages": 168,
+    "chars": 563274,
+    "emptyPages": 78,
+    "sha256": "5e6aed52b7aa1de4e5e2e1f413148f4f89f3ae68d194c49831a7b715fb051d08"
+  },
+  {
+    "id": "report-17",
+    "bank": "LP Bank",
+    "catalogYear": 2023,
+    "pages": 46,
+    "chars": 202873,
+    "emptyPages": 4,
+    "sha256": "936fa8e606167ad3b369c1d2666a04c34fbdff4608eb7580eb17903b1aeb3d32"
+  },
+  {
+    "id": "report-18",
+    "bank": "LP Bank",
+    "catalogYear": 2024,
+    "pages": 100,
+    "chars": 692169,
+    "emptyPages": 0,
+    "sha256": "a4bf1ab09845a0f9280278cee75a366eb94210a6096564a3f85cbfa2cfe354bc"
+  },
+  {
+    "id": "report-19",
+    "bank": "LP Bank",
+    "catalogYear": 2025,
+    "pages": 119,
+    "chars": 763466,
+    "emptyPages": 1,
+    "sha256": "4aeaf25935860877c9868d7374800562aa5f951029f371ced4bae1ac45fd7856"
+  },
+  {
+    "id": "report-20",
+    "bank": "SaigonBank",
+    "catalogYear": 2023,
+    "pages": 21,
+    "chars": 308,
+    "emptyPages": 20,
+    "sha256": "0ff2dbb36e05106322820bf0c2129813a92335a6dea17fbf72471cf50ecdb0b8"
+  },
+  {
+    "id": "report-21",
+    "bank": "SaigonBank",
+    "catalogYear": 2024,
+    "pages": 81,
+    "chars": 479,
+    "emptyPages": 80,
+    "sha256": "81d9bfa84bf8092445722ef88741fd0564a40daf01bda09889bdcf4812753648"
+  },
+  {
+    "id": "report-22",
+    "bank": "SaigonBank",
+    "catalogYear": 2025,
+    "pages": 77,
+    "chars": 474,
+    "emptyPages": 76,
+    "sha256": "a376abbbef01eb72f9dd3880200bc8cd5ec5092c56ca2c973e01b329cf113154"
+  }
+]

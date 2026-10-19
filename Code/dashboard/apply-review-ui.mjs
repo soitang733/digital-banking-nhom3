@@ -1,0 +1,20 @@
+import fs from 'node:fs';
+let s=fs.readFileSync('dist/app.js','utf8');
+s=s.replace("evidenceView:'list'","evidenceView:'list',year:'all',reviewState:'all'");
+function replaceFunction(name,next,body){const a=s.indexOf('function '+name+'('),b=s.indexOf('function '+next+'(',a);if(a<0||b<0)throw Error('Missing '+name);s=s.slice(0,a)+body+'\n'+s.slice(b);}
+replaceFunction('journey','filteredEvidence','function journey(){return reviewedJourney();}');
+s=s.replace('function evidence(){return ',"function evidence(){if(S.evidenceView==='annual')return annualEvidence();return ");
+s=s.replace('So sánh theo tiêu chí</button></div>','So sánh theo tiêu chí</button><button class="button" data-view="annual" aria-pressed="false">Đối chiếu theo năm</button></div>');
+s=s.replace('function renderEvidenceResults(){',"function renderEvidenceResults(){if(S.evidenceView==='annual'){renderAnnualResults();return;}");
+replaceFunction('qualityPanel','reportLibrary','function qualityPanel(){return researchQuality();}');
+replaceFunction('downloadReview','downloadYears','function downloadReview(){reviewedPooledCSV();}');
+replaceFunction('downloadYears','downloadCodes','function downloadYears(){annualCSV(R.records);}');
+s=s.replace("$('#copy-evidence').onclick=", "$('#dialog-content').innerHTML+=pooledReview(e);document.querySelectorAll('[data-open-annual]').forEach(el=>el.onclick=()=>{S.bank=el.dataset.openAnnual;S.search=el.dataset.code;S.evidenceView='annual';S.year='all';S.reviewState='all';S.level='all';S.evidencePage=1;$('#evidence-dialog').close();if(S.page==='evidence')render();else navigate('evidence');});$('#copy-evidence').onclick=");
+s=s.replace("  document.title=p[0]", "  bindReview();document.title=p[0]");
+s=s.replace("  if(S.page==='evidence'&&S.evidenceView==='matrix')", "  if(S.page==='evidence'&&S.evidenceView==='annual'){annualCSV(annualRows(),'DBI_Doi_chieu_da_loc.csv');}else if(S.page==='evidence'&&S.evidenceView==='matrix')");
+const a=s.indexOf("  else if(S.page==='journey'){"),b=s.indexOf("  else if(S.page==='method'){",a);if(a<0||b<0)throw Error('Missing journey export');s=s.slice(0,a)+"  else if(S.page==='journey'){annualCSV(R.records.filter(r=>S.bank==='all'||r.bank===S.bank),'DBI_Hanh_trinh_du_lieu.csv');}\n"+s.slice(b);
+s=s.replace("document.querySelectorAll('[data-view]').forEach(el=>el.onclick=()=>{S.evidenceView=el.dataset.view;S.evidencePage=1;render();});","document.querySelectorAll('[data-view]').forEach(el=>el.onclick=()=>{S.evidenceView=el.dataset.view;S.level='all';S.evidencePage=1;render();});");
+s=s.replace("S.metric='percent';S.evidencePage=1;render();toast", "S.metric='percent';S.year='all';S.reviewState='all';S.evidencePage=1;render();toast");
+fs.writeFileSync('dist/app.js',s);
+let html=fs.readFileSync('dist/index.html','utf8');html=html.replace('<script src="data.js"></script>','<script src="data.js"></script><script src="research.js"></script><script src="review-ui.js"></script>');fs.writeFileSync('dist/index.html',html);
+let pack=fs.readFileSync('package-local.mjs','utf8');pack=pack.replace("['data.js','app.js']","['data.js','research.js','review-ui.js','app.js']");fs.writeFileSync('package-local.mjs',pack);

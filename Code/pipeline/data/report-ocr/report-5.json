@@ -1,0 +1,53 @@
+{
+    "id":  "report-5",
+    "pages":  [
+                  {
+                      "method":  "Windows OCR",
+                      "language":  "en-US",
+                      "page":  1,
+                      "text":  "HDBank Cam két loi ich coo nhdt xntJH TUOI TU vÜNG TÄNG TRIJdNG 4\u0027 t ttßfiocåo THIJdNG 2023"
+                  },
+                  {
+                      "method":  "Windows OCR",
+                      "language":  "en-US",
+                      "page":  2,
+                      "text":  "MUC LUC 104 CAO CUA BAN HANH 04 TONG QUAN 114 QUÅNTR! DOANH NGHIEP 42 THÖNGTIN CHUNG 182 PHATTRIÉN BÉNVUNG TINH HINH HOAT DÖNG 68 TRONG NAM 2023 212 CÅOTÄI CHINH"
+                  },
+                  {
+                      "method":  "Windows OCR",
+                      "language":  "en-US",
+                      "page":  3,
+                      "text":  "XRNH TUOI THÜc DÅN DUONG HÄNH DONG 01 06 08 12 14 20 24 34 36 TONG QUAN ThOng diep cia Chü t!ch Hél d6ng Quån tr! Thong diep Tong Glåm d6c Tam nhln - menh - Glé tr! c6t 161 HOI d6ng Quån tri Ban K16m soåt Ban Dléu hånh MO h)nh quan tr! va cocåu b. may quan ly IO klen tléu bléu cüa HDBank"
+                  },
+                  {
+                      "method":  "Windows OCR",
+                      "language":  "en-US",
+                      "page":  35,
+                      "text":  "XRNH TUOI TiN DUNG DONG HÄNH PHfiT TRIEN 03 70 74 80 98 I-IDV Bank VISA TINH HINH HOAT DÖNG TRONG NAM 2023 T6ng quan két quå hoqt deng kinh doanh nam 2023 V! thé cüa HDBank trén th! trudng Bå0 hoet deng kinh doanh cüa kh61 2023 Båo cåo hopt deng cüa don v! thånh vlén näm 2023"
+                  },
+                  {
+                      "method":  "Windows OCR",
+                      "language":  "en-US",
+                      "page":  53,
+                      "text":  "oooo o o XRNH TUOI TRI TÄNG TRUdNG BEN vÜNG 04 BAO CAO cÜA BAN DIÉU HANH 106 Bao cao va dänh glå cüa Ban Dléu hanh 113 Glål tr)nh cüa Ban T6ng Glam d6c v\" y klén Klém toån VISA"
+                  },
+                  {
+                      "method":  "Windows OCR",
+                      "language":  "en-US",
+                      "page":  110,
+                      "text":  "XRXH TUOI THANH \u0027Ui vÜNG MRNH VUON HDBank BAO CAO TAI CHINH 220 Bao cao tal chinh dugc klém toän I-DBank riority HDBank N\u0027 ng tn;n HDBank"
+                  },
+                  {
+                      "method":  "Windows OCR",
+                      "language":  "en-US",
+                      "page":  153,
+                      "text":  "HDBank Com köt loi ich coo nhdt"
+                  },
+                  {
+                      "method":  "Windows OCR",
+                      "language":  "en-US",
+                      "page":  154,
+                      "text":  "NGAN HANG TMCP TP. Hö MINH 25 Bis Nguyén Thi Minh Khai, P. Bén Nghé, Quan l, TP. Hö Chi Minh T (+8428) 62 915 916 1 F (+8428) 62 915 900 Hotline 1900 6060 (24/7) | www.hdbank.com.vn"
+                  }
+              ]
+}

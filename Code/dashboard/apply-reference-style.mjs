@@ -1,0 +1,28 @@
+import fs from 'node:fs';
+let s=fs.readFileSync('dist/app.js','utf8');
+s=s.replaceAll('b.color','bankAccent(b)');
+s=s.replace('const bname=',"const bankAccent=b=>({'OCB':'#B8F13C','LP Bank':'#22D3EE','TPBank':'#FFD43B','HDBank':'#FF4F9A','SaigonBank':'#C5A8FF'}[b.name]??b.color);\nconst bname=");
+s=s.replaceAll('#f7f9fd','#F4EFFF').replaceAll('#e2e9f5','#DED0FF');
+s=s.replace("['#f0f4fc','#e0e9fb','#cadbfa','#a8c3f6','#7fa4ed','#537bcf']","['#F4EFFF','#E9DDFF','#D5C2FF','#BC9CFF','#A275FF','#6C3BFF']").replaceAll("'#294b83'","'#1B1233'");
+const start=s.indexOf("  const kpis=",s.indexOf('function overview(){'));
+const end=s.indexOf("  const table=",start);
+const replacement=`  const kpis='<div class="kpis">'+kpi('ĐIỂM TRUNG BÌNH',fmt(avg,S.metric==='percent'?1:3)+'<small>'+unit()+'</small>','Trung bình '+bs.length+' ngân hàng','',false,'◷')+kpi('BẢN GHI ĐÁNH GIÁ',rows.length+'<small>bản ghi</small>',(isTotal?'140':D.counts[Number(S.pillar)])+' tiêu chí × '+bs.length+' ngân hàng',pillarLabel,false,'▦')+kpi('ĐỘ PHỦ BẰNG CHỨNG',fmt(coverage)+'<small>%</small>',rows.filter(e=>e.level>0).length+' / '+rows.length+' bản ghi có mức > 0','',false,'✓')+kpi('PHẠM VI SO SÁNH',bs.length+'<small>ngân hàng</small>','Dữ liệu công bố gộp 2023–2025','6 trụ cột',false,'↗')+'</div>';
+  const chart='<svg class="hero-chart" viewBox="0 0 580 195" role="img" aria-label="Điểm của 5 ngân hàng theo '+esc(pillarLabel)+'"><title>So sánh 5 ngân hàng · '+esc(pillarLabel)+' · '+unit()+'</title>'+[0,.25,.5,.75,1].map(f=>'<line x1="'+(110+f*395)+'" x2="'+(110+f*395)+'" y1="12" y2="165" stroke="#ffffff" stroke-opacity=".18"/><text class="axis-label" x="'+(110+f*395)+'" y="188" text-anchor="middle">'+fmt(f*max(),S.metric==='percent'?0:2)+'</text>').join('')+r.map((b,i)=>'<text x="0" y="'+(29+i*31)+'" fill="#fff" font-size="12" font-weight="700">'+esc(b.label)+'</text><rect x="110" y="'+(14+i*31)+'" width="395" height="21" rx="5" fill="#ffffff" fill-opacity=".12"/><rect x="110" y="'+(14+i*31)+'" width="'+(value(b)/max()*395)+'" height="21" rx="5" fill="'+bankAccent(b)+'"/><text x="570" y="'+(29+i*31)+'" text-anchor="end" fill="#fff" font-size="12" font-weight="800">'+fmt(value(b),S.metric==='percent'?1:3)+'</text>').join('')+'</svg>';
+  const stats=scopedStats(lead),leadPillars=lead[S.metric==='percent'?'pillars':'rawPillars'],strongest=leadPillars.indexOf(Math.max(...leadPillars));
+  const guide='<div class="guide-banner"><div class="guide-step"><span>1</span><div>Chọn ngân hàng<small>Dùng bộ lọc bên trên</small></div></div><div class="guide-step"><span>2</span><div>Đọc điểm năng lực<small>So sánh qua 6 trụ cột</small></div></div><div class="guide-step"><span>3</span><div>Kiểm tra bằng chứng<small>Đối chiếu từng tiêu chí</small></div></div></div>';
+  const hero='<div class="overview-hero"><section class="score-hero"><div class="score-hero-head"><div><div class="hero-eyebrow">'+(S.bank==='all'?'NGÂN HÀNG CÓ ĐIỂM CAO NHẤT':'HỒ SƠ ĐANG XEM')+'</div><h2 class="hero-bank-name">'+esc(lead.label)+'</h2><div class="hero-bank-meta">'+esc(pillarLabel)+' · 2023–2025</div></div><span class="hero-rank">HẠNG '+rankOf(lead)+' / 5</span></div><div class="hero-score">'+fmt(value(lead),S.metric==='percent'?1:3)+'<small>'+unit()+'</small></div><div class="hero-chart-caption"><b>Điểm năng lực số</b><span class="chart-scope">So với toàn bộ 5 ngân hàng</span></div>'+chart+'<div class="score-hero-foot">'+(S.metric==='percent'?'Điểm % được quy đổi từ mức đạt của từng tiêu chí.':'Mức đạt trung bình trên thang 0–5.')+'</div></section><section class="insight-card"><div class="eyebrow">ĐỌC NHANH KẾT QUẢ</div><h2>Điểm số nói gì?</h2><p>Khám phá hồ sơ số của '+esc(lead.label)+' qua dữ liệu công bố của nhóm.</p><div class="insight-checks"><div class="insight-check"><span>↗</span><div><b>Trụ cột nổi bật</b><small>'+esc(D.pillars[strongest])+' · '+fmt(leadPillars[strongest])+unit()+'</small></div></div><div class="insight-check"><span>✓</span><div><b>'+ (stats.count-stats.zero)+' / '+stats.count+' bản ghi có mức > 0</b><small>Độ phủ theo bộ lọc: '+fmt(stats.coverage)+'%</small></div></div><div class="insight-check warning"><span>!</span><div><b>Kết quả cần rà soát</b><small>Xác minh nguồn và số trang trước khi kết luận.</small></div></div></div><div class="insight-actions"><button class="button" data-focus="'+esc(lead.name)+'" data-page="dna">Xem DNA ngân hàng ↗</button><button class="button" data-evidence-bank="'+esc(lead.name)+'">Đối chiếu bằng chứng</button></div></section></div>';
+`;
+s=s.slice(0,start)+replacement+s.slice(end);
+s=s.replace("  return kpis+'<div class=\"grid-main\">'","  return guide+hero+kpis+'<div class=\"grid-main\">'");
+const search=`function globalSearch(){
+  const query=$('#global-search').value.trim();if(!query){toast('Nhập ngân hàng hoặc tên tiêu chí để tìm kiếm');return;}
+  const key=normalizeSearch(query).replace(/\\s/g,''),aliases={'TPBank':'TPB','HDBank':'HDB','LP Bank':'LPB','OCB':'OCB','SaigonBank':'SGB'};
+  const found=D.banks.find(b=>[b.name,b.label,aliases[b.name]].some(n=>normalizeSearch(n).replace(/\\s/g,'')===key));
+  S.pillar='all';S.level='all';S.evidencePage=1;
+  if(found){S.bank=found.name;S.focus=found.name;if(S.page==='dna')render();else navigate('dna');}
+  else{S.bank='all';S.search=query;S.evidenceView='list';if(S.page==='evidence')render();else navigate('evidence');}
+}
+$('#global-search-submit').onclick=globalSearch;$('#global-search').onkeydown=e=>{if(e.key==='Enter'){e.preventDefault();globalSearch();}};
+`;
+s=s.replace("$('#bank-filter').onchange=e=>",search+"$('#bank-filter').onchange=e=>");
+fs.writeFileSync('dist/app.js',s);
