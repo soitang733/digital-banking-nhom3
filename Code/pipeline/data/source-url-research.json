@@ -1,0 +1,894 @@
+{
+  "date": "2026-10-20",
+  "scope": "Bổ sung đường dẫn và vị trí nguồn; không thay đổi mức chấm của nhóm",
+  "references": {
+    "tp24-cx": {
+      "title": "Báo cáo phát triển bền vững TPBank 2024",
+      "year": 2024,
+      "reportId": "report-3",
+      "page": 59,
+      "printedPage": "59",
+      "url": "https://tpb.vn/wps/wcm/connect/36035be7-468c-459e-a586-fc20f694f0c0/2025.11.03+TPBank+_+B%C3%A1o+c%C3%A1o+ph%C3%A1t+tri%E1%BB%83n+b%E1%BB%81n+v%E1%BB%AFng+n%C4%83m+2024+BOD+ph%C3%AA+duy%E1%BB%87t.pdf?MOD=AJPERES&CONVERT_TO=url&CACHEID=ROOTWORKSPACE-36035be7-468c-459e-a586-fc20f694f0c0-pFhGccW#page=59",
+      "summary": "Ứng dụng, LiveBank, trải nghiệm cá nhân hóa, Bio Center và kết nối gần 2.000 dịch vụ Open API.",
+      "checked": "Đã đọc nội dung trang PDF",
+      "checkedAt": "2026-10-20"
+    },
+    "tp24-ratios": {
+      "title": "Báo cáo phát triển bền vững TPBank 2024",
+      "year": 2024,
+      "reportId": "report-3",
+      "page": 14,
+      "printedPage": "14",
+      "url": "https://tpb.vn/wps/wcm/connect/36035be7-468c-459e-a586-fc20f694f0c0/2025.11.03+TPBank+_+B%C3%A1o+c%C3%A1o+ph%C3%A1t+tri%E1%BB%83n+b%E1%BB%81n+v%E1%BB%AFng+n%C4%83m+2024+BOD+ph%C3%AA+duy%E1%BB%87t.pdf?MOD=AJPERES&CONVERT_TO=url&CACHEID=ROOTWORKSPACE-36035be7-468c-459e-a586-fc20f694f0c0-pFhGccW#page=14",
+      "summary": "98% giao dịch qua kênh số và 90% hoạt động nội bộ được số hóa.",
+      "checked": "Đã đọc nội dung trang PDF",
+      "checkedAt": "2026-10-20"
+    },
+    "tp24-process": {
+      "title": "Báo cáo phát triển bền vững TPBank 2024",
+      "year": 2024,
+      "reportId": "report-3",
+      "page": 60,
+      "printedPage": "60",
+      "url": "https://tpb.vn/wps/wcm/connect/36035be7-468c-459e-a586-fc20f694f0c0/2025.11.03+TPBank+_+B%C3%A1o+c%C3%A1o+ph%C3%A1t+tri%E1%BB%83n+b%E1%BB%81n+v%E1%BB%AFng+n%C4%83m+2024+BOD+ph%C3%AA+duy%E1%BB%87t.pdf?MOD=AJPERES&CONVERT_TO=url&CACHEID=ROOTWORKSPACE-36035be7-468c-459e-a586-fc20f694f0c0-pFhGccW#page=60",
+      "summary": "Số hóa 523 quy trình, hoàn thành 238 yêu cầu cải tiến, nâng cấp core banking và thu thập sinh trắc học.",
+      "checked": "Đã đọc nội dung trang PDF",
+      "checkedAt": "2026-10-20"
+    },
+    "tp24-security": {
+      "title": "Báo cáo phát triển bền vững TPBank 2024",
+      "year": 2024,
+      "reportId": "report-3",
+      "page": 61,
+      "printedPage": "61",
+      "url": "https://tpb.vn/wps/wcm/connect/36035be7-468c-459e-a586-fc20f694f0c0/2025.11.03+TPBank+_+B%C3%A1o+c%C3%A1o+ph%C3%A1t+tri%E1%BB%83n+b%E1%BB%81n+v%E1%BB%AFng+n%C4%83m+2024+BOD+ph%C3%AA+duy%E1%BB%87t.pdf?MOD=AJPERES&CONVERT_TO=url&CACHEID=ROOTWORKSPACE-36035be7-468c-459e-a586-fc20f694f0c0-pFhGccW#page=61",
+      "summary": "Các chứng chỉ ISO 27001, ISO 20000, ISO 22301, PCI DSS và chính sách bảo vệ dữ liệu cá nhân.",
+      "checked": "Đã đọc nội dung trang PDF",
+      "checkedAt": "2026-10-20"
+    },
+    "tp23-cloud": {
+      "title": "Báo cáo thường niên TPBank 2023",
+      "year": 2023,
+      "reportId": "report-0",
+      "page": 26,
+      "printedPage": "48–49",
+      "url": "https://static2.vietstock.vn/data/HOSE/2023/BCTN/VN/TPB_Baocaothuongnien_2023/maket+n%E1%BB%9Bi+x%C3%A9n+2024+-+view+15.4.2024+RESIZE.pdf#page=26",
+      "summary": "eBankX và eBankBiz trên container, tự co giãn, ứng dụng Microservice/Cloud platform.",
+      "checked": "Đã đọc nội dung trang PDF",
+      "checkedAt": "2026-10-20"
+    },
+    "tp25-ops": {
+      "title": "Báo cáo thường niên TPBank 2025",
+      "year": 2025,
+      "reportId": "report-4",
+      "page": 24,
+      "printedPage": "44–45",
+      "url": "https://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/TPB_Baocaothuongnien_2025/BCTN+2026+TV+20.4+VIEW-2.pdf#page=24",
+      "summary": "Cloud ready, microservice, private cloud, nâng cấp hệ thống không gián đoạn và cải thiện thời gian dừng dịch vụ.",
+      "checked": "Đã đọc nội dung trang PDF",
+      "checkedAt": "2026-10-20"
+    },
+    "tp24-innovation": {
+      "title": "Báo cáo phát triển bền vững TPBank 2024",
+      "year": 2024,
+      "reportId": "report-3",
+      "page": 79,
+      "printedPage": "79",
+      "url": "https://tpb.vn/wps/wcm/connect/36035be7-468c-459e-a586-fc20f694f0c0/2025.11.03+TPBank+_+B%C3%A1o+c%C3%A1o+ph%C3%A1t+tri%E1%BB%83n+b%E1%BB%81n+v%E1%BB%AFng+n%C4%83m+2024+BOD+ph%C3%AA+duy%E1%BB%87t.pdf?MOD=AJPERES&CONVERT_TO=url&CACHEID=ROOTWORKSPACE-36035be7-468c-459e-a586-fc20f694f0c0-pFhGccW#page=79",
+      "summary": "Có cơ chế thưởng cho sáng kiến cải tiến kỹ thuật và quy trình nghiệp vụ.",
+      "checked": "Đã đọc nội dung trang PDF",
+      "checkedAt": "2026-10-20"
+    },
+    "tp24-kpi": {
+      "title": "Báo cáo phát triển bền vững TPBank 2024",
+      "year": 2024,
+      "reportId": "report-3",
+      "page": 83,
+      "printedPage": "83",
+      "url": "https://tpb.vn/wps/wcm/connect/36035be7-468c-459e-a586-fc20f694f0c0/2025.11.03+TPBank+_+B%C3%A1o+c%C3%A1o+ph%C3%A1t+tri%E1%BB%83n+b%E1%BB%81n+v%E1%BB%AFng+n%C4%83m+2024+BOD+ph%C3%AA+duy%E1%BB%87t.pdf?MOD=AJPERES&CONVERT_TO=url&CACHEID=ROOTWORKSPACE-36035be7-468c-459e-a586-fc20f694f0c0-pFhGccW#page=83",
+      "summary": "Kết hợp KPIs và OKRs trong quản trị hiệu suất, khuyến khích sáng tạo và phát triển nhân viên.",
+      "checked": "Đã đọc nội dung trang PDF",
+      "checkedAt": "2026-10-20"
+    },
+    "tp24-evaluation": {
+      "title": "Báo cáo phát triển bền vững TPBank 2024",
+      "year": 2024,
+      "reportId": "report-3",
+      "page": 97,
+      "printedPage": "97",
+      "url": "https://tpb.vn/wps/wcm/connect/36035be7-468c-459e-a586-fc20f694f0c0/2025.11.03+TPBank+_+B%C3%A1o+c%C3%A1o+ph%C3%A1t+tri%E1%BB%83n+b%E1%BB%81n+v%E1%BB%AFng+n%C4%83m+2024+BOD+ph%C3%AA+duy%E1%BB%87t.pdf?MOD=AJPERES&CONVERT_TO=url&CACHEID=ROOTWORKSPACE-36035be7-468c-459e-a586-fc20f694f0c0-pFhGccW#page=97",
+      "summary": "Đánh giá hiệu quả công việc theo chỉ tiêu KPIs và hành vi cá nhân, có kỳ đánh giá và báo cáo.",
+      "checked": "Đã đọc nội dung trang PDF",
+      "checkedAt": "2026-10-20"
+    },
+    "ocb24-personal": {
+      "title": "Báo cáo phát triển bền vững OCB 2024",
+      "year": 2024,
+      "reportId": "report-13",
+      "page": 63,
+      "printedPage": "124–125",
+      "url": "https://webocb-api.ocb.com.vn/Resources/Files/20250923154047_bao-cao-phat-trien-ben-vung-2024.pdf#page=63",
+      "summary": "AppsFlyer, Marketing Automation đa kênh, chuyển đổi gói tài khoản, hạn mức và công cụ PFM.",
+      "checked": "Đã đọc nội dung trang PDF",
+      "checkedAt": "2026-10-20"
+    },
+    "ocb25-digital": {
+      "title": "Báo cáo thường niên OCB 2025",
+      "year": 2025,
+      "reportId": "report-14",
+      "page": 53,
+      "printedPage": "53",
+      "url": "https://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/OCB_Baocaothuongnien_2025_1.pdf#page=53",
+      "summary": "OMNI cá nhân hóa, dữ liệu hành vi, VNeID, mở thẻ online, 88% khách hàng mới qua kênh số và 90% giao dịch OMNI.",
+      "checked": "Đã đọc nội dung trang PDF",
+      "checkedAt": "2026-10-20"
+    },
+    "ocb25-brand": {
+      "title": "Báo cáo thường niên OCB 2025",
+      "year": 2025,
+      "reportId": "report-14",
+      "page": 54,
+      "printedPage": "54",
+      "url": "https://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/OCB_Baocaothuongnien_2025_1.pdf#page=54",
+      "summary": "Truyền thông social, PR, Tết, sinh nhật, điểm chạm thương hiệu; Top 8 sức khỏe thương hiệu, tăng 5 bậc chỉ số yêu thích.",
+      "checked": "Đã đọc nội dung trang PDF",
+      "checkedAt": "2026-10-20"
+    },
+    "ocb25-strategy": {
+      "title": "Báo cáo thường niên OCB 2025",
+      "year": 2025,
+      "reportId": "report-14",
+      "page": 55,
+      "printedPage": "55",
+      "url": "https://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/OCB_Baocaothuongnien_2025_1.pdf#page=55",
+      "summary": "Định vị chuyển đổi số, ESG và trải nghiệm khách hàng, mục tiêu Top 5 về hiệu quả và ESG vào năm 2030.",
+      "checked": "Đã đọc nội dung trang PDF",
+      "checkedAt": "2026-10-20"
+    },
+    "ocb25-talent": {
+      "title": "Báo cáo thường niên OCB 2025",
+      "year": 2025,
+      "reportId": "report-14",
+      "page": 95,
+      "printedPage": "95",
+      "url": "https://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/OCB_Baocaothuongnien_2025_1.pdf#page=95",
+      "summary": "Hợp tác UEH, BUH, Văn Lang, Ngoại thương qua Fresh Bankers, Career Fair, Office Tour và hội thảo tuyển dụng.",
+      "checked": "Đã đọc nội dung trang PDF",
+      "checkedAt": "2026-10-20"
+    },
+    "ocb25-ratios": {
+      "title": "Báo cáo phát triển bền vững OCB 2025",
+      "year": 2025,
+      "reportId": "report-15",
+      "page": 127,
+      "printedPage": "127",
+      "url": "https://webocb-api.ocb.com.vn/Resources/Files/20260826145747_2608-bc-ptbv-2025-vn.pdf#page=127",
+      "summary": "Tỷ lệ tiếp nhận khách hàng và giao dịch kênh số; phân biệt số giao dịch toàn kênh số với riêng OMNI.",
+      "checked": "Đã đọc nội dung trang PDF",
+      "checkedAt": "2026-10-20"
+    },
+    "tp-data": {
+      "title": "TGĐ Nguyễn Hưng hé lộ bí quyết thấu hiểu khách hàng của TPBank",
+      "date": "2024-11-29",
+      "year": 2024,
+      "url": "https://tpb.vn/tin-tuc/tin-tpbank/tgd-nguyen-hung-he-lo-bi-quyet-thau-hieu-khach-hang-cua-tpbank",
+      "section": "TPBank dân chủ hóa dữ liệu; Ra quyết định dựa trên dữ liệu",
+      "summary": "Dữ liệu phục vụ nhu cầu, chấm điểm tín dụng; KPI đổi mới số ở các đơn vị; AI dự báo tồn quỹ và hiệu quả sử dụng vốn.",
+      "checked": "Đã mở và đọc trang chính thức",
+      "checkedAt": "2026-10-20"
+    },
+    "tp-green": {
+      "title": "TPBank – Từ lá cờ đầu về ngân hàng số đến công cuộc chuyển đổi xanh",
+      "date": "2024-10-01",
+      "year": 2024,
+      "url": "https://tpb.vn/tin-tuc/tin-tpbank/tpbank-tu-la-co-dau-ve-ngan-hang-so-den-cong-cuoc-chuyen-doi-xanh",
+      "section": "Hệ sinh thái thanh toán; mô hình AI phòng chống gian lận",
+      "summary": "AI phân tích bất thường, chống gian lận, Bio Center, SoftPOS, ví điện tử, QR xuyên biên giới và sản phẩm số.",
+      "checked": "Đã mở và đọc trang chính thức",
+      "checkedAt": "2026-10-20"
+    },
+    "tp-bots": {
+      "title": "Ngân hàng số TPBank liên tiếp tỏa sáng trên bảng vinh danh của The Asian Banker",
+      "date": "2023-03-23",
+      "year": 2023,
+      "url": "https://tpb.vn/tin-tuc/tin-tpbank/ngan-hang-so-tpbnak-lien-tiep-toa-sang-tren-bang-vinh-danh-cua-the-asian-banker",
+      "section": "Sáng kiến nâng cao năng suất và tự động hóa",
+      "summary": "Bài công bố năm 2023 nêu 473 bot đang được triển khai và hiệu quả giảm thao tác thủ công.",
+      "checked": "Đã mở và đọc trang chính thức",
+      "checkedAt": "2026-10-20"
+    },
+    "tp-privacy": {
+      "title": "Bảo mật thông tin khách hàng – TPBank",
+      "year": null,
+      "url": "https://tpb.vn/bao-mat-thong-tin-khach-hang",
+      "section": "Chính sách quyền riêng tư; Bảo mật dữ liệu",
+      "summary": "Chính sách sử dụng và bảo vệ thông tin, SSL 256-bit, tường lửa, IDS/IPS và hạn chế truy cập.",
+      "checked": "Đã mở và đọc trang chính thức",
+      "checkedAt": "2026-10-20",
+      "dateNote": "Trang không ghi ngày; đối chiếu việc áp dụng chính sách với báo cáo PTBV 2024 trang 61."
+    },
+    "sgb-privacy": {
+      "title": "Các điều kiện giao dịch chung về bảo vệ dữ liệu cá nhân – SAIGONBANK",
+      "date": "2023-06-30",
+      "year": 2023,
+      "url": "https://saigonbank.com.vn/files/File/Bieu-mau/dieu-khoan-su-dung/ca-nhan/2_Cac_dieu_kien_giao_dich_chung_ve_bao_ve_du_lieu_ca_nhan.pdf#page=1",
+      "section": "Mục 1, trang PDF 1–2; Thông báo 2768/TB-SGB-KTGD",
+      "summary": "Văn bản ngày 30/06/2023 quy định phạm vi xử lý, bảo vệ dữ liệu và quyền của chủ thể dữ liệu.",
+      "checked": "Đã mở và đọc trang chính thức",
+      "checkedAt": "2026-10-20",
+      "page": 1
+    }
+  },
+  "rows": [
+    {
+      "bank": "TPBank",
+      "sourceCode": "1.1.2001",
+      "referenceIds": [
+        "tp-data"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "1.3.2003",
+      "referenceIds": [
+        "tp-data"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "2.4.2002",
+      "referenceIds": [
+        "tp-data"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "6.3.2001",
+      "referenceIds": [
+        "tp-data"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "1.1.2003",
+      "referenceIds": [
+        "tp24-cx"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "1.1.2004",
+      "referenceIds": [
+        "tp24-cx"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "1.2.2002",
+      "referenceIds": [
+        "tp24-cx"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "1.2.2005",
+      "referenceIds": [
+        "tp24-cx"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "2.6.2001",
+      "referenceIds": [
+        "tp24-cx"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "1.1.2006",
+      "referenceIds": [
+        "tp24-ratios",
+        "tp24-cx"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "2.6.2006",
+      "referenceIds": [
+        "tp24-ratios",
+        "tp24-cx"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "4.1.2001",
+      "referenceIds": [
+        "tp24-ratios",
+        "tp24-cx"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "4.4.2004",
+      "referenceIds": [
+        "tp24-ratios",
+        "tp24-cx"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "1.1.2007",
+      "referenceIds": [
+        "tp-green",
+        "tp-data"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "4.4.2007",
+      "referenceIds": [
+        "tp-green",
+        "tp-data"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "1.2.2004",
+      "referenceIds": [
+        "tp-green",
+        "tp24-cx"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "2.5.2001",
+      "referenceIds": [
+        "tp-green",
+        "tp24-cx"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "2.5.2003",
+      "referenceIds": [
+        "tp-green",
+        "tp24-cx"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "4.2.2005",
+      "referenceIds": [
+        "tp-green",
+        "tp24-cx"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "1.4.2003",
+      "referenceIds": [
+        "tp-privacy",
+        "tp24-security"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "1.4.2004",
+      "referenceIds": [
+        "tp-privacy",
+        "tp24-security"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "3.3.2003",
+      "referenceIds": [
+        "tp-privacy",
+        "tp24-security"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "6.1.2004",
+      "referenceIds": [
+        "tp-privacy",
+        "tp24-security"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "6.1.2005",
+      "referenceIds": [
+        "tp-privacy",
+        "tp24-security"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "6.1.2008",
+      "referenceIds": [
+        "tp-privacy",
+        "tp24-security"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "2.2.2001",
+      "referenceIds": [
+        "tp24-cx",
+        "tp-green"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "2.2.2002",
+      "referenceIds": [
+        "tp24-cx",
+        "tp-green"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "2.2.2003",
+      "referenceIds": [
+        "tp24-cx",
+        "tp-green"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "3.2.2006",
+      "referenceIds": [
+        "tp24-cx",
+        "tp-green"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "4.2.2006",
+      "referenceIds": [
+        "tp24-cx",
+        "tp-green"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "2.6.2003",
+      "referenceIds": [
+        "tp-data",
+        "tp24-evaluation"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "2.6.2004",
+      "referenceIds": [
+        "tp24-security",
+        "tp-green"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "3.1.2001",
+      "referenceIds": [
+        "tp24-security",
+        "tp-green"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "3.1.2002",
+      "referenceIds": [
+        "tp24-security",
+        "tp-green"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "4.1.2002",
+      "referenceIds": [
+        "tp24-security",
+        "tp-green"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "4.1.2003",
+      "referenceIds": [
+        "tp24-security",
+        "tp-green"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "2.6.2007",
+      "referenceIds": [
+        "tp-data",
+        "tp24-process"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "2.6.2008",
+      "referenceIds": [
+        "tp24-process",
+        "tp24-innovation"
+      ],
+      "status": "partial",
+      "note": "Nguồn 2024 xác nhận 238 yêu cầu cải tiến và cơ chế thưởng sáng kiến. Con số hàng nghìn đề xuất tìm được trong bài công bố 2022 nói về năm 2021, chưa xác định được nguồn cho con số này trong kỳ 2023–2025."
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "5.3.2002",
+      "referenceIds": [
+        "tp24-process",
+        "tp24-innovation"
+      ],
+      "status": "partial",
+      "note": "Nguồn 2024 xác nhận 238 yêu cầu cải tiến và cơ chế thưởng sáng kiến. Con số hàng nghìn đề xuất tìm được trong bài công bố 2022 nói về năm 2021, chưa xác định được nguồn cho con số này trong kỳ 2023–2025."
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "3.1.2005",
+      "referenceIds": [
+        "tp23-cloud",
+        "tp25-ops",
+        "tp24-cx"
+      ],
+      "status": "partial",
+      "note": "Nguồn trong kỳ xác nhận Cloud, nền tảng số và vận hành liên tục. Các chi tiết Active-Active DC-DR và SD-WAN tìm được trong bài công bố 2022; chưa tìm thấy xác nhận lại cấu hình đó trong tài liệu 2023–2025 đã đọc."
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "3.2.2007",
+      "referenceIds": [
+        "tp23-cloud",
+        "tp25-ops",
+        "tp24-cx"
+      ],
+      "status": "partial",
+      "note": "Nguồn trong kỳ xác nhận Cloud, nền tảng số và vận hành liên tục. Các chi tiết Active-Active DC-DR và SD-WAN tìm được trong bài công bố 2022; chưa tìm thấy xác nhận lại cấu hình đó trong tài liệu 2023–2025 đã đọc."
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "3.5.2005",
+      "referenceIds": [
+        "tp23-cloud",
+        "tp25-ops",
+        "tp24-cx"
+      ],
+      "status": "partial",
+      "note": "Nguồn trong kỳ xác nhận Cloud, nền tảng số và vận hành liên tục. Các chi tiết Active-Active DC-DR và SD-WAN tìm được trong bài công bố 2022; chưa tìm thấy xác nhận lại cấu hình đó trong tài liệu 2023–2025 đã đọc."
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "4.4.2001",
+      "referenceIds": [
+        "tp23-cloud",
+        "tp25-ops",
+        "tp24-cx"
+      ],
+      "status": "partial",
+      "note": "Nguồn trong kỳ xác nhận Cloud, nền tảng số và vận hành liên tục. Các chi tiết Active-Active DC-DR và SD-WAN tìm được trong bài công bố 2022; chưa tìm thấy xác nhận lại cấu hình đó trong tài liệu 2023–2025 đã đọc."
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "3.2.2005",
+      "referenceIds": [
+        "tp23-cloud",
+        "tp25-ops"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "3.5.2007",
+      "referenceIds": [
+        "tp23-cloud",
+        "tp25-ops"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "3.4.2001",
+      "referenceIds": [
+        "tp-data",
+        "tp-green",
+        "tp24-cx"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "3.4.2002",
+      "referenceIds": [
+        "tp-data",
+        "tp-green",
+        "tp24-cx"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "6.2.2005",
+      "referenceIds": [
+        "tp-data",
+        "tp-green",
+        "tp24-cx"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "6.3.2002",
+      "referenceIds": [
+        "tp-data",
+        "tp-green",
+        "tp24-cx"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "6.3.2003",
+      "referenceIds": [
+        "tp-data",
+        "tp-green",
+        "tp24-cx"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "3.5.2009",
+      "referenceIds": [
+        "tp24-process",
+        "tp-bots"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "4.2.2004",
+      "referenceIds": [
+        "tp24-process",
+        "tp-bots"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "5.3.2001",
+      "referenceIds": [
+        "tp24-process",
+        "tp-bots"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "5.3.2003",
+      "referenceIds": [
+        "tp24-process",
+        "tp-bots"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "4.4.2008",
+      "referenceIds": [
+        "tp25-ops",
+        "tp24-cx"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "5.1.2001",
+      "referenceIds": [
+        "tp-data",
+        "tp24-kpi"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "TPBank",
+      "sourceCode": "5.1.2003",
+      "referenceIds": [
+        "tp-data",
+        "tp24-kpi"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "OCB",
+      "sourceCode": "1.1.2001",
+      "referenceIds": [
+        "ocb25-digital"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "OCB",
+      "sourceCode": "1.1.2004",
+      "referenceIds": [
+        "ocb25-digital"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "OCB",
+      "sourceCode": "1.1.2002",
+      "referenceIds": [
+        "ocb24-personal"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "OCB",
+      "sourceCode": "1.1.2003",
+      "referenceIds": [
+        "ocb24-personal"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "OCB",
+      "sourceCode": "1.1.2006",
+      "referenceIds": [
+        "ocb25-digital",
+        "ocb25-ratios"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "OCB",
+      "sourceCode": "2.1.2001",
+      "referenceIds": [
+        "ocb25-strategy"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "OCB",
+      "sourceCode": "2.1.2002",
+      "referenceIds": [
+        "ocb25-brand"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "OCB",
+      "sourceCode": "2.1.2003",
+      "referenceIds": [
+        "ocb25-brand"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "OCB",
+      "sourceCode": "2.1.2004",
+      "referenceIds": [
+        "ocb25-brand"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "OCB",
+      "sourceCode": "5.2.2005",
+      "referenceIds": [
+        "ocb25-talent"
+      ],
+      "status": "matched",
+      "note": ""
+    },
+    {
+      "bank": "SaigonBank",
+      "sourceCode": "6.1.2008",
+      "referenceIds": [
+        "sgb-privacy"
+      ],
+      "status": "matched",
+      "note": ""
+    }
+  ]
+}

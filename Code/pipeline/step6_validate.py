@@ -2,6 +2,8 @@
 from pathlib import Path
 import pandas as pd
 import re
+import shutil
+import sys
 
 # =========================
 # 1. CẤU HÌNH
@@ -13,6 +15,23 @@ BASE_DIR = Path(__file__).resolve().parent
 INPUT_FILE = BASE_DIR / "data" / "Data Feasibility.xlsx"
 
 OUTPUT_FILE = BASE_DIR / "output" / "CleanData.xlsx"
+
+# The latest team-approved workbook supersedes the initial collection file.
+# Copy it without regrading, stripping citations or replacing approved zeros.
+APPROVED_FILE = BASE_DIR / "data" / "TeamApprovedCleanData.xlsx"
+if APPROVED_FILE.exists():
+    approved = pd.read_excel(APPROVED_FILE, sheet_name=None)
+    bank_names = ["TPBank", "HDBank", "LP Bank", "OCB", "SaigonBank"]
+    catalog = set(approved["Danh_muc"]["Mã"].astype(str))
+    assert len(catalog) == 140
+    for bank_name in bank_names:
+        frame = approved[bank_name]
+        assert len(frame) == 140 and set(frame["Mã"].astype(str)) == catalog
+        assert frame["Mã"].is_unique and frame["Mức đạt"].isin(range(6)).all()
+    OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copyfile(APPROVED_FILE, OUTPUT_FILE)
+    print("Đã kiểm tra 700 mức và dùng workbook được nhóm duyệt, có bổ sung URL nguồn.")
+    sys.exit(0)
 
 MASTER_SHEET = "Chỉ số DBI"
 

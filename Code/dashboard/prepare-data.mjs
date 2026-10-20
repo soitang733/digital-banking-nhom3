@@ -10,6 +10,15 @@ const colors={'TPBank':'#8b5bd6','HDBank':'#dc6e54','LP Bank':'#478cd5','OCB':'#
 const pillars=['Khách hàng','Chiến lược','Công nghệ','Vận hành','Văn hóa','Dữ liệu'];
 const reviews=Object.fromEntries(names.map(n=>[n,new Map(records(source['ScoringReview.xlsx'][n]).map(r=>[r['Mã'],r]))]));
 const evidence=records(final.Chi_tiet_tieu_chi).map(r=>{const review=reviews[r['Ngân hàng']].get(r['Mã']);return {bank:r['Ngân hàng'],pillar:Number(r['Trụ cột'][0])-1,group:r['Nhóm tiêu chí'],code:r['Mã'],name:r['Tiêu chí'],level:Number(r['Mức đạt']),percent:Number(r['Tỷ lệ hoàn thành (%)']),text:r['Bằng chứng'],rubric:review?.['Mô tả mức đã chấm']??'',status:review?.['Kết quả kiểm tra']??'Cần rà soát',urls:[...new Set(r['Bằng chứng'].match(/https?:\/\/[^\s<>"']+/g)??[])]};});
+// The team's newer workbook supplies citation metadata, while the approved
+// numerical results remain independently checked against the scoring outputs.
+const approvedPath='../pipeline/data/approved-evidence.json';
+if(fs.existsSync(approvedPath)){
+ const updated=JSON.parse(fs.readFileSync(approvedPath,'utf8'));
+ const byKey=new Map(updated.rows.map(r=>[r.bank+'|'+r.sourceCode,r]));
+ assert.equal(byKey.size,700);
+ for(const e of evidence){const r=byKey.get(e.bank+'|'+e.code);assert(r,'Missing approved evidence '+e.bank+' '+e.code);assert.equal(e.level,r.level,'Citation update must not change a level');e.text=r.text;e.urls=r.urls;}
+}
 const banks=records(final.Digital_Score_Rank).map(r=>{const rows=evidence.filter(e=>e.bank===r['Ngân hàng']);const p=pillars.map((_,i)=>rows.filter(e=>e.pillar===i));const sums=p.map(rs=>rs.reduce((t,e)=>t+e.level,0));const percent=p.map(rs=>rs.reduce((t,e)=>t+e.percent,0)/rs.length);const score=percent.reduce((t,v)=>t+v,0)/6;assert.ok(Math.abs(score-Number(r['Digital Score (%)']))<1e-8);assert.equal(rows.length,140);return {name:r['Ngân hàng'],label:r['Ngân hàng']==='LP Bank'?'LPBank':r['Ngân hàng']==='SaigonBank'?'Saigonbank':r['Ngân hàng'],color:colors[r['Ngân hàng']],rank:Number(r.Rank),score,stage:r['Tên mức'],raw:rows.reduce((t,e)=>t+e.level,0)/140,zero:rows.filter(e=>e.level===0).length,count:140,pillars:percent,rawPillars:sums.map((v,i)=>v/p[i].length),coverage:rows.filter(e=>e.level>0).length/140*100};});
 const analysis=records(source['AnalysisDataset.xlsx'].So_sanh_ngan_hang).filter(r=>names.includes(r['Ngân hàng']));
 for(const b of banks){const a=analysis.find(r=>r['Ngân hàng']===b.name);assert.equal(evidence.filter(e=>e.bank===b.name).reduce((t,e)=>t+e.level,0),Number(a.Tong_diem));assert.equal(b.zero,Number(a.So_muc_0));}

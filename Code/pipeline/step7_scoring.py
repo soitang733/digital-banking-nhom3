@@ -86,6 +86,16 @@ for bank in BANK_SHEETS:
 
     df = pd.read_excel(INPUT_FILE, sheet_name=bank)
     df.columns = df.columns.astype(str).str.strip()
+    if "Trụ cột" not in df.columns and "S" in df.columns:
+        df = df.rename(columns={"S": "Trụ cột"})
+
+    # The supplied LP Bank tab labels the first column 'S'. Recover the
+    # canonical pillar/group by stable criterion code without editing its input.
+    for column in ["Trụ cột", "Nhóm tiêu chí"]:
+        if column not in df.columns:
+            df[column] = df["Mã"].astype(str).map(
+                lambda code: master_lookup.get(code, {}).get(column)
+            )
 
     required_columns = [
         "Mã", "Tiêu chí", "Mức đạt", "Bằng chứng"

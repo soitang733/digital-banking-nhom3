@@ -5,7 +5,7 @@ Website: https://digital-banking-nhom3.vercel.app
 ## Cấu trúc
 
 - pipeline/: xử lý dữ liệu Python, đọc/đối chiếu PDF và tính điểm.
-- pipeline/data/Data Feasibility.xlsx: dữ liệu thu thập đầu vào. Các JSON và văn bản lưu vết dữ liệu đối chiếu.
+- pipeline/data/TeamApprovedCleanData.xlsx: dữ liệu đã duyệt, cập nhật URL ngày 20/10/2026. step6 ưu tiên bản này. Data Feasibility.xlsx lưu dữ liệu thu thập ban đầu. approved-evidence.json cung cấp bằng chứng theo khóa ngân hàng và mã tiêu chí; source-url-research.json ghi nguồn bổ sung và phạm vi đối chiếu. Các JSON và văn bản lưu vết dữ liệu đối chiếu.
 - pipeline/output/: 4 workbook kết quả.
 - dashboard/dist/: website tĩnh, dữ liệu snapshot và tài nguyên hiển thị.
 - dashboard/: script tạo dữ liệu và kiểm tra frontend.

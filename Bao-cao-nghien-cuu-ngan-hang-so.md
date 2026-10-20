@@ -1,6 +1,6 @@
 Báo cáo nghiên cứu chỉ số chuyển đổi số ngân hàng
 
-Nhóm 03<br/>TPBank  HDBank  LPBank  OCB  Saigonbank<br/>Phạm vi dữ liệu 2023 đến 2025<br/>Bản nộp ngày 19 tháng 10 năm 2026
+Nhóm 03<br/>TPBank  HDBank  LPBank  OCB  Saigonbank<br/>Phạm vi dữ liệu 2023 đến 2025<br/>Cập nhật nguồn ngày 20 tháng 10 năm 2026
 
 ## Tóm tắt nghiên cứu
 
@@ -38,7 +38,7 @@ Sáu trụ cột thể hiện các mặt khác nhau của chuyển đổi số. 
 
 ### 2 1 Nguồn dữ liệu
 
-Dữ liệu đầu vào được lưu trong Data Feasibility.xlsx. Bốn workbook kết quả lần lượt lưu dữ liệu đã chuẩn hóa, mô tả thang chấm và rà soát, điểm quy đổi và xếp hạng, cùng bảng phân tích. Bộ danh mục có 23 báo cáo thường niên hoặc phát triển bền vững của năm ngân hàng; nguồn gốc và liên kết từng báo cáo được liệt kê ở Phụ lục C.
+Dữ liệu thu thập ban đầu được lưu trong Data Feasibility.xlsx. Bản dữ liệu đã được nhóm duyệt, cập nhật URL ngày 20/10/2026, nằm tại Code/pipeline/data/TeamApprovedCleanData.xlsx và được dùng cho các lần chạy tiếp theo. Bốn workbook kết quả lưu dữ liệu chuẩn hóa, mô tả thang chấm, điểm quy đổi và xếp hạng, cùng bảng phân tích. Danh mục 23 báo cáo nguồn được liệt kê ở Phụ lục C.
 
 | File Excel | Vai trò và nội dung chính |
 | --- | --- |
@@ -170,7 +170,7 @@ Saigonbank đạt 12,88% tổng thể. Trong hồ sơ riêng, trụ cột cao nh
 
 ### 4 4 Bằng chứng và dữ liệu theo năm
 
-Bộ điểm gộp đã được nhóm duyệt có 302 mức 0; các mức này được giữ theo bộ dữ liệu của nhóm. Trong bản chuyển giao, 644 bản ghi chưa có URL tại trường nguồn được đọc. Đây là thiếu thông tin truy vết trong file, không phải bằng chứng nhóm chưa duyệt mức. Lớp bổ sung tìm được đoạn PDF liên quan cho 391 trên 700 tổ hợp; trạng thái của lớp này chỉ áp dụng cho các đoạn được bổ sung.
+Bộ điểm gộp có 302 mức 0 và đã được nhóm duyệt. Bản cập nhật có 404/700 dòng chứa URL, bao gồm toàn bộ 398 dòng mức lớn hơn 0. Các dòng chưa có URL đều thuộc mức 0. Đợt bổ sung ngày 20/10/2026 đã gắn nguồn cho 68 dòng còn thiếu: 62 dòng có nội dung tương ứng, 6 dòng TPBank mới khớp một phần chi tiết mô tả. Phạm vi nguồn được ghi ngay trong ô bằng chứng; mức chấm không thay đổi. Nguồn và vị trí bổ sung được lưu tại Code/pipeline/data/source-url-research.json.
 
 Lớp năm có 2100 bản ghi, trong đó 209 bản ghi có mức kèm dẫn chứng. Chưa có điểm tổng thể theo năm đủ điều kiện công bố cho toàn bộ bộ chỉ số. Vì vậy báo cáo không tính YoY, không vẽ xu hướng điểm và không diễn giải mức gộp thành tiến bộ của các năm 2023, 2024, 2025.
 
