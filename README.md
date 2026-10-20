@@ -17,16 +17,16 @@ Xem Phuong-phap-cham-diem.md. Mức gộp là mức cao nhất được chứng 
 
 ## Bốn Excel bản cuối
 
-- Excel/CleanData.xlsx: Dữ liệu chấm điểm. Dữ liệu chuẩn hóa, bảng tổng hợp và các trường cần rà soát.
+- Excel/CleanData.xlsx: Dữ liệu chấm điểm. Dữ liệu chuẩn hóa, bảng tổng hợp và nguồn bằng chứng.
 - Excel/ScoringReview.xlsx: Tiêu chí và thang chấm. Danh mục 140 tiêu chí, mô tả mức 1–5 và bảng chấm từng ngân hàng.
 - Excel/DBI_DigitalScore_theo_tieu_chi.xlsx: Điểm số và xếp hạng. Điểm chi tiết 700 bản ghi, điểm nhóm, trụ cột và Digital Score.
 - Excel/AnalysisDataset.xlsx: Phân tích kết quả. So sánh ngân hàng, điểm mạnh yếu và khoảng cách trụ cột.
 
 ## Nội dung bổ sung ở đợt sau
 
-- Đã gắn URL cho 398/398 dòng mức lớn hơn 0. Sáu dòng TPBank còn một số chi tiết mô tả chưa khớp hoàn toàn với nguồn trong kỳ; xem phạm vi ngay trong ô bằng chứng và Code/pipeline/data/source-url-research.json.
+- Đã gắn URL cho 398/398 dòng mức lớn hơn 0. Sáu mô tả TPBank đã được chuẩn hóa theo nguồn trong kỳ; lịch sử nội dung trước/sau và nguồn lưu tại Code/pipeline/data/source-url-research.json.
 - Giữ nguyên bộ điểm đã được nhóm duyệt. Cờ tự động của pipeline phục vụ kiểm tra cấu trúc/thông tin, không phải quyết định phủ nhận mức chấm.
-- Hoàn thiện lớp theo năm trước khi tính điểm năm hoặc YoY; không suy ra điểm năm từ điểm gộp.
+- Sản phẩm chính dùng điểm gộp và hồ sơ trưởng thành số. Phân tích xu hướng theo năm là phần mở rộng, chỉ tính khi có dữ liệu đầy đủ; không suy ra điểm năm từ điểm gộp.
 - Nhóm bổ sung thông tin lớp và thành viên. Kho GitHub công khai: https://github.com/soitang733/digital-banking-nhom3.
 
 ## Tham chiếu thư mục trong GitHub

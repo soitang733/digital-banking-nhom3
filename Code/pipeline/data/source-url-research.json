@@ -585,65 +585,74 @@
       "bank": "TPBank",
       "sourceCode": "2.6.2008",
       "referenceIds": [
-        "tp24-process",
-        "tp24-innovation"
+        "tp24-process"
       ],
-      "status": "partial",
-      "note": "Nguồn 2024 xác nhận 238 yêu cầu cải tiến và cơ chế thưởng sáng kiến. Con số hàng nghìn đề xuất tìm được trong bài công bố 2022 nói về năm 2021, chưa xác định được nguồn cho con số này trong kỳ 2023–2025."
+      "status": "matched_revised_description",
+      "note": "Mô tả đã chuẩn hóa theo nguồn trong kỳ. Mức chấm do nhóm duyệt giữ nguyên; không suy ra đây là lượt duyệt lại mức.",
+      "previousStatus": "partial",
+      "previousNote": "Nguồn 2024 xác nhận 238 yêu cầu cải tiến và cơ chế thưởng sáng kiến. Con số hàng nghìn đề xuất tìm được trong bài công bố 2022 nói về năm 2021, chưa xác định được nguồn cho con số này trong kỳ 2023–2025."
     },
     {
       "bank": "TPBank",
       "sourceCode": "5.3.2002",
       "referenceIds": [
-        "tp24-process",
-        "tp24-innovation"
+        "tp24-innovation",
+        "tp24-process"
       ],
-      "status": "partial",
-      "note": "Nguồn 2024 xác nhận 238 yêu cầu cải tiến và cơ chế thưởng sáng kiến. Con số hàng nghìn đề xuất tìm được trong bài công bố 2022 nói về năm 2021, chưa xác định được nguồn cho con số này trong kỳ 2023–2025."
+      "status": "matched_revised_description",
+      "note": "Mô tả đã chuẩn hóa theo nguồn trong kỳ. Mức chấm do nhóm duyệt giữ nguyên; không suy ra đây là lượt duyệt lại mức.",
+      "previousStatus": "partial",
+      "previousNote": "Nguồn 2024 xác nhận 238 yêu cầu cải tiến và cơ chế thưởng sáng kiến. Con số hàng nghìn đề xuất tìm được trong bài công bố 2022 nói về năm 2021, chưa xác định được nguồn cho con số này trong kỳ 2023–2025."
     },
     {
       "bank": "TPBank",
       "sourceCode": "3.1.2005",
       "referenceIds": [
+        "tp24-cx",
         "tp23-cloud",
-        "tp25-ops",
-        "tp24-cx"
+        "tp25-ops"
       ],
-      "status": "partial",
-      "note": "Nguồn trong kỳ xác nhận Cloud, nền tảng số và vận hành liên tục. Các chi tiết Active-Active DC-DR và SD-WAN tìm được trong bài công bố 2022; chưa tìm thấy xác nhận lại cấu hình đó trong tài liệu 2023–2025 đã đọc."
+      "status": "matched_revised_description",
+      "note": "Mô tả đã chuẩn hóa theo nguồn trong kỳ. Mức chấm do nhóm duyệt giữ nguyên; không suy ra đây là lượt duyệt lại mức.",
+      "previousStatus": "partial",
+      "previousNote": "Nguồn trong kỳ xác nhận Cloud, nền tảng số và vận hành liên tục. Các chi tiết Active-Active DC-DR và SD-WAN tìm được trong bài công bố 2022; chưa tìm thấy xác nhận lại cấu hình đó trong tài liệu 2023–2025 đã đọc."
     },
     {
       "bank": "TPBank",
       "sourceCode": "3.2.2007",
       "referenceIds": [
         "tp23-cloud",
-        "tp25-ops",
-        "tp24-cx"
+        "tp25-ops"
       ],
-      "status": "partial",
-      "note": "Nguồn trong kỳ xác nhận Cloud, nền tảng số và vận hành liên tục. Các chi tiết Active-Active DC-DR và SD-WAN tìm được trong bài công bố 2022; chưa tìm thấy xác nhận lại cấu hình đó trong tài liệu 2023–2025 đã đọc."
+      "status": "matched_revised_description",
+      "note": "Mô tả đã chuẩn hóa theo nguồn trong kỳ. Mức chấm do nhóm duyệt giữ nguyên; không suy ra đây là lượt duyệt lại mức.",
+      "previousStatus": "partial",
+      "previousNote": "Nguồn trong kỳ xác nhận Cloud, nền tảng số và vận hành liên tục. Các chi tiết Active-Active DC-DR và SD-WAN tìm được trong bài công bố 2022; chưa tìm thấy xác nhận lại cấu hình đó trong tài liệu 2023–2025 đã đọc."
     },
     {
       "bank": "TPBank",
       "sourceCode": "3.5.2005",
       "referenceIds": [
-        "tp23-cloud",
         "tp25-ops",
         "tp24-cx"
       ],
-      "status": "partial",
-      "note": "Nguồn trong kỳ xác nhận Cloud, nền tảng số và vận hành liên tục. Các chi tiết Active-Active DC-DR và SD-WAN tìm được trong bài công bố 2022; chưa tìm thấy xác nhận lại cấu hình đó trong tài liệu 2023–2025 đã đọc."
+      "status": "matched_revised_description",
+      "note": "Mô tả đã chuẩn hóa theo nguồn trong kỳ. Mức chấm do nhóm duyệt giữ nguyên; không suy ra đây là lượt duyệt lại mức.",
+      "previousStatus": "partial",
+      "previousNote": "Nguồn trong kỳ xác nhận Cloud, nền tảng số và vận hành liên tục. Các chi tiết Active-Active DC-DR và SD-WAN tìm được trong bài công bố 2022; chưa tìm thấy xác nhận lại cấu hình đó trong tài liệu 2023–2025 đã đọc."
     },
     {
       "bank": "TPBank",
       "sourceCode": "4.4.2001",
       "referenceIds": [
-        "tp23-cloud",
-        "tp25-ops",
-        "tp24-cx"
+        "tp24-cx",
+        "tp24-security",
+        "tp25-ops"
       ],
-      "status": "partial",
-      "note": "Nguồn trong kỳ xác nhận Cloud, nền tảng số và vận hành liên tục. Các chi tiết Active-Active DC-DR và SD-WAN tìm được trong bài công bố 2022; chưa tìm thấy xác nhận lại cấu hình đó trong tài liệu 2023–2025 đã đọc."
+      "status": "matched_revised_description",
+      "note": "Mô tả đã chuẩn hóa theo nguồn trong kỳ. Mức chấm do nhóm duyệt giữ nguyên; không suy ra đây là lượt duyệt lại mức.",
+      "previousStatus": "partial",
+      "previousNote": "Nguồn trong kỳ xác nhận Cloud, nền tảng số và vận hành liên tục. Các chi tiết Active-Active DC-DR và SD-WAN tìm được trong bài công bố 2022; chưa tìm thấy xác nhận lại cấu hình đó trong tài liệu 2023–2025 đã đọc."
     },
     {
       "bank": "TPBank",
@@ -890,5 +899,97 @@
       "status": "matched",
       "note": ""
     }
-  ]
+  ],
+  "descriptionRevision": {
+    "date": "2026-10-20",
+    "scope": "6 mô tả bằng chứng TPBank",
+    "scoreChanges": 0,
+    "history": [
+      {
+        "bank": "TPBank",
+        "sourceCode": "2.6.2008",
+        "level": 2,
+        "before": "TPBank công bố tiếp nhận hàng nghìn đề xuất/sáng kiến và triển khai các sáng kiến vào nghiệp vụ, quy trình, sản phẩm. Điều này phù hợp việc nhận diện, khuyến khích áp dụng thông lệ/sáng kiến tại một số bộ phận; chưa đủ xác nhận toàn bộ ngân hàng. TPBank\n\nNguồn: Báo cáo phát triển bền vững TPBank 2024 · trang PDF 60\nhttps://tpb.vn/wps/wcm/connect/36035be7-468c-459e-a586-fc20f694f0c0/2025.11.03+TPBank+_+B%C3%A1o+c%C3%A1o+ph%C3%A1t+tri%E1%BB%83n+b%E1%BB%81n+v%E1%BB%AFng+n%C4%83m+2024+BOD+ph%C3%AA+duy%E1%BB%87t.pdf?MOD=AJPERES&CONVERT_TO=url&CACHEID=ROOTWORKSPACE-36035be7-468c-459e-a586-fc20f694f0c0-pFhGccW#page=60\nNguồn: Báo cáo phát triển bền vững TPBank 2024 · trang PDF 79\nhttps://tpb.vn/wps/wcm/connect/36035be7-468c-459e-a586-fc20f694f0c0/2025.11.03+TPBank+_+B%C3%A1o+c%C3%A1o+ph%C3%A1t+tri%E1%BB%83n+b%E1%BB%81n+v%E1%BB%AFng+n%C4%83m+2024+BOD+ph%C3%AA+duy%E1%BB%87t.pdf?MOD=AJPERES&CONVERT_TO=url&CACHEID=ROOTWORKSPACE-36035be7-468c-459e-a586-fc20f694f0c0-pFhGccW#page=79\nPhạm vi nguồn bổ sung: Nguồn 2024 xác nhận 238 yêu cầu cải tiến và cơ chế thưởng sáng kiến. Con số hàng nghìn đề xuất tìm được trong bài công bố 2022 nói về năm 2021, chưa xác định được nguồn cho con số này trong kỳ 2023–2025.",
+        "after": "Báo cáo PTBV 2024 ghi nhận TPBank hoàn thành 238 yêu cầu cải tiến cho các đơn vị trong hệ thống và số hóa 523 quy trình. Nội dung thể hiện việc triển khai các cải tiến vào hoạt động; tài liệu này không mô tả quy trình tổng kết và nhân rộng bài học thành công trên toàn ngân hàng.",
+        "sourceIds": [
+          "tp24-process"
+        ],
+        "date": "2026-10-20",
+        "reason": "Chuẩn hóa nội dung trích dẫn theo báo cáo trong kỳ; bỏ số lượng hoặc tên cấu hình chỉ xác định được ngoài kỳ. Không thay đổi mức chấm."
+      },
+      {
+        "bank": "TPBank",
+        "sourceCode": "5.3.2002",
+        "level": 2,
+        "before": "TPBank tiếp nhận hàng nghìn sáng kiến trong nghiệp vụ, quy trình, sản phẩm và dịch vụ, cho thấy tồn tại môi trường khuyến khích đổi mới; chưa có bằng chứng áp dụng tại hầu hết/toàn bộ đơn vị. TPBank\n\nNguồn: Báo cáo phát triển bền vững TPBank 2024 · trang PDF 60\nhttps://tpb.vn/wps/wcm/connect/36035be7-468c-459e-a586-fc20f694f0c0/2025.11.03+TPBank+_+B%C3%A1o+c%C3%A1o+ph%C3%A1t+tri%E1%BB%83n+b%E1%BB%81n+v%E1%BB%AFng+n%C4%83m+2024+BOD+ph%C3%AA+duy%E1%BB%87t.pdf?MOD=AJPERES&CONVERT_TO=url&CACHEID=ROOTWORKSPACE-36035be7-468c-459e-a586-fc20f694f0c0-pFhGccW#page=60\nNguồn: Báo cáo phát triển bền vững TPBank 2024 · trang PDF 79\nhttps://tpb.vn/wps/wcm/connect/36035be7-468c-459e-a586-fc20f694f0c0/2025.11.03+TPBank+_+B%C3%A1o+c%C3%A1o+ph%C3%A1t+tri%E1%BB%83n+b%E1%BB%81n+v%E1%BB%AFng+n%C4%83m+2024+BOD+ph%C3%AA+duy%E1%BB%87t.pdf?MOD=AJPERES&CONVERT_TO=url&CACHEID=ROOTWORKSPACE-36035be7-468c-459e-a586-fc20f694f0c0-pFhGccW#page=79\nPhạm vi nguồn bổ sung: Nguồn 2024 xác nhận 238 yêu cầu cải tiến và cơ chế thưởng sáng kiến. Con số hàng nghìn đề xuất tìm được trong bài công bố 2022 nói về năm 2021, chưa xác định được nguồn cho con số này trong kỳ 2023–2025.",
+        "after": "Báo cáo PTBV 2024 mô tả cơ chế thưởng đột xuất cho cá nhân hoặc tập thể có sáng kiến cải tiến kỹ thuật, quy trình nghiệp vụ mang lại hiệu quả. Cùng năm, TPBank hoàn thành 238 yêu cầu cải tiến cho các đơn vị trong hệ thống. Đây là hoạt động khuyến khích và triển khai đổi mới; số liệu không đo mức độ tham gia của từng đơn vị.",
+        "sourceIds": [
+          "tp24-innovation",
+          "tp24-process"
+        ],
+        "date": "2026-10-20",
+        "reason": "Chuẩn hóa nội dung trích dẫn theo báo cáo trong kỳ; bỏ số lượng hoặc tên cấu hình chỉ xác định được ngoài kỳ. Không thay đổi mức chấm."
+      },
+      {
+        "bank": "TPBank",
+        "sourceCode": "3.1.2005",
+        "level": 4,
+        "before": "TPBank chủ động ứng dụng AI, Big Data, Machine Learning, sinh trắc học, Cloud, Active-Active DC-DR, SD-WAN và OpenAPI vào hoạt động. Đây là bằng chứng ngân hàng chủ động tìm kiếm và ứng dụng công nghệ mới; chưa chứng minh việc này mở rộng cùng toàn bộ đối tác hệ sinh thái. TPBank\n\nNguồn: Báo cáo thường niên TPBank 2023 · trang PDF 26 (trang in 48–49)\nhttps://static2.vietstock.vn/data/HOSE/2023/BCTN/VN/TPB_Baocaothuongnien_2023/maket+n%E1%BB%9Bi+x%C3%A9n+2024+-+view+15.4.2024+RESIZE.pdf#page=26\nNguồn: Báo cáo thường niên TPBank 2025 · trang PDF 24 (trang in 44–45)\nhttps://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/TPB_Baocaothuongnien_2025/BCTN+2026+TV+20.4+VIEW-2.pdf#page=24\nNguồn: Báo cáo phát triển bền vững TPBank 2024 · trang PDF 59\nhttps://tpb.vn/wps/wcm/connect/36035be7-468c-459e-a586-fc20f694f0c0/2025.11.03+TPBank+_+B%C3%A1o+c%C3%A1o+ph%C3%A1t+tri%E1%BB%83n+b%E1%BB%81n+v%E1%BB%AFng+n%C4%83m+2024+BOD+ph%C3%AA+duy%E1%BB%87t.pdf?MOD=AJPERES&CONVERT_TO=url&CACHEID=ROOTWORKSPACE-36035be7-468c-459e-a586-fc20f694f0c0-pFhGccW#page=59\nPhạm vi nguồn bổ sung: Nguồn trong kỳ xác nhận Cloud, nền tảng số và vận hành liên tục. Các chi tiết Active-Active DC-DR và SD-WAN tìm được trong bài công bố 2022; chưa tìm thấy xác nhận lại cấu hình đó trong tài liệu 2023–2025 đã đọc.",
+        "after": "Trong giai đoạn 2023–2025, TPBank công bố ứng dụng AI, Big Data, Machine Learning, Bio Center và Open API; eBankX/eBankBiz vận hành trên container, tự co giãn và nền tảng Microservice/Cloud. Năm 2025, ngân hàng tiếp tục nâng cấp ESB cloud ready và chuyển đổi dịch vụ Microservice. Các nguồn này mô tả việc chủ động triển khai công nghệ trong hoạt động ngân hàng, không xác định mức triển khai của toàn bộ đối tác hệ sinh thái.",
+        "sourceIds": [
+          "tp24-cx",
+          "tp23-cloud",
+          "tp25-ops"
+        ],
+        "date": "2026-10-20",
+        "reason": "Chuẩn hóa nội dung trích dẫn theo báo cáo trong kỳ; bỏ số lượng hoặc tên cấu hình chỉ xác định được ngoài kỳ. Không thay đổi mức chấm."
+      },
+      {
+        "bank": "TPBank",
+        "sourceCode": "3.2.2007",
+        "level": 3,
+        "before": "Hạ tầng Active-Active DC-DR, Cloud, SD-WAN và các nền tảng ngân hàng số cho thấy kiến trúc công nghệ hỗ trợ triển khai nhiều ứng dụng quan trọng; chưa đủ xác nhận triển khai liền mạch mọi ứng dụng. TPBank\n\nNguồn: Báo cáo thường niên TPBank 2023 · trang PDF 26 (trang in 48–49)\nhttps://static2.vietstock.vn/data/HOSE/2023/BCTN/VN/TPB_Baocaothuongnien_2023/maket+n%E1%BB%9Bi+x%C3%A9n+2024+-+view+15.4.2024+RESIZE.pdf#page=26\nNguồn: Báo cáo thường niên TPBank 2025 · trang PDF 24 (trang in 44–45)\nhttps://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/TPB_Baocaothuongnien_2025/BCTN+2026+TV+20.4+VIEW-2.pdf#page=24\nNguồn: Báo cáo phát triển bền vững TPBank 2024 · trang PDF 59\nhttps://tpb.vn/wps/wcm/connect/36035be7-468c-459e-a586-fc20f694f0c0/2025.11.03+TPBank+_+B%C3%A1o+c%C3%A1o+ph%C3%A1t+tri%E1%BB%83n+b%E1%BB%81n+v%E1%BB%AFng+n%C4%83m+2024+BOD+ph%C3%AA+duy%E1%BB%87t.pdf?MOD=AJPERES&CONVERT_TO=url&CACHEID=ROOTWORKSPACE-36035be7-468c-459e-a586-fc20f694f0c0-pFhGccW#page=59\nPhạm vi nguồn bổ sung: Nguồn trong kỳ xác nhận Cloud, nền tảng số và vận hành liên tục. Các chi tiết Active-Active DC-DR và SD-WAN tìm được trong bài công bố 2022; chưa tìm thấy xác nhận lại cấu hình đó trong tài liệu 2023–2025 đã đọc.",
+        "after": "BCTN 2023 cho biết eBankX và eBankBiz hoạt động hoàn toàn trên nền tảng container, auto scale và ứng dụng Microservice/Cloud platform. BCTN 2025 ghi nhận nâng cấp ESB lên ACE cloud ready, nâng cấp Open API và chuyển đổi dịch vụ Microservice. Nội dung mô tả kiến trúc hỗ trợ các nền tảng ngân hàng số; chưa mô tả sự tích hợp liền mạch của mọi ứng dụng.",
+        "sourceIds": [
+          "tp23-cloud",
+          "tp25-ops"
+        ],
+        "date": "2026-10-20",
+        "reason": "Chuẩn hóa nội dung trích dẫn theo báo cáo trong kỳ; bỏ số lượng hoặc tên cấu hình chỉ xác định được ngoài kỳ. Không thay đổi mức chấm."
+      },
+      {
+        "bank": "TPBank",
+        "sourceCode": "3.5.2005",
+        "level": 3,
+        "before": "TPBank có hạ tầng Active-Active DC-DR, Cloud, SD-WAN và LiveBank; điều này cho thấy quản lý hạ tầng đáp ứng phần lớn nhu cầu vận hành, nhưng chưa có dữ liệu về tích hợp/cải tiến liên tục toàn diện. TPBank\n\nNguồn: Báo cáo thường niên TPBank 2023 · trang PDF 26 (trang in 48–49)\nhttps://static2.vietstock.vn/data/HOSE/2023/BCTN/VN/TPB_Baocaothuongnien_2023/maket+n%E1%BB%9Bi+x%C3%A9n+2024+-+view+15.4.2024+RESIZE.pdf#page=26\nNguồn: Báo cáo thường niên TPBank 2025 · trang PDF 24 (trang in 44–45)\nhttps://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/TPB_Baocaothuongnien_2025/BCTN+2026+TV+20.4+VIEW-2.pdf#page=24\nNguồn: Báo cáo phát triển bền vững TPBank 2024 · trang PDF 59\nhttps://tpb.vn/wps/wcm/connect/36035be7-468c-459e-a586-fc20f694f0c0/2025.11.03+TPBank+_+B%C3%A1o+c%C3%A1o+ph%C3%A1t+tri%E1%BB%83n+b%E1%BB%81n+v%E1%BB%AFng+n%C4%83m+2024+BOD+ph%C3%AA+duy%E1%BB%87t.pdf?MOD=AJPERES&CONVERT_TO=url&CACHEID=ROOTWORKSPACE-36035be7-468c-459e-a586-fc20f694f0c0-pFhGccW#page=59\nPhạm vi nguồn bổ sung: Nguồn trong kỳ xác nhận Cloud, nền tảng số và vận hành liên tục. Các chi tiết Active-Active DC-DR và SD-WAN tìm được trong bài công bố 2022; chưa tìm thấy xác nhận lại cấu hình đó trong tài liệu 2023–2025 đã đọc.",
+        "after": "BCTN 2025 ghi nhận mở rộng máy chủ vật lý, máy chủ ảo private cloud, lưu trữ, đường truyền và cơ sở dữ liệu để đáp ứng nhu cầu vận hành và phát triển. Ngân hàng triển khai cập nhật core banking không dừng, nâng cấp ESB cloud ready và chuyển đổi dịch vụ Microservice. Các nội dung thể hiện việc quản lý và nâng cấp hạ tầng phục vụ hoạt động ngân hàng.",
+        "sourceIds": [
+          "tp25-ops",
+          "tp24-cx"
+        ],
+        "date": "2026-10-20",
+        "reason": "Chuẩn hóa nội dung trích dẫn theo báo cáo trong kỳ; bỏ số lượng hoặc tên cấu hình chỉ xác định được ngoài kỳ. Không thay đổi mức chấm."
+      },
+      {
+        "bank": "TPBank",
+        "sourceCode": "4.4.2001",
+        "level": 3,
+        "before": "TPBank vận hành LiveBank 24/7, nền tảng số có tỷ lệ giao dịch rất cao và hệ thống dự phòng Active-Active DC-DR. Bằng chứng thể hiện năng lực duy trì dịch vụ, nhưng không có SLA công khai để xác nhận Mức 4. TPBank\n\nNguồn: Báo cáo thường niên TPBank 2023 · trang PDF 26 (trang in 48–49)\nhttps://static2.vietstock.vn/data/HOSE/2023/BCTN/VN/TPB_Baocaothuongnien_2023/maket+n%E1%BB%9Bi+x%C3%A9n+2024+-+view+15.4.2024+RESIZE.pdf#page=26\nNguồn: Báo cáo thường niên TPBank 2025 · trang PDF 24 (trang in 44–45)\nhttps://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/TPB_Baocaothuongnien_2025/BCTN+2026+TV+20.4+VIEW-2.pdf#page=24\nNguồn: Báo cáo phát triển bền vững TPBank 2024 · trang PDF 59\nhttps://tpb.vn/wps/wcm/connect/36035be7-468c-459e-a586-fc20f694f0c0/2025.11.03+TPBank+_+B%C3%A1o+c%C3%A1o+ph%C3%A1t+tri%E1%BB%83n+b%E1%BB%81n+v%E1%BB%AFng+n%C4%83m+2024+BOD+ph%C3%AA+duy%E1%BB%87t.pdf?MOD=AJPERES&CONVERT_TO=url&CACHEID=ROOTWORKSPACE-36035be7-468c-459e-a586-fc20f694f0c0-pFhGccW#page=59\nPhạm vi nguồn bổ sung: Nguồn trong kỳ xác nhận Cloud, nền tảng số và vận hành liên tục. Các chi tiết Active-Active DC-DR và SD-WAN tìm được trong bài công bố 2022; chưa tìm thấy xác nhận lại cấu hình đó trong tài liệu 2023–2025 đã đọc.",
+        "after": "Báo cáo PTBV 2024 ghi nhận LiveBank 24/7, nâng cấp core banking không cần tạm dừng giao dịch và chứng chỉ ISO 22301 về quản lý kinh doanh liên tục. BCTN 2025 ghi nhận cập nhật core banking không dừng; thời gian gián đoạn dịch vụ giảm 40%, thời gian dừng chủ động giảm 20% và từ tháng 02/2025 không phát sinh sự cố dừng eBank. Đây là kết quả công bố theo từng nguồn, không phải cam kết SLA cho toàn bộ dịch vụ.",
+        "sourceIds": [
+          "tp24-cx",
+          "tp24-security",
+          "tp25-ops"
+        ],
+        "date": "2026-10-20",
+        "reason": "Chuẩn hóa nội dung trích dẫn theo báo cáo trong kỳ; bỏ số lượng hoặc tên cấu hình chỉ xác định được ngoài kỳ. Không thay đổi mức chấm."
+      }
+    ]
+  },
+  "annualScope": {
+    "product": "Điểm gộp 2023–2025; Digital Maturity Profile",
+    "annualScoresComplete": false,
+    "action": "Giữ null khi thiếu dữ liệu từng năm. Không tính YoY và không suy ra mức năm từ mức gộp.",
+    "requiredForPooledProduct": false
+  }
 }

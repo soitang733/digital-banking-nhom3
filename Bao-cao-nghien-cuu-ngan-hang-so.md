@@ -170,9 +170,9 @@ Saigonbank đạt 12,88% tổng thể. Trong hồ sơ riêng, trụ cột cao nh
 
 ### 4 4 Bằng chứng và dữ liệu theo năm
 
-Bộ điểm gộp có 302 mức 0 và đã được nhóm duyệt. Bản cập nhật có 404/700 dòng chứa URL, bao gồm toàn bộ 398 dòng mức lớn hơn 0. Các dòng chưa có URL đều thuộc mức 0. Đợt bổ sung ngày 20/10/2026 đã gắn nguồn cho 68 dòng còn thiếu: 62 dòng có nội dung tương ứng, 6 dòng TPBank mới khớp một phần chi tiết mô tả. Phạm vi nguồn được ghi ngay trong ô bằng chứng; mức chấm không thay đổi. Nguồn và vị trí bổ sung được lưu tại Code/pipeline/data/source-url-research.json.
+Bộ điểm gộp có 302 mức 0 và đã được nhóm duyệt. Bản cập nhật có 404/700 dòng chứa URL, bao gồm toàn bộ 398 dòng mức lớn hơn 0. Các dòng chưa có URL đều thuộc mức 0. Đợt bổ sung ngày 20/10/2026 đã gắn nguồn cho 68 dòng còn thiếu. Sáu mô tả TPBank được chuẩn hóa theo nguồn 2023–2025: dùng số 238 yêu cầu cải tiến và cơ chế thưởng sáng kiến; dùng nội dung container, cloud, microservice và vận hành liên tục. Nội dung cũ, nội dung sửa và nguồn được lưu tại Code/pipeline/data/source-url-research.json. Việc sửa mô tả không thay đổi hay duyệt lại mức chấm của nhóm.
 
-Lớp năm có 2100 bản ghi, trong đó 209 bản ghi có mức kèm dẫn chứng. Chưa có điểm tổng thể theo năm đủ điều kiện công bố cho toàn bộ bộ chỉ số. Vì vậy báo cáo không tính YoY, không vẽ xu hướng điểm và không diễn giải mức gộp thành tiến bộ của các năm 2023, 2024, 2025.
+Sản phẩm chính dùng điểm gộp 2023–2025 và hồ sơ trưởng thành số, không yêu cầu đủ ba tổng điểm năm. Lớp năm có 2100 bản ghi, trong đó 209 bản ghi có mức kèm dẫn chứng, phục vụ tra cứu bổ sung. Chưa có tổng điểm năm đủ điều kiện công bố; báo cáo không tính YoY hoặc diễn giải mức gộp thành xu hướng 2023, 2024, 2025. Phân tích xu hướng theo năm là phạm vi mở rộng cần thu thập và đối chiếu riêng.
 
 ## 5 Thiết kế sản phẩm và kiểm chứng
 
