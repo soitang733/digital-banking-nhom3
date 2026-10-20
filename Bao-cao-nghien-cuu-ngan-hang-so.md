@@ -42,8 +42,8 @@ Dữ liệu thu thập ban đầu được lưu trong Data Feasibility.xlsx. B�
 
 | File Excel | Vai trò và nội dung chính |
 | --- | --- |
-| CleanData.xlsx | Dữ liệu chuẩn hóa và bảng lỗi cần rà soát. |
-| ScoringReview.xlsx | Danh mục tiêu chí, mô tả mức 1 đến 5, dữ liệu chấm từng ngân hàng và bảng rà soát. |
+| CleanData.xlsx | Dữ liệu chuẩn hóa, nguồn bằng chứng và bảng tổng hợp. |
+| ScoringReview.xlsx | Danh mục tiêu chí, mô tả mức 1 đến 5, dữ liệu chấm từng ngân hàng đã được nhóm duyệt. |
 | DBI_DigitalScore_theo_tieu_chi.xlsx | 700 mức chấm, điểm quy đổi, điểm nhóm và trụ cột, Digital Score và xếp hạng. |
 | AnalysisDataset.xlsx | So sánh ngân hàng, ma trận trụ cột, Strength Weakness, Gap Analysis và phương pháp. |
 
@@ -60,7 +60,7 @@ Các PDF được lưu kèm URL nguồn và SHA256. Văn bản được trích x
 | Bước | Đầu vào và thao tác | Đầu ra |
 | --- | --- | --- |
 | 1 | Kiểm tra dữ liệu nguồn và chuẩn hóa trường thông tin | CleanData.xlsx |
-| 2 | Tổng hợp mức đạt, mô tả thang chấm và cờ rà soát | ScoringReview.xlsx |
+| 2 | Tổng hợp mức đạt đã duyệt và mô tả thang chấm | ScoringReview.xlsx |
 | 3 | Quy đổi mức đạt, tính điểm trụ cột và điểm tổng thể | DBI_DigitalScore_theo_tieu_chi.xlsx |
 | 4 | Xếp hạng, so sánh trụ cột và tính khoảng cách | AnalysisDataset.xlsx |
 | 5 | Đọc báo cáo, lưu đoạn trích và quyết định đối chiếu theo năm | Lớp dữ liệu năm và nguồn dẫn chứng |

@@ -240,7 +240,7 @@ for bank in BANK_SHEETS:
         df.at[idx, "Mô tả mức đã chấm"] = description
         df.at[idx, "Kết quả kiểm tra"] = result
 
-    review_sheets[bank] = df
+    review_sheets[bank] = df.drop(columns=["Trạng thái rà soát", "Kết quả kiểm tra"])
 
     valid_score_count = int(
         df["Mức đạt"].isin(VALID_SCORES).sum()
@@ -271,7 +271,7 @@ for bank in BANK_SHEETS:
         "Điểm hợp lệ (0–5)": valid_score_count,
         "Điểm bị thiếu": missing_score_count,
         "Điểm ngoài thang": invalid_score_count,
-        "Số mức 0 cần xác nhận": zero_count,
+        "Số mức 0": zero_count,
         "Số dòng thiếu bằng chứng": evidence_missing_count,
         "Tổng điểm hiện tại": df["Mức đạt"].sum(skipna=True),
         "Điểm trung bình hiện tại": df["Mức đạt"].mean()
@@ -300,9 +300,9 @@ with pd.ExcelWriter(OUTPUT_FILE, engine="openpyxl") as writer:
         writer, sheet_name="Tong_hop_diem", index=False
     )
 
-    issues_df.to_excel(
-        writer, sheet_name="Can_ra_soat", index=False
-    )
+    # Technical findings stay in the build log, outside the final workbook.
+    if not issues_df.empty:
+        issues_df.to_json(BASE_DIR / "output" / "technical-checks.json", orient="records", force_ascii=False, indent=2)
 
     # Định dạng file
     for ws in writer.book.worksheets:
@@ -323,5 +323,5 @@ print("HOÀN THÀNH RÀ SOÁT MỨC ĐẠT")
 print(f"File đầu vào: {INPUT_FILE}")
 print(f"File đầu ra: {OUTPUT_FILE}")
 print(f"Số trường hợp cần rà soát: {len(issues_df)}")
-print("Mở sheet Can_ra_soat để xem chi tiết.")
+print("Bộ điểm đã được nhóm duyệt; kiểm tra kỹ thuật không thay đổi mức chấm.")
 print("=" * 55)

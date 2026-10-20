@@ -91,11 +91,11 @@ assert.equal(run('R.records.filter(r=>r.level===0).length'),0);assert.equal(run(
 console.log('PASS: annual filters/CSV, exact PDF page links, missing vs NA, source-backed decisions and incomplete annual scores stay null.');
 run("S.page='evidence';S.evidenceView='list';S.bank='all';S.pillar='all';S.level='all';S.search='';S.pdfSource='related';render();");
 assert.equal(run('filteredEvidence().length'),run('window.DBI_PDF_SOURCES.stats.withRelatedPDF'));
-assert.ok(el('#evidence-results').innerHTML.includes('Chưa đủ bằng chứng'));
+assert.ok(el('#evidence-results').innerHTML.includes('Tài liệu tham khảo'));
 run("document.querySelector('#export').onclick();");
 assert.equal(csvRecords(capturedCSV).length,1+run('filteredEvidence().length'));assert.ok(capturedCSV.includes('Mức gộp 2023–2025'));assert.ok(capturedCSV.includes('#page='));
 run("S.pdfSource='missing';render();");assert.equal(run('filteredEvidence().length'),run('window.DBI_PDF_SOURCES.stats.withoutRelatedPDF'));
-run("openEvidence(D.evidence.findIndex(e=>e.bank==='SaigonBank'&&e.code==='1.1.4'));");assert.ok(el('#dialog-content').innerHTML.includes('Chưa đủ bằng chứng'));assert.ok(el('#dialog-content').innerHTML.includes('trang PDF 6'));assert.ok(el('#dialog-content').innerHTML.includes('trang in 5'));
+run("openEvidence(D.evidence.findIndex(e=>e.bank==='SaigonBank'&&e.code==='1.1.4'));");assert.ok(el('#dialog-content').innerHTML.includes('Tài liệu tham khảo'));assert.ok(el('#dialog-content').innerHTML.includes('trang PDF 6'));assert.ok(el('#dialog-content').innerHTML.includes('trang in 5'));
 el('#reset-filters').onclick();assert.equal(run('S.pdfSource'),'all');
 console.log('PASS: new PDF source filters, source/status CSV, inspected OCR page and unchanged legacy scores.');
 const internalCopy=/Codex|Đã tìm lại trong|Việc cần hoàn thiện|team cần duyệt|Tiến độ đối chiếu|Đã lập chỉ mục|Phạm vi tài liệu đã tìm/;

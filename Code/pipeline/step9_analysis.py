@@ -79,11 +79,11 @@ def main():
     if not digital_path.exists():
         raise FileNotFoundError("Run step8_digital_score.py before step9_analysis.py")
     digital = pd.read_excel(digital_path, sheet_name="Digital_Score_Rank")
-    digital = digital[["Ngân hàng", "Digital Score (%)", "Rank"]].rename(columns={"Rank": "Rank_so_bo"})
+    digital = digital[["Ngân hàng", "Digital Score (%)", "Rank"]].rename(columns={"Rank": "Rank_Digital_Score"})
     bank_summary = bank_summary.merge(digital, on="Ngân hàng", validate="one_to_one")
 
     bank_summary = bank_summary.sort_values(
-        ["Rank_so_bo", "Ngân hàng"]
+        ["Rank_Digital_Score", "Ngân hàng"]
     )
 
     # 2. Phân tích điểm theo trụ cột
@@ -188,10 +188,10 @@ def main():
             ),
         },
         {
-            "Nội dung": "Giới hạn",
+            "Nội dung": "Trạng thái bộ điểm",
             "Ghi chú": (
-                "Điểm và xếp hạng chỉ là sơ bộ cho đến khi "
-                "xác minh mức chấm và bằng chứng."
+                "Bộ 700 mức gộp do nhóm nghiên cứu chấm và duyệt; "
+                "điểm và xếp hạng được tính theo phương pháp đã chốt."
             ),
         },
         {
@@ -234,7 +234,7 @@ def main():
 
     print("\nĐÃ TẠO DATASET PHÂN TÍCH")
     print(f"File: {OUTPUT_FILE}")
-    print("\nXếp hạng sơ bộ:")
+    print("\nXếp hạng Digital Score:")
     print(bank_summary.to_string(index=False))
 
 

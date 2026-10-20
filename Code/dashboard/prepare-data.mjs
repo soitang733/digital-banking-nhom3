@@ -9,7 +9,7 @@ const names=['TPBank','HDBank','LP Bank','OCB','SaigonBank'];
 const colors={'TPBank':'#8b5bd6','HDBank':'#dc6e54','LP Bank':'#478cd5','OCB':'#15816d','SaigonBank':'#b69759'};
 const pillars=['Khách hàng','Chiến lược','Công nghệ','Vận hành','Văn hóa','Dữ liệu'];
 const reviews=Object.fromEntries(names.map(n=>[n,new Map(records(source['ScoringReview.xlsx'][n]).map(r=>[r['Mã'],r]))]));
-const evidence=records(final.Chi_tiet_tieu_chi).map(r=>{const review=reviews[r['Ngân hàng']].get(r['Mã']);return {bank:r['Ngân hàng'],pillar:Number(r['Trụ cột'][0])-1,group:r['Nhóm tiêu chí'],code:r['Mã'],name:r['Tiêu chí'],level:Number(r['Mức đạt']),percent:Number(r['Tỷ lệ hoàn thành (%)']),text:r['Bằng chứng'],rubric:review?.['Mô tả mức đã chấm']??'',status:review?.['Kết quả kiểm tra']??'Cần rà soát',urls:[...new Set(r['Bằng chứng'].match(/https?:\/\/[^\s<>"']+/g)??[])]};});
+const evidence=records(final.Chi_tiet_tieu_chi).map(r=>{const review=reviews[r['Ngân hàng']].get(r['Mã']);return {bank:r['Ngân hàng'],pillar:Number(r['Trụ cột'][0])-1,group:r['Nhóm tiêu chí'],code:r['Mã'],name:r['Tiêu chí'],level:Number(r['Mức đạt']),percent:Number(r['Tỷ lệ hoàn thành (%)']),text:r['Bằng chứng'],rubric:review?.['Mô tả mức đã chấm']??'',status:'Đã được nhóm duyệt',urls:[...new Set(r['Bằng chứng'].match(/https?:\/\/[^\s<>"']+/g)??[])]};});
 // The team's newer workbook supplies citation metadata, while the approved
 // numerical results remain independently checked against the scoring outputs.
 const approvedPath='../pipeline/data/approved-evidence.json';

@@ -25,7 +25,7 @@ Xem Phuong-phap-cham-diem.md. Mức gộp là mức cao nhất được chứng 
 ## Nội dung bổ sung ở đợt sau
 
 - Đã gắn URL cho 398/398 dòng mức lớn hơn 0. Sáu mô tả TPBank đã được chuẩn hóa theo nguồn trong kỳ; lịch sử nội dung trước/sau và nguồn lưu tại Code/pipeline/data/source-url-research.json.
-- Giữ nguyên bộ điểm đã được nhóm duyệt. Cờ tự động của pipeline phục vụ kiểm tra cấu trúc/thông tin, không phải quyết định phủ nhận mức chấm.
+- Giữ nguyên bộ điểm đã được nhóm duyệt. Các cột và tab kiểm tra nội bộ đã được bỏ khỏi Excel bản nộp.
 - Sản phẩm chính dùng điểm gộp và hồ sơ trưởng thành số. Phân tích xu hướng theo năm là phần mở rộng, chỉ tính khi có dữ liệu đầy đủ; không suy ra điểm năm từ điểm gộp.
 - Nhóm bổ sung thông tin lớp và thành viên. Kho GitHub công khai: https://github.com/soitang733/digital-banking-nhom3.
 
