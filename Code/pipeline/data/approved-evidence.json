@@ -1,5 +1,5 @@
 {
-  "version": "approved-evidence-2026-10-20",
+  "version": "approved-evidence-2026-10-21",
   "input": {
     "name": "CleanData (2).xlsx",
     "sha256": "e4e35ae5f27f5079ac1945c09e0c31c8c452d3a83a9eb3d4c91ab282fc511181",
@@ -2811,9 +2811,10 @@
       "sourceCode": "1.1.2001",
       "level": 2,
       "name": "Cá nhân hóa trải nghiệm",
-      "text": "Triển khai các tính năng cá nhân hóa dịch vụ ở một số khía cạnh như giao diện cá nhân hóa trên LPBank Plus, đặt tên tài khoản iName, chọn số tài khoản đẹp, giao diện riêng cho phân khúc khách hàng LPBank Priority. Tuy nhiên, chưa có số liệu đo lường định lượng về tỷ lệ khách hàng thực tế sử dụng tính năng cá nhân hóa. https://lpbank.com.vn/api/content-file/public/file/view/5bb2a4bb-a070-415a-8eea-54b36c848de6",
+      "text": "Năm 2024, LPBank triển khai giao diện ứng dụng mới, dịch vụ iName và tài khoản số đẹp. BCTN 2025 mô tả thiết kế sản phẩm, chính sách và trải nghiệm dựa trên hành trình, phân khúc khách hàng. Các nội dung này thể hiện những khía cạnh cá nhân hóa trong kỳ 2023–2025.\n\nNguồn: Báo cáo thường niên LP Bank 2024 · trang PDF 25 (trang in 48–49)\nTrích đoạn: “Hơn 1 triệu Khách hàng đăng ký mới app LPBank, 86 tính năng sản phẩm mới được triển khai”\nhttps://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/LPB_Baocaothuongnien_2024.pdf#page=25\n\nNguồn: Báo cáo thường niên LP Bank 2025 · trang PDF 26 (trang in 50–51)\nTrích đoạn: “Sản phẩm, chính sách, mô hình phục vụ, mô hình vận hành và trải nghiệm được thiết kế dựa trên hành trình khách hàng”\nhttps://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf#page=26",
       "urls": [
-        "https://lpbank.com.vn/api/content-file/public/file/view/5bb2a4bb-a070-415a-8eea-54b36c848de6"
+        "https://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/LPB_Baocaothuongnien_2024.pdf#page=25",
+        "https://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf#page=26"
       ],
       "row": 2
     },
@@ -2833,10 +2834,9 @@
       "sourceCode": "1.1.2003",
       "level": 2,
       "name": "Tự tùy chỉnh",
-      "text": "Cung cấp công cụ số trên LPBank Plus và LPBank Biz cho phép người dùng tùy chỉnh chọn số tài khoản iName, bật/tắt hạn mức giao dịch, chủ động đăng ký tài khoản Sinh lời Lộc Phát. Chưa công bố tỷ lệ khách hàng thực tế sử dụng các công cụ tùy chỉnh này. https://lpbank.com.vn/api/content-file/public/file/view/5bb2a4bb-a070-415a-8eea-54b36c848de6; https://vnba.org.vn/vi/emagazine/lpbank--hanh-trinh-vuon-minh-tro-thanh-ngan-hang-loc-phat-cua-moi-nha-17146.htm",
+      "text": "BCTN 2024 ghi nhận dịch vụ iName và tài khoản số đẹp trên kênh số, cùng giao diện ứng dụng được cải tiến. Đây là những lựa chọn giúp khách hàng tùy chỉnh tên hoặc số tài khoản trong giai đoạn nghiên cứu.\n\nNguồn: Báo cáo thường niên LP Bank 2024 · trang PDF 25 (trang in 48–49)\nTrích đoạn: “Hơn 1 triệu Khách hàng đăng ký mới app LPBank, 86 tính năng sản phẩm mới được triển khai”\nhttps://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/LPB_Baocaothuongnien_2024.pdf#page=25",
       "urls": [
-        "https://lpbank.com.vn/api/content-file/public/file/view/5bb2a4bb-a070-415a-8eea-54b36c848de6",
-        "https://vnba.org.vn/vi/emagazine/lpbank--hanh-trinh-vuon-minh-tro-thanh-ngan-hang-loc-phat-cua-moi-nha-17146.htm"
+        "https://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/LPB_Baocaothuongnien_2024.pdf#page=25"
       ],
       "row": 4
     },
@@ -2920,9 +2920,10 @@
       "sourceCode": "1.2.2002",
       "level": 4,
       "name": "Thiết kế theo định hướng của trải nghiệm khách hàng",
-      "text": "Triển khai Dự án UI/UX cải tiến toàn diện giao diện LPBank Plus và LPBank Biz dựa trên nghiên cứu hành vi người dùng; thực hiện cải tổ bộ máy tinh gọn (giảm từ 17 Khối xuống 8 Khối) để chuyển dịch mô hình vận hành theo định hướng lấy khách hàng làm trọng tâm, làm nền tảng thay đổi tư duy thiết kế sản phẩm và phục vụ. https://lpbank.com.vn/api/content-file/public/file/view/5bb2a4bb-a070-415a-8eea-54b36c848de6",
+      "text": "Năm 2024, LPBank thực hiện dự án UI/UX để tối ưu giao diện ứng dụng ngân hàng số. BCTN 2025 nêu sản phẩm, chính sách, mô hình phục vụ, mô hình vận hành và trải nghiệm được thiết kế dựa trên hành trình khách hàng trên cả kênh số và kênh vật lý.\n\nNguồn: Báo cáo thường niên LP Bank 2024 · trang PDF 34 (trang in 66–67)\nTrích đoạn: “Dự án UI/UX: Tối ưu giao diện sản phẩm nhằm nâng cao trải nghiệm Khách hàng trên kênh ứng dụng ngân hàng số LPBank.”\nhttps://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/LPB_Baocaothuongnien_2024.pdf#page=34\n\nNguồn: Báo cáo thường niên LP Bank 2025 · trang PDF 26 (trang in 50–51)\nTrích đoạn: “Sản phẩm, chính sách, mô hình phục vụ, mô hình vận hành và trải nghiệm được thiết kế dựa trên hành trình khách hàng”\nhttps://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf#page=26",
       "urls": [
-        "https://lpbank.com.vn/api/content-file/public/file/view/5bb2a4bb-a070-415a-8eea-54b36c848de6"
+        "https://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/LPB_Baocaothuongnien_2024.pdf#page=34",
+        "https://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf#page=26"
       ],
       "row": 12
     },
@@ -2931,9 +2932,10 @@
       "sourceCode": "1.2.2003",
       "level": 4,
       "name": "Có ngân sách đầu tư để đạt các mục tiêu trải nghiệm khách hàng",
-      "text": "Dành nguồn vốn đầu tư lớn thực hiện hàng loạt dự án công nghệ hạ tầng cốt lõi: chuyển đổi Core Banking T24 (Temenos), vận hành hệ thống Kondor Treasury, phát triển Nền tảng số LPBank Biz, siêu ứng dụng LPBank Plus, Datalake, nâng cấp 02 Trung tâm dữ liệu (Data Center) mới và Tổng đài đa kênh thông minh IVR.https://lpbank.com.vn/api/content-file/public/file/view/5bb2a4bb-a070-415a-8eea-54b36c848de6",
+      "text": "BCTN 2024 ghi nhận đầu tư nguồn lực cho bốn danh mục dự án: phát triển khách hàng, vận hành tinh gọn, nâng cao trải nghiệm khách hàng và số hóa quản lý rủi ro. Các dự án gồm CoreBanking T24, Kondor Treasury, LPBank Biz, UI/UX và tổng đài đa kênh.\n\nNguồn: Báo cáo thường niên LP Bank 2024 · trang PDF 33 (trang in 64–65)\nTrích đoạn: “Trong năm 2024, LPBank đã triển khai nhiều dự án trọng điểm tập trung vào 04 Danh mục dự án”\nhttps://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/LPB_Baocaothuongnien_2024.pdf#page=33\n\nNguồn: Báo cáo thường niên LP Bank 2024 · trang PDF 32 (trang in 62–63)\nTrích đoạn: “Sau thời gian triển khai chỉ 7 tháng, LPBank đã đưa vào hoạt động ổn định giải pháp ngân hàng lõi CoreBanking T24.”\nhttps://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/LPB_Baocaothuongnien_2024.pdf#page=32",
       "urls": [
-        "https://lpbank.com.vn/api/content-file/public/file/view/5bb2a4bb-a070-415a-8eea-54b36c848de6"
+        "https://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/LPB_Baocaothuongnien_2024.pdf#page=33",
+        "https://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/LPB_Baocaothuongnien_2024.pdf#page=32"
       ],
       "row": 13
     },
@@ -2942,9 +2944,11 @@
       "sourceCode": "1.2.2004",
       "level": 4,
       "name": "Phạm vi danh mục sản phẩm và dịch vụ",
-      "text": "Triển khai 86 tính năng/sản phẩm mới trong năm 2024. Danh mục phủ rộng từ cá nhân (LPBank Plus, iName, tài khoản Lộc Phát, thẻ JCB Ultimate, mở tài khoản VNeID) đến doanh nghiệp (LPBank Biz hỗ trợ chuyển tiền lô 40.000 lệnh, phân quyền 5 cấp duyệt) và dịch vụ công/an sinh xã hội.https://lpbank.com.vn/api/content-file/public/file/view/5bb2a4bb-a070-415a-8eea-54b36c848de6",
+      "text": "Năm 2024, LPBank triển khai 86 tính năng/sản phẩm mới trên kênh số và ra mắt LPBank Biz ngày 03/10/2024. Năm 2025, ngân hàng phát triển giải pháp theo phân khúc và mô hình LPBank Priority, mở rộng danh mục phục vụ khách hàng cá nhân và doanh nghiệp.\n\nNguồn: Báo cáo thường niên LP Bank 2024 · trang PDF 25 (trang in 48–49)\nTrích đoạn: “Hơn 1 triệu Khách hàng đăng ký mới app LPBank, 86 tính năng sản phẩm mới được triển khai”\nhttps://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/LPB_Baocaothuongnien_2024.pdf#page=25\n\nNguồn: Báo cáo thường niên LP Bank 2024 · trang PDF 32 (trang in 62–63)\nTrích đoạn: “Sau thời gian triển khai chỉ 7 tháng, LPBank đã đưa vào hoạt động ổn định giải pháp ngân hàng lõi CoreBanking T24.”\nhttps://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/LPB_Baocaothuongnien_2024.pdf#page=32\n\nNguồn: Báo cáo thường niên LP Bank 2025 · trang PDF 27 (trang in 52–53)\nTrích đoạn: “Thiết kế giải pháp theo phân khúc. Ưu tiên giải pháp Combo để một điểm chạm khách hàng được dùng nhiều sản phẩm”\nhttps://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf#page=27",
       "urls": [
-        "https://lpbank.com.vn/api/content-file/public/file/view/5bb2a4bb-a070-415a-8eea-54b36c848de6"
+        "https://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/LPB_Baocaothuongnien_2024.pdf#page=25",
+        "https://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/LPB_Baocaothuongnien_2024.pdf#page=32",
+        "https://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf#page=27"
       ],
       "row": 14
     },
@@ -3019,9 +3023,10 @@
       "sourceCode": "1.3.2003",
       "level": 2,
       "name": "Nhu cầu của khách hàng",
-      "text": "Phân tích nhu cầu theo từng nhóm khách hàng mục tiêu để thiết kế gói giải pháp riêng (Lộc Phát Pay cho hộ kinh doanh, Sinh lời Lộc Phát, gói tín dụng Hưu trí, cho vay phụ nữ hợp tác ADB). Đã bắt đầu ứng dụng AI/Big Data trên ứng dụng LPBank Plus để phân tích xu hướng tiêu dùng, nhưng chưa triển khai mô hình dự báo nhu cầu thời gian thực trên toàn hệ thống (Mức 4/5).https://lpbank.com.vn/api/content-file/public/file/view/5bb2a4bb-a070-415a-8eea-54b36c848de6",
+      "text": "BCTN 2025 mô tả giải pháp theo nhu cầu, hành vi khách hàng: giao dịch hằng ngày, tích lũy, vay vốn, bảo vệ và đầu tư. Cùng năm, LPBank công bố các dự án AI dự báo khách hàng ngừng sử dụng sản phẩm, cảnh báo sớm nợ xấu và học máy phân tích hành vi.\n\nNguồn: Báo cáo thường niên LP Bank 2025 · trang PDF 27 (trang in 52–53)\nTrích đoạn: “Thiết kế giải pháp theo phân khúc. Ưu tiên giải pháp Combo để một điểm chạm khách hàng được dùng nhiều sản phẩm”\nhttps://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf#page=27\n\nNguồn: Báo cáo thường niên LP Bank 2025 · trang PDF 36 (trang in 70–71)\nTrích đoạn: “Nâng cấp nền tảng Mobile App thế hệ mới (Microservices + Hybrid Cloud): Tăng hiệu năng, khả năng mở rộng, góp phần nâng tỷ lệ giao dịch số lên 78%.”\nhttps://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf#page=36",
       "urls": [
-        "https://lpbank.com.vn/api/content-file/public/file/view/5bb2a4bb-a070-415a-8eea-54b36c848de6"
+        "https://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf#page=27",
+        "https://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf#page=36"
       ],
       "row": 21
     },
@@ -3061,9 +3066,10 @@
       "sourceCode": "1.4.2004",
       "level": 4,
       "name": "Kiểm soát thông tin cá nhân, dữ liệu cá nhân",
-      "text": "Triển khai xác thực sinh trắc học bắt buộc theo Quyết định 2345/QĐ-NHNN từ 01/07/2024; tích hợp giải pháp liên kết định danh VNeID/C06 giúp ngăn chặn tài khoản giả mạo/lừa đảo; trang bị công nghệ bảo vệ ứng dụng (App Shielding) và phần mềm dò quét mã độc 24/7 trên LPBank Plus, LPBank Biz, E-Banking.https://lpbank.com.vn/api/content-file/public/file/view/5bb2a4bb-a070-415a-8eea-54b36c848de6",
+      "text": "Năm 2024, LPBank triển khai xác thực sinh trắc học theo Quyết định 2345 từ ngày 01/07/2024. Ngân hàng cài đặt phần mềm dò quét mã độc trên Ebanking, LPBank Biz, Core Banking, App LPBank, AD và hệ thống xác thực LIM để bảo vệ hệ thống, thông tin và giao dịch.\n\nNguồn: Báo cáo thường niên LP Bank 2024 · trang PDF 34 (trang in 66–67)\nTrích đoạn: “Dự án UI/UX: Tối ưu giao diện sản phẩm nhằm nâng cao trải nghiệm Khách hàng trên kênh ứng dụng ngân hàng số LPBank.”\nhttps://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/LPB_Baocaothuongnien_2024.pdf#page=34\n\nNguồn: Báo cáo thường niên LP Bank 2024 · trang PDF 35 (trang in 68–69)\nTrích đoạn: “Triển khai cài đặt phần mềm dò quét trên các hệ thống dịch vụ đặc biệt quan trọng, có nguy cơ gây thất thoát tiền hoặc thông tin”\nhttps://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/LPB_Baocaothuongnien_2024.pdf#page=35",
       "urls": [
-        "https://lpbank.com.vn/api/content-file/public/file/view/5bb2a4bb-a070-415a-8eea-54b36c848de6"
+        "https://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/LPB_Baocaothuongnien_2024.pdf#page=34",
+        "https://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/LPB_Baocaothuongnien_2024.pdf#page=35"
       ],
       "row": 25
     },
@@ -3139,9 +3145,10 @@
       "sourceCode": "2.2.2002",
       "level": 3,
       "name": "Thiết kế hệ sinh thái",
-      "text": "Thiết kế hạ tầng API kết nối ứng dụng LPBank Plus và LPBank Biz với các cổng thanh toán (Napas, VISA, JCB), ví điện tử/thẻ ảo (Apple Pay, Google Wallet via Visa Tokenization) và hệ thống định danh VNeID. https://lpbank.com.vn/api/content-file/public/file/view/5bb2a4bb-a070-415a-8eea-54b36c848de6",
+      "text": "BCTN 2024 mô tả các dự án Visa Token tích hợp ví điện tử và các giải pháp kết nối hệ thống. BCTN 2025 ghi nhận triển khai Open API và Kong Enterprise để tích hợp đối tác, thúc đẩy Open Banking; báo cáo công bố thời gian tích hợp đối tác giảm 70%.\n\nNguồn: Báo cáo thường niên LP Bank 2024 · trang PDF 33 (trang in 64–65)\nTrích đoạn: “Trong năm 2024, LPBank đã triển khai nhiều dự án trọng điểm tập trung vào 04 Danh mục dự án”\nhttps://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/LPB_Baocaothuongnien_2024.pdf#page=33\n\nNguồn: Báo cáo thường niên LP Bank 2025 · trang PDF 36 (trang in 70–71)\nTrích đoạn: “Nâng cấp nền tảng Mobile App thế hệ mới (Microservices + Hybrid Cloud): Tăng hiệu năng, khả năng mở rộng, góp phần nâng tỷ lệ giao dịch số lên 78%.”\nhttps://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf#page=36",
       "urls": [
-        "https://lpbank.com.vn/api/content-file/public/file/view/5bb2a4bb-a070-415a-8eea-54b36c848de6"
+        "https://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/LPB_Baocaothuongnien_2024.pdf#page=33",
+        "https://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf#page=36"
       ],
       "row": 32
     },
@@ -3183,9 +3190,10 @@
       "sourceCode": "2.3.2003",
       "level": 3,
       "name": "Đầu tư cải tiến liên tục",
-      "text": "Liên tục nâng cấp và cho ra mắt các nền tảng số mới: bổ sung 86 tính năng mới năm 2024, ra mắt ứng dụng LPBank Biz cho KHDN (tháng 10/2024) và ứng dụng LPBank Plus tích hợp trợ lý AI chuyển tiền hội thoại LP Pay (tháng 3/2026). https://lpbank.com.vn/tin-tuc/lpbank-trien-khai-dich-vu-mo-tai-khoan-thanh-toan-truc-tuyen-tren-vneid-cua-bo-cong-an/",
+      "text": "LPBank ghi nhận 86 tính năng/sản phẩm mới triển khai năm 2024. Năm 2025, Khối Công nghệ Thông tin vận hành mô hình quản trị dự án tập trung để điều phối toàn bộ dự án chuyển đổi số; tỷ lệ dự án hoàn thành go-live và đúng tiến độ được báo cáo là 88%.\n\nNguồn: Báo cáo thường niên LP Bank 2024 · trang PDF 25 (trang in 48–49)\nTrích đoạn: “Hơn 1 triệu Khách hàng đăng ký mới app LPBank, 86 tính năng sản phẩm mới được triển khai”\nhttps://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/LPB_Baocaothuongnien_2024.pdf#page=25\n\nNguồn: Báo cáo thường niên LP Bank 2025 · trang PDF 35 (trang in 68–69)\nTrích đoạn: “Năm 2025, Khối Công nghệ Thông tin đã vận hành mô hình quản trị dự án tập trung để điều phối toàn bộ dự án chuyển đổi số.”\nhttps://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf#page=35",
       "urls": [
-        "https://lpbank.com.vn/tin-tuc/lpbank-trien-khai-dich-vu-mo-tai-khoan-thanh-toan-truc-tuyen-tren-vneid-cua-bo-cong-an/"
+        "https://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/LPB_Baocaothuongnien_2024.pdf#page=25",
+        "https://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf#page=35"
       ],
       "row": 36
     },
@@ -3225,9 +3233,10 @@
       "sourceCode": "2.5.2001",
       "level": 3,
       "name": "Cân đối danh mục sản phẩm và dịch vụ",
-      "text": "Cân đối danh mục giữa sản phẩm thế mạnh truyền thống (cho vay nông nghiệp nông thôn 80.000 tỷ, tín dụng hưu trí) và các giải pháp số hóa (LPBank Plus, LPBank Biz, tài khoản Sinh lời Lộc Phát, iName, phái sinh/Kondor Treasury). https://lpbank.com.vn/api/content-file/public/file/view/5bb2a4bb-a070-415a-8eea-54b36c848de6",
+      "text": "BCTN 2025 mô tả chuyển từ cung cấp sản phẩm đơn lẻ sang combo giải pháp theo phân khúc, đồng thời tối ưu danh mục theo giá trị khách hàng và hiệu quả sử dụng vốn. Danh mục số trong kỳ có ứng dụng LPBank, LPBank Biz và các giải pháp phục vụ hoạt động nguồn vốn.\n\nNguồn: Báo cáo thường niên LP Bank 2025 · trang PDF 27 (trang in 52–53)\nTrích đoạn: “Thiết kế giải pháp theo phân khúc. Ưu tiên giải pháp Combo để một điểm chạm khách hàng được dùng nhiều sản phẩm”\nhttps://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf#page=27\n\nNguồn: Báo cáo thường niên LP Bank 2024 · trang PDF 32 (trang in 62–63)\nTrích đoạn: “Sau thời gian triển khai chỉ 7 tháng, LPBank đã đưa vào hoạt động ổn định giải pháp ngân hàng lõi CoreBanking T24.”\nhttps://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/LPB_Baocaothuongnien_2024.pdf#page=32",
       "urls": [
-        "https://lpbank.com.vn/api/content-file/public/file/view/5bb2a4bb-a070-415a-8eea-54b36c848de6"
+        "https://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf#page=27",
+        "https://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/LPB_Baocaothuongnien_2024.pdf#page=32"
       ],
       "row": 40
     },
@@ -3236,9 +3245,10 @@
       "sourceCode": "2.5.2002",
       "level": 3,
       "name": "Lộ trình danh mục sản phẩm và dịch vụ",
-      "text": "Xác định lộ trình phát triển danh mục: bổ sung 86 tính năng năm 2024, ra mắt LPBank Biz (T10/2024), ra mắt LPBank Plus AI-first (T3/2026) và kế hoạch ra mắt thương hiệu sub-brand riêng cho LPBank Priority. https://lpbank.com.vn/api/content-file/public/file/view/5bb2a4bb-a070-415a-8eea-54b36c848de6",
+      "text": "BCTN 2024 xác định bốn danh mục dự án chuyển đổi số gắn với khách hàng, vận hành, trải nghiệm và quản lý rủi ro. BCTN 2025 mô tả chuyển dịch danh mục bán lẻ sang giải pháp theo phân khúc, combo sản phẩm và quản trị vòng đời khách hàng.\n\nNguồn: Báo cáo thường niên LP Bank 2024 · trang PDF 33 (trang in 64–65)\nTrích đoạn: “Trong năm 2024, LPBank đã triển khai nhiều dự án trọng điểm tập trung vào 04 Danh mục dự án”\nhttps://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/LPB_Baocaothuongnien_2024.pdf#page=33\n\nNguồn: Báo cáo thường niên LP Bank 2025 · trang PDF 27 (trang in 52–53)\nTrích đoạn: “Thiết kế giải pháp theo phân khúc. Ưu tiên giải pháp Combo để một điểm chạm khách hàng được dùng nhiều sản phẩm”\nhttps://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf#page=27",
       "urls": [
-        "https://lpbank.com.vn/api/content-file/public/file/view/5bb2a4bb-a070-415a-8eea-54b36c848de6"
+        "https://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/LPB_Baocaothuongnien_2024.pdf#page=33",
+        "https://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf#page=27"
       ],
       "row": 41
     },
@@ -3247,9 +3257,10 @@
       "sourceCode": "2.5.2003",
       "level": 4,
       "name": "Đổi mới danh mục sản phẩm và dịch vụ",
-      "text": "Đạt giải thưởng \"Ngân hàng có sản phẩm dịch vụ sáng tạo tiêu biểu 2026\" tại Giải thưởng Ngân hàng Việt Nam tiêu biểu; ra mắt thẻ quốc tế JCB Ultimate, gói Sinh lời tự động Lộc Phát, dịch vụ mở tài khoản VNeID và trợ lý AI chuyển tiền LP Pay. https://lpbank.com.vn/api/content-file/public/file/view/5bb2a4bb-a070-415a-8eea-54b36c848de6",
+      "text": "BCTN 2025 mô tả việc tái cấu trúc phương thức vận hành và tư duy tăng trưởng của Ngân hàng Bán lẻ: thiết kế giải pháp theo phân khúc, combo sản phẩm và quản trị danh mục/vòng đời khách hàng. Ngân hàng cũng công bố mô hình quản trị dự án tập trung cho toàn bộ dự án chuyển đổi số trong năm 2025.\n\nNguồn: Báo cáo thường niên LP Bank 2025 · trang PDF 27 (trang in 52–53)\nTrích đoạn: “Thiết kế giải pháp theo phân khúc. Ưu tiên giải pháp Combo để một điểm chạm khách hàng được dùng nhiều sản phẩm”\nhttps://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf#page=27\n\nNguồn: Báo cáo thường niên LP Bank 2025 · trang PDF 35 (trang in 68–69)\nTrích đoạn: “Năm 2025, Khối Công nghệ Thông tin đã vận hành mô hình quản trị dự án tập trung để điều phối toàn bộ dự án chuyển đổi số.”\nhttps://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf#page=35",
       "urls": [
-        "https://lpbank.com.vn/api/content-file/public/file/view/5bb2a4bb-a070-415a-8eea-54b36c848de6"
+        "https://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf#page=27",
+        "https://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf#page=35"
       ],
       "row": 42
     },
@@ -3388,11 +3399,10 @@
       "sourceCode": "3.1.2005",
       "level": 4,
       "name": "Công nghệ mới",
-      "text": "Chủ động tìm kiếm và áp dụng các công nghệ mới dẫn dắt thị trường: Trợ lý AI chuyển tiền bằng hội thoại (LP Pay), mô hình ngôn ngữ lớn LLM (Smart Nav) trên LPBank Plus, định danh sinh trắc học eKYC/NFC chip CCCD, Core T24 và Kondor Treasury.https://static2.vietstock.vn/vietstock/2025/4/9/20250409_lpb_250409_5__eng___report_of_ceo.pdf; https://lpbank.com.vn/tin-tuc/17-4-2024-thong-bao-chuyen-doi-he-thong-ngan-hang-loi-corebanking/; https://lpbank.com.vn/tin-tuc/lpbank-trien-khai-he-thong-kondor-treasury-nhanh-nhat-chau-a-thai-binh-duong/",
+      "text": "Trong năm 2024, LPBank đưa CoreBanking T24 và Kondor Treasury vào vận hành, đồng thời ra mắt LPBank Biz. BCTN 2025 ghi nhận các dự án Microservices, Hybrid Cloud, Open API/Kong Enterprise, Data Lakehouse, Customer 360/CDP và AI ứng dụng vào dự báo, quản lý rủi ro, chăm sóc khách hàng.\n\nNguồn: Báo cáo thường niên LP Bank 2024 · trang PDF 32 (trang in 62–63)\nTrích đoạn: “Sau thời gian triển khai chỉ 7 tháng, LPBank đã đưa vào hoạt động ổn định giải pháp ngân hàng lõi CoreBanking T24.”\nhttps://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/LPB_Baocaothuongnien_2024.pdf#page=32\n\nNguồn: Báo cáo thường niên LP Bank 2025 · trang PDF 36 (trang in 70–71)\nTrích đoạn: “Nâng cấp nền tảng Mobile App thế hệ mới (Microservices + Hybrid Cloud): Tăng hiệu năng, khả năng mở rộng, góp phần nâng tỷ lệ giao dịch số lên 78%.”\nhttps://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf#page=36",
       "urls": [
-        "https://static2.vietstock.vn/vietstock/2025/4/9/20250409_lpb_250409_5__eng___report_of_ceo.pdf",
-        "https://lpbank.com.vn/tin-tuc/17-4-2024-thong-bao-chuyen-doi-he-thong-ngan-hang-loi-corebanking/",
-        "https://lpbank.com.vn/tin-tuc/lpbank-trien-khai-he-thong-kondor-treasury-nhanh-nhat-chau-a-thai-binh-duong/"
+        "https://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/LPB_Baocaothuongnien_2024.pdf#page=32",
+        "https://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf#page=36"
       ],
       "row": 55
     },
@@ -3433,9 +3443,10 @@
       "sourceCode": "3.2.2004",
       "level": 3,
       "name": "Khả năng cấu hình ứng dụng",
-      "text": "Cho phép cấu hình phân quyền linh hoạt 5 cấp duyệt, hạn mức chuyển tiền lô 40.000 lệnh trên LPBank Biz; tự tùy chỉnh tài khoản iName, chọn số tài khoản phong thủy trên LPBank Plus.https://lpbank.com.vn/doanh-nghiep/ngan-hang-so-doanh-nghiep",
+      "text": "BCTN 2025 ghi nhận chuẩn hóa văn bản pháp lý thành quy trình đánh giá tác động hệ thống và trên 90% yêu cầu được cấu hình hóa vào hệ thống công nghệ thông tin. BCTN 2024 ghi nhận các lựa chọn iName và tài khoản số đẹp trên kênh số.\n\nNguồn: Báo cáo thường niên LP Bank 2025 · trang PDF 35 (trang in 68–69)\nTrích đoạn: “Chuẩn hóa 100% văn bản pháp lý thành quy trình đánh giá tác động hệ thống, trên 90% yêu cầu được cấu hình hóa vào hệ thống công nghệ thông tin.”\nhttps://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf#page=35\n\nNguồn: Báo cáo thường niên LP Bank 2024 · trang PDF 25 (trang in 48–49)\nTrích đoạn: “Hơn 1 triệu Khách hàng đăng ký mới app LPBank, 86 tính năng sản phẩm mới được triển khai”\nhttps://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/LPB_Baocaothuongnien_2024.pdf#page=25",
       "urls": [
-        "https://lpbank.com.vn/doanh-nghiep/ngan-hang-so-doanh-nghiep"
+        "https://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf#page=35",
+        "https://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/LPB_Baocaothuongnien_2024.pdf#page=25"
       ],
       "row": 59
     },
@@ -3489,9 +3500,9 @@
       "sourceCode": "3.3.2002",
       "level": 3,
       "name": "Phát hiện và giảm thiểu xâm nhập",
-      "text": "Cài đặt phần mềm dò quét mã độc 24/7 trên Ebanking, LPBank Biz, LPBank Plus, Core T24; triển khai dự án Pentest (đánh giá xâm nhập kiểm thử), nâng cấp hệ thống Internet tập trung Forcepoint V5000 và giám sát an ninh mạng 24/7.https://lpbank.com.vn/api/content-file/public/file/view/5bb2a4bb-a070-415a-8eea-54b36c848de6",
+      "text": "BCTN 2024 ghi nhận cài đặt phần mềm dò quét mã độc trên các hệ thống dịch vụ quan trọng như Ebanking, LPBank Biz, Core Banking, App LPBank, AD và LIM. Phần mềm được sử dụng để rà quét, xử lý dấu hiệu vi phạm và hỗ trợ điều tra, truy vết; ngân hàng đồng thời nâng cấp bảo mật Data Center và Forcepoint V5000.\n\nNguồn: Báo cáo thường niên LP Bank 2024 · trang PDF 35 (trang in 68–69)\nTrích đoạn: “Triển khai cài đặt phần mềm dò quét trên các hệ thống dịch vụ đặc biệt quan trọng, có nguy cơ gây thất thoát tiền hoặc thông tin”\nhttps://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/LPB_Baocaothuongnien_2024.pdf#page=35",
       "urls": [
-        "https://lpbank.com.vn/api/content-file/public/file/view/5bb2a4bb-a070-415a-8eea-54b36c848de6"
+        "https://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/LPB_Baocaothuongnien_2024.pdf#page=35"
       ],
       "row": 64
     },
@@ -3522,9 +3533,10 @@
       "sourceCode": "3.4.2001",
       "level": 3,
       "name": "Trí tuệ nhân tạo",
-      "text": "Tích hợp Generative AI/Agentic AI (trợ lý LP Pay) và LLM (Smart Nav) trên ứng dụng LPBank Plus; ứng dụng công nghệ IVR nhận diện giọng nói tại Tổng đài CSKH và AI phân tích dữ liệu cảnh báo rủi ro sớm (EWS).https://static2.vietstock.vn/vietstock/2025/4/9/20250409_lpb_250409_5__eng___report_of_ceo.pdf",
+      "text": "BCTN 2025 ghi nhận AI dự báo khách hàng ngừng sử dụng sản phẩm, AI cảnh báo sớm nợ xấu, AI dự báo dòng tiền ALM, AI Chatbot/trợ lý ảo LITA 24/7 và học máy phân tích hành vi. Các dự án gắn với nền tảng dữ liệu và chương trình chuyển đổi số công bố cho năm 2025.\n\nNguồn: Báo cáo thường niên LP Bank 2025 · trang PDF 36 (trang in 70–71)\nTrích đoạn: “Nâng cấp nền tảng Mobile App thế hệ mới (Microservices + Hybrid Cloud): Tăng hiệu năng, khả năng mở rộng, góp phần nâng tỷ lệ giao dịch số lên 78%.”\nhttps://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf#page=36\n\nNguồn: Báo cáo thường niên LP Bank 2025 · trang PDF 35 (trang in 68–69)\nTrích đoạn: “Năm 2025, Khối Công nghệ Thông tin đã vận hành mô hình quản trị dự án tập trung để điều phối toàn bộ dự án chuyển đổi số.”\nhttps://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf#page=35",
       "urls": [
-        "https://static2.vietstock.vn/vietstock/2025/4/9/20250409_lpb_250409_5__eng___report_of_ceo.pdf"
+        "https://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf#page=36",
+        "https://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf#page=35"
       ],
       "row": 67
     },
@@ -3629,9 +3641,10 @@
       "sourceCode": "3.5.2007",
       "level": 2,
       "name": "Điện toán đám mây",
-      "text": "Sử dụng hạ tầng đám mây (Cloud-ready/Private Cloud) phục vụ lưu trữ tài liệu, vận hành Datalake và ứng dụng ngân hàng số LPBank Plus/LPBiz.https://lpbank.com.vn/api/content-file/public/file/view/5bb2a4bb-a070-415a-8eea-54b36c848de6",
+      "text": "BCTN 2025 ghi nhận hoàn thiện hạ tầng Hybrid Cloud và nâng cấp nền tảng Mobile App thế hệ mới theo Microservices + Hybrid Cloud để tăng hiệu năng, khả năng mở rộng. Các nội dung được báo cáo trong chương trình chuyển đổi số và dự án công nghệ năm 2025.\n\nNguồn: Báo cáo thường niên LP Bank 2025 · trang PDF 36 (trang in 70–71)\nTrích đoạn: “Nâng cấp nền tảng Mobile App thế hệ mới (Microservices + Hybrid Cloud): Tăng hiệu năng, khả năng mở rộng, góp phần nâng tỷ lệ giao dịch số lên 78%.”\nhttps://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf#page=36\n\nNguồn: Báo cáo thường niên LP Bank 2025 · trang PDF 35 (trang in 68–69)\nTrích đoạn: “Năm 2025, Khối Công nghệ Thông tin đã vận hành mô hình quản trị dự án tập trung để điều phối toàn bộ dự án chuyển đổi số.”\nhttps://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf#page=35",
       "urls": [
-        "https://lpbank.com.vn/api/content-file/public/file/view/5bb2a4bb-a070-415a-8eea-54b36c848de6"
+        "https://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf#page=36",
+        "https://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf#page=35"
       ],
       "row": 77
     },
@@ -3712,9 +3725,10 @@
       "sourceCode": "4.2.2002",
       "level": 3,
       "name": "Tư duy Thiết kế (Design Thinking)",
-      "text": "Thực hiện Dự án UI/UX cải tiến toàn diện giao diện sản phẩm trên LPBank Plus và LPBank Biz dựa trên nghiên cứu mô hình \"3S\" (Simple-Smart-Safe), đổi mới giao diện Website chuẩn hóa nhận diện thương hiệu.https://lpbank.com.vn/tin-tuc/17-6-2024-nen-tang-ngan-hang-so-lienviet24h-doi-ten-thanh-lpbank/",
+      "text": "BCTN 2024 mô tả dự án UI/UX tối ưu giao diện ứng dụng nhằm nâng cao trải nghiệm khách hàng. BCTN 2025 nêu việc thiết kế sản phẩm, mô hình phục vụ, vận hành và trải nghiệm dựa trên hành trình khách hàng ở cả kênh số và kênh vật lý.\n\nNguồn: Báo cáo thường niên LP Bank 2024 · trang PDF 34 (trang in 66–67)\nTrích đoạn: “Dự án UI/UX: Tối ưu giao diện sản phẩm nhằm nâng cao trải nghiệm Khách hàng trên kênh ứng dụng ngân hàng số LPBank.”\nhttps://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/LPB_Baocaothuongnien_2024.pdf#page=34\n\nNguồn: Báo cáo thường niên LP Bank 2025 · trang PDF 26 (trang in 50–51)\nTrích đoạn: “Sản phẩm, chính sách, mô hình phục vụ, mô hình vận hành và trải nghiệm được thiết kế dựa trên hành trình khách hàng”\nhttps://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf#page=26",
       "urls": [
-        "https://lpbank.com.vn/tin-tuc/17-6-2024-nen-tang-ngan-hang-so-lienviet24h-doi-ten-thanh-lpbank/"
+        "https://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/LPB_Baocaothuongnien_2024.pdf#page=34",
+        "https://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf#page=26"
       ],
       "row": 85
     },
@@ -3744,9 +3758,11 @@
       "sourceCode": "4.2.2005",
       "level": 3,
       "name": "Đổi mới liên tục sản phẩm và dịch vụ",
-      "text": "Được trao giải thưởng \"Ngân hàng có sản phẩm dịch vụ sáng tạo tiêu biểu 2026\" tại Giải thưởng Ngân hàng Việt Nam tiêu biểu; ra mắt thẻ Visa Tokenization, trợ lý AI chuyển tiền LP Pay, mở tài khoản VNeID và gói Combo Lộc Phát.https://lpbank.com.vn/api/content-file/public/file/view/5bb2a4bb-a070-415a-8eea-54b36c848de6",
+      "text": "Trong năm 2024, LPBank triển khai 86 tính năng/sản phẩm mới, cải tiến giao diện ứng dụng và ra mắt LPBank Biz. BCTN 2025 tiếp tục mô tả phát triển giải pháp theo phân khúc, combo sản phẩm và mô hình LPBank Priority, gắn với nhu cầu và vòng đời khách hàng.\n\nNguồn: Báo cáo thường niên LP Bank 2024 · trang PDF 25 (trang in 48–49)\nTrích đoạn: “Hơn 1 triệu Khách hàng đăng ký mới app LPBank, 86 tính năng sản phẩm mới được triển khai”\nhttps://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/LPB_Baocaothuongnien_2024.pdf#page=25\n\nNguồn: Báo cáo thường niên LP Bank 2024 · trang PDF 32 (trang in 62–63)\nTrích đoạn: “Sau thời gian triển khai chỉ 7 tháng, LPBank đã đưa vào hoạt động ổn định giải pháp ngân hàng lõi CoreBanking T24.”\nhttps://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/LPB_Baocaothuongnien_2024.pdf#page=32\n\nNguồn: Báo cáo thường niên LP Bank 2025 · trang PDF 27 (trang in 52–53)\nTrích đoạn: “Thiết kế giải pháp theo phân khúc. Ưu tiên giải pháp Combo để một điểm chạm khách hàng được dùng nhiều sản phẩm”\nhttps://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf#page=27",
       "urls": [
-        "https://lpbank.com.vn/api/content-file/public/file/view/5bb2a4bb-a070-415a-8eea-54b36c848de6"
+        "https://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/LPB_Baocaothuongnien_2024.pdf#page=25",
+        "https://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/LPB_Baocaothuongnien_2024.pdf#page=32",
+        "https://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf#page=27"
       ],
       "row": 88
     },
@@ -3777,9 +3793,10 @@
       "sourceCode": "4.3.2002",
       "level": 3,
       "name": "Quản lý phát hành",
-      "text": "Kiểm soát quy trình phát hành golive an toàn cho các hệ thống lớn: Kondor Treasury (golive T4/2024), Core T24 (golive T5/2024), LPBank Biz (T10/2024), LPBank Plus (T3/2026) đảm bảo không gây gián đoạn dịch vụ 24/7.https://lpbank.com.vn/api/content-file/public/file/view/5bb2a4bb-a070-415a-8eea-54b36c848de6",
+      "text": "BCTN 2024 ghi nhận quy trình chuyển đổi CoreBanking T24 được kiểm soát chặt chẽ và hệ thống được đưa vào hoạt động ổn định sau 7 tháng triển khai. Năm 2025, LPBank công bố mô hình quản trị dự án tập trung và tỷ lệ dự án hoàn thành go-live, đúng tiến độ là 88%.\n\nNguồn: Báo cáo thường niên LP Bank 2024 · trang PDF 32 (trang in 62–63)\nTrích đoạn: “Sau thời gian triển khai chỉ 7 tháng, LPBank đã đưa vào hoạt động ổn định giải pháp ngân hàng lõi CoreBanking T24.”\nhttps://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/LPB_Baocaothuongnien_2024.pdf#page=32\n\nNguồn: Báo cáo thường niên LP Bank 2025 · trang PDF 35 (trang in 68–69)\nTrích đoạn: “Năm 2025, Khối Công nghệ Thông tin đã vận hành mô hình quản trị dự án tập trung để điều phối toàn bộ dự án chuyển đổi số.”\nhttps://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf#page=35",
       "urls": [
-        "https://lpbank.com.vn/api/content-file/public/file/view/5bb2a4bb-a070-415a-8eea-54b36c848de6"
+        "https://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/LPB_Baocaothuongnien_2024.pdf#page=32",
+        "https://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf#page=35"
       ],
       "row": 91
     },
@@ -3868,9 +3885,11 @@
       "sourceCode": "4.4.2007",
       "level": 3,
       "name": "Hoạt động quản lý gian lận",
-      "text": "Triển khai xác thực sinh trắc học Quyết định 2345/QĐ-NHNN; vận hành phần mềm phòng chống gian lận Antifraud, phần mềm Fico Tonbeller, cài đặt phần mềm dò quét mã độc 24/7 và công nghệ App Shielding trên LPBank Plus.https://lpbank.com.vn/tin-tuc/lpbank-trien-khai-xac-thuc-giao-dich-bang-sinh-trac-hoc-tren-ung-dung-ngan-hang-so/",
+      "text": "LPBank triển khai sinh trắc học từ 01/07/2024, phần mềm dò quét mã độc trên các hệ thống dịch vụ quan trọng và các dự án quản lý rủi ro được mô tả trong BCTN 2024. BCTN 2025 ghi nhận các dự án AI cảnh báo rủi ro, học máy phân tích hành vi và nâng cấp bảo mật theo ISO/IEC 27001, PCI-DSS.\n\nNguồn: Báo cáo thường niên LP Bank 2024 · trang PDF 34 (trang in 66–67)\nTrích đoạn: “Dự án UI/UX: Tối ưu giao diện sản phẩm nhằm nâng cao trải nghiệm Khách hàng trên kênh ứng dụng ngân hàng số LPBank.”\nhttps://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/LPB_Baocaothuongnien_2024.pdf#page=34\n\nNguồn: Báo cáo thường niên LP Bank 2024 · trang PDF 35 (trang in 68–69)\nTrích đoạn: “Triển khai cài đặt phần mềm dò quét trên các hệ thống dịch vụ đặc biệt quan trọng, có nguy cơ gây thất thoát tiền hoặc thông tin”\nhttps://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/LPB_Baocaothuongnien_2024.pdf#page=35\n\nNguồn: Báo cáo thường niên LP Bank 2025 · trang PDF 36 (trang in 70–71)\nTrích đoạn: “Nâng cấp nền tảng Mobile App thế hệ mới (Microservices + Hybrid Cloud): Tăng hiệu năng, khả năng mở rộng, góp phần nâng tỷ lệ giao dịch số lên 78%.”\nhttps://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf#page=36",
       "urls": [
-        "https://lpbank.com.vn/tin-tuc/lpbank-trien-khai-xac-thuc-giao-dich-bang-sinh-trac-hoc-tren-ung-dung-ngan-hang-so/"
+        "https://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/LPB_Baocaothuongnien_2024.pdf#page=34",
+        "https://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/LPB_Baocaothuongnien_2024.pdf#page=35",
+        "https://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf#page=36"
       ],
       "row": 100
     },
@@ -3879,9 +3898,10 @@
       "sourceCode": "4.4.2008",
       "level": 3,
       "name": "Vận hành hệ thống",
-      "text": "Vận hành ổn định hệ thống Core T24, Kondor Treasury, ứng dụng LPBiz/LPBank Plus và 02 Trung tâm dữ liệu (Data Center) mới trang bị giải pháp giám sát 24/7 và phòng thủ an ninh mạng Forcepoint V5000.https://lpbank.com.vn/api/content-file/public/file/view/5bb2a4bb-a070-415a-8eea-54b36c848de6",
+      "text": "BCTN 2024 ghi nhận CoreBanking T24 đi vào hoạt động ổn định và Kondor Treasury được đưa vào vận hành. BCTN 2025 mô tả mô hình DC1–DC2–DR Active–Active và nâng cấp Mobile App theo Microservices + Hybrid Cloud để phục vụ vận hành liên tục, tăng hiệu năng và khả năng mở rộng.\n\nNguồn: Báo cáo thường niên LP Bank 2024 · trang PDF 32 (trang in 62–63)\nTrích đoạn: “Sau thời gian triển khai chỉ 7 tháng, LPBank đã đưa vào hoạt động ổn định giải pháp ngân hàng lõi CoreBanking T24.”\nhttps://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/LPB_Baocaothuongnien_2024.pdf#page=32\n\nNguồn: Báo cáo thường niên LP Bank 2025 · trang PDF 36 (trang in 70–71)\nTrích đoạn: “Nâng cấp nền tảng Mobile App thế hệ mới (Microservices + Hybrid Cloud): Tăng hiệu năng, khả năng mở rộng, góp phần nâng tỷ lệ giao dịch số lên 78%.”\nhttps://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf#page=36",
       "urls": [
-        "https://lpbank.com.vn/api/content-file/public/file/view/5bb2a4bb-a070-415a-8eea-54b36c848de6"
+        "https://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/LPB_Baocaothuongnien_2024.pdf#page=32",
+        "https://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf#page=36"
       ],
       "row": 101
     },
@@ -4139,9 +4159,10 @@
       "sourceCode": "6.1.2004",
       "level": 3,
       "name": "Quản lý bảo mật dữ liệu",
-      "text": "Duy trì các chứng chỉ an toàn thông tin & bảo mật quốc tế ISO/IEC 27001, PCI-DSS (bảo mật thẻ), SWIFT CSP; trang bị phần mềm dò quét mã độc 24/7 trên Ebanking, LPBank Biz, LPBank Plus, Core T24, AD, LIM và ứng dụng công nghệ App Shielding.https://lpbank.com.vn/api/content-file/public/file/view/5bb2a4bb-a070-415a-8eea-54b36c848de6",
+      "text": "BCTN 2024 ghi nhận dò quét mã độc trên hệ thống giao dịch, xác thực và ứng dụng; đầu tư bảo mật Data Center và nâng cấp Forcepoint V5000. BCTN 2025 ghi nhận triển khai ISO/IEC 27001 và nâng cấp bảo mật đạt chuẩn PCI-DSS trong chương trình công nghệ của năm.\n\nNguồn: Báo cáo thường niên LP Bank 2024 · trang PDF 35 (trang in 68–69)\nTrích đoạn: “Triển khai cài đặt phần mềm dò quét trên các hệ thống dịch vụ đặc biệt quan trọng, có nguy cơ gây thất thoát tiền hoặc thông tin”\nhttps://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/LPB_Baocaothuongnien_2024.pdf#page=35\n\nNguồn: Báo cáo thường niên LP Bank 2025 · trang PDF 36 (trang in 70–71)\nTrích đoạn: “Nâng cấp nền tảng Mobile App thế hệ mới (Microservices + Hybrid Cloud): Tăng hiệu năng, khả năng mở rộng, góp phần nâng tỷ lệ giao dịch số lên 78%.”\nhttps://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf#page=36",
       "urls": [
-        "https://lpbank.com.vn/api/content-file/public/file/view/5bb2a4bb-a070-415a-8eea-54b36c848de6"
+        "https://static2.vietstock.vn/data/HOSE/2024/BCTN/VN/LPB_Baocaothuongnien_2024.pdf#page=35",
+        "https://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf#page=36"
       ],
       "row": 127
     },
@@ -4274,10 +4295,10 @@
       "sourceCode": "6.3.2002",
       "level": 3,
       "name": "Năng lực khoa học dữ liệu",
-      "text": "Ứng dụng AI và Big Data phân tích khối lượng lớn dữ liệu giao dịch phát hiện rủi ro sớm (EWS); vận hành ứng dụng LPBank Plus phát triển theo định hướng AI-first tích hợp trợ lý hội thoại LP Pay và Smart Nav; tích hợp phần mềm Antifraud.https://lpbank.com.vn/tin-tuc/3235-lpbank-plus-ung-dung-ngan-hang-so-the-he-moi-tich-hop-tro-ly-ai-chuyen-tien-bang-hoi-thoai; https://tudonghoangaynay.vn/lpbank-tien-phong-chuyen-doi-so-kien-tao-he-sinh-thai-tai-chinh-hien-dai-14065.html",
+      "text": "BCTN 2025 ghi nhận nền tảng Data Lakehouse, Customer 360/CDP và các ứng dụng AI/ML: dự báo khách hàng ngừng sử dụng sản phẩm, cảnh báo sớm nợ xấu, dự báo dòng tiền ALM, chatbot/trợ lý ảo LITA và phân tích hành vi. Đây là các ứng dụng khai thác dữ liệu được ngân hàng công bố trong năm 2025.\n\nNguồn: Báo cáo thường niên LP Bank 2025 · trang PDF 35 (trang in 68–69)\nTrích đoạn: “Năm 2025, Khối Công nghệ Thông tin đã vận hành mô hình quản trị dự án tập trung để điều phối toàn bộ dự án chuyển đổi số.”\nhttps://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf#page=35\n\nNguồn: Báo cáo thường niên LP Bank 2025 · trang PDF 36 (trang in 70–71)\nTrích đoạn: “Nâng cấp nền tảng Mobile App thế hệ mới (Microservices + Hybrid Cloud): Tăng hiệu năng, khả năng mở rộng, góp phần nâng tỷ lệ giao dịch số lên 78%.”\nhttps://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf#page=36",
       "urls": [
-        "https://lpbank.com.vn/tin-tuc/3235-lpbank-plus-ung-dung-ngan-hang-so-the-he-moi-tich-hop-tro-ly-ai-chuyen-tien-bang-hoi-thoai",
-        "https://tudonghoangaynay.vn/lpbank-tien-phong-chuyen-doi-so-kien-tao-he-sinh-thai-tai-chinh-hien-dai-14065.html"
+        "https://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf#page=35",
+        "https://static2.vietstock.vn/data/HOSE/2025/BCTN/VN/LPB_Baocaothuongnien_2025.pdf#page=36"
       ],
       "row": 140
     },
@@ -6116,9 +6137,9 @@
       "sourceCode": "2.2.2002",
       "level": 2,
       "name": "Thiết kế hệ sinh thái",
-      "text": "Kế hoạch 2026 xác định phát triển hệ sinh thái thanh toán qua tài khoản SAIGONBANK và kết nối dịch vụ y tế, giáo dục, hành chính công; mới là định hướng công bố.https://saigonbank.com.vn/vi/tin-tuc/Tin-tuc-ngan-hang/SGBHDHDCD26",
+      "text": "Trong kết quả hoạt động năm 2025, SAIGONBANK ghi nhận kết nối tài khoản với VNeID để nhận chi trả an sinh xã hội; triển khai thanh toán không tiếp xúc cho giao thông công cộng, thanh toán tại bãi xe thông minh và tham gia dự án công nghệ hỗ trợ hành chính công. Các nội dung thể hiện các kết nối dịch vụ đã triển khai trong kỳ.\n\nNguồn: Báo cáo thường niên SaigonBank 2025 · trang PDF 6 (trang in 5)\nTrích đoạn: “Ngân hàng đã triển khai kết nối tài khoản SAIGONBANK với ứng dụng VNeID của khách hàng liên kết tài khoản SAIGONBANK để nhận chi trả An sinh xã hội qua ứng dụng VNeID”\nhttps://static2.vietstock.vn/data/HNX/2025/BCTN/VN/SGB_Baocaothuongnien_2025/1_sgb_2026_4_20_43bf2b9_vi_baocaothuongnien_2025_compressedda_ky.pdf#page=6",
       "urls": [
-        "https://saigonbank.com.vn/vi/tin-tuc/Tin-tuc-ngan-hang/SGBHDHDCD26"
+        "https://static2.vietstock.vn/data/HNX/2025/BCTN/VN/SGB_Baocaothuongnien_2025/1_sgb_2026_4_20_43bf2b9_vi_baocaothuongnien_2025_compressedda_ky.pdf#page=6"
       ],
       "row": 32
     },
@@ -6199,10 +6220,10 @@
       "sourceCode": "2.5.2002",
       "level": 2,
       "name": "Lộ trình danh mục sản phẩm và dịch vụ",
-      "text": "SAIGONBANK nêu kế hoạch bổ sung tiện ích ngân hàng số, thanh toán hiện đại và số hóa quy trình cấp tín dụng trong giải pháp phát triển năm 2026.https://saigonbank.com.vn/vi/tin-tuc/Tin-tuc-ngan-hang/SGBHDHDCD26; https://vnba.org.vn/vi/saigonbank-dat-muc-tieu-loi-nhuan-truoc-thue-310-ty-dong-trong-2026-21403.htm",
+      "text": "BCTN 2024 nêu định hướng hoạt động năm 2025: đẩy mạnh ứng dụng CNTT, thanh toán không dùng tiền mặt và chuyển đổi số theo lộ trình phù hợp. Trong kết quả năm 2025, ngân hàng ghi nhận phát triển tính năng SAIGONBANK PAY/Smart Banking và kết nối VNeID, giao thông công cộng, bãi xe thông minh.\n\nNguồn: Báo cáo thường niên SaigonBank 2024 · trang PDF 13 (trang in 12)\nTrích đoạn: “Tập trung đẩy mạnh ứng dụng công nghệ thông tin trong hoạt động ngân hàng và hoạt động thanh toán không dùng tiền mặt”\nhttps://static2.vietstock.vn/data/HNX/2024/BCTN/VN/SGB_Baocaothuongnien_2024/1_sgb_2025_4_17_56f822a_vi_baocaothuongnien_2024.pdf#page=13\n\nNguồn: Báo cáo thường niên SaigonBank 2025 · trang PDF 6 (trang in 5)\nTrích đoạn: “Ngân hàng đã triển khai kết nối tài khoản SAIGONBANK với ứng dụng VNeID của khách hàng liên kết tài khoản SAIGONBANK để nhận chi trả An sinh xã hội qua ứng dụng VNeID”\nhttps://static2.vietstock.vn/data/HNX/2025/BCTN/VN/SGB_Baocaothuongnien_2025/1_sgb_2026_4_20_43bf2b9_vi_baocaothuongnien_2025_compressedda_ky.pdf#page=6",
       "urls": [
-        "https://saigonbank.com.vn/vi/tin-tuc/Tin-tuc-ngan-hang/SGBHDHDCD26",
-        "https://vnba.org.vn/vi/saigonbank-dat-muc-tieu-loi-nhuan-truoc-thue-310-ty-dong-trong-2026-21403.htm"
+        "https://static2.vietstock.vn/data/HNX/2024/BCTN/VN/SGB_Baocaothuongnien_2024/1_sgb_2025_4_17_56f822a_vi_baocaothuongnien_2024.pdf#page=13",
+        "https://static2.vietstock.vn/data/HNX/2025/BCTN/VN/SGB_Baocaothuongnien_2025/1_sgb_2026_4_20_43bf2b9_vi_baocaothuongnien_2025_compressedda_ky.pdf#page=6"
       ],
       "row": 41
     },
@@ -6222,9 +6243,10 @@
       "sourceCode": "2.6.2001",
       "level": 2,
       "name": "Chiến lược phù hợp với tầm nhìn",
-      "text": "BCTN 2025–2026 đặt chuyển đổi số theo lộ trình phù hợp làm nền tảng phát triển sản phẩm dịch vụ; chiến lược đang được cụ thể hóa.https://static2.vietstock.vn/data/HNX/2025/BCTN/VN/SGB_Baocaothuongnien_2025/1_sgb_2026_4_20_43bf2b9_vi_baocaothuongnien_2025_compressedda_ky.pdf",
+      "text": "Trong kết quả hoạt động năm 2024, SAIGONBANK công bố đã hoàn thành xây dựng Chiến lược phát triển đến năm 2025, định hướng đến năm 2030. Định hướng hoạt động năm 2025 trong cùng báo cáo gắn ứng dụng CNTT, thanh toán không dùng tiền mặt và chuyển đổi số theo lộ trình phù hợp với hoạt động kinh doanh.\n\nNguồn: Báo cáo thường niên SaigonBank 2024 · trang PDF 6 (trang in 5)\nTrích đoạn: “Hoàn thành xây dựng Chiến lược phát triển của SAIGONBANK đến năm 2025, định hướng đến năm 2030”\nhttps://static2.vietstock.vn/data/HNX/2024/BCTN/VN/SGB_Baocaothuongnien_2024/1_sgb_2025_4_17_56f822a_vi_baocaothuongnien_2024.pdf#page=6\n\nNguồn: Báo cáo thường niên SaigonBank 2024 · trang PDF 13 (trang in 12)\nTrích đoạn: “Tập trung đẩy mạnh ứng dụng công nghệ thông tin trong hoạt động ngân hàng và hoạt động thanh toán không dùng tiền mặt”\nhttps://static2.vietstock.vn/data/HNX/2024/BCTN/VN/SGB_Baocaothuongnien_2024/1_sgb_2025_4_17_56f822a_vi_baocaothuongnien_2024.pdf#page=13",
       "urls": [
-        "https://static2.vietstock.vn/data/HNX/2025/BCTN/VN/SGB_Baocaothuongnien_2025/1_sgb_2026_4_20_43bf2b9_vi_baocaothuongnien_2025_compressedda_ky.pdf"
+        "https://static2.vietstock.vn/data/HNX/2024/BCTN/VN/SGB_Baocaothuongnien_2024/1_sgb_2025_4_17_56f822a_vi_baocaothuongnien_2024.pdf#page=6",
+        "https://static2.vietstock.vn/data/HNX/2024/BCTN/VN/SGB_Baocaothuongnien_2024/1_sgb_2025_4_17_56f822a_vi_baocaothuongnien_2024.pdf#page=13"
       ],
       "row": 43
     },
@@ -6265,9 +6287,10 @@
       "sourceCode": "2.6.2005",
       "level": 2,
       "name": "Lộ trình chuyển đổi",
-      "text": "Định hướng 2026 nêu triển khai chuyển đổi số theo lộ trình; Quyết định 479 xác lập đầu mối tổ chức, nhưng chưa công bố lộ trình chi tiết theo giai đoạn/toàn đơn vị.https://saigonbank.com.vn/vi/tin-tuc/Tin-tuc-ngan-hang/SGBHDHDCD26",
+      "text": "BCTN 2024 nêu định hướng chuyển đổi số hoạt động kinh doanh theo lộ trình phù hợp cho năm 2025. Báo cáo kết quả năm 2025 ghi nhận nâng cấp SWIFT theo ISO 20022, Oracle 19C, kết nối SIMO và VNeID, phát triển tính năng SAIGONBANK PAY/Smart Banking. Đây là các bước triển khai công nghệ và dịch vụ trong kỳ.\n\nNguồn: Báo cáo thường niên SaigonBank 2024 · trang PDF 13 (trang in 12)\nTrích đoạn: “Tập trung đẩy mạnh ứng dụng công nghệ thông tin trong hoạt động ngân hàng và hoạt động thanh toán không dùng tiền mặt”\nhttps://static2.vietstock.vn/data/HNX/2024/BCTN/VN/SGB_Baocaothuongnien_2024/1_sgb_2025_4_17_56f822a_vi_baocaothuongnien_2024.pdf#page=13\n\nNguồn: Báo cáo thường niên SaigonBank 2025 · trang PDF 6 (trang in 5)\nTrích đoạn: “Ngân hàng đã triển khai kết nối tài khoản SAIGONBANK với ứng dụng VNeID của khách hàng liên kết tài khoản SAIGONBANK để nhận chi trả An sinh xã hội qua ứng dụng VNeID”\nhttps://static2.vietstock.vn/data/HNX/2025/BCTN/VN/SGB_Baocaothuongnien_2025/1_sgb_2026_4_20_43bf2b9_vi_baocaothuongnien_2025_compressedda_ky.pdf#page=6",
       "urls": [
-        "https://saigonbank.com.vn/vi/tin-tuc/Tin-tuc-ngan-hang/SGBHDHDCD26"
+        "https://static2.vietstock.vn/data/HNX/2024/BCTN/VN/SGB_Baocaothuongnien_2024/1_sgb_2025_4_17_56f822a_vi_baocaothuongnien_2024.pdf#page=13",
+        "https://static2.vietstock.vn/data/HNX/2025/BCTN/VN/SGB_Baocaothuongnien_2025/1_sgb_2026_4_20_43bf2b9_vi_baocaothuongnien_2025_compressedda_ky.pdf#page=6"
       ],
       "row": 47
     },
@@ -6360,9 +6383,11 @@
       "sourceCode": "3.2.2001",
       "level": 2,
       "name": "Chiến lược/lộ trình công nghệ",
-      "text": "Kế hoạch 2026 gắn đầu tư công nghệ, bảo mật và hạ tầng số với mục tiêu nâng cao chất lượng dịch vụ, phù hợp một phần chiến lược kinh doanh.https://saigonbank.com.vn/vi/tin-tuc/Tin-tuc-ngan-hang/SGBHDHDCD26",
+      "text": "SAIGONBANK ghi nhận hoàn thành xây dựng chiến lược phát triển trong năm 2024 và đặt định hướng ứng dụng CNTT, thanh toán không dùng tiền mặt, chuyển đổi số theo lộ trình cho năm 2025. Báo cáo năm 2025 ghi nhận đầu tư phần cứng, phần mềm, mạng, bảo mật, nâng cấp SWIFT/Oracle và các kết nối dịch vụ theo nhu cầu hoạt động ngân hàng.\n\nNguồn: Báo cáo thường niên SaigonBank 2024 · trang PDF 6 (trang in 5)\nTrích đoạn: “Hoàn thành xây dựng Chiến lược phát triển của SAIGONBANK đến năm 2025, định hướng đến năm 2030”\nhttps://static2.vietstock.vn/data/HNX/2024/BCTN/VN/SGB_Baocaothuongnien_2024/1_sgb_2025_4_17_56f822a_vi_baocaothuongnien_2024.pdf#page=6\n\nNguồn: Báo cáo thường niên SaigonBank 2024 · trang PDF 13 (trang in 12)\nTrích đoạn: “Tập trung đẩy mạnh ứng dụng công nghệ thông tin trong hoạt động ngân hàng và hoạt động thanh toán không dùng tiền mặt”\nhttps://static2.vietstock.vn/data/HNX/2024/BCTN/VN/SGB_Baocaothuongnien_2024/1_sgb_2025_4_17_56f822a_vi_baocaothuongnien_2024.pdf#page=13\n\nNguồn: Báo cáo thường niên SaigonBank 2025 · trang PDF 6 (trang in 5)\nTrích đoạn: “Ngân hàng đã triển khai kết nối tài khoản SAIGONBANK với ứng dụng VNeID của khách hàng liên kết tài khoản SAIGONBANK để nhận chi trả An sinh xã hội qua ứng dụng VNeID”\nhttps://static2.vietstock.vn/data/HNX/2025/BCTN/VN/SGB_Baocaothuongnien_2025/1_sgb_2026_4_20_43bf2b9_vi_baocaothuongnien_2025_compressedda_ky.pdf#page=6",
       "urls": [
-        "https://saigonbank.com.vn/vi/tin-tuc/Tin-tuc-ngan-hang/SGBHDHDCD26"
+        "https://static2.vietstock.vn/data/HNX/2024/BCTN/VN/SGB_Baocaothuongnien_2024/1_sgb_2025_4_17_56f822a_vi_baocaothuongnien_2024.pdf#page=6",
+        "https://static2.vietstock.vn/data/HNX/2024/BCTN/VN/SGB_Baocaothuongnien_2024/1_sgb_2025_4_17_56f822a_vi_baocaothuongnien_2024.pdf#page=13",
+        "https://static2.vietstock.vn/data/HNX/2025/BCTN/VN/SGB_Baocaothuongnien_2025/1_sgb_2026_4_20_43bf2b9_vi_baocaothuongnien_2025_compressedda_ky.pdf#page=6"
       ],
       "row": 56
     },
@@ -7208,5 +7233,6 @@
       "urls": [],
       "row": 141
     }
-  ]
+  ],
+  "citationUpdatedAt": "2026-10-21"
 }

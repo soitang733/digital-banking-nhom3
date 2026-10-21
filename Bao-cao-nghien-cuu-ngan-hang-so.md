@@ -1,6 +1,6 @@
 Báo cáo nghiên cứu chỉ số chuyển đổi số ngân hàng
 
-Nhóm 03<br/>TPBank  HDBank  LPBank  OCB  Saigonbank<br/>Phạm vi dữ liệu 2023 đến 2025<br/>Cập nhật nguồn ngày 20 tháng 10 năm 2026
+Nhóm 03<br/>TPBank  HDBank  LPBank  OCB  Saigonbank<br/>Phạm vi dữ liệu 2023 đến 2025<br/>Cập nhật nguồn ngày 21 tháng 10 năm 2026
 
 ## Tóm tắt nghiên cứu
 
@@ -38,7 +38,7 @@ Sáu trụ cột thể hiện các mặt khác nhau của chuyển đổi số. 
 
 ### 2 1 Nguồn dữ liệu
 
-Dữ liệu thu thập ban đầu được lưu trong Data Feasibility.xlsx. Bản dữ liệu đã được nhóm duyệt, cập nhật URL ngày 20/10/2026, nằm tại Code/pipeline/data/TeamApprovedCleanData.xlsx và được dùng cho các lần chạy tiếp theo. Bốn workbook kết quả lưu dữ liệu chuẩn hóa, mô tả thang chấm, điểm quy đổi và xếp hạng, cùng bảng phân tích. Danh mục 23 báo cáo nguồn được liệt kê ở Phụ lục C.
+Dữ liệu thu thập ban đầu được lưu trong Data Feasibility.xlsx. Bản dữ liệu đã được nhóm duyệt, cập nhật nguồn và trích dẫn đến ngày 21/10/2026, nằm tại Code/pipeline/data/TeamApprovedCleanData.xlsx và được dùng cho các lần chạy tiếp theo. Bốn workbook kết quả lưu dữ liệu chuẩn hóa, mô tả thang chấm, điểm quy đổi và xếp hạng, cùng bảng phân tích. Danh mục 23 báo cáo nguồn được liệt kê ở Phụ lục C.
 
 | File Excel | Vai trò và nội dung chính |
 | --- | --- |
@@ -170,7 +170,7 @@ Saigonbank đạt 12,88% tổng thể. Trong hồ sơ riêng, trụ cột cao nh
 
 ### 4 4 Bằng chứng và dữ liệu theo năm
 
-Bộ điểm gộp có 302 mức 0 và đã được nhóm duyệt. Bản cập nhật có 404/700 dòng chứa URL, bao gồm toàn bộ 398 dòng mức lớn hơn 0. Các dòng chưa có URL đều thuộc mức 0. Đợt bổ sung ngày 20/10/2026 đã gắn nguồn cho 68 dòng còn thiếu. Sáu mô tả TPBank được chuẩn hóa theo nguồn 2023–2025: dùng số 238 yêu cầu cải tiến và cơ chế thưởng sáng kiến; dùng nội dung container, cloud, microservice và vận hành liên tục. Nội dung cũ, nội dung sửa và nguồn được lưu tại Code/pipeline/data/source-url-research.json. Việc sửa mô tả không thay đổi hay duyệt lại mức chấm của nhóm.
+Bộ điểm gộp có 302 mức 0 và đã được nhóm duyệt. Bản cập nhật có 404/700 dòng chứa URL, bao gồm toàn bộ 398 dòng mức lớn hơn 0; các dòng chưa có URL đều thuộc mức 0. Đợt 20/10/2026 đã gắn nguồn cho 68 dòng và chuẩn hóa sáu mô tả TPBank. Đợt 21/10/2026 bổ sung nguồn, trang PDF/trang in và trích đoạn cho 24 dòng LPBank, 5 dòng Saigonbank; dùng nội dung trong kỳ thay các chi tiết hoạt động/giải thưởng năm 2026. Lịch sử nguồn được lưu tại Code/pipeline/data/source-url-research.json và evidence-source-revisions.json. Các sửa đổi thông tin dẫn chứng giữ nguyên 700 mức đã được nhóm duyệt, điểm tổng hợp và thứ hạng.
 
 Sản phẩm chính dùng điểm gộp 2023–2025 và hồ sơ trưởng thành số, không yêu cầu đủ ba tổng điểm năm. Lớp năm có 2100 bản ghi, trong đó 209 bản ghi có mức kèm dẫn chứng, phục vụ tra cứu bổ sung. Chưa có tổng điểm năm đủ điều kiện công bố; báo cáo không tính YoY hoặc diễn giải mức gộp thành xu hướng 2023, 2024, 2025. Phân tích xu hướng theo năm là phạm vi mở rộng cần thu thập và đối chiếu riêng.
 

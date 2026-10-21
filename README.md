@@ -1,11 +1,11 @@
 # Hồ sơ nộp bài ngân hàng số Nhóm 03
 
-Ngày cập nhật: 20/10/2026. Sản phẩm: https://digital-banking-nhom3.vercel.app. GitHub: https://github.com/soitang733/digital-banking-nhom3
+Ngày cập nhật: 21/10/2026. Sản phẩm: https://digital-banking-nhom3.vercel.app. GitHub: https://github.com/soitang733/digital-banking-nhom3
 
 ## Các nội dung nộp
 
 1. Báo cáo toàn bộ nội dung, quy trình, phương pháp, kết quả và phụ lục: Bao-cao-nghien-cuu-ngan-hang-so.pdf. Có bản .md để chỉnh sửa nội dung. Phụ lục A có 140 tiêu chí; mô tả đủ 5 mức tại Excel/ScoringReview.xlsx, sheet Danh_muc.
-2. Data chấm điểm: Excel/CleanData.xlsx và Excel/ScoringReview.xlsx. Bản đầu vào đã duyệt có cập nhật URL tại Code/pipeline/data/TeamApprovedCleanData.xlsx. Bản thu thập ban đầu tại Code/pipeline/data/Data Feasibility.xlsx.
+2. Data chấm điểm: Excel/CleanData.xlsx và Excel/ScoringReview.xlsx. Bản đầu vào đã duyệt có cập nhật nguồn và trích dẫn tại Code/pipeline/data/TeamApprovedCleanData.xlsx. Bản thu thập ban đầu tại Code/pipeline/data/Data Feasibility.xlsx.
 3. Kết quả chấm điểm: Excel/DBI_DigitalScore_theo_tieu_chi.xlsx, sheet Digital_Score_Rank, Chi_tiet_tieu_chi, Diem_tru_cot; phân tích trong Excel/AnalysisDataset.xlsx.
 4. Code: thư mục Code gồm pipeline/, dashboard/, bank-dashboard-cloud/. Xem Code/README.md.
 5. Link sản phẩm: https://digital-banking-nhom3.vercel.app
@@ -24,7 +24,7 @@ Xem Phuong-phap-cham-diem.md. Mức gộp là mức cao nhất được chứng 
 
 ## Nội dung bổ sung ở đợt sau
 
-- Đã gắn URL cho 398/398 dòng mức lớn hơn 0. Sáu mô tả TPBank đã được chuẩn hóa theo nguồn trong kỳ; lịch sử nội dung trước/sau và nguồn lưu tại Code/pipeline/data/source-url-research.json.
+- Đã gắn URL cho 398/398 dòng mức lớn hơn 0. Sáu mô tả TPBank và 29 dòng LPBank/Saigonbank đã được chuẩn hóa, bổ sung nguồn trong kỳ, trang PDF và trích đoạn; lịch sử lưu tại Code/pipeline/data/source-url-research.json và evidence-source-revisions.json.
 - Giữ nguyên bộ điểm đã được nhóm duyệt. Các cột và tab kiểm tra nội bộ đã được bỏ khỏi Excel bản nộp.
 - Sản phẩm chính dùng điểm gộp và hồ sơ trưởng thành số. Phân tích xu hướng theo năm là phần mở rộng, chỉ tính khi có dữ liệu đầy đủ; không suy ra điểm năm từ điểm gộp.
 - Nhóm bổ sung thông tin lớp và thành viên. Kho GitHub công khai: https://github.com/soitang733/digital-banking-nhom3.
@@ -33,4 +33,4 @@ Xem Phuong-phap-cham-diem.md. Mức gộp là mức cao nhất được chứng 
 
 Giữ nguyên cấu trúc: Bao-cao..., Excel/, Code/, Nguon-PDF.csv và README.md. README này ghi rõ vị trí từng nhóm tài liệu để người chấm truy cập. Không đưa node_modules, .git, .env, phiên đăng nhập hoặc khóa dịch vụ.
 
-Bộ Excel đã đồng bộ bằng chứng với bản dữ liệu nhóm cập nhật và nguồn tìm bổ sung ngày 20/10/2026; giữ nguyên 700 mức chấm và toàn bộ kết quả tính điểm. không trộn với các workbook gốc ở phiên khác. Phạm vi dữ liệu và thông tin trích dẫn được trình bày trong Chương 6; bộ điểm gộp đã được nhóm nghiên cứu duyệt.
+Bộ Excel đã đồng bộ bằng chứng với bản dữ liệu nhóm cập nhật và nguồn tìm bổ sung đến ngày 21/10/2026; giữ nguyên 700 mức chấm và toàn bộ kết quả tính điểm. không trộn với các workbook gốc ở phiên khác. Phạm vi dữ liệu và thông tin trích dẫn được trình bày trong Chương 6; bộ điểm gộp đã được nhóm nghiên cứu duyệt.

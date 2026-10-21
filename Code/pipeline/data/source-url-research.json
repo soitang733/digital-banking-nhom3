@@ -991,5 +991,14 @@
     "annualScoresComplete": false,
     "action": "Giữ null khi thiếu dữ liệu từng năm. Không tính YoY và không suy ra mức năm từ mức gộp.",
     "requiredForPooledProduct": false
+  },
+  "citationRevision20261021": {
+    "file": "evidence-source-revisions.json",
+    "rows": 29,
+    "banks": [
+      "LP Bank",
+      "SaigonBank"
+    ],
+    "scope": "Nguồn, trang PDF/trang in và trích đoạn được bổ sung trong kỳ; điểm không thay đổi."
   }
 }
