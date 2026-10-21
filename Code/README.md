@@ -5,7 +5,7 @@ Website: https://digital-banking-nhom3.vercel.app
 ## Cấu trúc
 
 - pipeline/: xử lý dữ liệu Python, đọc/đối chiếu PDF và tính điểm.
-- pipeline/data/TeamApprovedCleanData.xlsx: dữ liệu đã duyệt, cập nhật nguồn và trích dẫn đến ngày 21/10/2026. step6 ưu tiên bản này. Data Feasibility.xlsx lưu dữ liệu thu thập ban đầu. approved-evidence.json cung cấp bằng chứng theo khóa ngân hàng và mã tiêu chí; source-url-research.json ghi nguồn bổ sung và phạm vi đối chiếu; evidence-source-revisions.json lưu nguồn, trang, trích đoạn và lịch sử chuẩn hóa 29 dòng LPBank/Saigonbank ngày 21/10/2026. Các JSON và văn bản lưu vết dữ liệu đối chiếu.
+- pipeline/data/TeamApprovedCleanData.xlsx: dữ liệu đầu vào đã duyệt. Data Feasibility.xlsx là dữ liệu thu thập ban đầu; các JSON lưu nguồn và lịch sử đối chiếu.
 - pipeline/output/: 4 workbook kết quả.
 - dashboard/dist/: website tĩnh, dữ liệu snapshot và tài nguyên hiển thị.
 - dashboard/: script tạo dữ liệu và kiểm tra frontend.
