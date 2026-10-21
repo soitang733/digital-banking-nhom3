@@ -108,7 +108,9 @@ assert.ok(el('#content').innerHTML.includes('Bộ Excel bản cuối'));
 assert.equal(run('window.DBI_DOWNLOADS.files.length'),4);
 assert.equal(run("window.DBI_DOWNLOADS.files.every(f=>f.path.startsWith('03-ket-qua-pipeline/')&&f.path.endsWith('.xlsx'))"),true);
 assert.equal(run('window.DBI_DOWNLOADS.pdfs.length'),23);
-assert.ok(!el('#content').innerHTML.includes('166'));
+// Count the rendered workbook cards. A digest or source URL can legitimately
+// contain "166" and must not be mistaken for the retired file count.
+assert.equal((el('#content').innerHTML.match(/class="[^"\n]*\bworkbook-card\b[^"\n]*"/g)||[]).length,4);
 el('#download-pdf-bank').value='OCB';run('renderDownloadResults();');assert.equal((el('#download-results').innerHTML.match(/class="download-file"/g)||[]).length,6);
 assert.equal(run('Boolean(window.DBI_DOWNLOADS.report.url&&window.DBI_DOWNLOADS.code.url&&window.DBI_DOWNLOADS.readme.url&&window.DBI_DOWNLOADS.submission.url)'),true);
 console.log('PASS: four final Excel workbooks, cited PDFs, report, code, submission package and PDF bank filter.');
